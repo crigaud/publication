@@ -1,0 +1,30 @@
+\chapter{Conclusion}
+	\subsubsection*{Bilan}
+	L'apport des différentes connaissances à priori confirme, selon l'analyse quantitative des différents bénéfices chapitre  \ref{sec:eval}, l'intérêt de notre méthode autant pour les images synthétiques que pour les images médicales. Il y a donc un intérêt certain à utiliser des connaissances à priori sur une image pour la traiter plus finement.
+	
+	Un point incontournable de ce succès semble être l'application de masques à l'image afin de réduire l'analyse à une région d'intérêt contenant un minimum de données polluantes, il en résulte une rapidité de calcul accrue (moins de donnée et moins de classe à former). La segmentation est plus performante avec la connaissance à priori du nombre de classe, ce qui permet au final d'identifier plus précisément chaque classe pour appliquer un fenêtrage optimal à une ou plusieurs d'entre elles (visualisation améliorée). 
+
+
+
+
+	\subsubsection*{Perspectives et améliorations}
+	Tout au long de ce travail, nous avons été confronté à des limites de la méthode pour lesquelles nous avons fait des choix et des hypothèses afin de pouvoir atteindre notre objectif principal d'optimisation du fenêtrage dans le temps imparti.
+	Les connaissances à priori sur lesquelles reposent toute notre méthode doivent impérativement refléter la réalité de l'image sans quoi elles perdent leurs intérêts. En effet, si une structure est présente dans l'image mais pas dans le graphe conceptuel les inférences seront erronées ainsi que tous les traitements postérieurs. Une autre amélioration pourrait être de diviser les n\oe{}uds du graphe en sous n\oe{}uds selon si une même structure a différentes relations topologiques (e.g. les vaisseaux internes et externes au foie).
+	
+	Outre les informations conceptuelles, les masques sont tout aussi importants malgré la difficulté à les créer automatiquement. C'est pourquoi nous travaillons à partir d'une base d'images et de masques existants. Notre méthode sera d'autant plus performante qu'il y aura de masques disponibles.
+
+	De part notre volonté de s'adapter à chaque spécificité de l'image, nous travaillerons uniquement avec des connaissances à priori non quantitatives, si on omet cet aspect et ses bénéfices, ont pourrait introduire des notions quantitatives comme la multiplicité de chaque structure selon si elle est optionnelle ou non (e.g. pathologie) ou encore si elle peut apparaître plusieurs fois dans l'image auquel cas elle pourrait être segmentée que partiellement à différents instants. Un autre aspect quantitatif qui améliorerait les performances de segmentation pourrait être l'approximation des moyennes des classes pour paramétrer les algorithmes de segmentation.
+	
+	Un dernier point à améliorer serait le calcul de la fonction de transfert utilisée pour le fenêtrage. C'est actuellement une fonction triangulaire, on pourrait envisager de la faire tendre vers la répartition réelle des pixels (une gaussienne) ou encore l'ajuster en fonction des structures segmentées voisine.
+
+
+
+
+	\subsubsection*{Réflexion personnelle}
+
+	Le travail bibliographique sur lequel s'appuie ce rapport est précieux pour moi en terme de contenu scientifique mais aussi de domaines d'applications. Il m'a permis d'orienter mon travail et, je l'espère, permettra de repousser les limites du traitement d'image guidé par des connaissances à priori. La partie formalisation reste pour moi le point le plus difficile de ce travail : la mise en équation d'un raisonnement n'était pas une activité naturelle pour moi. Les parties évaluation et application ont été, et reste, les plus fascinantes pour moi dans le sens ou j'ai découvert au fil du stage comment et pourquoi on a besoin de connaître une image avant même de commencer à penser à la traiter.
+	Ce fut pour moi une extraordinaire expérience mêlant recherche scientifique et traitement d'image qui m'a ouvert les portes d'un doctorat (sous réserve de financement). 
+
+
+
+

@@ -1,0 +1,285 @@
+\documentclass[final,12pt]{report} 						  	% list options between brackets [draft] = ignore picture
+
+\include{include/packages}								% My packages							
+\include{include/commands}								% My first-page
+\include{include/style}									% Custom styles
+
+
+\begin{comment}
+********************* IDEAS BOX ***********************
+
+
+********************** TOOL BOX ***********************
+\input{conclusion.tex}
+
+Figure
+TikZ
+http://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions#Figures
+
+Header /footer
+E: Even page
+O: Odd page
+L: Left field
+C: Center field
+R: Right field
+H: Header
+F: Footer
+
+************************ PDF *************************
+cd /home/i5/Desktop/ISTIA/Master\ SDS/Report
+
+pdflatex report; evince report.pdf &
+bibtex report
+pdflatex report; evince report.pdf &
+ 
+\end{comment}
+
+%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\renewcommand{\labelitemi}{$\bullet$}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{Introduction}                   		% chapter 1 
+	\section{Présentation}
+	Ce rapport présente la recherche bibliographique effectuée au préalable à un stage de master recherche en systèmes dynamiques et signaux. Il a été réalisé au sein du laboratoire LISA de l'école d'ingénieur ISTIA à Angers. Il est le fruit d'une centaine d'heures de documentation et de réflexion sur l'intégration de connaissances spatiales (e.g. distance, topologie \footnote{La topologie est une branche des mathématiques concernant l'étude des déformations spatiales par des transformations continues (sans arrachages ni recollement des structures)\url{http://fr.wikipedia.org/wiki/Topologie}.}) et photométriques pour l'interprétation des images (i.e. segmentation et identification de régions). L'objectif est d'intégrer ce type de notion conceptuelle ou abstraite en privilégiant celles qui ne sont pas quantitatives (topologie, relation d'intensité non quantitative). Le bénéfice attendu est de faciliter le paramétrage d'algorithmes utilisés pour l'interprétation d'images et la réduction de l'espace de recherche (ex. région d'intérêt). Ce travail fait suite aux travaux de M.Fasquel \cite{Fasquel2006} qui se limitait aux informations topologiques, avec pour application l'analyse d'images médicales pour l'aide au diagnostic.
+
+%{\bf Trop particulier: pour des actes diagnostic spécifique (recherche de tumeur...)}
+
+%{\bf La phrase "Ces connaissances sont souvent représentées sous forme de graphe conceptuel." a été retirée car trop spécifique (éventuellement à placer ailleurs).}
+
+% , sur l'interprétation séquentielle d'images et de graphes conceptuels pour l'optimisation du fenêtrage \footnote{Le fenêtrage est le fait de considérer qu'une fraction de la dynamique d'une image (exemple : un intervalle dans un histogramme d'image), on l'utilise souvent pour faciliter la visualisation ou les traitements d'une image.} d'images médicales. Ce fenêtrage pourra être effectué au moyen d'un logiciel permettant à l'utilisateur d'interagir avec des images numériques.
+%Le thème est original par la combinaison de deux bases de connaissances à priori indépendantes, à caractère topologique et photométrique. Il fait suite aux travaux de M.Fasquel \cite{Fasquel2006}. Le cadre général est le développement de méthodes et d'outils d'assistance au diagnostic.
+
+	\section{Problématique}
+	%Cette problématique de fenêtrage est considérée dans un cadre de segmentation\footnote{La segmentation d'image est une opération de traitement d'images qui a pour but de rassembler des pixels entre eux suivant des critères pré-définis. Les pixels sont ainsi regroupés en régions, qui constituent un pavage ou une partition de l'image. Il peut s'agir par exemple de séparer les objets du fond. Si le nombre de classes est égal à deux, elle est appelée aussi binarisation (\url{http://fr.wikipedia.org/wiki/Segmentation_d'image})} et d'identification d'images, basés sur un processus de segmentation intératif où chaque étape conduit à la compréhension d'une zone de l'image. Il s'avère par conséquent bénéfique, à une étape donnée, d'utiliser les résultats des étapes préalables. Ceci a été illustré pour la gestion de régions d'intérêt selon une connaissance topologique a priori \citep[Fasquel]{Fasquel2006} et, de manière plus générale, pour l'intégration d'informations spatiales topologiques et de position \citep[Hudelot]{Hudelot2008}, \citep[Moreno]{Moreno2008}.\\
+	
+	Nous proposons d'interpréter des images en combinant des informations topologiques et photométriques non quantitatives. Ces aspects nous amènent à nous poser les questions suivantes :\vspace{1 em}
+
+	Si l'on considère une image en niveaux de gris, contenant une région $A$ et une région $B$ comme sur la figure~\ref{fig:structure_a_b}, comment utiliser, pour l'interprétation d'images, des concepts non quantitatifs tels que:
+
+
+	\begin{itemize}
+		\item La région $A$ recouvre-t-elle la région $B$ (topologie)?
+		\item La région $A$ est-elle plus claire que la région $B$ (photométrie)?
+	\end{itemize}
+\vspace{1em}
+
+Quels en sont les bénéfices?
+
+
+	\begin{figure}[!ht]
+	  \centering
+	      \includegraphics[width=0.2\textwidth]{figure/structures_a_b.png}
+	  \caption{Représentation synthétique des régions.}
+	  \label{fig:structure_a_b}
+	\end{figure}
+
+
+	On s'intéressera à ces questions dans le cas d'un processus d'interprétation séquentiel de l'image où chaque étape conduira à la compréhension d'une zone de l'image (i.e. segmentation et identification d'une région).
+
+	Compte tenu de ces questions, les aspects sous-jacents à traiter concernent:\\
+	\begin{itemize}
+	\item
+	la représentation de ces informations;
+	\item
+	la modélisation du processus de segmentation;
+	\item
+	Le couplage entre ces informations et les algorithmes d'analyse d'images (moteur inférence\footnote{Moteur d'inférence, de l'anglais "enference engine" et du verbe « inférer » qui signifie « déduire », c'est un concept de raisonnement déductif, qui peut être concrètement un logiciel, à qui on demande des informations et qui essaye de les déduire à partir de sa base de connaissances.}).\\
+	\end{itemize}
+
+	La problématique de notre travail est modélisé par la figure suivante \ref{pic:process1}.\\
+
+	\begin{figure}[!h]
+	\setlength{\unitlength}{1mm}
+	\begin{center}
+	\begin{picture}(60,40)
+		\put(0,0){\framebox(60,10){Processus d'analyse}}
+		\put(30,15){\vector(0,-2){5}} 
+ 		\put(30,10){\vector(0,0){5}} 
+		\put(0,15){\framebox(60,10){Moteur d'inférence}}
+		\put(30,30){\vector(0,-2){5}}
+ 		\put(30,25){\vector(0,0){5}}  
+		\put(0,30){\framebox(60,10){Informations conceptuelles}}
+	\end{picture}
+	\end{center}
+	\caption{Problématique et entités associées.}
+	\label{pic:process1}
+	\end{figure} 
+
+	\section{Cadre applicatif}
+
+	Nous nous limiterons à deux cas d'utilisation pour appuyer cette étude:\\
+	\begin{itemize}
+		\item
+		l'interprétation d'images synthétiques 
+		\item
+		la visualisation optimale d'images médicales par un processus de segmentation interactif.\\
+	\end{itemize}
+
+	Dans ces deux cas d'utilisations, l'algorithme d'analyse d'images sera basé sur une méthode d'analyse d'histogramme classique à partir duquel on identifiera les différentes régions de l'image (voir figure~\ref{fig:melange}). Le cas de l'interprétation d'images synthétiques a principalement pour objectif d'illustrer la problématique, les différents concepts impliqués, la solution proposée ainsi que de valider les mécanismes d'inférences.
+
+
+	Le second cas d'utilisation concerne l'application de cette approche au diagnostic médical assisté par ordinateur. Dans le domaine du médical, beaucoup de techniques d'acquisition d'image cohabitent. Elles sont choisies en fonction de la région d'intérêt et de l'acte diagnostic visé. Nous limiterons l'étude à des images de la région de l'abdomen issues de scanners à rayon X, communément appelées images CT\footnote{Computed Tomography (CT) : est une technique d'imagerie médicale qui consiste à mesurer l'absorption des rayons X par les tissus puis, par traitement informatique, à numériser et enfin reconstruire des images 2D ou 3D des structures anatomiques (\url{http://fr.wikipedia.org/wiki/Tomodensitomtrie})}. Ces scanners délivrent des intensités s'échelonnant souvent de -1024 à des valeurs supérieures à 1000 (\citep[Rossner]{rossner1990}, \citep[zhu]{zhu1986}, \citep[Brown]{Brown1998}, \citep[Coudray]{Coudray2010}, \citep[Bengoetxea]{Bengoetxea2005} ), en unité Hounsfield. La dynamique photométrique est très étendue. Afin de distinguer aisément les différentes structures anatomiques et pathologiques \footnote{La pathologie est l'étude des maladies et de leurs causes. Le terme peut être employé comme un nom pour désigner une anomalie dans un corps.}, il convient de visualiser qu'une partie de la dynamique, ceci étant souvent associé au terme de {\it fenêtrage\footnote{Le fenêtrage est le fait de considérer qu'une fraction de la dynamique d'une image (exemple : un intervalle dans un histogramme d'image), on l'utilise souvent pour faciliter la visualisation ou les traitements d'une image.}} (voir l'exemple applicatif figure ~\ref{fig:muscle} et ~\ref{fig:liver} où on fait varier le fenêtrage sur le même image) \citep[Gonzalez, Pratt]{Gonzalez2008}. Un fenêtrage approprié peut faciliter la segmentation dans le cas d'une procédure interactive de segmentation et d'identification de structures anatomiques et/ou pathologiques où l'utilisateur intervient pour visualiser et ajuster le déroulement du traitement d'une image. Il lui est alors nécessaire de bien voir la structure à segmenter d'où l'intérêt d'intégrer la visualisation au processus d'analyse de l'image.\vspace{1 em}
+
+
+	\begin{figure}[!h]
+	  \centering
+	      \includegraphics[width=0.5\textwidth]{figure/melange_legend.png}
+	  \caption{Exemple d'histogramme et de régions associées.}
+	  \label{fig:melange}
+	\end{figure}
+
+
+	On se placera dans le contexte d'une analyse séquentielle où le fenêtrage sera déterminé automatiquement à partir des itérations précédentes (structures déjà segmentées), de la structure recherchée (cible) et d'une analyse d'histogramme paramétrée par inférence (requête) sur les connaissances conceptuelles. Idéalement, il serait utile de pouvoir automatiquement déterminer le fenêtrage correspondant à la structure anatomique ou pathologique d'intérêt, pour la présenter de la manière la plus explicite aux yeux d'un professionnel.
+
+\newpage
+
+	Une méthode triviale consisterait à disposer d'un dictionnaire d'intervalles photométriques pour les différentes structures types (ex : foie, vaisseaux, os...). La visualisation serait alors contrôlée par des constantes mais pourrait présenter un manque de robustesse par rapport à une méthode de détermination automatique, fondée sur des mesures effectuées sur l'image en cours d'étude : le fenêtrage devient alors spécifique au patient, et prend en compte ses particularités (ex : densité des tissus variable d'un patient à l'autre \citep[Brown]{Brown1998}).\\
+%Pour cela, il est nécessaire de reconnaître automatiquement la structure d'intérêt au sein de l'image. Nous présenterons les méthodes de traitement d'image existantes, dans le chapitre suivant.
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]
+	    \centering
+		\subfloat[Fenêtrage initial]{\label{fig:muscle}\includegraphics[width=0.64785\textwidth]{figure/muscle.png}} 	\hspace{1em}               
+		\subfloat[Fenêtrage réduit]{\label{fig:liver}\includegraphics[width=0.64785\textwidth]{figure/liver.png}}
+	  \label{fig:vrrender}
+	  \caption{Influence du fenêtrage sur le rendu visuel.}
+
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	  
+	\chapter{État  de l'art}           		% chapter 2
+
+		\section{Approches pour l'interprétation d'images}
+			%\subsubsection{Globale}
+	Pour segmenter une image, plusieurs approches ont déjà étaient mises à l'épreuve. La première consiste à considérer l'image dans son ensemble. L'idée est de concevoir un seul algorithme permettant de segmenter toutes les structures d'une image \citep[Moreno]{Moreno2008}\citep[Kobashi]{Kobashi1995}. Il est néanmoins courant que toutes les régions d'une images ne puissent pas être segmentées avec un seul algorithme. Il est donc souvent plus réaliste de concevoir un algorithme spécifique à chacune des structures : c'est l'approche séquentielle ou itérative. Elle consiste à segmenter les structures les une après les autres avec un algorithme spécifique à chacune d'elles. Pour segmenter une structure donnée, il est pertinent de s'appuyer sur les informations relatives aux structures préalablement segmentées. Typiquement, il peut s'agir de l'intégration d'une région d'intérêt permettant de délimiter une zone de recherche pour la structure à segmenter \citep[Hudelot, Bloch : chap. 5]{Hudelot2008}\citep[Fasquel]{Fasquel2006}.
+
+	%De ce fait, il est pertinent d'intégrer la notion de ROI (Region Of Iterest) qui réduit l'étude à zone particulière de l'image. La ROI apparaît donc comme la somme d'une image et d'un masque. L'objectif étant de reconnaître la structure d'interêt le plus précisément possible sans se préoccuper du reste de l'image. Toute la difficulté réside donc ici dans la détermination du masque sans faux positif 
+
+	\section{Informations conceptuelles et interprétation d'images}
+		\subsubsection{Informations conceptuelles: nature}
+	L'utilisation d'informations à priori est un moyen d'anticiper le contenu d'une image et donc d'en optimiser son traitement. En analyse d'images guidée par des informations à priori abstraites, les travaux récemment réalisés focalisent sur des informations spatiales fig.~\ref{fig:information_a_priori}. Il peut s'agir de relations entre les structures de type topologiques (e.g. inclusion, recouvrement, adjacence) \citep[Fasquel]{Fasquel2006}\citep[Egenhofer]{Egenhofer2009}\citep[Hudelot]{Hudelot2008} ou bien relatives à des notions de direction et de distance \citep[Hudelot]{Hudelot2008}. Un inconvénient des informations de distance et de direction est leurs aspects quantitatifs ({\it Metrique} dans fig.~\ref{fig:information_a_priori}). Ceci implique la détermination de paramètres qui doivent être adaptés à l'application considérée. Ceci est notamment le cas des récents travaux de \citep[Hudelot]{Hudelot2008}, ou les informations de distance et de direction sont manipulées en utilisant la logique floue, ceci induisant une phase d'apprentissage \textit{``fuzzy model learning''}.
+%Notons que certaines relations peuvent présenter des ambiguïtés comme par exemple la notion "proche de" qui ne quantifie pas la distance.
+
+	Ces représentations conceptuelles (ontologiques\footnote{L'ontologie constitue en soi un modèle de données représentatif d'un ensemble de concepts dans un domaine, ainsi que des relations entre ces concepts. "L'ontologie est aux données ce que la grammaire est au langage " \url{http://fr.wikipedia.org/wiki/Ontologie_(informatique)}} \citep[Atif]{Atif2007}) sont encore peu étudiées en interprétation d'image \textit{``the development of ontology-based methods for image interpretation is still in its infancy''} \citep[Hudelot, p.1929]{Hudelot2008}. Il demeure une difficulté majeure lors de leurs applications au niveau des algorithmes d'analyses d'images : \textit{``there still exists a large gap between the semantic interpretation of a medical image and its low-level features'' } \citep[Deruyver, p.1245]{deruyver2009}. Comme récemment souligné dans \citep[Hudelot]{Hudelot2008}, ce type de connaissance est généralement utilisé dans des contextes différents de l'interprétation d'images, telle que l'annotation d'images. 
+
+	A notre connaissance, il n'y a pas eu de travaux relatifs à l'analyse d'images guidée par le couplage d'informations conceptuelles topologiques et photométriques non quantitatives, ceci constituant une première originalité de l'orientation de nos travaux.
+ 
+	\begin{figure}[!ht]
+	  \centering
+	      \includegraphics[width=0.9\textwidth]{figure/information_a_priori.png}
+	  \caption{Classification des informations conceptuelles.}
+         \label{fig:information_a_priori}
+	\end{figure}
+
+		%\subsubsection{Information contextuelle}
+
+		%\subsubsection{Graphe}
+		\subsubsection{Informations conceptuelles: représentation}
+	La représentation des connaissances, en particulier spatiales, peut se baser sur un graphe (conceptuel lorsque l'on parle de connaissances conceptuelles) où les noeuds sont associés aux différentes entités supposées présentes dans l'image. Les arêtes reliant les noeuds représentent les relations ({\it à gauche, à droite, inclus,...}). Ce type de représentation a notamment été récemment considéré par \citep[Deruyver, p.1246]{deruyver2009} et \citep[Fasquel]{Fasquel2006}.
+
+
+		\subsubsection{Informations conceptuelles, contextuelles et interprétation séquentielle}
+	Ces informations conceptuelles à priori peuvent être enrichies tout au long du traitement de l'image. Dans \citep[Fasquel]{Fasquel2006}, ces informations deviennent alors contextuelles : les informations à priori, très générales, deviennent davantage spécifique à l'image en cours d'analyse. Les informations contextuelles évoluent en fonction du contexte dans lequel se trouve une image à un moment donné. Par exemple, lors de la segmentation d'une image, les structures déjà segmentées ou encore le nombres de classes (non pas en général, mais compte tenu des structures déjà identifiées), sont des informations contextuelles. Pour représenter cette évolution des connaissances (i.e. connaissances à priori enrichies par les connaissances contextuelles), on peut intégrer la notion d'activation de noeud du graphe conceptuel initial, comme considéré récemment par \citep[Fasquel]{Fasquel2006}.
+
+
+	\section{Analyse d'images par seuillage d'histogramme}		%Information photométrique
+	Comme ceci a été précisé lors de la présentation de la problématique générale, nous nous limiterons essentiellement à une analyse d'images basée sur le seuillage d'histogramme\footnote{L'histogramme d'une image est un graphique qui associe les niveaux de gris au nombre de pixel dans l'image qui contient ces niveaux de gris.}. Ce choix est notamment justifié par la nature des informations conceptuelles que nous proposons d'étudier, en particulier l'information photométrique. L'information topologique, quand à elle, interviendra pour réduire le calcul de l'histogramme au sein d'une région d'intérêt, afin d'éliminer les données qui pourraient altérer son analyse (e.g. les données correspondant aux régions déjà segmentées).
+
+	Nous ne prétendons pas, et ce n'est pas l'objectif de cette étude, proposer une méthode de seuillage d'histogramme nouvelle. Il est néanmoins intéressant de souligner qu'il s'agit d'une catégorie d'algorithme couramment utilisés en traitement d'images, et qui font encore  aujourd'hui l'objet d'études afin d'améliorer leur robustesse. Nous en rappelons ci-dessous succinctement le principe et les limitations couramment rencontrées.
+
+	Le principe du seuillage\footnote{Le seuillage d'image est la méthode la plus simple de segmentation d'image. À partir d'une image en niveau de gris, le seuillage d'image peut être utilisé pour créer une image comportant uniquement deux valeurs, noir ou blanc (monochrome). \url{http://fr.wikipedia.org/wiki/Seuillage_d'image}} d'histogramme consiste à dire qu'un ensemble de pixels, d'une même image, dont l'intensité est comprise dans un certain intervalle, appartiennent à une structure donnée. Il apparaît donc les notions de seuil minimum et maximum de l'intervalle. Plusieurs études sur les méthodes de seuillage d'histogramme d'image ont été réalisées mais il demeure un problème de robustesse lors de la détermination des seuils (\citep[Coudray]{Coudray2010}, \citep[Bhattacharyya]{Bhattacharyya2011}, \citep[Cheng]{Cheng1998}, \citep[Cuevas]{Cuevas2010}). Le lecteur pourra également se référer à l'état de l'art de \citep[Zhang]{Zhang2008} sur ces méthodes.\vspace{1 em}
+
+	Une des méthodes célèbres à deux niveaux et celle de \citep[Otsu]{Otsu1979} qui déterminent un seuil entre deux classes considérées donc comme l'objet et le fond de l'image.  Il en résulte une image avec deux classes (souvent noir et blanc) dite \textit{``binaire''}. Travailler avec des images binaires est plus simple et donc plus rapide qu'avec des images en niveau de gris car il n'y a que deux couleurs à considérer. Notons tout de même qu'il y a une importante perte d'information par ce fait mais qu'elle peut être négligée si les seuils sont bien choisis. Des extensions récentes, multi-niveaux, existent \citep[Huang 2009]{Huang2009}. Cette même catégorie a été récemment illustré par  \citep[Cuevas]{Cuevas2010} qui considère plusieurs classes inconnues dans l'image et trouve les seuils qui les bornes. D'autre part, il existe des algorithmes de mélange gaussien \textit{``gaussian mixture''} \citep[Gupta]{Gupta1998} (qui ont par ailleurs fait l'objet d'une récente extension \citep[Huang]{Huang2008}), qui permettent d'estimer les paramètres des courbes de Gauss figure~\ref{fig:gauss_mix} (souvent caractéristique de la répartition des intensités d'une structure quelconque).  Nous l'utiliserons dans ce travail.%Ce type d'algorithme nécessite d'avoir une connaissance à priori sur le nombre de classes présentes dans l'image, et parfois même, leurs proportion dans l'image. \footnote{Un seuil est un des niveaux de gris de l'histogramme.}
+
+	Dans le cas de cet algorithme couramment utilisé, un élément important concerne la connaissance à priori du nombre de classes (ou régions photométriquement distinctes) présentes dans l'image. Ceci détermine le nombre de lobes présentes dans l'histogramme. Un second élément concerne \textit{``l'identité''} ou \textit{``l'étiquette''} de la région associée à chacun de ces lobes. Par exemple, dans le cas d'images médicales anatomiques, il peut s'agir d'associer correctement un lobe donné de l'histogramme à une structure anatomique particulière. L'objectif du travail effectué sera de déterminer automatiquement le nombre de lobes et leurs identités. Ceci se fera par inférence sur la représentation conceptuelle des connaissances à priori et contextuelles. Par rapport à l'application médicale visée, ces informations pourront être utilisées pour déterminer automatiquement le fenêtrage à considérer.
+
+
+	\begin{figure}[!ht]
+	  \centering
+	      \includegraphics[width=0.5\textwidth]{figure/gauss_param.jpg}
+	  \caption{Estimation de gaussiennes.}
+         \label{fig:gauss_mix}
+	\end{figure}
+
+\newpage
+
+%	\section{Fenêtrage}
+%	D'un point de vue applicatif, l'identification correcte des différents lobes (i.e. identification à des structures médicales particulières) sur la base d'un histogramme, pourrait être avantageusement utilisé pour automatiquement déterminer le fenêtrage\footnote{Le fenêtrage est le fait de considérer qu'une fraction de la dynamique d'une image (exemple : un intervalle dans un histogramme d'image), on l'utilise souvent pour faciliter la visualisation ou les traitements d'une image.} photométrique à appliquer afin d'améliorer le rendu des données médicales, et, par voie de conséquence, de faciliter l'analyse de leurs contenus de manière interactive, comme ceci a été souligné lors de la présentation de la problématique. Nous rappelons ci-dessous rapidement le principe du fenêtrage, par rapport à la notion d'histogramme et de lobe.
+
+%	Le fenêtrage est relatif aux intensités (niveaux de gris ou composante de couleur) portées par les points d'une image. Dans la suite de ce document, nous considérerons des images en niveau de gris, ce qui correspond aux images médicales à traiter. Il s'avère que pour optimiser le fenêtrage il est nécessaire de définir un ou plusieurs intervalles afin d'afficher qu'une partie de la dynamique (l'information souhaitée). Cette idée rejoint le principe de seuillage d'image \footnote{Le seuillage d'image est la méthode la plus simple de segmentation d'image. À partir d'une image en niveau de gris, le seuillage d'image peut être utilisé pour créer une image comportant uniquement deux valeurs, noir ou blanc (monochrome). \url{http://fr.wikipedia.org/wiki/Seuillage_d'image}} qui consiste à identifier puis isoler certaines classes \footnote{Une classe est une structure associée à ces informations contextuelles.} de l'histogramme d'une image  pour analyser les classes résiduelles plus en détail. %La différence repose sur le fait que la segmentation exige d'obtenir la région cible sans faux positifs\footnote{Un faux positif ou fausse alarme est un résultat d'une prise de décision à deux choix (dit positif ou négatif), déclaré positif à tort, là où il est en réalité négatif \url{http://fr.wikipedia.org/wiki/Faux_positif}. Ici un pixel considéré comme faux positif est un pixel qui a été considéré, à tort, comme faisant partie d'une structure.}.
+
+	\section{Synthèse}
+	Compte tenu de notre connaissance des travaux existants présentés précédemment, l'originalité de nos travaux concernent principalement les trois points suivants :
+	\begin{itemize}
+		\item
+		l'intégration des connaissances photométriques au modèle existant proposé par \citep[Fasquel]{Fasquel2006};
+		\item
+		l'établissement des relations (inférence) entre cette représentation conceptuelle des connaissances et les paramètres quantitatifs d'un seuillage d'histogramme fondé sur le modèle de mélange de gaussiennes. Ces relations concerneront le nombre de classes attendues dans l'image à un instant \textit{t}, puis la détermination de leurs \textit{``étiquettes''};
+		\item
+		l'illustration de l'intérêt de cette approche pour une application particulière : le fenêtrage d'images médicales.
+	\end{itemize}
+
+
+%	Les algorithmes présentés ci-dessus nécessitent souvent des paramètres de fonctionnement tel que la connaissance à priori sur le nombre de classes présentes dans l'image, la correspondance entre les classes et les objets du domaine (nom réel comme "foie","vaisseau") et parfois même, leurs proportions dans l'image.\\
+%Certain modèles utilisant le seuillage par histogramme (\citep[Hudelot]{Hudelot2008}, \citep[Moreno]{Moreno2008}) ne sont pas adaptatifs, c'est à dire qu'il faut suivre un canevas de segmentation précis pour avoir un résultat correct. D'autres, comme l'illustre \citep[Fasquel]{Fasquel2006}, permettent de s'adapter dynamiquement aux irrégularités entre les différentes images. Cela est dû à l'utilisation de relations topologiques qui ont l'avantages de ne pas être quantitatives et donc qui offres une meilleure généricité et robustesse.\\
+%Il n'y a pas d'originalité sur la segmentation par seuillage dans ce travail, nous ferons juste le lien entre les concepts et ce type d'algorithme utilisé comme support illustratif et applicatif à l'imagerie médicale.
+%Limite1: Hubelot 2008, Moreno 2008: vérifier si le modèle est adaptatif par rapport à l'ordre des segmentations voir intro fasquel2006. Argumenter vs section 5  la  section 5  n'est pas adaptative, c.a.d. qu'il faut suivre un canevas de segmentation précis pour avoir un résultat correct. La méthode  Fasquel quant à elle, utilise des noeud activés etc...)
+
+%Limite2: information retenue et utilisée = photométrique
+
+%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%
+
+\chapter{Conclusion}       	% chapter 4
+	\subsubsection{Retour sur la méthodologie de recherche}
+	Pour conclure ce travail bibliographique, je propose de commencer par un retour sur la méthodologie de recherche. Je me suis rapidement aperçu que les recherches par les moyens \textit{``grand public''} n'étaient pas adaptées à ce type de travail, je me suis donc tourné vers les sites spécialisés dans l'indexation d'articles, de thèses, de travaux de recherche en cours et les livres scientifiques. A ce moment là, j'ai pris conscience d'un aspect nouveau pour moi : le travail collaboratif des chercheurs à l'échelle mondiale où chacun contribue à la science. J'ai trouvé cet esprit fascinant et je pense que c'est ce qui me motivera à continuer dans cette voie.
+	\subsubsection{Perspectives}
+	A propos des suites à ce travail, nous avons à ce jour mis en place un prototype destiné à valider les concepts énoncés et à évoluer vers une application finale qui traitera des images médicales réelles. Ce dernier devra être évolutif et pouvoir assister un professionnel de la santé.
+
+%(On discutera des bénéfices et des limitations observées, dans le cas plus réaliste que l'application à des images synthétiques.)
+
+\bibliographystyle{plain}
+\bibliography{report}
+
+
+\begin{abstract}
+
+%Mots Cl ́s : Simultaneous Localization and Mapping, Analyse par Intervalles, Propagation
+%de Contraintes, Iteratives Closest Point, Structures de donn ́es, Optimisation.
+
+%R ́sum ́ : Durant ce stage il a  ́t ́ question de travailler sur une approche ensembliste
+%pour un probl`me de type SLAM. Ce rapport rapporte le r ́sultat les diff ́rentes recherches qui ont
+%pu ˆtre effectu ́es afin d’identifier les probl ́matiques ainsi que les solutions existantes. En plus des
+%µdifférentes présentations des outils  étudiés, comme l’analyse par intervalles et le SLAM ensembliste,
+%ce document présente deux solutions originales ensemblistes pour le recalage de données télémétriques
+%` deux dimensions.
+
+
+%Titre : 
+	Mots clés : interprétation d'image, fenêtrage, moteur d'inférences, topologie, photométrie.\\
+
+Résumé :\\
+	Ce travail fait l'état de l'art en matière d'interprétation d'image par informations à priori issues de la topologie et la photométrie. Il annonce une méthode prometteuse d'utilisation de ces informations par un moteur d'inférences pour optimiser le fenêtrage d'images médicales.
+
+\vspace{5em}
+
+
+
+
+
+	%Title :
+	Keywords: image interpretation, windowing, inference engine, topology, photometry.\\
+
+Abstract :\\
+	This report is the state of the art of image interpretation by a priori informations, which are topological and photometrics. It introduces a method to process these informations within a inference engine that will optimize the windowing.
+
+\end{abstract}
+
+
+\end{document}

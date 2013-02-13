@@ -1,0 +1,52 @@
+
+\chapter{Application}
+  \section{Modèle de mélange Gaussien}
+	Comme préciser dans le chapitre précédent, nous utiliserons le modèle de mélanges gaussiens (de l'anglais GMM pour Gaussian Mixture Model) pour extraire des informations d'une image. Ces informations seront, sous l'hypothèse que l'image contienne différentes régions de niveaux de gris bruité par un bruit Gaussien, les paramètres (moyenne et variance) des différentes distributions de niveaux de gris des pixels. L'histogramme de l'image représente graphiquement les distributions des niveaux de gris dans une image numérique. Nous attendons donc que l'algorithme GMM estime les paramètres des courbes de Gauss présentent dans l'histogramme.
+
+	Nous utiliserons la librairie python \emph{scikits.learn.gmm}\footnote{scikits.learn.gmm is a package which enables to create Gaussian Mixture Models, to sample them, and to estimate them from data using Expectation Maximization algorithm \url{http://scikit-learn.sourceforge.net/old_doc/modules/gmm.html} .}. Dans cette librairie, la classe \emph{GMM} permet d'évaluer, par l'estimation du maximum de vraisemblance (maximum-likelihood), les paramètres et les ``poids'' d'une distribution de gaussiennes. Elle admet comme paramètre le nombre de classes à paramétrer : cette information sera fourni par le moteur d'inférence selon les informations contextuelles.
+
+	Illustrons par l'exemple ci-dessous, l'intérêt de la connaissance du nombre à priori de types présents dans une image en considérant une image synthétique ~\ref{fig:gmm_img} pouvant contenir jusqu'à cinq types mais qui n'en contient que quatre à $t$. Ces quatre types ont étaient générés avec des niveaux de gris de 50, 100, 1, 200 puis bruités par un bruit gaussien de variance 16. \\
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+	      \fbox{
+		  \subfloat[Image]{\label{fig:gmm_img}\includegraphics[trim= 0mm 0mm 0mm 1mm, clip, height=0.3\textwidth]{Application/figure/gmm_img.png}}\hspace{3em}
+		  \subfloat[Histogramme]{\label{fig:gmm_histo}\includegraphics[trim= 0mm 0mm 0mm 1mm, clip, height=0.3\textwidth]{Application/figure/gmm_histo.png}}
+		  }\caption{image synthétique}		  
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+	Les résultats obtenus en paramétrant l'algorithme pour un nombre de types allant de 1 à 5, sont représenté ci-dessous :\\
+	\begin{table}[!ht]
+	\caption{Résultats d'approximation par l'algorithme GMM}
+	\centering
+	\begin{tabular}{| c | c | c | c | c | c | c | c | c | c |}	% | left | right center
+	\hline
+	\textbf{ } & \textbf{Réel} & \textbf{1} 	& \textbf{2} 		& \textbf{3} 		& \textbf{4} 		& \textbf{5} 	\\
+	\hline
+	Type 1  &  $[50 ,16]$   	&  $[ 46.6,4837.8]$  	&  $[1.7,5.3]$     	&  $[199.5,15.9]$  	&  $[46.2 ,132.9]$  	&  $[1.99,15.9]$   \\
+	Type 2  &  $[100,16]$   	&  $ $          	&  $[128.0,3301.8]$	&  $[1.80,6.2]$  	&  $[99.5 ,15.8]$  	&  $[9.9,15.9]$  	\\
+	Type 3  &  $[1  ,16]$   	&  $ $  	   	&  $ $ 			&  $[92.0,338.1]$  	&  $[1.8  ,5.9]$  	&  $[1.9,0.0]$  	\\
+	Type 4  &  $[200,16]$   	&  $ $ 	   		&  $ $  		&  $ $  		&  $[199.5,15.9]$  	&  $[3.7,5.8]$  	\\
+	Type 5  &  $ $   	&  $ $ 	   		&  $ $  		&  $ $  		&  $ $  		&  $[4.9,16.3]$  	\\
+	\hline
+	Min log & $0$       	&  $-8$  		&  $-14$ 	   	&  $-12$  		&  $-20$  		&  $-19$  	 	\\
+	\hline
+	\end{tabular}
+	\label{table:nonlin}
+	\end{table}
+
+	On remarque que les approximations sont bien plus proche des valeurs réelles lorsque l'on paramètre pour quatre types. L'algorithme fourni également le log-vraisemblance\footnote{Pour de nombreuses applications impliquant des fonctions de vraisemblance, il est plus simple de travailler en termes de logarithme naturel de la fonction de vraisemblance, appelé la log-vraisemblance, qu'en termes de probabilité de la fonction elle-même. Parce que le logarithme est une fonction monotone croissante, le logarithme d'une fonction atteint sa valeur maximale dans les mêmes points que la fonction elle-même, et donc la log-vraisemblance peut être utilisée à la place de la probabilité dans l'estimation du maximum de vraisemblance et des techniques connexes \url{http://en.wikipedia.org/wiki/Likelihood_function}.} pour chaque composante de distribution sur une échelle logarithmique. On pourra utiliser cet indicateur pour enlever l'incertitude sur le nombre de types présents dans une image lorsque certain sont optionnels.
+
+
+
+
+
+
+
+
+
+
+
+

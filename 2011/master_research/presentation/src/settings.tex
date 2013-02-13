@@ -1,0 +1,92 @@
+
+
+% * * * * * * * * * * * * * * PACKAGES CLASSIQUES * * * * * * * * * * * * * * *
+\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage[frenchb]{babel}
+\usepackage{amsmath}
+\usepackage{xcolor}  
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{xmpmulti}
+%\usepackage{bibentry}										% Bibentry in footnote for example
+%\usepackage{inlinebib}
+%\nobibliography*
+%\usepackage{natbib}										% Reimplement the LATEX \cite command
+
+% * * * * * * * * * * * * * * *  ANIMATIONS * * * * * * * * * * * * * * * * * *
+\usepackage{animate}
+
+% * * * * * * * * * * * * * * CHOIX DU THEME  * * * * * * * * * * * * * * * * *
+\usepackage{beamerthemeFrankfurt}                                % un theme voir .../beamer/theme/
+
+% * * * * * * * * * * * * * LA BARRE DE NAVIGATION  * * * * * * * * * * * * * *
+% commenter la ligne pour supprimer un éléments
+\setbeamertemplate{navigation symbols}{%
+%	\insertslidenavigationsymbol%
+%	\insertframenavigationsymbol%
+%	\insertsubsectionnavigationsymbol%
+%	\insertsectionnavigationsymbol%
+%	\insertdocnavigationsymbol%
+%	\insertbackfindforwardnavigationsymbol%
+}
+
+% * * * * * * * * * * * * * * * * * TEXTPOS * * * * * * * * * * * * * * * * * *
+\usepackage[absolute,showboxes,overlay]{textpos}
+\TPshowboxestrue                                              % affiche le contour des textblocks
+\TPshowboxesfalse                                             % fait disparaitre le contour des textblocks
+\textblockorigin{2mm}{8mm}                                    % origine des positions pour placer les textblocks
+
+% * * * * * * * * * * * * * * * * * PICTURE * * * * * * * * * * * * * * * * * *
+\usepackage{picture}
+\setlength{\unitlength}{1mm}                                  % définition de l'unité
+
+% * * * * * * * * * * * * * * *  LES BLOCKS * * * * * * * * * * * * * * * * * *
+\setbeamertemplate{blocks}[rounded][shadow=true]              % pour des blocks arrondis
+\setbeamercolor{block body alerted}{fg=white,bg=monred}       % ecrit en blanc sur fond rouge
+\setbeamercolor{block body}{fg=white,bg=monbleu}              % ecrit en blanc sur fond bleu
+
+% * * * * * * * * * * * * * DETAILS DE STYLE  * * * * * * * * * * * * * * * * *
+\beamertemplatetransparentcovered                             % Fait afficher l'ensemble du frame en peu lisible (gris clair) dès l'ouverture
+
+\setbeamertemplate{itemize item}[ball]                        % style item
+\setbeamertemplate{itemize subitem}[triangle]                 % style subitem
+\setbeamertemplate{footline}[page number]
+%\setbeamertemplate{footline}[text line]{\href{http://www.christophe-rigaud.com}{Christophe Rigaud}}
+  %\vspace*{-1cm}\centering\normalsize Some information\\[0.3em] some more info\\[0.3em]} 
+  
+%\logo{\includegraphics[height=5mm]{image/lisa.png}}           % définition du logo 
+
+\renewcommand{\arraystretch}{1.4}                             % espacement des cellules du tableau 
+
+\definecolor{monred}{HTML}{9D0909}                            % un rouge
+\definecolor{monbleu}{HTML}{000066}                           % un bleu
+\definecolor{monvert}{HTML}{00AE00}                           % un vert
+
+%\renewcommand{\footnoterule}{}                                % supprime le trait au dessus des footnotes
+%\renewcommand{\thefootnote}{\alph{footnote}}                  % numérotation par des lettres
+
+% * * * * * * * * * * * * * *  PAGES DE TITRE * * * * * * * * * * * * * * * * *
+\title[Abbrev. Title\hspace{2em}\insertframenumber/\inserttotalframenumber]{Image interpretation and conceptual graph integrating topologic and photometric knowledge}
+%\subtitle{Application to synthetic image thresholding and medical image windowing}
+\author[CR]{\href{http://www.christophe-rigaud.com}{Christophe RIGAUD}}
+\institute{LABORATOIRE D’INGÉNIERIE DES SYSTÈMES AUTOMATISÉS}
+\date{ 7 July 2011 }
+
+% * * * * * * * * * * * * * * * *  SOMMAIRE * * * * * * * * * * * * * * * * *
+\AtBeginSection[]{
+  \begin{frame}{Road map}
+  \small \tableofcontents[currentsection, hideothersubsections]
+  \end{frame} 
+}
+% * * * * * * * * * * * * * PARAMETRES POUR PDF * * * * * * * * * * * * * * * *
+\hypersetup{% Modifiez la valeur des champs suivants
+	pdfauthor   = {Christophe Rigaud},%
+	pdftitle    = {Titre},%
+	pdfsubject  = {Sujet},%
+	pdfkeywords = {Mots clés},%
+	pdfcreator  = {PDFLaTeX},%
+	pdfproducer = {PDFLaTeX},%
+	%pdfpagemode = {FullScreen}%                           % ouvre le pdf directement en plein écran
+}
+

@@ -1,0 +1,327 @@
+% Documentation du style Latex pour les articles de revues ou de conférences Hermes
+% Les consignes aux auteurs sont en annexe de ce document.
+
+\documentclass[fleqn]{article-hermes}
+
+% Commandes spécifiques à l'article
+\newcommand{\cfsect}[1]{(\textit{cf.} section~\ref{#1})}
+\newcommand{\cfsectpage}[1]{(\textit{cf.} section~\ref{#1}, page~\pageref{#1})}
+\providecommand{\figureref}[1]{\figname~\ref{#1}}
+\providecommand{\cftab}[1]{(\textit{cf.} tableau~\ref{#1})}
+\newcommand{\cmd}[1]{{\upshape\texttt{\symbol{"5C}#1}}}
+%%% Fin des commandes spécifiques à l'article
+
+%ADDITIONAL PACKAGES
+\usepackage{subfig}
+\usepackage{graphicx} 
+
+\journal{\LOBJET. Volume X -- n°X/XXXX}{1}{15}
+
+\publisher{00 00 00 00 00 }{00 00 00 00 00}{christophe.rigaud@univ-lr.fr}
+
+\title[Extraction des cases et du texte de BD]%
+      {Extraction robuste des cases et du texte de bandes dessinées}
+
+%\subtitle{Extraction des cases et \\ 
+%du texte de bandes dessinées}
+\author{Christophe Rigaud, Norbert Tsopze, Jean-Christophe Burie, Jean-Marc Ogier}
+
+\address{%
+Laboratoire L3i - Université de La Rochelle\\ 
+Avenue Michel Crépeau 17042 La Rochelle Cedex 1\\[3pt]
+\{christophe.rigaud, norbert.tsopze, jcburie, jmogier\}@univ-lr.fr}
+
+\resume{Les bandes dessinées représentent un patrimoine culturel important dans de nombreux pays. La numérisation en masse offre l'opportunité d'effectuer des recherches sur le contenu des albums et pas uniquement sur des métadonnées associées (e.g. nom de l'auteur ou de la collection). Peu de travaux ont été menés à ce jour. Seule l'extraction des cases et des bulles de dialogues a été étudiée et ce, pour des structures de pages relativement simples. En effet, la structure des pages est propre à chaque auteur, ce qui engendre une très grande diversité de dessins. Malgré cette diversité, les dessins ont une particularité commune de part leurs méthodes de conception : ils sont constitués ou entourés d'un trait noir. 
+Dans cet article, nous proposons de nous appuyer sur cette particularité des bandes dessinées pour extraire automatiquement les cases et le texte avec une méthode basée sur la classification de composantes connexes. Nous comparerons notre méthode avec des outils de la littérature et discuterons des résultats.}
+
+\abstract{Comic books represents an important heritage in many countries. Nowadays, digitisation allows to search directly from content instead of metadata only (e.g. album title). Few studies has been done in this direction. Only frame and speech balloon extraction have been experimented in the case of a simple page structure. In fact, the page structure depends on the author which is why many different structures and drawings exist. Despite of the differences, drawings have a common characteristic because of design process: they are all surrounded by a black line. In this paper we propose to rely on this particularity of comic books to automatically extract frame and text using a connected-component labeling analysis. The approach is compared with some existing methods found in the literature and results are presented.}
+
+\motscles{bandes dessinées, segmentation de case, segmentation de texte, composantes connexes, k-means}
+
+\keywords{comic books, frame extraction, text extraction, connected-component, k-means}
+
+\begin{document}
+
+%\maketitle % Exemple de 1ere page sans les valeurs de champs
+            % pour afficher les commandes à utiliser
+
+\maketitlepage
+
+\section{Introduction}
+  La bande dessinée représente un patrimoine culturel important pour beaucoup de pays, elle est confrontée aujourd'hui à la numérisation en masse par besoin d'archivage et de valorisation du contenu. Cette dématérialisation à échelle industrielle permet actuellement l'indexation des pages mais pas de leurs contenus. Si cette ``limite à la page'' peut être franchie, alors de nouvelles utilisations du 9ème art sont envisageables comme la lecture sur appareil mobile case par case \cite{Arai11,In11} ou encore la recherche d'éléments spécifiques dans un grand nombre d'albums pour, par exemple, interpréter le contenu par le texte. Ces applications sont aujourd'hui réservées uniquement aux bandes dessinées dites ``électroniques'' (e-comics) puisque elles sont créées directement avec l'outil informatique et donc potentiellement indexables tout au long de la conception. Pour permettre la valorisation du contenu des bandes dessinées, des traitements postérieurs sont à l'étude depuis quelques années mais ils ne sont pas encore assez robustes pour être utilisés par l'industrie de la dématérialisation. Ces travaux concernent l'extraction des cases, des bulles et du texte à l'intérieur des bulles. Ce document propose une méthode pour extraire automatiquement les cases et tout le texte contenu dans les bandes dessinées (pas uniquement celui contenu par les bulles). La méthode proposée s'appuie sur l'algorithme des composantes connexes suivi d'une classification par l'algorithme des k-Means~\cite{Tou74}.
+  
+  Ce document est organisé comme suit. La section~\ref{sec:comics} présente le vocabulaire et le contenu des bandes dessinées. Un état de l'art sur l'extraction de cases et de textes est détaillé en section~\ref{sec:state_of_the_art}. Les sections~\ref{sec:contribution} et~\ref{sec:experiment} présentent respectivement la méthode proposée et les résultats obtenus lors de l'expérimentation. Et enfin, une conclusion et des perspectives sont données en section~\ref{sec:conclusion}.
+
+%\pagebreak
+
+\section{Les bandes dessinées}
+  \label{sec:comics}
+    Les bandes dessinées sont pour la plupart une succession de dessins organisés pour raconter une histoire selon un scénario écrit par l'auteur. La seule contrainte à laquelle doit se soumettre le dessinateur est le support qui contiendra la bande dessinées. C'était, jusqu'à l'émergence des supports numériques et d'internet, une page de papier souvent au format A4. Autant dire que le mode de conception laisse une quasi totale liberté d'expression à l'auteur ce qui fait la richesse de son album mais aussi la diversité des éléments que l'on peux rencontrer d'un point de vue traitement d'images.
+
+  \subsection{Le vocabulaire}
+    Une bande dessinée raconte une histoire, cette histoire est contenue dans un album. Les albums sont constitués de planches (assimilables aux pages) qui contiennent plusieurs cases. Une case est une image ou une vignette contenant un dessin est généralement encadrée. Notons qu'une bande dessinée ne comporte pas nécessairement de case. Dans ce cas, la case se confond avec la planche. Une succession de cases alignées est appelée une bande d'où le nom de bandes dessinées.
+
+  \subsection{Le contenu des planches}
+      On distingue trois types de bandes dessinées \cite{Pon08} reconnaissables par leurs origines culturelles : États-Unis, Asie (manga) et Europe. Dans notre étude nous nous concentrerons sur les bandes dessinées Européennes et Américaines car, pour les mangas, de trop grandes différences existent avec les bandes dessinées dites ``classiques'' tant en terme de traits, de cases \cite{Yam04} et de textes \cite{Arai11}.
+
+    \subsubsection{Les contours}
+      Une observation attentive du contenu des planches permet de dire que la principale caractéristique des dessins de bande dessinée est le trait noir qui entoure chaque élément ou presque contenu dans une planche. C'est à partir de cette observation qu'il nous est apparu pertinent de baser notre méthode sur l'algorithme des composantes connexes (CC)  pour extraire le contenu des cases à partir de ses contours. Cet algorithme à un double intérêt dans notre étude car il est, de part l'observation ci-dessus, adapté à l'extraction des cases mais aussi à l'extraction du texte \cite{Fle88}. L'utilisation d'un même algorithme pour extraire tous les éléments d'une planche améliore nettement le temps de traitement.
+      
+    \subsubsection{Les cases}
+      Les cases représentent différentes scènes de l'histoire comme des arrêts sur image pour le cinéma. Elles contiennent toutes un dessin mais ne sont pas nécessairement encadrées. C'est d'ailleurs ce qui peut rendre la lecture (ou la segmentation) plus difficile. Il peut y avoir aussi des recouvrements partiels entre les cases ou encore l'apposition d'éléments sur plusieurs cases \cite{Khoi11}, autant de particularités qui peuvent, ponctuellement, venir perturber le traitement d'un algorithme comme CC. 
+
+		
+    \subsubsection{Les zones de texte}
+      La bande dessinée utilise différents types de textes, manuscrits ou dactylographiés, selon la nature du message à transmettre au lecteur. On trouve majoritairement des dialogues entre les personnages très souvent dans des bulles à fond blanc, puis du texte récitatif (la voix ``off'') et enfin des onomatopées qui représentent des bruits sous forme textuelle ou d'une suite de symboles.
+
+
+\section{Méthodes existantes}
+  \label{sec:state_of_the_art}
+  \subsection{Extraction des cases}
+    L'extraction automatique des cases a principalement été étudiée pour permettre la lecture de pages numérisées sur des écrans d'appareils mobiles case par case. Notre étude concerne plutôt l'indexation du contenu de banques d'albums ce qui soulève de nouveaux problèmes en terme de diversité de format, de résolution et de contenu.
+
+   Plusieurs techniques de séparation du fond et des cases ont étaient proposées depuis 2007 comme le montre \cite{In11}, la plupart sont basées sur un découpage par des lignes tracées selon la transformée de Hough~\cite{Duda72}, l'algorithme X-Y récursif \cite{Han07} ou encore à partir de gradient \cite{Tan07}; ce qui ne permet pas de prendre en compte les zones vides qui peuvent apparaître entre les cases \cite{In11} ou les éléments sans bordure (figure \ref{fig:no_border}). Cet aspect a été corrigé par des approches basées sur les composantes connexes \cite{Arai10} mais lorsque des éléments chevauchent plusieurs cases (figure \ref{fig:no_separation}) il devient difficile de séparer les cases. Les régions d'intérêts (ROI) sont souvent classifiées selon un filtrage heuristique \cite{Arai11,Khoi11} relatif à la taille de la page ce qui est très sensible au changement de format de page. Une succession de $N$ érosions suivies de $N$ dilatations a été proposée par \cite{Khoi11} pour ``couper'' les éléments qui chevauchent plusieurs cases mais la détermination de la valeur de $N$ reste floue et le temps de calcul qui en découle important. Ce dernier propose aussi une segmentation du fond par croissance de région au lieu de la binarisation utilisée majoritairement par les méthodes citées précédemment. 
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%ERROR "has an extra } because cite is in subfloat title"
+
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+		%\includegraphics[height=60mm]{figure/BUBBLEGOM_T01_P007_crop.jpg}
+		%\includegraphics[trim= 0mm 0mm 0mm 0mm]{figure/BUBBLEGOM_T01_P007.jpg}
+		\subfloat[Encadrement partiel \protect\cite{Cyborg07}]{\label{fig:no_border}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.162\textwidth]{figure/BUBBLEGOM_T01_P007_crop.jpg}}	\hspace{2em}
+		\subfloat[Chevauchement d'éléments sur plusieurs cases \protect\cite{Noeils11}]{\label{fig:no_separation}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.5\textwidth]{figure/NOEILSWEB_T01_P012.jpg}}
+		  \caption{Exemple de cases particulières.}
+		  \label{fig:apl_1_0}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+  \subsection{Extraction du texte}
+    Dans une bande dessinée, la plus grande partie du texte est contenue dans les bulles de dialogue. C'est sans doute pour cette raison que c'est le seul type de texte qui a été étudié à ce jour. Ces travaux consistent en l'extraction du texte à partir des bulles \cite{Yam04,Arai10} ou inversement des bulles à partir du texte \cite{Khoi11}; Ces approches donnent de très bons résultats mais elles font l'hypothèse que le texte est écrit en noir dans une bulle blanche. Dans notre étude nous élargirons cette hypothèse de manière à ce que le fond des zones de textes soit d'une intensité proche de celle du fond de la page.
+
+\section{Contribution}
+  \label{sec:contribution}
+  Nous présentons une nouvelle méthode pour extraire simultanément les cases et les zones de textes d'une planche de bandes dessinées afin de permettre une indexation du contenu. Notre méthode s'applique page par page et consiste à effectuer un prétraitement pour obtenir une image binarisée à partir de laquelle on définit l'ensemble des ROI comme étant l'ensemble des boîtes englobantes (rectangulaires) des composantes connexes. Ensuite, les ROI sont classifiées comme étant du bruit, du texte ou une case en fonction de leurs tailles, relations topologiques et relations spatiales (pour le texte uniquement). Notons que nous ne limiterons pas notre étude au texte contenu dans les bulles mais à tout le texte contenu dans une planche à l'exception des onomatopées qui feront l'objet d'un travail ultérieur. L'originalité de notre travail est l'extraction des cases, encadrées ou non, et du texte récitatif (la voix ``off'') puisqu'il peut être détecté par l'algorithme des CC au même titre que celui contenu dans les bulles.
+
+
+    \subsection{Pré-traitement}
+      Le pré-traitement a pour but de séparer le fond et le contenu de la page afin de pouvoir se concentrer sur le contenu par la suite. Pour cela, plusieurs traitements sont appliqués à l'image pour pouvoir appliquer l'algorithme des CC et extraire les régions d'intérêts par la suite. Ces traitements suivent la séquence suivante :
+      \begin{enumerate}
+	\item Conversion en niveaux de gris
+	\item Calcul du seuil de binarisation
+	\item Inversion de l'image selon le seuil trouvé à l'étape précédente
+	\item Binarisation
+	\item Extraction des composantes connexes
+      \end{enumerate}
+      La première étape consiste à convertir l'image en niveaux de gris selon \cite{Pratt91} puis on procède à une binarisation (figure \ref{fig:binary_img}) dont le seuil est calculé à partir de la médiane d'un échantillon de pixels répartis sur le pourtour de la page. Pour les expérimentations, nous avons choisi de prendre cinq pixels par coté. Si la médiane est plus proche du noir que du blanc alors une inversion de l'image est effectuée et le calcul relancé de manière à toujours avoir un fond blanc à l'issue du prétraitement. Ce prétraitement permet à la méthode d'être plus robuste que \cite{Arai11} qui utilise un seuil constant pour la binarisation. Cette dernière est une opération clef pour la suite des traitements. Notons qu'il est possible que certaines zones de texte soient ``effacées'' lors de la binarisation si l'intensité du fond est supérieure au seuil. %(comme le texte). 
+Ensuite, on détermine l'ensemble des composantes connexes pour pouvoir extraire, à partir de celles-ci, les boîtes englobantes de tous les éléments (suite continue de pixels noirs) de l'image (figure \ref{fig:cc_bounding_box}).
+
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+		%\includegraphics[height=60mm]{figure/BUBBLEGOM_T01_P007_crop.jpg}
+		%\includegraphics[trim= 0mm 0mm 0mm 0mm]{figure/BUBBLEGOM_T01_P007.jpg}
+		\subfloat[Page binarisée \protect\cite{Bubble09}]{\label{fig:binary_img}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.45\textwidth]{figure/binary.png}}	\hspace{2em}
+		\subfloat[Ensemble des boîtes englobantes]{\label{fig:cc_bounding_box}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.45\textwidth]{figure/roi.png}}
+		  \caption{Étapes de pré-traitements}
+		  %\label{fig:apl_1_0}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    \subsection{Classification des régions d'intérêts}
+ %On peut résumer cette partie de la méthode comme suit :
+      %\begin{enumerate}
+	%\item Classification automatique des régions d'intérêts
+	%\item Filtrage topologique sur les cases
+	%\item Filtrage spatial pour identifier les zones de textes
+	%\item Extension des cases au texte alentour
+      %\end{enumerate}
+
+      Les régions d'intérêts sont définies comme étant les boîtes englobantes des composantes connexes de l'image binarisée. On définit l'ensemble des régions d'intérêts $R = \{R_1, R_2, ... , R_n\}$. La classification des régions d'intérêts est basée sur les hauteurs des ROI (figure \ref{fig:histo_roi}). On distingue alors trois classes que l'on interprète comme des ``cases'' pour (les plus grandes), du ``texte'' (les plus nombreuses) et du ``bruit'' (généralement des éléments de moins de cinq pixels). Cette classification est effectuée dynamiquement à partir de l'algorithme des K-Means ce qui rend notre méthode invariante au changement de résolution et de format de la page. En effet, la méthode des K-Means ne dépend pas des dimensions de la page contrairement aux méthodes proposées par~\cite{Khoi11,Arai11}, et la taille en pixel des éléments de la page est proportionnelle à la résolution.
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+		\includegraphics[height=27mm]{figure/Histogram.png}
+		\caption{Histogramme décroissant des hauteurs des ROI et classification}
+		\label{fig:histo_roi}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+      A l'issue de la classification, on calcule la variance de chaque classe pour vérifier l'homogénéité des ROI. Si elle est élevée, on peut appliquer des algorithmes spécifiques pour d'améliorer la binarisation et/ou la classification. Prenons l'exemple de la figure~\ref{fig:frame_case_failure} qui montre le résultat de deux cases reliées par une flèche noire (figure~\ref{fig:boston_blured}). Celles-ci sont identifiées à tort comme une seule et même case par l'algorithme CC (figure~\ref{fig:boston_frame}). On peut voir sur l'histogramme~\ref{fig:hist_zoom_frame} (échelle logarithmique) que la première région est beaucoup plus grande que les autres, la variance en sera de même. Dans ce cas nous appliquons l'algorithme de \cite{Khoi11} qui consiste en une croissance de région suivie d'une succession d'érosions et dilatations pour supprimer les éléments chevauchants (ici une flèche), puis on réitère le prétraitement et la classification des cases.
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+		\subfloat[Élément chevauchant \protect\cite{Boston10}]{\label{fig:boston_blured}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.48\textwidth]{figure/BOSTONPOLICE_T1_P011_blured.png}}	\hspace{1.1em}
+		\subfloat[Case issues de CC]{\label{fig:boston_frame}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.48\textwidth]{figure/BOSTONPOLICE_T1_P011_frame.png}}	\hspace{1em}
+		\subfloat[Histogramme partiel]{\label{fig:hist_zoom_frame}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, height=50mm]{figure/Histogram_zoom_frame.png}}
+		\caption{Détection des défauts de détection des cases}
+		\label{fig:frame_case_failure}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+    \subsection{Filtrage}
+
+      A l'issue de la classification, deux filtrages sont effectués pour supprimer les faux positif (régions identifiées à tort).
+      Le premier est de type topologique et consiste à ne conserver que les ``cases'' qui ne sont pas incluses dans une autre ($R_i\notin{R_j} \forall j, i \neq j$) (figure \ref{fig:frame_unrecognized} et~\ref{fig:frame_cleaned}).
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+		%\includegraphics[height=60mm]{figure/BUBBLEGOM_T01_P007_crop.jpg}
+		%\includegraphics[trim= 0mm 0mm 0mm 0mm]{figure/BUBBLEGOM_T01_P007.jpg}
+		\subfloat[Classification des cases par K-Means]{\label{fig:frame_unrecognized}\includegraphics[trim= 1mm 0mm 0mm 0mm, clip, width=0.46\textwidth]{figure/frame_unrecognized.png}}	\hspace{2em}
+		\subfloat[Résultat du filtrage topologique des cases]{\label{fig:frame_cleaned}\includegraphics[trim= 1mm 0mm 0mm 0mm, clip, width=0.47\textwidth]{figure/frame_cleaned.png}}
+		  \caption{Filtrage topologique des cases}
+		  %\label{fig:apl_1_0}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+       Le second forme des zones de texte à partir des ROI identifiées comme ``texte'' (correspondant souvent à une ou plusieurs lettres) qui sont suffisamment proches les unes des autres. Le seuil utilisé est calculé à partir de la  valeur médiane de la classe ``texte'' (figure~\ref{fig:spacial_filter}). 
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+		%\includegraphics[height=60mm]{figure/BUBBLEGOM_T01_P007_crop.jpg}
+		%\includegraphics[trim= 0mm 0mm 0mm 0mm]{figure/BUBBLEGOM_T01_P007.jpg}
+		\subfloat[Classification du texte par K-Means]{\label{fig:letter_only}\fbox{\includegraphics[trim= 1mm 0mm 0mm 0mm, clip, width=0.44\textwidth]{figure/letter_only.png}}}	\hspace{2em}
+		\subfloat[Zones de texte identifiées]{\label{fig:frame_text_area}\fbox{\includegraphics[trim= 1mm 0mm 0mm 0mm, clip, width=0.44\textwidth]{figure/frame_text_area.png}}}
+		  \caption{Filtrage spatial du texte}
+		  \label{fig:spacial_filter}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+      Il arrive que les zones de textes ainsi crées ne contiennent pas de texte lisible mais un ensemble de petits traits de hauteur similaire au texte (voir figure~\ref{fig:text_areas}). Dans ce cas nous utilisons une méthode de séparation texte/graphique pour éliminer les zones qui ne contiennent pas de texte. Cette méthode compare les histogrammes projetés (horizontal et vertical) du nombre de pixels blancs des zones identifiées comme ``texte''. Expérimentalement on vérifie, pour chaque zone de texte identifiée, que la variance du nombre de pixels blancs par ligne est supérieure à la variance du nombre de pixels blancs par colonne. Ceci s'explique par le fait que dans l'histogramme projeté horizontal d'une zone de texte il y a de fortes variations dues à l'alternance de lignes de texte et d'interlignes. Ce phénomène ne se produit pas sur l'histogramme projeté vertical (figure~\ref{fig:histo_projection}).
+
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+		\subfloat[Zone de texte bien identifiée]{\label{fig:balloon_text_area}\fbox{\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, height=0.2\textwidth]{figure/balloon_text_area.png}}}	\hspace{2em}
+		\subfloat[Zone de texte mal identifiée]{\label{fig:noise_text_area}\fbox{\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, height=0.2\textwidth]{figure/noise_text_area.png}}}
+		  \caption{Zone de texte (ensemble des rectangles encadrés)}
+		  \label{fig:text_areas}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+		%\includegraphics[height=60mm]{figure/BUBBLEGOM_T01_P007_crop.jpg}
+		%\includegraphics[trim= 0mm 0mm 0mm 0mm]{figure/BUBBLEGOM_T01_P007.jpg}
+		\subfloat[Histogrammes d'une zone de texte]{\label{fig:histo_letter}\includegraphics[trim= 1mm 0mm 0mm 0mm, clip, width=0.46\textwidth]{figure/histo_letter.png}}	\hspace{2em}
+		\subfloat[Histogrammes d'une zone de dessin]{\label{fig:histo_noise}\includegraphics[trim= 1mm 0mm 0mm 0mm, clip, width=0.47\textwidth]{figure/histo_noise.png}}
+		  \caption{Exemple d'histogrammes projetés (nombre de pixels blanc)}
+		  \label{fig:histo_projection}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{enumerate}
+%	\item Ecart-type des nombres de pixels blancs calculés sur l'histogramme (histogramme horizontal) est supérieur à l'écart-type des pixels blancs calculés sur l'histogramme en vertical (histogramme vertical). Ceci s'explique par le fait dans l'histogramme vertical d'une zone de texte, il existe des lignes blanches (espace entre les lignes) entre les lignes de texte alors que dans l'histogramme horizontal, ces lignes blanches n'existent pas car le texte est sur une seule colonne.
+%	\item Nous regroupons les lignes blanches qui se suivent dans la zone; si l'écart entre la taille minimale et la taille maximale des groupes  est supérieur à 2 et que le nombre d'occurences du mode est inférieur à la moitié. Cette zone est supprimée parce que les espaces entre les lignes de texte sont régulières.
+
+      %\begin{itemize} 
+	  %\item Vérifier les dimensions de la zone de texte (la largeur doit être supérieure à $x\%$ de la largeur de la page et la hauteur supérieure supérieure à $y\%$). Il n'existe pas une méthode permettant de trouver les valeurs de $x$ et $y$. \cite{Arai11} proposent d'utiliser $x=20$ et $y =40$. 
+%	  \item Calculer les histogrammes projetés (horizontal et vertical) selon la méthode de ``la rose des vents'' déjà utilisée par \cite{Journet08} pour séparer les images du texte figure???. Nous appliquons les critères suivants pour éliminer les zones détectées par erreur comme zone de texte:
+%\begin{enumerate}
+%	\item Ecart-type des nombres de pixels blancs calculés sur l'histogramme (histogramme horizontal) est supérieur à l'écart-type des pixels blancs calculés sur l'histogramme en vertical (histogramme vertical). Ceci s'explique par le fait dans l'histogramme vertical d'une zone de texte, il existe des lignes blanches (espace entre les lignes) entre les lignes de texte alors que dans l'histogramme horizontal, ces lignes blanches n'existent pas car le texte est sur une seule colonne.
+%	\item Nous regroupons les lignes blanches qui se suivent dans la zone; si l'écart entre la taille minimale et la taille maximale des groupes  est supérieur à 2 et que le nombre d'occurences du mode est inférieur à la moitié. Cette zone est supprimée parce que les espaces entre les lignes de texte sont régulières. 
+%\end{enumerate}
+%      \end{itemize}
+
+
+ %Certaines cases sont ensuite étendues de manière contenir d'éventuelle zone de texte se trouvant à proximité et n'appartenant à aucune autre case.
+
+
+
+
+     % \textbf{ANCIENNE VERSION:} \\
+      %Les régions d'intérêts sont définies comme étant les boîtes englobantes des composantes connexes de l'image binarisée (fig. ? ? ?) elles sont ensuite identifiées par ordre croissant comme ``bruit'', ``lettre'', ``case'' ou ``non classé'' à partir des connaissances a priori sur l'image. L'identification est relative aux dimensions de la page se qui permet une auto-adaptation de la méthode aux pages respectant le ratio 1/4??? comme les formats normalisés A1, A2, A3, A4, A5, A6 ???. On définit l'ensemble des régions d'intérêts $R = \{R_1, R_2, ... , R_n\}$ et l'ensemble des pages $P = \{P_1, P_2, ... , P_n\}$. On notera la hauteur $H$ et la largeur $L$.
+
+    %\subsubsection{Le bruit}
+     % Une ROI trop petite pour contenir une lettre ou tout autre information pertinente sur le contenu de la page est identifiée comme ``bruit''. Cette idée à déjà été étudier par [REF???] mais???. De notre approche nous utilisons $H(R_i) < 0.2\%*H(P_i)$. La largeur n'est pas considérée pour ne pas identifier à tort des lettres telles que ``i'' ou ``l'' qui pourrait avoir une largeur d'un seul pixel.
+    %\subsubsection{Les lettres}
+     % Les lettres sont identifiées selon un intervalle de hauteurs relatif à la hauteur de la page comme [REF???]. Leur largeur n'est pas considérée car plusieurs lettres peuvent être en contact (fig.???) auquel cas $R_i$ contiendrait une suite de lettres (largeur variable). Une ROI est donc identifiée comme une lettre si $0.2\%*H(P_i) < H(R_i) < 2\%*H(P_i)$. Voir Figure???.
+    %\subsubsection{Les cases + out-off-frame letter inclusion + if too large Ahn Koi on THE page}
+      %L'originalité notre méthode est de considérer que toute ROI \textbf{qui n'est pas entièrement incluse} dans une autre ROI est une case ($R_i\notin{R_j} \forall j$???). Un second filtrage permet de vérifier la hauteur et la proportion des cases : $H(R_i) > 5\%*H(P_i)$ et $0.1 < L(R_i)/H(R_i) < 5$. Voir Figure???.
+    %\subsubsection{Les non classés}
+      %Les ROI non classés correspondent à des régions dont la taille est trop grande pour être du texte et complètement recouvertes par une autre région (case). Ce cas apparait rarement et pourra être traité dans travail ultérieur.
+    
+\section{Expérimentation et résultats}
+  \label{sec:experiment}
+  \subsection{Extraction des cases}
+  Nous avons réalisé l'expérimentation avec la même base d'albums que~\cite{Khoi11} afin de pouvoir comparer nos résultats. A savoir, une base composée de 42 pages au format A4 issues de 7 auteurs différents de  bandes dessinées européennes et américaines soit 355 cases au total. Chacune des méthodes testées ont été implémentées et appliquées sur la même base d'images. Pour l'évaluation nous considèrerons plusieurs critères. Le premier est le taux de segmentation des pages. Une page est correctement segmentée si toutes ses cases sont correctement segmentées. Le second s'applique aux cases elles-même et indique la proportion de cases correctement segmentées sur l'ensemble de la base.
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{figure}[!ht]
+      \centering
+	\begin{tabular}{|c|c|c|c|c|}
+	\hline
+	Méthode            & Tanaka     & Arai 		& Khoi 		& Proposée\\  
+	\hline
+	Page (\%)        & 42.8     & 47.6             	& 64.3 		&66.7\\
+	\hline
+	Case (\%)        & 63.9     & 75.6             	& 87.3 		&88.2\\
+	\hline
+	\end{tabular}
+      \caption{Taux de réussite des méthodes testées.}
+    \end{figure}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  Notre méthode est plus efficace que~\cite{Tan07,Arai10,Khoi11} pour l'extraction automatique des cases notamment parce qu'elle permet d'extraire les cases sans contour. %On aurait pu aussi tester sur une deuxième base d'images avec des formats différents sans dégrader les performances de notre méthode à l'inverse des trois premières puisqu'elle utilise des valeurs relative aux proportions de la page. 
+  Lors des tests, nous avons pu constater un gain de temps global de plus de 60\% par rapport à~\cite{Khoi11}. Notre méthode est donc beaucoup plus rapide, notamment quand il n'y a pas d'objet à cheval sur plusieurs cases. Néanmoins, cela n'influence pas l'extraction du texte puisque qu'elle est effectuée à partir de la page et non de la case.
+
+  \subsection{Extraction du texte}
+  Nous avons effectué l'extraction des zones de textes à partir de la même base d'images que précédemment. Pour plus de précision, nous avons distingué les zones de texte de dialogues (bulles) et les zones de textes narratifs soit respectivement 435 et 79 zones dans notre base. 
+  On définit :
+  \begin{itemize}
+   \item VP : les zones identifiées comme ``texte'' qui contiennent uniquement du texte (``Vrai positif'')
+   %\item FP : les zones identifiées comme ``texte'' qui ne contiennent pas de texte (``Faux positif'')
+   %\item VN : les zones qui ne contiennent pas de texte et qui n'ont pas étaient identifiées
+   \item FN : les zones qui contiennent du texte qui n'ont pas été identifiées (``Faux négatif'')
+  \end{itemize}
+  Les zones dont le texte a été détecté partiellement ou en plusieurs parties sont considérées comme appartenant à la catégorie ``Faux négatif''.
+
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{figure}[!ht]
+      \centering
+	\begin{tabular}{|c|c|c|}
+	\hline
+	Type de texte  	& VP      		& FN		\\  
+	\hline
+	Dialogue (\%)  	& 78              	& 21 		\\
+	\hline
+	Narratif (\%)  	& 53 	          	& 47 		\\
+	\hline
+	\end{tabular}
+      \caption{Taux de détection des zones de textes}
+    \end{figure}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+    Nos résultats préliminaires sont encourageants pour la catégorie des dialogues mais nécessitent encore des améliorations pour le texte narratif. Il est difficile de comparer avec d'autres travaux puisque, à notre connaissance, il semblerait que l'extraction du texte en dehors des bulles (zone à fond blanc) n'ait jamais été étudiée en analyse d'image de bandes dessinées.
+
+
+\section{Conclusion et perspectives}
+  \label{sec:conclusion}
+  Nous avons proposé et évalué une méthode d'extraction simultanée des cases et du texte de bandes dessinées. Notre approche est rapide et particulièrement robuste au changement de format de page. Elle est également capable d'extraire le texte situé en dehors des bulles. 
+
+  L'évaluation montre qu'il y a encore des améliorations à apporter au niveau des éléments à cheval sur plusieurs cases et du filtrage des zones de texte. Les travaux futurs porterons sur l'amélioration de la classification du texte (e.g. dialogue, narratif) et l'extraction du contenu des cases.
+% Les travaux futurs porterons sur l'extraction du contenu des cases exempt de texte.
+
+\section{Remerciements}
+Ce travail est réalisé dans le cadre de l'action e-BDthèque du contrat de plan État-Région avec le soutien financier de la région Poitou-Charentes, le conseil général de Charente Maritime et la communauté d'agglomération de La Rochelle.
+
+\newpage
+\bibliography{exemple-biblio}
+
+
+%\logbook{22/09/1996}{03/03/2005}{Guillaume Laurent}
+
+%\adressehermes
+
+\end{document}

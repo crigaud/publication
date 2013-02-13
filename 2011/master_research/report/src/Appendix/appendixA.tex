@@ -1,0 +1,73 @@
+
+
+\section*{Annexe 1 : liste des notations}
+\label{appendix:a}
+
+%{\bf t,u,i,l sont retirées car il s'agit de variables dont la lettre peut changer lors de l'utilisation des formules}
+
+	\begin{center}
+	\begin{tabular}{ l l }	% | left | right center
+\textbf{Type} \\
+	$S$		& : ensemble des types à priori présent dans une image (e.g. foie, rate, vaisseau) \\
+	$S_t$ 		& : ensemble des types qui ont été segmentés jusqu'à $t-1$ \\
+	$M(i)$		& : multiplicité d'un type $i$ sachant que $i \in S$\\
+	$M_t(i)$	& : multiplicité d'un type $i$ actif sachant que $i \in S_t$\\
+
+\\\textbf{Image} \\
+	$I$		& : image initiale contenant des types (assimilés à des régions) distinctes \\
+	$I_t$		& : image segmentée à $t$ \\
+\\\textbf{Région} \\
+	$X(i)$ 		& : ensemble des points de l'image associés à la région $i$ (initialement vide) \\
+	$X(\bar{i})$ 	& : région restante (implicitement) après avoir retiré toutes les régions incluses dans $X(i)$ \\
+	$X_t(i)$ 	& : état de cette région à l'étape $t$ ($X_t(i)\ne \emptyset$ si segmentée lors d'une étape antérieure). \\
+	$R_t(u)$ 	& : ROI optimale au sens \citep[Fasquel]{Fasquel2006} d'un type $u$\\
+\\\textbf{Graphe}\\
+	$G=(S,A)$ 	& : graphe orienté dont les n\oe{}uds sont l'ensemble $S$ et les arcs $A$ \\
+	$G_t=(S_t,A)$	& : graphe $G$ dont les n\oe{}uds $S_t\in S$ sont actifs (régions segmentées) à l'étape $t$ \\
+	$G_T=(S,A_T)$	& : graphe représentant les relations topologiques ($A_T$) entre les types ($S$) \\
+	$G_P=(S,A_P)$	& : graphe représentant les relations photométriques ($A_P$) entre les types ($S$) \\
+\\\textbf{Ensemble}\\
+	$G^{\pm x}(i)$	& : ensemble des successeurs (+)/prédécesseurs (-) à une distance $x\in \mathbb{N}$ du n\oe{}ud $i$ \\
+	%$G^{[x,y]}(i)$	& : ensemble de tous les successeurs/prédécesseurs à une distance comprise $x$ et $y$ de $i$\\
+	$G^{\pm \infty}(i)$& : ensemble de tous les successeurs/prédécesseurs du n\oe{}ud $i$ dans un graphe orienté $G$ \\
+	%$G^{-x}(i)$	& : ensemble des prédécesseurs à une distance $x\in \mathbb{N}$ du n\oe{}uds $i$ dans un graphe orienté $G$ \\
+	%$G^{-\infty}(i)$& : ensemble de tous les prédécesseurs du n\oe{}uds $i$ dans un graphe orienté $G$ \\
+
+% 	$G^{x}(i)$	& : ensemble des successeurs à une distance $x\in \mathbb{N}$ du n\oe{}uds $i$ \\
+% 	$G^{\infty}(i)$	& : ensemble de tous les successeurs à une distance $\infty$ du n\oe{}uds $i$ \\
+% 	$G^{-x}(i)$	& : ensemble des prédécesseurs à une distance $x\in \mathbb{N}$ du n\oe{}uds $i$ \\
+% 	$G^{-\infty}(i)$& : ensemble de tous les prédécesseurs du n\oe{}uds $i$ dans un graphe orienté $G$ \\
+
+	$G_t^{\pm x}(i)$& : ensemble des successeurs/prédécesseurs actifs à une distance $x\in \mathbb{N}$ du n\oe{}ud $i$ \\
+	$G_t^{\pm \infty}(i)$& : ensemble de tous les successeurs/prédécesseurs actifs à une distance $\infty$ du n\oe{}ud $i$ \\
+	$G^{\pm \infty}( \{ a, b \} )$& : ensemble des successeurs/prédécesseurs de l'ensemble $\{ a, b \}$ $\Rightarrow G^{\pm \infty}( \{ a \} ) \cup G^{\pm \infty}( \{ b \} ) $ \\
+
+% 	$G_t^{-x}(i)$	& : ensemble des prédécesseurs actifs à $t$ et à une distance $x\in \mathbb{N}$ du n\oe{}uds $i$ \\
+% 	$G_t^{-\infty}(i)$& : ensemble de tous les prédécesseurs actifs du n\oe{}uds $i$ dans un graphe orienté $G$ \\
+% 	$T$ 		& : ensemble des successeurs (informations topologiques à priori) (graphe) \\
+% 	$T_t$ 		& : ensemble des successeurs actif à une date (notion de n\oe{}uds actif) \\
+% 	$T^{-x}$ 	& : ensemble des prédécesseurs à une distance $x$ \\
+% 	$T_t^{-x}$ 	& : ensemble des prédécesseurs actif à $t$ à une distance $x$ \\
+% 	$T^{-\infty}$ 	& : ensemble des prédécesseurs (ancêtres jusqu'au ``root'') \\
+% 	$A_T$ 		& : ensemble des arcs de $T$ (l'ensemble des n\oe{}uds = $S$) \\
+
+%\textbf{Graphes spécifiques} \\
+	% Graphe photo
+	%$P$ 		& : ensemble des relations photométriques à priori (graphe) \\
+	%$A_P$ 		& : ensemble des arcs de $P$ (l'ensemble des n\oe{}uds = $S$) \\
+\\\textbf{Information} \\
+	$C$			& : ensemble des informations à priori (graphe, image) \\
+	$C_t$ 		& : ensemble des informations à priori $C$ à $t$ \\
+\\\textbf{Lobe} \\
+	$L_t(u)$ 	& : ensemble des types correspondants aux lobes de l'histogramme concernés par du $u$ \\
+	$N_t(u)$	& : nombre de lobes (types) attendus dans l'image à $t$ (cardinalité de $L_t(u)$) \\
+	$O_t(u)$ 	& : ensemble des types de $L_t(u)$ ordonnés\\
+
+	%$P_t$ 		& : ensemble des relation actif à une date (notion de n\oe{}uds actif) \\
+	%$P^{-1}$ 	& : ensemble des type voisin à plus sombre \\
+	%$P^{-\infty}$ 	& : ensemble des ancêtres (jusqu'au ``root'') \\
+
+	\end{tabular}
+	\end{center}	 
+
+

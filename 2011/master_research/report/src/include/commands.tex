@@ -1,0 +1,109 @@
+
+\makeatletter
+
+\renewcommand{\maketitle}{%
+{
+	\pagestyle{empty}
+\begin{center}
+
+	\href{http://www.istia.univ-angers.fr}{\includegraphics[width=5cm]{figure/logo_univ_angers.png}}\\
+	\bigskip
+	
+	\begin{LARGE}
+		Master Recherche Mathématiques et Applications\\
+		%Master Recherche en Systèmes Dynamiques et Signaux\\
+	\end{LARGE}\bigskip
+	
+	\begin{large}
+		Spécialité : S\textsc{ystèmes} D\textsc{ynamiques et} S\textsc{ignaux}\\
+		%Année 2010-2011\\
+	\end{large}\bigskip\bigskip
+	
+%	\begin{LARGE}
+%		Rapport bibliographique intermédiaire\\% de Master 2 Recherche SDS:\\
+%	\end{LARGE}\bigskip
+	
+	\begin{large}
+		Soutenu par : \href{http://www.christophe-rigaud.com}{Christophe RIGAUD}\\
+	\end{large}\bigskip\bigskip
+
+	\begin{normalsize}
+		le 7 juillet 2011\\
+	\end{normalsize}\medskip
+	
+	\begin{normalsize}
+		Au sein de l'Institut des Sciences et Techniques de l'Ingénieur d'Angers\\
+		%LISA - ISTIA - 62 avenue Notre-Dame du Lac 49000 ANGERS\\\bigskip
+		\bigskip\bigskip\bigskip
+	\end{normalsize}
+	
+	\begin{Large}
+		\bf{Interprétation d'images et graphe conceptuel intégrant des connaissances topologiques et photométriques}
+		\bigskip\bigskip\bigskip
+	\end{Large}
+	
+	\begin{normalsize}
+		Jury:\\
+	\end{normalsize}
+	\parbox{15cm}{
+		\begin{tabbing}
+			Président :\hspace{4em}\= L. Hardouin\hspace{5em}\= Professeur Université d'Angers\\
+			Examinateurs :   	\> L. Autrique	\> Professeur Université d'Angers\\
+				\> F. Chapeau Blondeau	\> Professeur Université d'Angers\\
+				\> J.L. Boimond			\> Professeur Université d'Angers\\
+				%\> M. Bourcerie			\> Professeur Université d'Angers\\
+				%\> P. Declerck			\> MCF Université d'Angers\\
+				\> J.B. Fasquel  		\> MCF Université d'Angers\\
+				\> C. Jean-Guillaume	\> MCF Université d'Angers\\
+				\> M. Lhommeau			\> MCF Université d'Angers\\
+				\> D.Rousseau			\> MCF Université d'Angers
+		
+		\end{tabbing}
+	}
+	\bigskip\bigskip\bigskip
+\end{center}
+	\begin{large}
+		Encadrant: Jean-Baptiste FASQUEL		
+	\end{large}
+	\begin{flushright}
+	\parbox{15cm}{
+		\begin{flushright}
+
+		\includegraphics[width=4cm]{figure/logo_lisa.png}
+
+		LABORATOIRE D’INGÉNIERIE DES SYSTÈMES AUTOMATISÉS 
+
+		EA 4094 - Université d’Angers
+		\end{flushright}}
+		\end{flushright}
+		\clearpage
+	}
+}
+
+%\def\thechapter{\Roman{chapter}} 
+%\def\thesection{\arabic{section}} 
+        
+% Chapter (general)
+\def\@makechapterhead#1{%
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        %\huge\bfseries \@chapapp\space \thechapter
+        \par\nobreak
+        \vskip 20\p@
+    \fi
+    \interlinepenalty\@M
+    \Huge \bfseries \thechapter \hspace{0.2em} #1 \par\nobreak
+    \vskip 30\p@			% space under chapter name
+  }}
+
+% Chapter table of content
+\def\@makeschapterhead#1{%
+  {\parindent \z@ \raggedright
+    \normalfont
+    \interlinepenalty\@M
+    \Huge \bfseries  #1\par\nobreak
+    \vskip 40\p@			% space under "table of content"
+  }}
+
+
+\makeatother

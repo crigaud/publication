@@ -1,0 +1,117 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%clear; bibtex main.aux;pdflatex main.tex ;evince main.pdf &
+
+\documentclass[final,12pt]{report} 						% list options between brackets [draft]
+
+\pdfminorversion = 5									% changing the default PDF version
+
+\include{include/packages}								% Custom packages		
+\include{include/commands}								% Custom commands
+\include{include/style}									% Custom styles
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeglossaries
+\newglossaryentry{ROI}{name={ROI}, description={app Domain Description...}}
+%\newglossaryentry{sample}{name={has been inserted aaa},description={testing testing 123}}
+%\newglossaryentry{topologie}{description={La topologie est une branche des mathématiques concernant l'étude des déformations spatiales par des transformations continues (sans arrachages ni recollement des structures)\url{http://fr.wikipedia.org/wiki/Topologie}}
+%\newglossaryentry{Moteur d'inférence, de l'anglais "enference engine" et du verbe « inférer » qui signifie « déduire », c'est un concept de raisonnement déductif, qui peut être concrètement un logiciel, à qui on demande des informations et qui essaye de les déduire à partir de sa base de connaissances.})
+%\footnote{Le fenêtrage est le fait de considérer qu'une fraction de la dynamique d'une image (exemple : un intervalle dans un histogramme d'image), on l'utilise souvent pour faciliter la visualisation ou les traitements d'une image.}
+
+\begin{document}
+	%--------------------------------------------------------------------------------------------------
+	\renewcommand{\labelitemi}{$\bullet$}
+	\renewcommand{\appendixtocname}{Annexes}
+	\newcounter{ale}
+	\setcounter{tocdepth}{4}
+
+	%--------------------------------------------------------------------------------------------------
+	\maketitle
+	%--------------------------------------------------------------------------------------------------
+	\newpage
+	\vspace*{\fill}
+%	\begin{center}
+%		Cette page est laissée blanche intentionnellement.
+%	\end{center}
+%	\vspace{\fill}
+	\hspace{1em}Je soussigné Christophe Rigaud déclare être pleinement conscient que le plagiat de documents ou
+d’une partie d’un document publiés sur toutes formes de support, y compris l’internet, constitue une violation
+des droits d’auteur ainsi qu’une fraude caractérisée. 
+En conséquence, je m’engage à citer toutes les sources
+que j’ai utilisées pour écrire ce rapport.\vspace{1em}
+
+Signature :
+
+	\thispagestyle{empty}
+	%--------------------------------------------------------------------------------------------------
+	\newpage	
+%	\input{abstract}
+	\input{acknowledgements} 
+	\thispagestyle{empty} 								%get rid of header/footer for toc page
+	%--------------------------------------------------------------------------------------------------
+	\tableofcontents 									%put toc in
+	\thispagestyle{empty} 								%get rid of header/footer for toc page
+%	\cleardoublepage 									%start new page
+%	\pagestyle{plain} 									% put headers/footers back on
+	\setcounter{page}{0} 								%reset the page counter
+	%--------------------------------------------------------------------------------------------------
+	\input{Introduction/introduction}
+	\input{Formulation/formulation}
+	\input{Evaluation/evaluation}
+	\input{Application/application}
+	\input{conclusion}
+	%--------------------------------------------------------------------------------------------------
+	\pagestyle{empty} 									%get rid of header/footer for toc page
+	\renewcommand{\appendixpagename}{Annexes}
+	\appendix
+	\appendixpage
+	%\renewcommand{\appendixtocname}{Annexes A}
+	%\addappheadtotoc
+	%\renewcommand{\appendixname}{Annexes I}
+	%\appendixname
+	\input{Appendix/appendixA}
+	%--------------------------------------------------------------------------------------------------
+	\bibliographystyle{plain}							% ordre alphabétique et les numérote en conséquence.
+	%\bibliographystyle{unsrt}							% trie les entrées par ordre d’apparition dans le texte.
+	\bibliography{bibliography}
+	%--------------------------------------------------------------------------------------------------
+	
+	\input{abstract}
+	
+	\printglossary[type=main,title={Glossary},toctitle={Glossary}]
+	\thispagestyle{empty}\cleardoublepage
+	%\printglossary[type=\acronymtype,title={List of Abbreviations},toctitle={List of Abbreviations}]
+
+%	\printindex
+	\thispagestyle{empty}\cleardoublepage
+
+\end{document}          
+
+
+\begin{comment}
+
+********************** TOOL BOX ***********************
+Settings
+http://www.rhizobia.co.nz/latex/thesis.html
+
+Figure
+TikZ
+http://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions#Figures
+
+Header /footer
+E: Even page
+O: Odd page
+L: Left field
+C: Center field
+R: Right field
+H: Header
+F: Footer
+
+\og guillemets \fg{} 
+
+************************ PDF *************************
+pdflatex filename; evince filename.pdf &
+bibtex bibfilename
+pdflatex filename; evince filename.pdf &
+ 
+\end{comment}

@@ -1,0 +1,37 @@
+% * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+% * * * * * * * * * * * * * * * * * ENTETE  * * * * * * * * * * * * * * * * * *
+% * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+\documentclass[9pt]{beamer}
+
+\include{settings}
+
+% * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+% * * * * * * * * * * * * * *  DEBUT DOCUMENT * * * * * * * * * * * * * * * * *
+% * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+\begin{document}
+	\definecolor{MyGreen}{rgb}{0.0,0.5,0.0}
+	\input{part_1}
+	\input{part_2}
+
+	\bibliographystyle{plain}							% ordre alphabétique et les numérote en conséquence.
+	%\bibliographystyle{unsrt}							% trie les entrées par ordre d’apparition dans le texte.
+
+	\bibliographystyle{natbib}
+	\bibliography{bibliography}
+	%\bibliographystyle{alpha}
+	%\bibliography{bibi.bib}
+%	\begin{thebibliography}{10}
+%		\bibitem{Goldbach1742}[Goldbach, 1742]
+%		  Christian Goldbach.
+%		  \newblock A problem we should try to solve before the ISPN '43 deadline,
+%		  \newblock \emph{Letter to Leonhard Euler}, 1742.
+%	\end{thebibliography}
+
+\end{document}
+
+% * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+% * * * * * * * * * * * * * * * * FIN * * * * * * * * * * * * * * * * * * * * *
+% * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+

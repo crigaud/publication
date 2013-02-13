@@ -1,0 +1,593 @@
+%COMPILATION: 
+%clear; bibtex main.aux;pdflatex main.tex ;evince main.pdf &
+
+
+\chapter{Application}
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%													IMAGE MÉDICALES													%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	\section{Introduction}
+	%Le second cas d'utilisation concerne l'application de cette approche au diagnostic médical assisté par ordinateur.
+		En médecine, il existe beaucoup de modalités d'imagerie, le choix de la modalité utilisée étant notamment fonction de la région anatomique étudiée et de l'acte diagnostic visé.
+
+	Nous limiterons l'étude à des images de la région de l'abdomen issues de scanners à rayon X, communément appelées images CT \footnote{Computed Tomography (CT) : est une technique d'imagerie médicale qui consiste à mesurer l'absorption des rayons X par les tissus puis, par traitement informatique, à numériser et enfin reconstruire des images 2D ou 3D des structures anatomiques (\url{http://fr.wikipedia.org/wiki/Tomodensitomtrie})}. Ces scanners délivrent des images dont les intensités s'échelonnent souvent de -1024 à des valeurs supérieures à 1000 unité Hounsfield (\citep[Rossner]{rossner1990}, \citep[zhu]{zhu1986}, \citep[Brown]{Brown1998}, \citep[Coudray]{Coudray2010}, \citep[Bengoetxea]{Bengoetxea2005}), cette dynamique photométrique est bien trop étendue pour l'\oe{}il.
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]
+	    \centering
+		\subfloat[Fenêtrage initial]{\label{fig:muscle}\includegraphics[width=0.49\textwidth]{Application/figure/muscle.png}}\hspace{0.3em}
+		\subfloat[Fenêtrage réduit aux intensités claires]{\label{fig:liver}\includegraphics[width=0.49\textwidth]{Application/figure/liver_vrrender.png}}
+	  \label{fig:vrrender}
+	  \caption{Influence du fenêtrage sur le rendu visuel.}
+
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	
+	Afin de distinguer aisément les différentes structures anatomiques et pathologiques \footnote{La pathologie est l'étude des maladies et de leurs causes. Le terme peut être employé comme un nom pour désigner une anomalie dans un corps.}, il convient de visualiser qu'une partie de la dynamique, ceci étant souvent associé au terme de fenêtrage. Voir l'exemple applicatif figure~\ref{fig:muscle} et~\ref{fig:liver} où on fait varier le fenêtrage (courbe bleu sur l'histogramme) de l'image \citep[Gonzalez, Pratt]{Gonzalez2008}. Un fenêtrage approprié peut faciliter la segmentation dans le cas d'une procédure interactive de segmentation et d'identification de structures anatomiques et/ou pathologiques où l'utilisateur intervient pour visualiser et ajuster le déroulement du traitement d'une image. Il lui est alors nécessaire de bien voir la structure à segmenter d'où l'intérêt d'intégrer la visualisation au processus d'analyse de l'image.
+
+	Une méthode triviale consisterait à disposer d'un dictionnaire d'intervalles photométriques pour les différentes structures types (e.g. : foie, vaisseaux, os). La visualisation serait alors contrôlée par des constantes (quantitatives) et pourrait présenter un manque de robustesse par rapport à une méthode de détermination automatique, fondée sur des mesures effectuées sur l'image en cours d'étude : le fenêtrage devient alors spécifique au patient, et prend en compte ses particularités (e.g. : densité des tissus variable d'un patient à l'autre \citep[Brown]{Brown1998}).
+	
+
+	On se placera dans le contexte d'une analyse séquentielle où le fenêtrage sera déterminé automatiquement à partir des structures déjà segmentées, de la structure recherchée (cible) et d'une analyse d'histogramme paramétrée par des inférences (déductions) sur les connaissances conceptuelles. Idéalement, il serait utile de pouvoir automatiquement déterminer le fenêtrage correspondant à la structure anatomique ou pathologique d'intérêt, pour la présenter de la manière la plus explicite aux yeux d'un professionnel. Les travaux présentés ci-après constituent des essais préliminaires, et aucune évaluation quantitative n'a été réalisée dans ce rapport. Il s'agit dans un premier temps d'illustrer l'application de notre approche à des données réelles. Les commentaires concerneront des remarques subjectives (et non objectives) relatives à la qualité du rendu visuel.	
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%bibi_0_0_hist_scaled
+	%\begin{figure}[!ht]
+	 % \centering
+	  %    \includegraphics[trim= 5mm 5mm 5mm 12mm, clip, width=0.68\textwidth]{Application/figure/structures_synth_final.png}
+	 % \caption{Exemple d'identification de régions à partir de l'histogramme.}
+	 % \label{fig:melange}
+	%\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	
+
+
+
+%	\subsection{Contexte}
+%		Dans cette partie nous nous intéressons au traitement numérique d'images médicales issues de scanner à rayons X de la région de l'abdomen. 
+%		Le travail va consister à appliquer automatiquement une succession de masques à l'image puis d'ajuster le fenêtrage à un type $u$ (e.g. foies, vaisseaux). Ces types seront ici considérés comme des structures anatomiques (e.g. foie, poumons, vaisseaux) ou pathologiques (e.g. tumeurs, kyste). L'objectif et de pouvoir visualiser aisément une structure sans qu'elle soit masquée par d'autres structures.
+		
+%	\subsection{Caractéristiques des images}
+%Comme précisé en introduction de ce rapport, ces images sont issues de scanners délivrant des intensités s'échelonnant de -1024 à des valeurs supérieures à 1000 unité Hounsfield. Elle peuvent donc contenir plus de 2000 niveaux de gris différents (d'où la difficulté de perception à l'\oe{}il). 
+		
+		
+%\footnote{DICOM (Digital Imaging and Communications in Medicine) is a standard for handling, storing, printing, and transmitting information in medical imaging. It includes a file format definition and a network communications protocol \url{http://en.wikipedia.org/wiki/DICOM}. }
+
+%	\subsection{Environnement et outils}
+%		Les expériences ont été menées au sein du laboratoire LISA de mars à juillet 2011. Le matériel mis en \oe{}uvre est un micro ordinateur équipé d'un processeur Intel Core 2 Duo à 2.66Ghz, de 2 Go de mémoire et du système d'exploitation Ubuntu 11.04 - \emph{the Natty Narwhal}. Le langage de programmation utilisé est \emph{Python} version 2.7 complété par des bibliothèques spécifiques comme \emph{VTK} pour le rendu graphique (2D et 3D), \emph{Scikit} pour la segmentation (\emph{K-Means}) et \emph{Unittest} pour les tests unitaires.
+
+
+	\section{Cadre expérimental}
+		%De manière à pouvoir comparer nos résultats, on se propose dans un premier temps d'isoler puis de caractériser la distribution des pixels de structures de références telle que : le foie~\ref{fig:liver_only} et deux structures connues internes au foie : une tumeur~\ref{fig:tumors_only} et le système vénal~\ref{fig:liver_vein_only}. Les résultats seront notre vérité terrain à laquelle on se référera.
+	
+%		Présentons deux scénarios pour lesquels on {\bf s'intéressera au fénêtrage optimal du:}%appliquera notre méthode point par point :
+		%L'objectif étant de s'en approcher au maximum, nous mettrons en avant les points clefs comme l'intérêt d'une ROI par rapport à une analyse d'histogramme global et le nombre d'itérations (temps) nécessaire. 
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+%	  \centering
+%			\subfloat[Foie]{\label{fig:liver_only}\includegraphics[trim= 0mm 10mm 0mm 20mm, clip, width=0.1\textwidth]{Application/figure/liver.png}
+%}\hspace{2em}
+%		  \subfloat[Tumeur]{\label{fig:tumors_only}\includegraphics[trim= 0mm 10mm 0mm 20mm, clip, width=0.1\textwidth]{Application/figure/livertumor01.png}}\hspace{2em}
+%		  \subfloat[Système vénal]{\label{fig:liver_vein_only}\includegraphics[trim= 0mm 10mm 0mm 20mm, clip, width=0.1\textwidth]{Application/figure/liver_inter_venous.png}}		  
+%		\caption{Rendu volumique des structures isolées}		  
+%	\end{figure}
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%		\begin{itemize}
+%			\item[1)] réseau vasculaire relatif au foie
+%			\item[2)] des tumeurs du foie
+%		\end{itemize}
+\subsection{Données}
+		Nous utiliserons une image issue d'une base de données d'images CT issue du site de l'IRCAD\footnote{IRCAD : Institut de Recherche contre les Cancers de l'Appareil Digestif, emplacement de la base de données d'images : \url{http://www.ircad.fr/softwares/3Dircadb/3Dircadb1/}}. Cette base de donnée contient des lots d'images (entre 100 et 200 images par patient) et certain masques (fig.~\ref{fig:mask_liver} à~\ref{fig:mask_lung}) de structures anatomiques et pathologiques. Ces masques ont été obtenus par des algorithmes de segmentations spécifiques à chaque structure. Ces images sont au format DICOM \citep{Chabriais2004,Mildenberger2002} et contiennent 512x512 pixels chacune (fig.~\ref{fig:dicom}). %Dans le cas ou un masque manquerait, on pourrait faire appel à d'autres algorithmes de segmentations pour le créer.
+		
+		 %Un lot d'images à été imprimé sur le coin supérieur droit de ce rapport de manière à monter le rendu initial en feuilletant les pages. 
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+			\subfloat[DICOM]{\label{fig:dicom}\includegraphics[trim= 5mm 10mm 5mm 20mm, clip, width=0.15\textwidth]{Application/figure/dicom.png}
+}\hspace{2em}
+		  \subfloat[Foie]{\label{fig:mask_liver}\includegraphics[trim= 5mm 10mm 5mm 20mm, clip, width=0.15\textwidth]{Application/figure/mask_liver.png}}\hspace{2em}
+		   \subfloat[Rein]{\label{fig:mask_kidney}\includegraphics[trim= 15mm 15mm 15mm 25mm, clip, height=0.145\textwidth]{Application/figure/mask_kidney.png}}\hspace{2em}
+		    \subfloat[Rate]{\label{fig:mask_spleen}\includegraphics[trim= 15mm 15mm 15mm 25mm, clip, height=0.145\textwidth]{Application/figure/mask_spleen.png}}\hspace{2em}
+		     \subfloat[Poumons]{\label{fig:mask_lung}\includegraphics[trim= 15mm 15mm 15mm 25mm, clip, height=0.145\textwidth]{Application/figure/mask_lung.png}}\hspace{2em}
+		  %\subfloat[Exemple de masque d'une tumeur du foie]{\label{fig:mask_tumor}\includegraphics[trim= 0mm 10mm 0mm 20mm, clip, width=0.2\textwidth]{Application/figure/mask_tumor.png}}
+		  \caption{Données expérimentales: données brutes (a) et masques (b, c, d, e).}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%
+		Nous travaillerons sur une image médicale (fig.~\ref{fig:im_1_0_1_img}) comportant 9 classes que nous définissons comme étant de type : acquisition (0), patient (1), os (2), poumons (3), rein (4), rate(5), foie (6), tumeur hépatique (7) et réseau vasculaire (8). Nous nous appuierons sur leurs connaissances à priori topologiques (fig.~\ref{fig:im_1_0_gt}) et photométriques (fig.~\ref{fig:im_1_0_gp}). 
+		
+	
+	Pour ces premières expériences, nous considérons seulement les régions pour lesquelles nous disposons d'un masque (créé à partir de leurs segmentation). Ceci permet de nous affranchir en partie du besoin d'une représentation (au niveau du graphe) complète de toutes les structures composant l'abdomen. Ceci a pour conséquence de considérer que l'image initiale, avant toute segmentation, ne contient pas d'estomac par exemple. Ce que nous considérons comme acquisition (0) est l'ensemble de l'image, le patient (1) étant simplement l'union des régions constituant les différentes structures citées précédemment. Il est à noter tout de même que certaines structures sont elles-mêmes composées de structures (e.g. réseaux vasculaire des poumons) qui ne sont ni segmentées (i.e. pas de masque) ni documentées (i.e. pas de noeud dédié dans la représentation des connaissances) : ceci constitue donc la limite de la simplification que nous opérons en retirant un certain nombre de structures telles que l'estomac et le colon. 
+
+Une conséquence de la simplification des données est que le type patient (1) est l'union des structures qu'il contient (successeurs), et ne présente donc pas de données qui lui sont propres. Il s'agit d'une situation non considérée dans le formalisme proposé dans ce travail, on ne peut donc pas tester n'importe quel scénario.
+
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+		\subfloat[Image initiale (simplifiée)]{\label{fig:im_1_0_1_img}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.25\textwidth]{Application/figure/im_1_0_img.png}}	\hspace{1em}
+		\subfloat[Graphe $G_{T,t}$]{\label{fig:im_1_0_gt}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.3\textwidth]{Application/figure/im_1_0_gt.pdf}}				\hspace{2em}
+		\subfloat[Graphe $G_P$]{\label{fig:im_1_0_gp}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.3\textwidth]{Application/figure/im_1_0_gp.pdf}}		  \\
+		\subfloat[Histogramme]{\label{fig:im_1_0_hist}\includegraphics[trim= 0mm 18mm 10mm 21mm, clip, width=1.0\textwidth]{Application/figure/im_1_0_hist.pdf}}			
+	  \caption{Données expérimentales (simplifiées), connaissances à priori et histogramme}	  
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+\subsection{Mode opératoire}		
+	Pour chaque scénario, nous allons considérer qu'une procédure d'analyse particulière a été exécutée, conduisant à la segmentation d'un certain nombre de structures. Il est à noter que nous ignorons la procédure ayant permis de segmenter chacune des structures, ceci étant hors du champ de notre étude. Néanmoins, nous considérerons une cible particulière qui concernera soit les vaisseaux hépatiques, soit les tumeurs du foie ; l'objectif étant d'utiliser notre approche en combinant inférences et algorithme de segmentation (\emph{K-Means}) afin de déterminer le fenêtrage à considérer pour optimiser le rendu volumique. 
+	
+	Nous comparerons nos résultats à la vérité terrain qui est caractérisée par la distribution des points de chaque structure cible représentée dans histogrammes~\ref{fig:3_histo_medical}. Le tableau~\ref{tab:estimation_references} présente la moyenne $\mu$, l'écart type $\sigma$ et l'intervalle à $\pm3\sigma$ (contenant 99.99966\% des valeurs).
+
+	\begin{center}
+		\begin{tabular}{|l|cccccc|}
+			\hline
+			%\textbf{Patient} & \multicolumn{2}{|c|}{\textbf{Tumeur [min,mu,max]}} & \multicolumn{2}{|c|}{\textbf{Foie [min,mu,max]}} & \multicolumn{2}{|c|}{\textbf{Système vénal [min,mu,]}} \\
+			%\hline
+			\textbf{Nom}			& $\boldsymbol\mu$	& $\boldsymbol\sigma$	& $\mu-\sigma$ & $\mu+\sigma$	& $\mu-3\sigma$ & $\mu+3\sigma$ \\
+			\hline
+				Tumeurs				&  76 				& 25 					& 51 			& 101			&  1 		& 151 		 \\
+			 	Foie 				& 115 				& 20 					& 95 			& 135 			& 55 		& 175		 \\
+			 	Vaisseaux hépatiques& 152 				& 45 					& 107 			& 197			& 17 		& 287 		 \\
+			 \hline	
+		\end{tabular}
+		\captionof{table}{Résultats des estimations}
+		\label{tab:estimation_references}
+	\end{center}
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+		  \centering
+			\fbox{
+				\includegraphics[trim= 40mm 0mm 40mm 15mm, clip, width=0.95\textwidth]{Application/figure/test_estim_medical_hist.png}
+			}
+			\caption{Histogrammes des distributions}		  
+			\label{fig:3_histo_medical}
+		\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Fenêtrage}
+	Le fenêtrage utilisé pour configurer le rendu volumique d'une structure cible sera déterminé en fonction de l'intervalle d'intensité fourni par \emph{K-Means} de manière à maximiser le nombre de pixels visibles et à minimiser les autres. Pour ces premières expériences nous choisirons de calculer deux fonction de transfert triangulaire bornée par cet intervalle. Nous comparerons ces résultats à une fonction de transfert triangulaire bornée par intervalle de référence $[-\sigma, +\sigma]$ puis ajustée manuellement.
+
+	\section{Scénario 1 : les tumeurs hépatiques}
+
+	On se place dans un cas où l'on veut visualiser les tumeurs hépatiques (7). La procédure d'analyse pourrait être que le patient (1) soit tout d'abord segmenté (conduisant ainsi au graphe fig.~\ref{fig:im_1_1_gt_0_tumor}) puis le foie (fig.~\ref{fig:im_1_1_gt_1_tumor}). On peut maintenant s'intéresser au fenêtrage de (7) à partir de l'image obtenue après l'application du masque du foie (fig.~\ref{fig:im_1_1_img}). On peux voir sur l'histogramme (fig.~\ref{fig:im_1_1_hist}) les données avant (courbe grise) et après (courbe bleu) l'application du masque.
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+		%\subfloat[ROI des tumeurs du foie]{\label{fig:im_1_1_img}\includegraphics[trim= 20mm 30mm 25mm 35mm, clip, width=0.25\textwidth]{Application/figure/im_1_1_img.png}}\hspace{2em}
+		\subfloat[Graphe $G_{T,t+1}$]{\label{fig:im_1_1_gt_0_tumor}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.25\textwidth]{Application/figure/im_1_1_gt_0_tumor.pdf}}	\hspace{2em}
+		\subfloat[Graphe $G_{T,t+2}$]{\label{fig:im_1_1_gt_1_tumor}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.25\textwidth]{Application/figure/im_1_1_gt_1_tumor.pdf}}	\\
+		%\subfloat[Graphe $G_{T,t+3}$]{\label{fig:im_3_0_gt_2_tumor}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.25\textwidth]{Application/figure/im_3_0_gt_2_vessel.pdf}}
+		\subfloat[ROI des tumeurs hépatiques]{\label{fig:im_1_1_img}\includegraphics[trim= 20mm 30mm 25mm 35mm, clip, height=0.30\textwidth]{Application/figure/im_1_1_img.png}
+}\hspace{2em}
+		\subfloat[Histogramme]{\label{fig:im_1_1_hist}\includegraphics[trim= 0mm 10mm 20mm 21mm, clip, height=0.30\textwidth]{Application/figure/im_1_1_hist.pdf}}\hspace{2em}
+		\caption{Evolution de $G_T$, ROI et histogramme associés}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+%	  \centering
+%		\subfloat[ROI des tumeurs hépatiques]{\label{fig:im_1_1_img}\includegraphics[trim= 20mm 30mm 25mm 35mm, clip, height=0.30\textwidth]{Application/figure/im_1_1_img.png}
+%}\hspace{2em}
+%		\subfloat[Histogramme]{\label{fig:im_1_1_hist}\includegraphics[trim= 0mm 10mm 20mm 21mm, clip, height=0.30\textwidth]{Application/figure/im_1_1_hist.pdf}}\hspace{2em}
+%		%\subfloat[Graphe $G_{T,t}$]{\label{fig:im_1_1_gt_liver}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.25\textwidth]{Application/figure/im_1_1_gt_tumor.pdf}}
+%		\caption{État à l'instant $t$}
+%	\end{figure}
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+		\subsection{Recherche du nombre de classes à priori}
+		Le moteur d'inférence détermine, à partir de $G_T$, la ROI et son nombre de classes pour une tumeur du foie sachant que le foie est segmenté :			
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{equation}
+	 \begin{split}
+	 L_t(u) = & \left\{ i \in \left( G_T^{\infty}(G_{T,t}^{-1} (u)) \cap ( S \setminus S_t ) \right) \;|\; \left( G_{T,t}^{-1} (i) \cap G_{T,t}^{-1} (u) \neq \emptyset \right) \right\} \cup  G_{T,t}^{-1}(u)\\
+	 L_t(7) = & \left\{ i \in \left( G_T^{\infty}(G_{T,t}^{-1}(7)) \cap ( S \setminus S_t ) \right) \;|\; \left( G_{T,t}^{-1} (i) \cap G_{T,t}^{-1} (7) \neq \emptyset \right) \right\} \cup  G_{T,t}^{-1}(7)\\
+		 = & \left\{ i \in \left( \{7,8\} \cap \{1,2,5,7,8\} \right) \;|\; \left( G_{T,t}^{-1} (i) \cap \{6\} \neq \emptyset \right) \right\} \cup  \{6\}\\
+		 = & \left\{7,8 \right\} \cup  \{6\}\\
+	 \end{split}
+	 \label{eq:cas2}
+	\end{equation}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Le nombre de classes à priori dans l'image est $N_t(7) = \left|{L_t(7)}\right| = \left|{7,8,6}\right| = 3$. %Parmi ces trois classes, la tumeur (7) est optionnelle, il n'y a donc peut être que deux classes. Nous allons lever cette incertitude à l'étape suivante. Si il y a plusieurs tumeurs cela ne changera pas le nombre de classes maximum (si on suppose quelles ont le mêmes niveau photométrique). 
+		
+						
+%			\subsubsection*{Détermination du nombre de classes réel}
+%			Sachant qu'il y a entre 2 et 3 classes dans la ROI des tumeurs et que les poumons et les reins sont segmentés, nous appliquons l'algorithme de segmentation \emph{K-Means} paramétré pour $2+2=4$ puis $3+2=5$ classes et avec les moyennes initialisé selon \emph{'k-means++'} à l'image non masquée. Ensuite on mesure la validité des résultats (c.f. algorithme annexe section~\ref{subsec:nb_class}) pour déterminer le nombre exact de classes.
+			% réellement pour pour optimiser le fenêtrage aux tumeurs si il y en a (étape suivante).
+			
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+%	  \centering
+%		\subfloat[Courbe de validité]{\label{fig:im_1_2_valid_curve}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.4\textwidth]{Application/figure/im_1_2_valid_curve.pdf}}
+%		%\subfloat[Histogramme ROI du foie (3 classes)]{\label{fig:im_1_1_hist}\includegraphics[trim= 0mm 10mm 0mm 21mm, clip, width=0.3\textwidth]{Application/figure/im_1_1_hist.pdf}}\hspace{2em}
+%		%\subfloat[Graphe $G_{T,t}$]{\label{fig:im_1_0_gt_liver}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.25\textwidth]{Application/figure/im_1_0_gt_liver.pdf}}		  
+%		\caption{No title}
+%	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%	Nous ne pouvons valider les résultats de \emph{K-Means} pour quatre classes au minimum, pour les raisons évoquées section~\ref{subsec:nb_class}. Nous ajoutons donc deux classes photométriquement éloignés des trois classes présumées (pour ne pas perturber la classification). La courbe de validité indique un minimum (au sens~\ref{subsec:nb_class}) pour 5 classes. Il y a donc $5-2=3$ classes dans l'image~\ref{fig:im_1_1_img}. Résultat, \textbf{il y a au moins une tumeur} du foie.
+
+			\subsection{Identification des classes}
+	 Connaissant le nombre de classes à priori, on segmente l'image en trois classes avec l'algorithme des \emph{K-Means}. Pour savoir à quel type (e.g foie, tumeur) correspond chaque classe, le moteur d'inférence réorganise les classes trouvées à l'étape précédente par intensité croissante selon le graphe~\ref{fig:im_1_0_gp}. $L_t(7) = {7,8,6}$ devient $O_t(u)= \operatorname{ord} \left\{ L_t(7) \right\} = {7,6,8}$. Les trois types sont maintenant associés aux trois classes ordonnées (voit tableau~\ref{tab:labeling}).
+
+
+	\begin{center}
+		\begin{tabular}{|l|cccccc|}
+			%\hline
+			%						& Moyenne	& Médiane	& Écart type& Minimum 	& Maximum	& Seuil min. \\
+			%\hline
+			%	\textbf{Types initiaux} $L_t(u)$	&  \multicolumn{2}{|c|}{Tumeur (7)} 	& \multicolumn{2}{|c|}{Réseau vasculaire (8)} 		& \multicolumn{2}{|c|}{Foie (6)} 		 \\
+			\hline
+			 	\textbf{Types ordonnés} $\operatorname{ord} \left\{ L_t(u) \right\}$	& \multicolumn{2}{|c|}{Tumeur (7)} 	& \multicolumn{2}{|c|}{Foie (6)} 	& \multicolumn{2}{|c|}{Réseau vasculaire (8)}  		 \\
+			 \hline
+			 	\textbf{Classes} \emph{K-Means}	& -28.0 & 90.0 & 91.0 & 122.0 & 123.0 & 258.0 		 \\
+			 \hline	
+		\end{tabular}
+		\captionof{table}{Ordonnancement des classes par intensité croissante.}
+		\label{tab:labeling}
+	\end{center}
+
+%	La borne inférieure pour les tumeurs (-148) est erronée puisque elle devrait être proche de 0 (selon tab.~\ref{tab:estimation_references}). Ceci est dû à une mauvaise segmentation du foie comme on peut le voir sur la figure~\ref{fig:im_1_4_1} (effet de volume partiel). A titre de comparaison, nous relevons dans le tableau ci-dessous les valeurs pour une segmentation à quatre classes. Si il y a effectivement un erreur de segmentation, le rendu volumique sera bien meilleur après une segmentation à quatre classes (nécessité de renseigner d'avantage le graphe conceptuel).
+
+
+%	\begin{center}
+%		\begin{tabular}{|l|cccccccc|}
+%			\hline
+%				\textbf{Types tests}	&  \multicolumn{2}{|c|}{Erreur}	&  \multicolumn{2}{|c|}{Tumeurs (7)} 	& \multicolumn{2}{|c|}{Foie (6)} 	& \multicolumn{2}{|c|}{Réseau vasculaire (8)} 		 \\
+%			\hline
+%			 	%\textbf{Types ordonnés} $\operatorname{ord} \left\{ L_t(u) \right\}$	& \multicolumn{2}{|c|}{Tumeurs (7)} 	& \multicolumn{2}{|c|}{Foie (6)} 	& \multicolumn{2}{|c|}{réseau vasculaire (8)}  		 \\
+%			 %\hline
+%			 	\textbf{Classes} \emph{K-Means}	& -28.0 & 82.0 & 83.0 & 109.0 & 110.0 & 134.0 & 135.0 & 258.0 		 \\
+%			 \hline	
+%		\end{tabular}
+%		\captionof{table}{Intervalles pour quatre classes.}
+%		\label{tab:labeling_2}
+%	\end{center}
+%	
+%	
+
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+%	  \centering
+%		\subfloat[Valeur abérante : 27]{\label{fig:im_1_4_1_0}\includegraphics[trim= 0mm 0mm 0mm 20mm, clip, height=0.3\textwidth]{Application/figure/im_1_4_1_0.png}}	\hspace{2em}
+%		\subfloat[Valeur abérante : -31]{\label{fig:im_1_4_1_1}\includegraphics[trim= 0mm 0mm 0mm 20mm, clip, height=0.3\textwidth]{Application/figure/im_1_4_1_1.png}}
+%		\caption{Visualisation des défaut de segmentation du foie}
+%		\label{fig:im_1_4_1}
+%	\end{figure}
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+				
+			\subsection{Détermination du fenêtrage}		
+	Comme nous cherchons à optimiser le fenêtrage pour les tumeurs, nous calculons une fonction de transfert bornée par l'intervalle de la classe identifiée comme tumeur (fig.~\ref{fig:im_1_4_tumor_rendering_kmean}) :%puis à partir de l'intervalle de référence à $\pm3\sigma$ (fig.~\ref{fig:im_1_4_tumor_rendering_sigma}).
+
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+		\subfloat[Fenêtrage \emph{K-Means} (-28, 90)]{\label{fig:im_1_4_tumor_rendering_kmean}\includegraphics[trim= 0mm 5mm 0mm 20mm, clip, width=0.45\textwidth]{Application/figure/im_1_4_tumor_rendering_kmean.png}}\hspace{1em}
+		\subfloat[Fenêtrage de référence à $\mu\pm\sigma$ (51, 101)]{\label{fig:im_1_4_tumor_rendering_1_sigma}\includegraphics[trim= 0mm 5mm 0mm 20mm, clip, width=0.45\textwidth]{Application/figure/im_1_4_tumor_rendering_1_sigma.png}}	\\
+%		\subfloat[Histogramme du fenêtrage manuel (voir TF)]{\label{fig:im_1_4_0_TF}\includegraphics[trim= 13mm 10mm 20mm 0mm, clip, width=0.45\textwidth]{Application/figure/im_1_4_0_TF_tumor.png}}	\hspace{1em}
+%		\subfloat[Fenêtrage manuel (25, 80)]{\label{fig:im_1_4_tumor_rendering_manual}\includegraphics[trim= 0mm 5mm 0mm 20mm, clip, width=0.45\textwidth]{Application/figure/im_1_4_tumor_rendering_manual.png}}
+		\caption{Rendu de différents fenêtrages et histogramme}
+		\label{fig:tumor_windowing}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+		\subfloat[Histogramme du fenêtrage manuel (voir TF)]{\label{fig:im_1_4_0_TF}\includegraphics[trim= 13mm 10mm 20mm 15mm, clip, width=0.45\textwidth]{Application/figure/im_1_4_0_TF_tumor.png}}	\hspace{1em}
+		\subfloat[Fenêtrage optimal manuel (25, 80)]{\label{fig:im_1_4_tumor_rendering_manual}\includegraphics[trim= 0mm 5mm 0mm 20mm, clip, width=0.45\textwidth]{Application/figure/im_1_4_tumor_rendering_manual.png}}
+		\caption{Fenêtrage manuel}
+		\label{fig:tumor_windowing}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		
+	On distingue au moins cinq tumeurs avec le fenêtrage déterminé par \emph{K-Means} (fig.~\ref{fig:im_1_4_tumor_rendering_kmean}), le rendu est plus proche du rendu optimal manuel (fig.~\ref{fig:im_1_4_tumor_rendering_manual}) que du rendu de référence (fig.~\ref{fig:im_1_4_tumor_rendering_1_sigma}), c'est donc pour nous un résultat très satisfaisant puisqu'on améliore notablement le rendu grâce à la méthode proposée : pour ce cas l'objectif est atteint. On distingue néanmoins un voile rouge que l'on devine autour du foie, il caractérise probablement un problème de volume partiel.
+
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+%	  \centering
+%		\subfloat[Histogramme + fonction de transfert (TF)]{\label{fig:im_1_4_TF_tumor_4_classes}\includegraphics[trim= 0mm 10mm 0mm 21mm, clip, width=0.5\textwidth]{Application/figure/im_1_4_TF_tumor_4_classes.pdf}}\hspace{1em}
+%		\subfloat[Fenêtrage optimal pour les tumeurs]{\label{fig:im_1_4_tumor_rendering_4_classes}\includegraphics[trim= 10mm 10mm 0mm 35mm, clip, width=0.45\textwidth]{Application/figure/im_1_4_tumor_rendering_4_classes.png}}
+%		
+%		%\subfloat[Graphe $G_{T,t}$]{\label{fig:im_1_0_gt_liver}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.25\textwidth]{Application/figure/im_1_0_gt_liver.pdf}}		  
+%		\caption{Fenêtrage pour 4 classes}
+%		\label{}
+%	\end{figure}
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+		
+		%Les tumeurs sont beaucoup moins visible (fig.~\ref{fig:im_1_4_tumor_rendering_4_classes}) que précédemment (fig.~\ref{fig:im_1_4_tumor_rendering_kmean}), les erreurs de segmentation ne sont peut être pas suffisamment nombreuses pour être segmenté par \emph{K-Means}.
+		
+
+%\newpage
+%		ESSAI FENETRAGE MANUEL OPTIMAL :
+
+
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+%	  \centering
+%		\subfloat[Histogramme + fonction de transfert (TF)]{\label{fig:im_1_4_0_TF}\includegraphics[trim= 0mm 10mm 0mm 0mm, clip, width=0.5\textwidth]{Application/figure/im_1_4_0_TF_tumor.png}}\hspace{1em}
+%		\subfloat[Fenêtrage manuel (25, 80)]{\label{fig:im_1_4_0_tumor}\includegraphics[trim= 10mm 10mm 0mm 20mm, clip, width=0.45\textwidth]{Application/figure/im_1_4_tumor_rendering_manual}}
+%		\caption{Fenêtrage manuel}
+%	\end{figure}
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%\newpage
+\newpage
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{Scénario 2 : les vaisseaux hépatiques}
+		%Recherchons le fenêtrage optimal pour les vaisseaux hépatiques à partir de l'image~\ref{fig:im_1_0_1_img} et des informations à priori des graphes~\ref{fig:im_1_0_gt} et~\ref{fig:im_1_0_gp}. %On considérera que l'enveloppe du patient a été segmentée sans quoi l'évolution dans les graphes n'est pas possible puisque c'est l'origine des graphes.
+
+
+%		\subsubsection*{Procédure d'analyse considérée}
+	Pour ce scénario, on considère une procédure séquentielle de segmentation où toutes les structures sont segmentées, à l'exception des tumeurs et des vaisseaux. Compte tenu de la remarque faite au sujet de la région ``patient'' qui est l'union stricte des structures qu'il contient suite à la simplification de ces données tests, on n'appliquera pas les formules définies pour déterminer le nombre de classes: on les déduit simplement de la configuration particulière de l'étude. Les trois classes correspondent respectivement aux tumeurs (7), au foie (6) et au réseau vasculaire ciblé (8).
+%le patient est tout d'abord segmenté (conduisant ainsi au graphe fig.~\ref{fig:im_3_0_gt_0_vessel}), puis le foie (fig.~\ref{fig:im_3_0_gt_1_vessel}), et enfin les poumons (3), les reins (4) et la rate (5) (fig.~\ref{fig:im_3_0_gt_2_vessel}). On peut maintenant s'intéresser au fenêtrage de (8). La figure~\ref{fig:im_3_0_img_2} montre l'image obtenue après masquage. 		
+
+			\subsection{Identification des classes}
+	 Connaissant le nombre de classes à priori, on segmente l'image en trois classes avec l'algorithme \emph{K-Means} pour pouvoir associer chaque type à une classe, le moteur d'inférence réorganise les classes trouvées par intensité croissante selon le graphe~\ref{fig:im_1_0_gp}. $L_t(8) = {7,8,6}$ devient $O_t(u)= \operatorname{ord} \left\{ L_t(8) \right\} = {7,6,8}$. Les trois types sont maintenant associés aux trois classes ordonnées (voit tableau~\ref{tab:im_3_2_labeling}).
+
+						
+%		\subsubsection*{Recherche du nombre de classes à priori}
+%		Le moteur d'inférence détermine la ROI pour les vaisseaux hépatiques (8) à partir du graphe~\ref{fig:im_3_0_gt_2_vessel}:
+
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	\begin{equation}
+%	 \begin{split}
+%	 L_t(u) = & \left\{ i \in \left( G_T^{\infty}(G_{T,t}^{-1} (u)) \cap ( S \setminus S_t ) \right) \;|\; \left( G_{T,t}^{-1} (i) \cap G_{T,t}^{-1} (u) \neq \emptyset \right) \right\} \cup  G_{T,t}^{-1}(u)\\
+%	 L_t(8) = & \left\{ i \in \left( G_T^{\infty}(G_{T,t}^{-1}(8)) \cap ( S \setminus S_t ) \right) \;|\; \left( G_{T,t}^{-1} (i) \cap G_{T,t}^{-1} (8) \neq \emptyset \right) \right\} \cup  G_{T,t}^{-1}(8)\\
+%		 	= & \left\{ i \in \left( \{3,4,5,6,7,8\} \cap \{7,8\} \right) \;|\; \left( G_{T,t}^{-1} (i) \cap \{1,6\} \neq \emptyset \right) \right\} \cup  \{1,6\}\\
+%		 = & \left\{7,8 \right\} \cup  \{1,6\}\\
+%	 \end{split}
+%	 %\label{eq:cas2}
+%	\end{equation}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Le nombre de classes à priori est $N_t(8) = \left|{L_t(8)}\right| = \left|{7,8,1,6}\right| = 4$. %Parmi ces quatre classes, la tumeur (7) est optionnelle, il n'y a donc peut être que trois classes. Nous allons lever cette incertitude à l'étape suivante. 
+%Si il y a plusieurs tumeurs (7) cela ne changera pas le nombre de classes (si on suppose quelles ont le mêmes niveau photométrique). 
+
+
+
+
+%		\subsubsection*{Détermination du nombre de classes réel}
+%		Sachant qu'il y a entre 3 et 4 classes dans la ROI et que les poumons (3), les reins (4), la rate(5) et le foie (6) sont segmentés, nous appliquons l'algorithme de segmentation \emph{K-Means} paramétré pour $3+4=7$ puis $4+4=8$ classes, avec les moyennes initialisé selon \emph{'k-means++'}, à l'image non masquée. Ensuite on mesure la validité des résultats (c.f. algorithme annexe section~\ref{subsec:nb_class}) pour déterminer le nombre exact de classes.
+			
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+%	  \centering
+%		\includegraphics[trim= 0mm 0mm 0mm 13mm, clip, width=0.4\textwidth]{Application/figure/im_3_2_valid_curve.pdf}
+%		\caption{Courbe de validité}
+%		\label{fig:im_3_2_valid_curve}
+%	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%	La courbe de validité~\ref{fig:im_3_2_valid_curve} indique un minimum (au sens~\ref{subsec:nb_class}) pour 7 classes. Il y a donc $7-3=4$ classes dans l'image masquée~\ref{fig:im_3_0_img_2}. Résultat, il y a au moins une tumeur du foie. Nous allons maintenant identifier les vaisseaux parmis les classes trouvées.
+
+
+%		\subsubsection*{Identification des classes}
+%		Connaissant le nombre de classes à priori, on segmente l'image en trois classes avec l'algorithme des \emph{K-Means}. 
+%Pour savoir à quel type (e.g foie, vaisseaux) correspond chaque classe, le moteur d'inférence réorganise les types trouvés à l'étape précédente par intensité croissante selon le graphe~\ref{fig:im_1_0_gp}. $L_t(8) = {7,8,2,6}$ devient $O_t(u)= \operatorname{ord} \left\{ L_t(8) \right\} = {2,7,6,8}$. Les quatre types sont maintenant associés aux quatre classes ordonnées (voit tableau~\ref{tab:labeling}).
+
+	\begin{center}
+		\begin{tabular}{|l|cccccc|}
+			%\hline
+			%	\textbf{Types initiaux} $L_t(u)$	&  \multicolumn{2}{|c|}{Tumeurs (7)} 	& \multicolumn{2}{|c|}{Vaisseaux (8)} 		& \multicolumn{2}{|c|}{Foie (6)} 		 \\
+			\hline
+			 	\textbf{Types ordonnés} $\operatorname{ord} \left\{ L_t(u) \right\}$	& \multicolumn{2}{|c|}{Tumeurs (7)} 	& \multicolumn{2}{|c|}{Foie (6)} 	& \multicolumn{2}{|c|}{Vaisseaux (8)}  		 \\
+			 \hline
+			 	\textbf{Classes} \emph{K-Means}	& -149.0 & 87.0 & 88.0 & 125.0 & 126.0 & 755.0 	 \\
+			 \hline
+		\end{tabular}
+		\captionof{table}{Ordonnancement des classes par intensité croissante}
+		\label{tab:im_3_2_labeling}
+	\end{center}
+
+	La limite supérieure du foie (755) ne correspond pas à la réalité anatomique (voir le cas précédent avec une intensité maximale de 258 pour le foie), il y a certainement eu une imperfection lors de la création du masque. Cela souligne la nécessité d'avoir des masques parfaits.
+
+				
+		\subsection{Détermination du fenêtrage}
+	Cherchant à optimiser le fenêtrage pour le réseau vasculaire, nous calculons une fonction de transfert bornée par l'intervalle de la classe identifiée comme vaisseaux (entre 126 et 755).% Voir l'apparence de la fonction de transfert sur la fig.~\ref{fig:im_3_0_hist}. Le rendu est correct (fig.~\ref{fig:im_3_0_render_vessel}), malgré l'imperfection rencontrée à l'étape précédente parce que dans ce cas il n'y a pas de structure plus claire (entre 250 et 755).
+
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+		%\subfloat[Image masquée (i.e. foie et réseau vasculaire sortant/entrant)]{\label{fig:im_3_0_img_2}\includegraphics[trim= 20mm 35mm 30mm 35mm, clip, width=0.32\textwidth]{Application/figure/im_3_0_img_2.png}}
+		%\subfloat[Histogramme + fenêtrage (TF)]{\label{fig:im_3_0_hist}\includegraphics[trim= 0mm 10mm 0mm 21mm, clip, width=0.42\textwidth]{Application/figure/im_3_0_hist.pdf}}
+		\subfloat[Fenêtrage \emph{K-Means} (126, 755)]{\label{fig:im_3_0_render_vessel_kmean}\includegraphics[trim= 0mm 5mm 0mm 10mm, clip, height=0.4\textwidth]{Application/figure/im_3_0_render_vessel_kmean.png}}	\hspace{1em}
+		\subfloat[Fenêtrage de référence à $\mu\pm\sigma$ (107, 197)]{\label{fig:im_3_0_render_vessel_1_sigma}\includegraphics[trim= 0mm 5mm 0mm 10mm, clip, height=0.4\textwidth]{Application/figure/im_3_0_render_vessel_1_sigma.png}}
+		\caption{Rendu de différents fenêtrages}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+	  \centering
+		\subfloat[Histogramme du fenêtrage manuel (voir TF)]{\label{fig:im_3_0_hist_manual}\includegraphics[trim= 12mm 10mm 20mm 14mm, clip, height=0.4\textwidth]{Application/figure/im_3_0_hist_manual.png}}	\hspace{1em}
+		\subfloat[Fenêtrage manuel (125, 300)]{\label{fig:im_3_0_render_vessel_manual}\includegraphics[trim= 0mm 5mm 0mm 10mm, clip, height=0.4\textwidth]{Application/figure/im_3_0_render_vessel_manual.png}}
+		\caption{Fenêtrages manuel}
+		\label{fig:tumor_windowing}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage
+
+	La comparaison du rendu de l'intervalle déterminé par \emph{K-Means} (fig.~\ref{fig:im_3_0_render_vessel_kmean}) et manuellement (fig.~\ref{fig:im_3_0_render_vessel_manual}), montre bien que la borne de 755 est aberrante puisque le rendu est semblable pour une valeur de 300 seulement. Malgré cette valeur érronée, le rendu reste très satisfaisant, l'objectif est de nouveau atteint pour ce cas.
+
+	
+%\section{Discussion}
+%{\bf JBF}
+				
+%\newpage
+%	\section{Scénario 3 : image médicale complète}
+
+%		Nous travaillerons sur une image médicale~\ref{fig:im_2_0_img} comportant 8 types que nous définissons comme étant : l'image (0),  les os (1), la peau (2), le foie (6), les tumeurs du foie (7), et le réseau vasculaire partiellement inclus dans le foie (8). Nous utiliserons pour cela les connaissances à priori topologiques (graphe~\ref{fig:im_2_0_gt}) et photométriques (graphe~\ref{fig:im_2_0_gp}) . 
+
+
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+%	  \centering
+%		\subfloat[Section de l'image]{\label{fig:im_2_0_img}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.25\textwidth]{Application/figure/im_2_0_img.png}}	\hspace{1em}
+%		\subfloat[Graphe $G_{T}$]{\label{fig:im_2_0_gt}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.3\textwidth]{Application/figure/im_2_0_gt.pdf}}				\hspace{1em}
+%		\subfloat[Histogramme]{\label{fig:im_2_0_hist}\includegraphics[trim= 0mm 18mm 10mm 22mm, clip, width=0.3\textwidth]{Application/figure/im_2_0_hist.pdf}}			\hspace{1em}
+%		\subfloat[Graphe $G_P$]{\label{fig:im_2_0_gp}\includegraphics[trim= 20mm 0mm 0mm 0mm, clip, width=0.3\textwidth]{Application/figure/im_2_0_gp.pdf}}		  
+%	  \caption{Données initiales}		  
+%	\end{figure}
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+%	\subsection{Vérité terrain}
+%	Pour établir notre vérité terrain, nous allons caractériser la distribution des points de chaque structure. Elle sont représentées par les histogrammes~\ref{fig:histogrammes}. Leurs formes porte à croire qu'ils sont répartis selon une loi normale. Nous calculons donc la moyenne, la médiane pour mesurer l'écart à la moyenne, l'écart type, le minimum et le maximum de chaque distribution. Les points d'intersection des distributions sont également calculés (voir l'aperçu de l'ensemble des distributions~\ref{fig:3_histo_medical}). Les résultats sont présentés dans le tableau~\ref{tab:estimation_references}.
+
+%	\begin{center}
+%		\begin{tabular}{|l|lllllll|}
+%			\hline
+%			%\textbf{Patient} & \multicolumn{2}{|c|}{\textbf{Tumeur [min,mu,max]}} & \multicolumn{2}{|c|}{\textbf{Foie [min,mu,max]}} & \multicolumn{2}{|c|}{\textbf{Système vénal [min,mu,]}} \\
+%			%\hline
+%			Nom						& Moyenne	& Médiane	& Écart type& Minimum 	& Maximum	& Seuil min.& Seuil max. \\
+%			\hline
+%				Tumeurs				&  75.6 	&  72.0 	& 24.9 		& -48 		& 273 		& -48 		&  69 \\
+%			 	Foie (érodé)		& 114.5 	& 114.0 	& 19.5 		& -63 		& 284		&  69 		& 198 \\
+%			 	réseau vasculaire		& 159.0 	& 158.0 	& 35.6 		&  -4 		& 285 		& 131 		& 285 \\
+%			 \hline	
+%		\end{tabular}
+%		\captionof{table}{Résultats des estimations}
+%		\label{tab:estimation_references}
+%	\end{center}
+%	
+%	
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%		\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+%		  \centering
+%			\fbox{
+%				\includegraphics[trim= 40mm 20mm 40mm 25mm, clip, width=0.85\textwidth]{Application/figure/3_histo_medical.png}
+%			}
+%			\caption{Histogrammes des distributions}		  
+%			\label{fig:3_histo_medical}
+%		\end{figure}
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+%	  \centering
+%	  	\fbox{
+%		  \subfloat[Histogramme du foie]{\label{fig:liver_histo}\includegraphics[trim= 0mm 15mm 0mm 10mm, clip, width=0.3\textwidth]{Application/figure/liver_histo.png}}\hspace{2em}
+%		  \subfloat[Histogramme de la tumeur]{\label{fig:livertumor01_histo}\includegraphics[trim= 0mm 15mm 0mm 10mm, clip, width=0.3\textwidth]{Application/figure/livertumor01_histo.png}}\hspace{2em}
+%		  \subfloat[Histogramme du système vénal]{\label{fig:liver_inter_venous_histo}\includegraphics[trim= 0mm 15mm 0mm 10mm, clip, width=0.3\textwidth]{Application/figure/liver_inter_venous_histo.png}}		  
+%		}\caption{Répartition des pixels}	
+%		\label{fig:histogrammes}	  
+%	\end{figure}
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	
+%	
+%	%Les résultats obtenus par les deux algorithmes sont proches (sur une échelle d'intensité [-1024, 3070]), on constate que même à 6$\sigma$ (99.99966\% des valeurs), l'intervalle issue du GMM reste inférieur à K-Means qui lui renvoit un intervalle .
+%		
+
+%	\subsection{Estimation}
+%	Tentons maintenant d'identifier si il y a ou non des tumeurs dans une image médicale constituée du foie, de tumeurs, 
+%	
+%	
+%\newpage
+%	\section{ANNEXES}
+%  \subsection{Estimation de gaussiennes}
+%  		
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	%												MODÈLE GMM															%
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%  	\subsubsection{Modèle de mélange Gaussien}
+%	Comme préciser dans le chapitre précédent, nous utiliserons le modèle de mélanges gaussiens (de l'anglais GMM pour Gaussian Mixture Model) pour extraire des informations d'une image. Ces informations seront, sous l'hypothèse que l'image contienne différentes régions de niveaux de gris bruité par un bruit Gaussien, les paramètres (moyenne et variance) des différentes distributions de niveaux de gris des pixels. L'histogramme de l'image représente graphiquement les distributions des niveaux de gris dans une image numérique. Nous attendons donc que l'algorithme GMM estime les paramètres des courbes de Gauss présentent dans l'histogramme.
+
+%	Nous utiliserons la librairie python \emph{scikits.learn.gmm}\footnote{scikits.learn.gmm is a package which enables to create Gaussian Mixture Models, to sample them, and to estimate them from data using Expectation Maximization algorithm \url{http://scikit-learn.sourceforge.net/old_doc/modules/gmm.html} .}. Dans cette librairie, la classe \emph{GMM} permet d'évaluer, par l'estimation du maximum de vraisemblance (maximum-likelihood), les paramètres et les ``poids'' d'une distribution de gaussiennes. Elle admet comme paramètre le nombre de classes à paramétrer : cette information sera fourni par le moteur d'inférence selon les informations contextuelles.
+
+%	Illustrons par l'exemple ci-dessous, l'intérêt de la connaissance du nombre à priori de types présents dans une image en considérant une image synthétique ~\ref{fig:gmm_img} pouvant contenir jusqu'à cinq types mais qui n'en contient que quatre à $t$. Ces quatre types ont étaient générés avec des niveaux de gris de 20, 50, 100 et 200 puis bruités par un bruit gaussien de variance 16. \\
+
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth, 
+%	  \centering
+%	      \fbox{
+%		  \subfloat[Image]{\label{fig:gmm_img}\includegraphics[trim= 0mm 0mm 0mm 1mm, clip, height=0.3\textwidth]{Application/figure/gmm_img.png}}\hspace{3em}
+%		  \subfloat[Histogramme]{\label{fig:gmm_histo}\includegraphics[trim= 8mm 15mm 10mm 15mm, clip, height=0.3\textwidth]{Application/figure/gmm_histo.png}}
+%		  }\caption{image synthétique}		  
+%	\end{figure}
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\newpage
+%	Les résultats obtenus en paramétrant l'algorithme pour un nombre de types allant de 1 à 5, sont représenté ci-dessous :\\
+%	\begin{table}[!ht]
+%	\caption{Résultats d'approximation par l'algorithme GMM}
+%	\centering
+%	\begin{tabular}{| c | c | c | c | c | c | c | c | c | c |}	% | left | right center
+%	\hline
+%	\textbf{ } & \textbf{Réel} & \textbf{1} 	& \textbf{2} 		& \textbf{3} 		& \textbf{4} 		& \textbf{5} 	\\
+%	\hline
+%	Type 1  &  $[50 ,16]$   	&  $[ 46.6,4837.8]$  	&  $[1.7,5.3]$     	&  $[199.5,15.9]$  	&  $[46.2 ,132.9]$  	&  $[1.99,15.9]$   \\
+%	Type 2  &  $[100,16]$   	&  $ $          		&  $[128.0,3301.8]$	&  $[1.80,6.2]$  	&  $[99.5 ,15.8]$  	&  $[9.9,15.9]$  	\\
+%	Type 3  &  $[1  ,16]$   	&  $ $  	   			&  $ $ 				&  $[92.0,338.1]$  	&  $[1.8  ,5.9]$  	&  $[1.9,0.0]$  	\\
+%	Type 4  &  $[200,16]$   	&  $ $ 	   				&  $ $  			&  $ $  			&  $[199.5,15.9]$  	&  $[3.7,5.8]$  	\\
+%	Type 5  &  $ $   			&  $ $ 	   				&  $ $  			&  $ $  			&  $ $  			&  $[4.9,16.3]$  	\\
+%	\hline
+%	Min log & $0$       	&  $-8$  				&  $-14$ 	   		&  $-12$  			&  $-20$  			&  $-19$  	 	\\
+%	\hline
+%	\end{tabular}
+%	\label{table:nonlin}
+%	\end{table}
+
+%	On remarque que les approximations sont bien plus proche des valeurs réelles lorsque l'on paramètre pour quatre types. L'algorithme fourni également le log-vraisemblance\footnote{Pour de nombreuses applications impliquant des fonctions de vraisemblance, il est plus simple de travailler en termes de logarithme naturel de la fonction de vraisemblance, appelé la log-vraisemblance, qu'en termes de probabilité de la fonction elle-même. Parce que le logarithme est une fonction monotone croissante, le logarithme d'une fonction atteint sa valeur maximale dans les mêmes points que la fonction elle-même, et donc la log-vraisemblance peut être utilisée à la place de la probabilité dans l'estimation du maximum de vraisemblance et des techniques connexes \url{http://en.wikipedia.org/wiki/Likelihood_function}.} pour chaque composante de distribution sur une échelle logarithmique. On pourra utiliser cet indicateur pour enlever l'incertitude sur le nombre de types présents dans une image lorsque certain sont optionnels.
+
+		
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
