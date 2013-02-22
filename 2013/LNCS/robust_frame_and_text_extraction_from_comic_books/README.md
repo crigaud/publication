@@ -1,7 +1,6 @@
 Robust Frame and Text Extraction from Comic Books
 ===============================================
-Christophe Rigaud, Norbert Tsopze, Jean-Christophe Burie, Jean-Marc Ogier   
-
+   
 Abstract
 ------------------------------------------------
 Comic books constitute an important heritage in many countries. Nowadays, digitization allows to search directly from content instead of metadata only (e.g. album title or author name). Few studies have been done in this direction. Only frame and speech balloon extraction have been experimented in the case of simple page structure. In fact, the page structure depends on the author which is why many different structures and drawings exist. Despite the differences, drawings have a common characteristic because of design process: they are all surrounded by a black line. In this paper, we propose to rely on this particularity of comic books to automatically extract frame and text using a connected-component labeling analysis. The approach is compared with some existing methods found in the literature and results are presented.
