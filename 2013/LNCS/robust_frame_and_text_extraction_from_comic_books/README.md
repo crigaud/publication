@@ -8,18 +8,31 @@ Comic books constitute an important heritage in many countries. Nowadays, digiti
 Citation
 -------------------------------------------------
 @incollection{,
+
 year={2013},
+
 isbn={978-3-642-36823-3},
+
 booktitle={Graphics Recognition. New Trends and Challenges},
+
 volume={7423},
+
 series={Lecture Notes in Computer Science},
+
 editor={Kwon, Young-Bin and Ogier, Jean-Marc},
+
 doi={10.1007/978-3-642-36824-0_13},
+
 title={Robust Frame and Text Extraction from Comic Books},
+
 url={http://dx.doi.org/10.1007/978-3-642-36824-0_13},
+
 publisher={Springer Berlin Heidelberg},
+
 keywords={comic books; comics frame extraction; comics text extraction; segmentation; connected-component labeling; k-means},
+
 author={Rigaud, Christophe and Tsopze, Norbert and Burie, Jean-Christophe and Ogier, Jean-Marc},
 pages={129-138}
+
 }
 
