@@ -7,7 +7,7 @@ Comic books constitute an important heritage in many countries. Nowadays, digiti
 
 Citation
 -------------------------------------------------
-`@incollection{,
+@incollection{,
 year={2013},
 isbn={978-3-642-36823-3},
 booktitle={Graphics Recognition. New Trends and Challenges},
@@ -22,4 +22,4 @@ keywords={comic books; comics frame extraction; comics text extraction; segmenta
 author={Rigaud, Christophe and Tsopze, Norbert and Burie, Jean-Christophe and Ogier, Jean-Marc},
 pages={129-138}
 }
-`
+
