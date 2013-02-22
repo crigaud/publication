@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" width="1217mm" zoomAndPan="magnify" contentStyleType="text/css" height="1739mm" viewBox="0 0 2434 3479" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <title>MIDAM_KIDPADDLE7_025.jpg</title>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Page" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="2434" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MIDAM_KIDPADDLE7_025.jpg" xlink:type="simple" xlink:actuate="onLoad" opacity="0.5" height="3479" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 1; stroke-linejoin: round; }
+		.Panel { fill: none; stroke: red; opacity: 1.0; visibility: visible; }
+		.TextArea { fill: none; stroke: yellow; opacity: 1.0; visibility: visible; }
+		.Line { fill: green; stroke: none; opacity: 0.3; visibility: visible; }
+		.Balloon { fill: none; stroke: cyan; opacity: 1.0; visibility: visible; }
+		.Letter { fill: none; stroke: blue; opacity: 1.0; visibility: visible; }
+		.Object { fill: none; stroke: yellow; opacity: 1.0; visibility: visible; }
+		.Page { fill: none; stroke: white; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+		.Noise { fill: none; stroke: pink; opacity: 1.0; visibility: hidden; }
+		.Debug { fill: none; stroke: red; opacity: 1.0; visibility: visible; }
+		.Unclassified { fill: none; stroke: orange; opacity: 1.0; visibility: hidden; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Letter" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+        <polygon points="1786,2582 2008,2582 2008,2673 1786,2673 1786,2582"/>
+        <polygon points="1936,2685 2131,2685 2131,2738 1936,2738 1936,2685"/>
+    </svg>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="TextArea" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+        <polygon points="1786,2582 1786,2673 1936,2738 2131,2738 2131,2685 2008,2582 1786,2582"/>
+    </svg>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+        <polygon points="1788,2575 1781,2585 1781,2597 1781,2609 1781,2622 1781,2635 1781,2648 1781,2670 1789,2680 1798,2684 1808,2688 1818,2693 1827,2697 1836,2702 1846,2706 1855,2710 1864,2713 1873,2717 1882,2721 1891,2725 1900,2729 1909,2733 1920,2738 1933,2742 1947,2743 1960,2743 1973,2743 1985,2743 1997,2743 2009,2743 2021,2744 2033,2744 2045,2744 2057,2744 2069,2744 2081,2744 2093,2744 2105,2744 2117,2744 2129,2743 2136,2733 2137,2721 2138,2709 2139,2697 2136,2688 2132,2679 2126,2670 2120,2663 2113,2658 2106,2653 2099,2648 2091,2643 2082,2636 2073,2628 2064,2620 2055,2612 2045,2604 2027,2587 2009,2572 1992,2561 1977,2554 1965,2551 1953,2549 1941,2547 1929,2547 1917,2547 1905,2547 1893,2548 1881,2550 1869,2552 1857,2555 1845,2557 1833,2559 1821,2561 1809,2563 1798,2568 1788,2575"/>
+    </svg>
+    <desc method="Christophe's extractor" lastModificationDate="Wed Feb 13 19:03:59 JST 2013"/>
+</svg>

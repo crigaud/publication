@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" width="284mm" zoomAndPan="magnify" contentStyleType="text/css" height="330mm" viewBox="0 0 569 661" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <title>CYB_COSMOZONE_007.jpg</title>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Page" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="569" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="CYB_COSMOZONE_007.jpg" xlink:type="simple" xlink:actuate="onLoad" opacity="0.5" height="661" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 1; stroke-linejoin: round; }
+		.Panel { fill: none; stroke: red; opacity: 1.0; visibility: visible; }
+		.TextArea { fill: none; stroke: yellow; opacity: 1.0; visibility: visible; }
+		.Line { fill: green; stroke: none; opacity: 0.3; visibility: visible; }
+		.Balloon { fill: none; stroke: cyan; opacity: 1.0; visibility: visible; }
+		.Letter { fill: none; stroke: blue; opacity: 1.0; visibility: visible; }
+		.Object { fill: none; stroke: yellow; opacity: 1.0; visibility: visible; }
+		.Page { fill: none; stroke: white; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+		.Noise { fill: none; stroke: pink; opacity: 1.0; visibility: hidden; }
+		.Debug { fill: none; stroke: red; opacity: 1.0; visibility: visible; }
+		.Unclassified { fill: none; stroke: orange; opacity: 1.0; visibility: hidden; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Letter" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+        <polygon points="26,101 162,101 162,113 26,113 26,101"/>
+        <polygon points="35,113 153,113 153,127 35,127 35,113"/>
+        <polygon points="25,126 163,126 163,137 25,137 25,126"/>
+        <polygon points="31,137 156,137 156,149 31,149 31,137"/>
+        <polygon points="50,149 137,149 137,161 50,161 50,149"/>
+        <polygon points="331,92 452,92 452,107 331,107 331,92"/>
+        <polygon points="307,105 476,105 476,117 307,117 307,105"/>
+        <polygon points="307,117 476,117 476,131 307,131 307,117"/>
+        <polygon points="308,130 476,130 476,143 308,143 308,130"/>
+        <polygon points="313,141 470,141 470,155 313,155 313,141"/>
+        <polygon points="349,154 434,154 434,167 349,167 349,154"/>
+        <polygon points="348,166 435,166 435,179 348,179 348,166"/>
+        <polygon points="427,400 479,400 479,414 427,414 427,400"/>
+        <polygon points="420,413 484,413 484,426 420,426 420,413"/>
+        <polygon points="413,425 491,425 491,438 413,438 413,425"/>
+    </svg>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="TextArea" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+        <polygon points="26,101 25,126 25,137 31,149 50,161 137,161 156,149 163,137 163,126 162,101 26,101"/>
+        <polygon points="331,92 307,105 307,131 308,143 313,155 348,179 435,179 470,155 476,143 476,105 452,92 331,92"/>
+        <polygon points="427,400 413,425 413,438 491,438 491,425 479,400 427,400"/>
+    </svg>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+        <polygon points="11,101 11,104 10,107 9,110 9,113 10,116 9,119 10,122 11,125 11,128 11,131 11,134 11,137 12,140 13,143 13,146 12,149 12,152 13,155 15,157 17,158 19,160 21,162 24,163 26,164 27,166 30,167 33,168 36,169 40,170 42,171 44,172 46,173 50,174 54,175 58,176 61,177 63,178 66,179 69,178 72,179 75,179 79,179 83,179 87,179 91,179 95,179 99,179 103,179 107,179 109,179 111,179 113,179 115,179 117,179 119,179 121,179 123,178 125,178 127,178 129,177 131,177 134,176 138,176 141,175 144,174 147,173 149,172 151,171 153,170 155,169 157,167 159,165 162,163 165,161 168,159 171,156 174,152 177,148 180,144 182,142 183,140 183,137 184,134 184,131 185,128 184,125 183,122 184,119 183,116 183,113 182,110 180,108 180,105 179,102 177,100 176,98 175,96 173,94 172,92 171,89 168,88 166,88 164,88 162,88 160,88 158,88 156,88 154,88 152,88 150,88 148,88 146,88 144,88 142,88 140,88 138,88 136,88 134,88 131,87 128,88 125,87 122,88 119,87 115,87 112,88 109,87 106,88 103,87 100,88 97,87 94,88 91,87 88,88 85,87 82,88 79,87 76,88 73,87 70,88 67,87 64,88 61,87 58,88 55,87 52,88 49,87 46,88 43,87 40,88 37,87 34,88 31,87 28,88 25,87 22,88 19,87 16,88 14,91 13,95 11,98 11,101"/>
+        <polygon points="328,86 325,87 322,86 319,87 316,86 313,87 310,86 307,87 304,86 301,87 298,88 295,93 294,98 294,101 293,104 293,107 293,110 294,113 294,116 294,119 294,122 294,125 294,127 293,129 293,132 293,135 294,137 294,140 293,143 294,145 294,148 295,150 296,152 297,154 298,156 300,158 303,160 305,162 307,164 308,165 310,167 311,169 313,169 315,171 317,172 320,173 322,174 323,176 325,176 327,177 329,178 331,179 333,180 335,180 337,181 339,183 342,184 344,185 348,186 352,187 356,188 360,189 364,190 368,190 371,191 374,190 377,191 381,191 385,191 388,192 391,191 394,192 396,192 398,192 400,192 402,192 404,192 406,192 408,192 410,192 412,192 415,193 418,192 420,192 422,192 425,191 427,191 430,190 433,189 435,189 438,188 440,188 443,187 445,185 448,184 451,183 454,182 457,181 459,180 461,179 463,178 466,176 469,174 471,172 474,170 477,168 481,166 484,163 486,161 487,158 489,155 491,153 493,150 495,147 496,144 496,141 497,139 497,137 497,134 497,131 497,128 497,125 497,123 497,121 496,119 494,117 494,115 493,113 492,111 491,109 490,107 488,105 486,103 484,101 482,99 480,97 478,96 476,94 474,92 472,90 470,89 468,88 466,88 464,88 462,88 460,88 458,88 456,88 453,87 451,87 449,87 447,87 445,87 443,87 441,87 439,87 437,87 435,87 433,87 431,87 429,87 427,87 425,87 423,87 421,87 419,87 417,87 415,87 413,87 411,87 409,87 407,87 405,87 403,87 401,87 399,87 397,87 395,87 393,87 391,87 389,87 387,87 385,87 383,87 381,87 379,87 377,87 375,87 373,87 371,87 369,87 367,87 365,87 363,87 361,87 359,87 357,87 355,87 353,87 351,87 347,87 343,87 340,86 337,87 334,86 331,87 328,86"/>
+        <polygon points="423,396 419,397 416,399 413,400 410,401 407,403 404,404 401,406 398,409 396,412 394,417 395,422 395,425 396,428 398,430 400,433 402,435 404,437 406,439 408,440 410,442 412,443 414,443 417,445 420,444 423,445 426,446 429,447 432,448 434,449 437,450 440,450 442,450 444,450 446,450 448,450 450,450 452,450 454,450 456,450 460,450 464,450 466,449 469,448 472,449 475,448 477,448 479,448 481,447 485,446 487,445 490,444 496,441 501,437 506,433 508,428 510,423 511,419 512,416 511,413 510,410 509,407 507,405 504,404 502,402 500,400 497,399 494,398 492,397 490,397 488,397 486,396 484,396 482,396 480,395 478,395 476,395 474,395 472,394 470,394 468,394 466,394 464,394 461,393 457,393 453,393 449,393 446,392 443,393 440,392 437,393 434,394 430,395 426,395 423,396"/>
+    </svg>
+    <desc method="Christophe's extractor" lastModificationDate="Wed Feb 13 17:53:55 JST 2013"/>
+</svg>

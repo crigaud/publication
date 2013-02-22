@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" width="1217mm" zoomAndPan="magnify" contentStyleType="text/css" height="1732mm" viewBox="0 0 2434 3465" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <title>MIDAM_KIDPADDLE7_010.jpg</title>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Page" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="2434" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MIDAM_KIDPADDLE7_010.jpg" xlink:type="simple" xlink:actuate="onLoad" opacity="0.5" height="3465" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 1; stroke-linejoin: round; }
+		.Panel { fill: none; stroke: red; opacity: 1.0; visibility: visible; }
+		.TextArea { fill: none; stroke: yellow; opacity: 1.0; visibility: visible; }
+		.Line { fill: green; stroke: none; opacity: 0.3; visibility: visible; }
+		.Balloon { fill: none; stroke: cyan; opacity: 1.0; visibility: visible; }
+		.Letter { fill: none; stroke: blue; opacity: 1.0; visibility: visible; }
+		.Object { fill: none; stroke: yellow; opacity: 1.0; visibility: visible; }
+		.Page { fill: none; stroke: white; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+		.Noise { fill: none; stroke: pink; opacity: 1.0; visibility: hidden; }
+		.Debug { fill: none; stroke: red; opacity: 1.0; visibility: visible; }
+		.Unclassified { fill: none; stroke: orange; opacity: 1.0; visibility: hidden; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Letter" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+        <polygon points="760,2652 1058,2652 1058,2687 760,2687 760,2652"/>
+        <polygon points="719,2688 1177,2688 1177,2724 719,2724 719,2688"/>
+        <polygon points="831,2724 1185,2724 1185,2760 831,2760 831,2724"/>
+        <polygon points="920,2759 1166,2759 1166,2796 920,2796 920,2759"/>
+    </svg>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="TextArea" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+        <polygon points="760,2652 719,2688 719,2724 920,2796 1166,2796 1185,2760 1185,2724 1177,2688 1058,2652 760,2652"/>
+    </svg>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+        <polygon points="750,2652 743,2655 737,2659 731,2664 726,2669 722,2675 718,2681 714,2687 714,2694 714,2701 713,2708 712,2715 710,2722 713,2729 719,2732 725,2735 731,2738 737,2741 743,2744 749,2747 755,2750 761,2753 768,2756 775,2759 782,2762 789,2765 795,2769 801,2773 808,2775 816,2776 823,2777 831,2777 838,2778 845,2779 851,2780 858,2781 864,2783 871,2785 879,2787 885,2790 895,2795 905,2800 915,2804 924,2807 930,2809 937,2811 944,2813 951,2815 958,2816 965,2817 972,2818 979,2818 986,2818 993,2818 1000,2818 1007,2818 1014,2818 1021,2818 1028,2818 1035,2818 1042,2818 1049,2818 1056,2818 1063,2818 1070,2818 1077,2818 1084,2817 1091,2816 1098,2815 1105,2814 1112,2813 1119,2812 1126,2811 1133,2810 1140,2809 1147,2807 1154,2805 1161,2803 1168,2801 1175,2799 1181,2794 1184,2788 1187,2781 1189,2774 1191,2767 1193,2759 1195,2752 1196,2745 1196,2738 1195,2730 1193,2723 1191,2716 1188,2709 1186,2702 1184,2695 1182,2688 1177,2682 1169,2676 1161,2670 1153,2666 1146,2662 1139,2659 1132,2656 1125,2656 1118,2656 1111,2656 1104,2656 1097,2656 1090,2655 1083,2654 1076,2652 1069,2650 1062,2648 1054,2647 1046,2647 1038,2647 1030,2647 1022,2647 1014,2647 1006,2647 998,2647 990,2647 982,2647 974,2647 966,2647 958,2647 950,2647 942,2647 934,2647 926,2647 918,2647 910,2647 903,2647 896,2647 889,2647 882,2647 875,2647 868,2647 861,2647 854,2647 847,2647 840,2647 833,2647 826,2647 819,2647 812,2647 805,2647 798,2647 791,2647 784,2647 777,2647 770,2647 763,2647 756,2649 750,2652"/>
+    </svg>
+    <desc method="Christophe's extractor" lastModificationDate="Wed Feb 13 18:36:27 JST 2013"/>
+</svg>

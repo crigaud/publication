@@ -1,0 +1,11 @@
+**********************************************
+*											 *
+* Image selection from the eBDtheque dataset *
+* 		http://ebdtheque.univ-lr.fr	 		 *
+*											 *
+**********************************************
+
+6673465787_668ec4eff4_o.jpg
+CYB_BUBBLEGOM_T01_008.jpg
+LAMISSEB_ETPISTAF_013.jpg
+
