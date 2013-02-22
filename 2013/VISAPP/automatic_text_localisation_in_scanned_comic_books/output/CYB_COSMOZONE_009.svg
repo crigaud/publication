@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" width="284mm" zoomAndPan="magnify" contentStyleType="text/css" height="330mm" viewBox="0 0 569 661" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <title>CYB_COSMOZONE_009</title>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Page" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="569" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../JPG/CYB_COSMOZONE_009.jpg" xlink:type="simple" xlink:actuate="onLoad" opacity="0.5" height="661" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 1; stroke-linejoin: round; }
+		.Panel { fill: none; stroke: red; opacity: 1.0; visibility: visible; }
+		.Text { fill: green; stroke: none; opacity: 0.5; visibility: visible; }
+		.Balloon { fill: none; stroke: cyan; opacity: 1.0; visibility: visible; }
+		.Letter { fill: none; stroke: blue; opacity: 1.0; visibility: visible; }
+		.Object { fill: none; stroke: yellow; opacity: 1.0; visibility: visible; }
+		.Page { fill: none; stroke: white; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+		.Noise { fill: none; stroke: pink; opacity: 1.0; visibility: hidden; }
+		.Unclassified { fill: none; stroke: orange; opacity: 1.0; visibility: hidden; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Text" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+        <polygon class="Text" points="100,35 229,35 229,68 100,68 100,35"/>
+        <polygon class="Text" points="290,89 392,89 392,102 290,102 290,89"/>
+        <polygon class="Text" points="178,98 246,98 246,109 178,109 178,98"/>
+        <polygon class="Text" points="29,98 131,98 131,123 29,123 29,98"/>
+        <polygon class="Text" points="289,101 423,101 423,112 289,112 289,101"/>
+        <polygon class="Text" points="173,110 238,110 238,121 173,121 173,110"/>
+        <polygon class="Text" points="288,113 374,113 374,127 288,127 288,113"/>
+        <polygon class="Text" points="439,114 504,114 504,125 439,125 439,114"/>
+        <polygon class="Text" points="176,122 247,122 247,136 176,136 176,122"/>
+        <polygon class="Text" points="43,123 111,123 111,134 43,134 43,123"/>
+        <polygon class="Text" points="290,125 416,125 416,139 290,139 290,125"/>
+        <polygon class="Text" points="445,125 499,125 499,137 445,137 445,125"/>
+        <polygon class="Text" points="48,137 102,137 102,146 48,146 48,137"/>
+        <polygon class="Text" points="193,134 230,134 230,148 193,148 193,134"/>
+        <polygon class="Text" points="439,137 501,137 501,151 439,151 439,137"/>
+        <polygon class="Text" points="290,137 412,137 412,157 290,157 290,137"/>
+        <polygon class="Text" points="439,146 504,146 504,163 439,163 439,146"/>
+        <polygon class="Text" points="290,150 369,150 369,160 290,160 290,150"/>
+        <polygon class="Text" points="340,245 377,245 377,265 340,265 340,245"/>
+        <polygon class="Text" points="388,390 472,390 472,404 388,404 388,390"/>
+        <polygon class="Text" points="410,403 435,403 435,414 410,414 410,403"/>
+        <polygon class="Text" points="373,415 473,415 473,428 373,428 373,415"/>
+        <polygon class="Text" points="381,427 462,427 462,438 381,438 381,427"/>
+        <polygon class="Text" points="433,641 491,641 491,648 433,648 433,641"/>
+        <polygon class="Text" points="501,641 532,641 532,648 501,648 501,641"/>
+        <polygon class="Text" points="542,641 560,641 560,648 542,648 542,641"/>
+    </svg>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Letter" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+        <polygon class="Letter" points="120,35 159,35 159,64 120,64 120,35"/>
+        <polygon class="Letter" points="159,36 182,36 182,56 159,56 159,36"/>
+        <polygon class="Letter" points="104,44 114,44 114,54 104,54 104,44"/>
+        <polygon class="Letter" points="183,45 191,45 191,65 183,65 183,45"/>
+        <polygon class="Letter" points="100,46 103,46 103,55 100,55 100,46"/>
+        <polygon class="Letter" points="216,55 221,55 221,65 216,65 216,55"/>
+        <polygon class="Letter" points="170,57 176,57 176,68 170,68 170,57"/>
+        <polygon class="Letter" points="178,57 183,57 183,65 178,65 178,57"/>
+        <polygon class="Letter" points="193,57 198,57 198,65 193,65 193,57"/>
+        <polygon class="Letter" points="200,57 206,57 206,65 200,65 200,57"/>
+        <polygon class="Letter" points="208,57 214,57 214,65 208,65 208,57"/>
+        <polygon class="Letter" points="223,57 229,57 229,65 223,65 223,57"/>
+        <polygon class="Letter" points="290,89 300,89 300,100 290,100 290,89"/>
+        <polygon class="Letter" points="337,89 346,89 346,100 337,100 337,89"/>
+        <polygon class="Letter" points="370,89 372,89 372,100 370,100 370,89"/>
+        <polygon class="Letter" points="355,90 366,90 366,100 355,100 355,90"/>
+        <polygon class="Letter" points="300,91 308,91 308,100 300,100 300,91"/>
+        <polygon class="Letter" points="312,91 321,91 321,100 312,100 312,91"/>
+        <polygon class="Letter" points="322,91 330,91 330,100 322,100 322,91"/>
+        <polygon class="Letter" points="347,91 354,91 354,100 347,100 347,91"/>
+        <polygon class="Letter" points="373,91 380,91 380,100 373,100 373,91"/>
+        <polygon class="Letter" points="384,91 392,91 392,102 384,102 384,91"/>
+        <polygon class="Letter" points="417,91 425,91 425,100 417,100 417,91"/>
+        <polygon class="Letter" points="77,98 85,98 85,110 77,110 77,98"/>
+        <polygon class="Letter" points="178,98 187,98 187,109 178,109 178,98"/>
+        <polygon class="Letter" points="204,99 209,99 209,109 204,109 204,99"/>
+        <polygon class="Letter" points="241,99 246,99 246,109 241,109 241,99"/>
+        <polygon class="Letter" points="108,100 113,100 113,110 108,110 108,100"/>
+        <polygon class="Letter" points="188,100 196,100 196,109 188,109 188,100"/>
+        <polygon class="Letter" points="197,100 203,100 203,109 197,109 197,100"/>
+        <polygon class="Letter" points="209,100 224,100 224,109 209,109 209,100"/>
+        <polygon class="Letter" points="225,100 232,100 232,109 225,109 225,100"/>
+        <polygon class="Letter" points="233,100 240,100 240,109 233,109 233,100"/>
+        <polygon class="Letter" points="29,101 37,101 37,110 29,110 29,101"/>
+        <polygon class="Letter" points="41,101 52,101 52,110 41,110 41,101"/>
+        <polygon class="Letter" points="53,101 60,101 60,110 53,110 53,101"/>
+        <polygon class="Letter" points="60,101 76,101 76,122 60,122 60,101"/>
+        <polygon class="Letter" points="73,101 78,101 78,110 73,110 73,101"/>
+        <polygon class="Letter" points="86,101 100,101 100,110 86,110 86,101"/>
+        <polygon class="Letter" points="101,101 107,101 107,110 101,110 101,101"/>
+        <polygon class="Letter" points="113,101 121,101 121,110 113,110 113,101"/>
+        <polygon class="Letter" points="289,101 298,101 298,112 289,112 289,101"/>
+        <polygon class="Letter" points="327,101 329,101 329,106 327,106 327,101"/>
+        <polygon class="Letter" points="330,102 349,102 349,112 330,112 330,102"/>
+        <polygon class="Letter" points="402,102 407,102 407,112 402,112 402,102"/>
+        <polygon class="Letter" points="296,103 311,103 311,112 296,112 296,103"/>
+        <polygon class="Letter" points="312,103 317,103 317,112 312,112 312,103"/>
+        <polygon class="Letter" points="320,103 326,103 326,112 320,112 320,103"/>
+        <polygon class="Letter" points="352,103 371,103 371,112 352,112 352,103"/>
+        <polygon class="Letter" points="372,103 379,103 379,112 372,112 372,103"/>
+        <polygon class="Letter" points="383,103 394,103 394,112 383,112 383,103"/>
+        <polygon class="Letter" points="411,103 423,103 423,112 411,112 411,103"/>
+        <polygon class="Letter" points="408,104 410,104 410,112 408,112 408,104"/>
+        <polygon class="Letter" points="232,110 238,110 238,121 232,121 232,110"/>
+        <polygon class="Letter" points="40,111 42,111 42,122 40,122 40,111"/>
+        <polygon class="Letter" points="77,111 94,111 94,123 77,123 77,111"/>
+        <polygon class="Letter" points="113,112 118,112 118,122 113,122 113,112"/>
+        <polygon class="Letter" points="43,113 55,113 55,122 43,122 43,113"/>
+        <polygon class="Letter" points="98,113 106,113 106,122 98,122 98,113"/>
+        <polygon class="Letter" points="106,113 113,113 113,122 106,122 106,113"/>
+        <polygon class="Letter" points="119,113 124,113 124,122 119,122 119,113"/>
+        <polygon class="Letter" points="123,113 131,113 131,122 123,122 123,113"/>
+        <polygon class="Letter" points="173,113 181,113 181,121 173,121 173,113"/>
+        <polygon class="Letter" points="182,113 202,113 202,121 182,121 182,113"/>
+        <polygon class="Letter" points="203,113 209,113 209,121 203,121 203,113"/>
+        <polygon class="Letter" points="210,113 216,113 216,121 210,121 210,113"/>
+        <polygon class="Letter" points="217,113 219,113 219,121 217,121 217,113"/>
+        <polygon class="Letter" points="220,113 227,113 227,121 220,121 220,113"/>
+        <polygon class="Letter" points="288,113 292,113 292,127 288,127 288,113"/>
+        <polygon class="Letter" points="439,114 446,114 446,124 439,124 439,114"/>
+        <polygon class="Letter" points="446,114 452,114 452,124 446,124 446,114"/>
+        <polygon class="Letter" points="293,116 301,116 301,124 293,124 293,116"/>
+        <polygon class="Letter" points="304,116 318,116 318,124 304,124 304,116"/>
+        <polygon class="Letter" points="319,116 321,116 321,124 319,124 319,116"/>
+        <polygon class="Letter" points="322,116 328,116 328,124 322,124 322,116"/>
+        <polygon class="Letter" points="332,116 339,116 339,124 332,124 332,116"/>
+        <polygon class="Letter" points="340,116 347,116 347,124 340,124 340,116"/>
+        <polygon class="Letter" points="351,116 358,116 358,124 351,124 351,116"/>
+        <polygon class="Letter" points="359,116 363,116 363,124 359,124 359,116"/>
+        <polygon class="Letter" points="364,116 374,116 374,124 364,124 364,116"/>
+        <polygon class="Letter" points="455,116 463,116 463,124 455,124 455,116"/>
+        <polygon class="Letter" points="463,116 470,116 470,125 463,125 463,116"/>
+        <polygon class="Letter" points="471,116 478,116 478,125 471,125 471,116"/>
+        <polygon class="Letter" points="479,116 485,116 485,125 479,125 479,116"/>
+        <polygon class="Letter" points="489,116 504,116 504,125 489,125 489,116"/>
+        <polygon class="Letter" points="176,122 183,122 183,133 176,133 176,122"/>
+        <polygon class="Letter" points="240,122 247,122 247,133 240,133 240,122"/>
+        <polygon class="Letter" points="43,123 50,123 50,134 43,134 43,123"/>
+        <polygon class="Letter" points="51,123 53,123 53,134 51,134 51,123"/>
+        <polygon class="Letter" points="183,123 189,123 189,133 183,133 183,123"/>
+        <polygon class="Letter" points="226,123 236,123 236,133 226,133 226,123"/>
+        <polygon class="Letter" points="62,124 82,124 82,134 62,134 62,124"/>
+        <polygon class="Letter" points="106,124 111,124 111,134 106,134 106,124"/>
+        <polygon class="Letter" points="54,125 61,125 61,134 54,134 54,125"/>
+        <polygon class="Letter" points="83,125 97,125 97,134 83,134 83,125"/>
+        <polygon class="Letter" points="99,125 106,125 106,134 99,134 99,125"/>
+        <polygon class="Letter" points="192,125 206,125 206,136 192,136 192,125"/>
+        <polygon class="Letter" points="211,125 217,125 217,133 211,133 211,125"/>
+        <polygon class="Letter" points="218,125 225,125 225,133 218,133 218,125"/>
+        <polygon class="Letter" points="290,125 297,125 297,136 290,136 290,125"/>
+        <polygon class="Letter" points="298,125 305,125 305,136 298,136 298,125"/>
+        <polygon class="Letter" points="314,125 316,125 316,136 314,136 314,125"/>
+        <polygon class="Letter" points="364,125 370,125 370,136 364,136 364,125"/>
+        <polygon class="Letter" points="491,125 499,125 499,137 491,137 491,125"/>
+        <polygon class="Letter" points="370,126 390,126 390,136 370,136 370,126"/>
+        <polygon class="Letter" points="478,126 490,126 490,137 478,137 478,126"/>
+        <polygon class="Letter" points="306,128 313,128 313,139 306,139 306,128"/>
+        <polygon class="Letter" points="317,128 319,128 319,136 317,136 317,128"/>
+        <polygon class="Letter" points="321,128 327,128 327,136 321,136 321,128"/>
+        <polygon class="Letter" points="328,128 335,128 335,139 328,139 328,128"/>
+        <polygon class="Letter" points="336,128 357,128 357,136 336,136 336,128"/>
+        <polygon class="Letter" points="394,128 408,128 408,139 394,139 394,128"/>
+        <polygon class="Letter" points="409,128 416,128 416,136 409,136 409,128"/>
+        <polygon class="Letter" points="445,128 452,128 452,137 445,137 445,128"/>
+        <polygon class="Letter" points="453,128 460,128 460,136 453,136 453,128"/>
+        <polygon class="Letter" points="460,128 474,128 474,137 460,137 460,128"/>
+        <polygon class="Letter" points="224,134 230,134 230,145 224,145 224,134"/>
+        <polygon class="Letter" points="48,137 55,137 55,146 48,146 48,137"/>
+        <polygon class="Letter" points="56,137 63,137 63,146 56,146 56,137"/>
+        <polygon class="Letter" points="63,137 69,137 69,146 63,146 63,137"/>
+        <polygon class="Letter" points="70,137 91,137 91,146 70,146 70,137"/>
+        <polygon class="Letter" points="95,137 102,137 102,146 95,146 95,137"/>
+        <polygon class="Letter" points="193,137 200,137 200,148 193,148 193,137"/>
+        <polygon class="Letter" points="201,137 208,137 208,145 201,145 201,137"/>
+        <polygon class="Letter" points="209,137 216,137 216,145 209,145 209,137"/>
+        <polygon class="Letter" points="217,137 219,137 219,145 217,145 217,137"/>
+        <polygon class="Letter" points="320,137 326,137 326,148 320,148 320,137"/>
+        <polygon class="Letter" points="327,137 367,137 367,148 327,148 327,137"/>
+        <polygon class="Letter" points="372,137 384,137 384,157 372,157 372,137"/>
+        <polygon class="Letter" points="439,137 462,137 462,149 439,149 439,137"/>
+        <polygon class="Letter" points="92,138 94,138 94,146 92,146 92,138"/>
+        <polygon class="Letter" points="290,140 301,140 301,148 290,148 290,140"/>
+        <polygon class="Letter" points="302,140 309,140 309,148 302,148 302,140"/>
+        <polygon class="Letter" points="313,140 319,140 319,148 313,148 313,140"/>
+        <polygon class="Letter" points="387,140 394,140 394,148 387,148 387,140"/>
+        <polygon class="Letter" points="395,140 401,140 401,148 395,148 395,140"/>
+        <polygon class="Letter" points="402,140 404,140 404,148 402,148 402,140"/>
+        <polygon class="Letter" points="405,140 412,140 412,148 405,148 405,140"/>
+        <polygon class="Letter" points="463,140 470,140 470,149 463,149 463,140"/>
+        <polygon class="Letter" points="471,140 478,140 478,149 471,149 471,140"/>
+        <polygon class="Letter" points="478,140 493,140 493,149 478,149 478,140"/>
+        <polygon class="Letter" points="494,140 501,140 501,151 494,151 494,140"/>
+        <polygon class="Letter" points="498,146 504,146 504,158 498,158 498,146"/>
+        <polygon class="Letter" points="335,150 363,150 363,160 335,160 335,150"/>
+        <polygon class="Letter" points="439,150 447,150 447,161 439,161 439,150"/>
+        <polygon class="Letter" points="290,152 297,152 297,160 290,160 290,152"/>
+        <polygon class="Letter" points="298,152 305,152 305,160 298,160 298,152"/>
+        <polygon class="Letter" points="309,152 321,152 321,160 309,160 309,152"/>
+        <polygon class="Letter" points="321,152 328,152 328,160 321,160 321,152"/>
+        <polygon class="Letter" points="329,152 331,152 331,160 329,160 329,152"/>
+        <polygon class="Letter" points="364,152 369,152 369,160 364,160 364,152"/>
+        <polygon class="Letter" points="448,152 462,152 462,161 448,161 448,152"/>
+        <polygon class="Letter" points="466,152 474,152 474,163 466,163 466,152"/>
+        <polygon class="Letter" points="475,152 482,152 482,161 475,161 475,152"/>
+        <polygon class="Letter" points="483,152 490,152 490,160 483,160 483,152"/>
+        <polygon class="Letter" points="491,152 497,152 497,161 491,161 491,152"/>
+        <polygon class="Letter" points="340,245 354,245 354,265 340,265 340,245"/>
+        <polygon class="Letter" points="363,246 377,246 377,265 363,265 363,246"/>
+        <polygon class="Letter" points="388,390 399,390 399,401 388,401 388,390"/>
+        <polygon class="Letter" points="460,390 464,390 464,404 460,404 460,390"/>
+        <polygon class="Letter" points="400,393 414,393 414,402 400,402 400,393"/>
+        <polygon class="Letter" points="415,393 429,393 429,402 415,402 415,393"/>
+        <polygon class="Letter" points="433,393 440,393 440,404 433,404 433,393"/>
+        <polygon class="Letter" points="442,393 449,393 449,402 442,402 442,393"/>
+        <polygon class="Letter" points="450,393 457,393 457,402 450,402 450,393"/>
+        <polygon class="Letter" points="465,393 472,393 472,402 465,402 465,393"/>
+        <polygon class="Letter" points="425,403 427,403 427,413 425,413 425,403"/>
+        <polygon class="Letter" points="410,405 424,405 424,414 410,414 410,405"/>
+        <polygon class="Letter" points="428,405 435,405 435,414 428,414 428,405"/>
+        <polygon class="Letter" points="373,415 393,415 393,428 373,428 373,415"/>
+        <polygon class="Letter" points="408,415 416,415 416,426 408,426 408,415"/>
+        <polygon class="Letter" points="425,415 427,415 427,426 425,426 425,415"/>
+        <polygon class="Letter" points="428,415 431,415 431,426 428,426 428,415"/>
+        <polygon class="Letter" points="467,415 473,415 473,426 467,426 467,415"/>
+        <polygon class="Letter" points="393,417 400,417 400,426 393,426 393,417"/>
+        <polygon class="Letter" points="401,417 408,417 408,426 401,426 401,417"/>
+        <polygon class="Letter" points="417,417 424,417 424,426 417,426 417,417"/>
+        <polygon class="Letter" points="432,417 439,417 439,426 432,426 432,417"/>
+        <polygon class="Letter" points="440,417 451,417 451,426 440,426 440,417"/>
+        <polygon class="Letter" points="452,417 459,417 459,426 452,426 452,417"/>
+        <polygon class="Letter" points="460,417 467,417 467,426 460,426 460,417"/>
+        <polygon class="Letter" points="428,427 440,427 440,438 428,438 428,427"/>
+        <polygon class="Letter" points="381,430 387,430 387,438 381,438 381,430"/>
+        <polygon class="Letter" points="388,430 396,430 396,438 388,438 388,430"/>
+        <polygon class="Letter" points="400,430 407,430 407,438 400,438 400,430"/>
+        <polygon class="Letter" points="408,430 420,430 420,438 408,438 408,430"/>
+        <polygon class="Letter" points="421,430 423,430 423,438 421,438 421,430"/>
+        <polygon class="Letter" points="441,430 448,430 448,438 441,438 441,430"/>
+        <polygon class="Letter" points="449,430 456,430 456,438 449,438 449,430"/>
+        <polygon class="Letter" points="457,430 462,430 462,438 457,438 457,430"/>
+        <polygon class="Letter" points="433,641 441,641 441,647 433,647 433,641"/>
+        <polygon class="Letter" points="442,641 446,641 446,647 442,647 442,641"/>
+        <polygon class="Letter" points="451,641 469,641 469,647 451,647 451,641"/>
+        <polygon class="Letter" points="501,641 510,641 510,648 501,648 501,641"/>
+        <polygon class="Letter" points="510,641 514,641 514,647 510,647 510,641"/>
+        <polygon class="Letter" points="519,641 532,641 532,648 519,648 519,641"/>
+        <polygon class="Letter" points="551,641 560,641 560,647 551,647 551,641"/>
+        <polygon class="Letter" points="474,643 491,643 491,648 474,648 474,643"/>
+        <polygon class="Letter" points="542,643 547,643 547,648 542,648 542,643"/>
+    </svg>
+    <svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" class="Object" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"/>
+    <desc method="Christophe's extractor" lastModificationDate="Fri Aug 24 11:03:26 CEST 2012"/>
+</svg>
