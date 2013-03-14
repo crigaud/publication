@@ -1,5 +1,6 @@
 Robust Frame and Text Extraction from Comic Books
 ===============================================
+Rigaud, Christophe and Tsopze, Norbert and Burie, Jean-Christophe and Ogier, Jean-Marc   
    
 Abstract
 ------------------------------------------------
