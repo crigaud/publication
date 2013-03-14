@@ -1,5 +1,4 @@
 Automatic Text Localisation in Scanned Comic Books
-
 ===============================================
    
 Abstract
