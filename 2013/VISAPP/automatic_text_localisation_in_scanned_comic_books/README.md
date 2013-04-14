@@ -8,7 +8,7 @@ Comic books constitute an important cultural heritage asset in many countries. D
 
 Citation
 -------------------------------------------------
-@inproceedings{,
+@inproceedings{,   
     title = {Automatic Text Localisation in Scanned Comic Books},     
     author = {Rigaud, Christophe and Karatzas, Dimosthenis and Van de Weijer
 , Joost and Burie, Jean-Christophe and Ogier, Jean-Marc},     
@@ -20,9 +20,9 @@ Citation
 
 Ressouces
 ------------------------------------------------
-[Paper](#)
-[Poster](#)
-[Demo](#)
+[Paper](paper)    
+[Poster](poster)    
+[Demo](demo)    
 
 
 
