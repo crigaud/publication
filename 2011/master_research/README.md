@@ -1,5 +1,4 @@
-Interprétation d'images et graphe conceptuel intégrant des
-connaissances topologiques et photométriques
+Interprétation d'images et graphe conceptuel intégrant des connaissances topologiques et photométriques
 ===============================================
    
 Résumé

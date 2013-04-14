@@ -1,7 +1,7 @@
 Extraction robuste des cases et du texte de bandes dessinées
 ===============================================
    
-Abstract
+Résumé
 ------------------------------------------------
 Les bandes dessinées représentent un patrimoine culturel important dans de nombreux
 pays. La numérisation en masse offre l’opportunité d’effectuer des recherches sur le contenu
@@ -16,7 +16,7 @@ comparerons notre méthode avec des outils de la littérature et discuterons des
 
 
 
-Citation
+Citation BibTeX
 -------------------------------------------------
 @inproceedings{,   
     title = {Extraction robuste des cases et du texte de bandes dessinées},    
