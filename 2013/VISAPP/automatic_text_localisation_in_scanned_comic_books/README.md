@@ -18,7 +18,7 @@ Citation
     year = {2013}     
 }
 
-Ressouces
+Resources
 ------------------------------------------------
 [Paper](paper)    
 [Poster](poster)    
