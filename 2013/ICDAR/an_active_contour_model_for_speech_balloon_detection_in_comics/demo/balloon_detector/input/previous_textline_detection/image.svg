@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="375mm" zoomAndPan="magnify" contentStyleType="text/css" height="530mm" viewBox="0 0 750 1060" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <title>CYB_BUBBLEGOM_T01_030</title>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="750" xlink:href="../Pages/CYB_BUBBLEGOM_T01_030.jpg" xlink:type="simple" xlink:actuate="onLoad" height="1060" opacity="0.5" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+        <metadata collectionTitle="Bubblegôm Gôm" editorName="Studio Cyborga" doublePage="false" website="http://bubblegom.webcomics.fr/page/bubbleg%C3%B4m-la-couv#page" albumTitle="La Légende des Yaouanks" drawerName="Cyborg 07" language="french" resolution="" ISBN="979-10-90655-01-0" readingDirection="leftToRight" writerName="Cyborg 07" releaseDate="2009" pageNumber="30"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 0; stroke-linejoin: round; }
+		.Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+		.Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Panel { fill: red; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Line { fill: green; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Balloon { fill: cyan; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon id="selected" points="54,82 692,82 692,602 54,602 54,82">
+            <metadata viewAngle="" shot="" rank="1"/>
+        </polygon>
+        <polygon points="54,639 248,639 248,961 54,961 54,639">
+            <metadata viewAngle="" shot="" rank="2"/>
+        </polygon>
+        <polygon points="267,640 465,641 464,965 266,962 267,640">
+            <metadata viewAngle="" shot="" rank="3"/>
+        </polygon>
+        <polygon points="491,640 694,640 694,944 491,944 491,640">
+            <metadata viewAngle="" shot="" rank="4"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Line" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="131,166 224,166 224,177 131,177 131,166">
+            <metadata method="" typography="">ANDRAGOR ?</metadata>
+        </polygon>
+        <polygon points="126,179 230,179 230,189 126,189 126,179">
+            <metadata method="" typography="">TU VAS BIEN ?</metadata>
+        </polygon>
+        <polygon points="173,196 182,196 182,201 173,201 173,196">
+            <metadata method="" typography="">...</metadata>
+        </polygon>
+        <polygon points="425,396 489,396 489,407 425,407 425,396">
+            <metadata method="" typography="">AU POIL !</metadata>
+        </polygon>
+        <polygon points="415,405 498,405 498,419 415,419 415,405">
+            <metadata method="" typography="">J'AI TROUVE</metadata>
+        </polygon>
+        <polygon points="401,421 512,421 512,431 401,431 401,421">
+            <metadata method="" typography="">QUELQUE CHOSE</metadata>
+        </polygon>
+        <polygon points="406,430 507,430 507,444 406,444 406,430">
+            <metadata method="" typography="">D'INTERESSANT.</metadata>
+        </polygon>
+        <polygon points="571,408 586,411 595,413 603,415 615,417 623,420 623,426 621,430 587,421 567,414 571,408">
+            <metadata method="" typography="">ATTENTION</metadata>
+        </polygon>
+        <polygon points="573,418 591,423 605,427 615,430 613,436 594,432 572,425 573,418">
+            <metadata method="" typography="">DANGER !</metadata>
+        </polygon>
+        <polygon points="563,426 573,427 582,430 590,432 600,435 613,439 620,441 616,447 594,442 577,437 564,433 563,426">
+            <metadata method="" typography="">TANNIERE DU</metadata>
+        </polygon>
+        <polygon points="591,442 601,445 609,447 612,449 610,454 606,454 584,449 580,447 566,444 567,438 591,442">
+            <metadata method="" typography="">MONSTRE</metadata>
+        </polygon>
+        <polygon points="573,447 583,450 596,453 604,456 599,454 598,463 598,463 598,463 587,460 573,456 567,454 565,447 573,447">
+            <metadata method="" typography="">TUEUR</metadata>
+        </polygon>
+        <polygon points="78,726 131,735 169,741 200,746 231,753 244,752 241,770 238,777 223,775 165,765 131,758 82,752 65,746 78,726">
+            <metadata method="" typography="">ATTENTION</metadata>
+        </polygon>
+        <polygon points="142,765 185,774 217,787 216,799 195,802 138,791 121,788 83,780 84,772 86,757 142,765">
+            <metadata method="" typography="">DANGER :</metadata>
+        </polygon>
+        <polygon points="138,793 199,805 220,810 235,814 235,820 225,834 198,828 160,825 116,816 101,814 64,805 59,787 59,785 138,793">
+            <metadata method="" typography="">TANIERE DU</metadata>
+        </polygon>
+        <polygon points="151,826 211,839 211,850 210,859 210,861 188,859 132,849 116,846 69,837 75,816 151,826">
+            <metadata method="" typography="">MONSTRE</metadata>
+        </polygon>
+        <polygon points="193,862 202,863 200,887 195,890 188,889 169,886 105,874 78,867 73,849 74,847 193,862">
+            <metadata method="" typography="">TUEUR !!</metadata>
+        </polygon>
+        <polygon points="291,670 402,670 402,680 291,680 291,670">
+            <metadata method="" typography="">SI TU VEUX MON</metadata>
+        </polygon>
+        <polygon points="291,684 402,684 402,693 291,693 291,684">
+            <metadata method="" typography="">AVIS, ON N'A PAS</metadata>
+        </polygon>
+        <polygon points="283,693 410,693 411,706 283,706 283,693">
+            <metadata method="" typography="">INTERET A TRAINER</metadata>
+        </polygon>
+        <polygon points="281,709 412,709 412,719 281,719 281,709">
+            <metadata method="" typography="">DANS LE COIN PLUS</metadata>
+        </polygon>
+        <polygon points="307,722 386,722 386,731 307,731 307,722">
+            <metadata method="" typography="">LONGTEMPS</metadata>
+        </polygon>
+        <polygon points="536,666 646,666 646,676 536,676 536,666">
+            <metadata method="" typography="">JE NE SUIS PAS</metadata>
+        </polygon>
+        <polygon points="523,679 660,679 660,689 523,689 523,679">
+            <metadata method="" typography="">D'ACCORD. UNE DENT</metadata>
+        </polygon>
+        <polygon points="521,691 660,691 660,701 521,701 521,691">
+            <metadata method="" typography="">DE MONSTRE TUEUR</metadata>
+        </polygon>
+        <polygon points="523,704 659,704 659,713 523,713 523,704">
+            <metadata method="" typography="">FERAIT UN TROPHEE</metadata>
+        </polygon>
+        <polygon points="535,713 647,713 647,725 535,725 535,713">
+            <metadata method="" typography="">IDEAL POUR DES</metadata>
+        </polygon>
+        <polygon points="530,725 651,725 651,737 530,737 530,725">
+            <metadata method="" typography="">HEROS DE NOTRE</metadata>
+        </polygon>
+        <polygon points="563,740 618,740 618,750 563,750 563,740">
+            <metadata method="" typography="">TREMPE.</metadata>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="TextArea" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="104,138 248,138 248,216 104,216 104,138">
+            <metadata shape="ovale" rank="1" queueDirection="SE"/>
+        </polygon>
+        <polygon points="383,374 532,374 532,464 383,464 383,374">
+            <metadata shape="ovale" rank="2" queueDirection="SW"/>
+        </polygon>
+        <polygon points="62,709 248,740 237,920 54,889 62,709">
+            <metadata shape="rectangle" rank="3" queueDirection="none"/>
+        </polygon>
+        <polygon points="267,640 439,640 439,775 267,775 267,640">
+            <metadata shape="ovale" rank="4" queueDirection="S"/>
+        </polygon>
+        <polygon points="491,640 693,640 693,776 491,776 491,640">
+            <metadata shape="ovale" rank="5" queueDirection="S"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <metadata method="GroundTruth" lastModificationDate="Tue Jan 22 11:02:23 JST 2013" lastStepModified="Balloon_Polygons"/>
+</svg>
