@@ -1,0 +1,1169 @@
+
+%% bare_conf.tex
+%% V1.3
+%% 2007/01/11
+%% by Michael Shell
+%% See:
+%% http://www.michaelshell.org/
+%% for current contact information.
+%%
+%% This is a skeleton file demonstrating the use of IEEEtran.cls
+%% (requires IEEEtran.cls version 1.7 or later) with an IEEE conference paper.
+%%
+%% Support sites:
+%% http://www.michaelshell.org/tex/ieeetran/
+%% http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/
+%% and
+%% http://www.ieee.org/
+
+%%*************************************************************************
+%% Legal Notice:
+%% This code is offered as-is without any warranty either expressed or
+%% implied; without even the implied warranty of MERCHANTABILITY or
+%% FITNESS FOR A PARTICULAR PURPOSE!
+%% User assumes all risk.
+%% In no event shall IEEE or any contributor to this code be liable for
+%% any damages or losses, including, but not limited to, incidental,
+%% consequential, or any other damages, resulting from the use or misuse
+%% of any information contained here.
+%%
+%% All comments are the opinions of their respective authors and are not
+%% necessarily endorsed by the IEEE.
+%%
+%% This work is distributed under the LaTeX Project Public License (LPPL)
+%% ( http://www.latex-project.org/ ) version 1.3, and may be freely used,
+%% distributed and modified. A copy of the LPPL, version 1.3, is included
+%% in the base LaTeX documentation of all distributions of LaTeX released
+%% 2003/12/01 or later.
+%% Retain all contribution notices and credits.
+%% ** Modified files should be clearly indicated as such, including  **
+%% ** renaming them and changing author support contact information. **
+%%
+%% File list of work: IEEEtran.cls, IEEEtran_HOWTO.pdf, bare_adv.tex,
+%%                    bare_conf.tex, bare_jrnl.tex, bare_jrnl_compsoc.tex
+%%*************************************************************************
+
+% *** Authors should verify (and, if needed, correct) their LaTeX system  ***
+% *** with the testflow diagnostic prior to trusting their LaTeX platform ***
+% *** with production work. IEEE's font choices can trigger bugs that do  ***
+% *** not appear when using other class files.                            ***
+% The testflow support page is at:
+% http://www.michaelshell.org/tex/testflow/
+
+
+
+% Note that the a4paper option is mainly intended so that authors in
+% countries using A4 can easily print to A4 and see how their papers will
+% look in print - the typesetting of the document will not typically be
+% affected with changes in paper size (but the bottom and side margins will).
+% Use the testflow package mentioned above to verify correct handling of
+% both paper sizes by the user's LaTeX system.
+%
+% Also note that the "draftcls" or "draftclsnofoot", not "draft", option
+% should be used if it is desired that the figures are to be displayed in
+% draft mode.
+%
+\documentclass[conference]{IEEEtran}
+% Add the compsoc option for Computer Society conferences.
+%
+% If IEEEtran.cls has not been installed into the LaTeX system files,
+% manually specify the path to it like:
+% \documentclass[conference]{../sty/IEEEtran}
+
+
+
+
+
+% Some very useful LaTeX packages include:
+% (uncomment the ones you want to load)
+
+
+% *** MISC UTILITY PACKAGES ***
+%
+%\usepackage{ifpdf}
+% Heiko Oberdiek's ifpdf.sty is very useful if you need conditional
+% compilation based on whether the output is pdf or dvi.
+% usage:
+% \ifpdf
+%   % pdf code
+% \else
+%   % dvi code
+% \fi
+% The latest version of ifpdf.sty can be obtained from:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/oberdiek/
+% Also, note that IEEEtran.cls V1.7 and later provides a builtin
+% \ifCLASSINFOpdf conditional that works the same way.
+% When switching from latex to pdflatex and vice-versa, the compiler may
+% have to be run twice to clear warning/error messages.
+
+
+
+
+
+
+% *** CITATION PACKAGES ***
+%
+%\usepackage{cite}
+% cite.sty was written by Donald Arseneau
+% V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
+% \cite{} output to follow that of IEEE. Loading the cite package will
+% result in citation numbers being automatically sorted and properly
+% "compressed/ranged". e.g., [1], [9], [2], [7], [5], [6] without using
+% cite.sty will become [1], [2], [5]--[7], [9] using cite.sty. cite.sty's
+% \cite will automatically add leading space, if needed. Use cite.sty's
+% noadjust option (cite.sty V3.8 and later) if you want to turn this off.
+% cite.sty is already installed on most LaTeX systems. Be sure and use
+% version 4.0 (2003-05-27) and later if using hyperref.sty. cite.sty does
+% not currently provide for hyperlinked citations.
+% The latest version can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/cite/
+% The documentation is contained in the cite.sty file itself.
+
+
+
+
+
+
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+  \usepackage[pdftex]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../pdf/}{../jpeg/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
+  % will default to the driver specified in the system graphics.cfg if no
+  % driver is specified.
+  % \usepackage[dvips]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../eps/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.eps}
+\fi
+% graphicx was written by David Carlisle and Sebastian Rahtz. It is
+% required if you want graphics, photos, etc. graphicx.sty is already
+% installed on most LaTeX systems. The latest version and documentation can
+% be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/required/graphics/
+% Another good source of documentation is "Using Imported Graphics in
+% LaTeX2e" by Keith Reckdahl which can be found as epslatex.ps or
+% epslatex.pdf at: http://www.ctan.org/tex-archive/info/
+%
+% latex, and pdflatex in dvi mode, support graphics in encapsulated
+% postscript (.eps) format. pdflatex in pdf mode supports graphics
+% in .pdf, .jpeg, .png and .mps (metapost) formats. Users should ensure
+% that all non-photo figures use a vector format (.eps, .pdf, .mps) and
+% not a bitmapped formats (.jpeg, .png). IEEE frowns on bitmapped formats
+% which can result in "jaggedy"/blurry rendering of lines and letters as
+% well as large increases in file sizes.
+%
+% You can find documentation about the pdfTeX application at:
+% http://www.tug.org/applications/pdftex
+
+
+
+
+
+% *** MATH PACKAGES ***
+%
+\usepackage[cmex10]{amsmath}
+% A popular package from the American Mathematical Society that provides
+% many useful and powerful commands for dealing with mathematics. If using
+% it, be sure to load this package with the cmex10 option to ensure that
+% only type 1 fonts will utilized at all point sizes. Without this option,
+% it is possible that some math symbols, particularly those within
+% footnotes, will be rendered in bitmap form which will result in a
+% document that can not be IEEE Xplore compliant!
+%
+% Also, note that the amsmath package sets \interdisplaylinepenalty to 10000
+% thus preventing page breaks from occurring within multiline equations. Use:
+%\interdisplaylinepenalty=2500
+% after loading amsmath to restore such page breaks as IEEEtran.cls normally
+% does. amsmath.sty is already installed on most LaTeX systems. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/required/amslatex/math/
+
+
+
+
+
+% *** SPECIALIZED LIST PACKAGES ***
+%
+%\usepackage{algorithmic}
+% algorithmic.sty was written by Peter Williams and Rogerio Brito.
+% This package provides an algorithmic environment fo describing algorithms.
+% You can use the algorithmic environment in-text or within a figure
+% environment to provide for a floating algorithm. Do NOT use the algorithm
+% floating environment provided by algorithm.sty (by the same authors) or
+% algorithm2e.sty (by Christophe Fiorio) as IEEE does not use dedicated
+% algorithm float types and packages that provide these will not provide
+% correct IEEE style captions. The latest version and documentation of
+% algorithmic.sty can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/algorithms/
+% There is also a support site at:
+% http://algorithms.berlios.de/index.html
+% Also of interest may be the (relatively newer and more customizable)
+% algorithmicx.sty package by Szasz Janos:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/algorithmicx/
+
+
+
+
+% *** ALIGNMENT PACKAGES ***
+%
+%\usepackage{array}
+% Frank Mittelbach's and David Carlisle's array.sty patches and improves
+% the standard LaTeX2e array and tabular environments to provide better
+% appearance and additional user controls. As the default LaTeX2e table
+% generation code is lacking to the point of almost being broken with
+% respect to the quality of the end results, all users are strongly
+% advised to use an enhanced (at the very least that provided by array.sty)
+% set of table tools. array.sty is already installed on most systems. The
+% latest version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/required/tools/
+
+
+%\usepackage{mdwmath}
+%\usepackage{mdwtab}
+% Also highly recommended is Mark Wooding's extremely powerful MDW tools,
+% especially mdwmath.sty and mdwtab.sty which are used to format equations
+% and tables, respectively. The MDWtools set is already installed on most
+% LaTeX systems. The lastest version and documentation is available at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/mdwtools/
+
+
+% IEEEtran contains the IEEEeqnarray family of commands that can be used to
+% generate multiline equations as well as matrices, tables, etc., of high
+% quality.
+
+
+%\usepackage{eqparbox}
+% Also of notable interest is Scott Pakin's eqparbox package for creating
+% (automatically sized) equal width boxes - aka "natural width parboxes".
+% Available at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/eqparbox/
+
+
+
+
+
+% *** SUBFIGURE PACKAGES ***
+\usepackage[tight,footnotesize]{subfigure}
+% subfigure.sty was written by Steven Douglas Cochran. This package makes it
+% easy to put subfigures in your figures. e.g., "Figure 1a and 1b". For IEEE
+% work, it is a good idea to load it with the tight package option to reduce
+% the amount of white space around the subfigures. subfigure.sty is already
+% installed on most LaTeX systems. The latest version and documentation can
+% be obtained at:
+% http://www.ctan.org/tex-archive/obsolete/macros/latex/contrib/subfigure/
+% subfigure.sty has been superceeded by subfig.sty.
+
+
+
+%\usepackage[caption=false]{caption}
+% \usepackage[font=footnotesize]{subfig}
+% subfig.sty, also written by Steven Douglas Cochran, is the modern
+% replacement for subfigure.sty. However, subfig.sty requires and
+% automatically loads Axel Sommerfeldt's caption.sty which will override
+% IEEEtran.cls handling of captions and this will result in nonIEEE style
+% figure/table captions. To prevent this problem, be sure and preload
+% caption.sty with its "caption=false" package option. This is will preserve
+% IEEEtran.cls handing of captions. Version 1.3 (2005/06/28) and later
+% (recommended due to many improvements over 1.2) of subfig.sty supports
+% the caption=false option directly:
+\usepackage[caption=false,font=footnotesize]{subfig}
+%
+% The latest version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/subfig/
+% The latest version and documentation of caption.sty can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/caption/
+
+
+
+
+% *** FLOAT PACKAGES ***
+%
+%\usepackage{fixltx2e}
+% fixltx2e, the successor to the earlier fix2col.sty, was written by
+% Frank Mittelbach and David Carlisle. This package corrects a few problems
+% in the LaTeX2e kernel, the most notable of which is that in current
+% LaTeX2e releases, the ordering of single and double column floats is not
+% guaranteed to be preserved. Thus, an unpatched LaTeX2e can allow a
+% single column figure to be placed prior to an earlier double column
+% figure. The latest version and documentation can be found at:
+% http://www.ctan.org/tex-archive/macros/latex/base/
+
+
+
+%\usepackage{stfloats}
+% stfloats.sty was written by Sigitas Tolusis. This package gives LaTeX2e
+% the ability to do double column floats at the bottom of the page as well
+% as the top. (e.g., "\begin{figure*}[!b]" is not normally possible in
+% LaTeX2e). It also provides a command:
+%\fnbelowfloat
+% to enable the placement of footnotes below bottom floats (the standard
+% LaTeX2e kernel puts them above bottom floats). This is an invasive package
+% which rewrites many portions of the LaTeX2e float routines. It may not work
+% with other packages that modify the LaTeX2e float routines. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/sttools/
+% Documentation is contained in the stfloats.sty comments as well as in the
+% presfull.pdf file. Do not use the stfloats baselinefloat ability as IEEE
+% does not allow \baselineskip to stretch. Authors submitting work to the
+% IEEE should note that IEEE rarely uses double column equations and
+% that authors should try to avoid such use. Do not be tempted to use the
+% cuted.sty or midfloat.sty packages (also by Sigitas Tolusis) as IEEE does
+% not format its papers in such ways.
+
+
+
+
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%
+\usepackage{url}
+% url.sty was written by Donald Arseneau. It provides better support for
+% handling and breaking URLs. url.sty is already installed on most LaTeX
+% systems. The latest version can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/misc/
+% Read the url.sty source comments for usage information. Basically,
+% \url{my_url_here}.
+
+\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\algdef{SE}[DOWHILE]{Do}{doWhile}{\algorithmicdo}[1]{\algorithmicwhile\ #1}%
+
+
+% *** Do not adjust lengths that control margins, column widths, etc. ***
+% *** Do not use packages that alter fonts (such as pslatex).         ***
+% There should be no need to do such things with IEEEtran.cls V1.6 and later.
+% (Unless specifically asked to do so by the journal or conference you plan
+% to submit to, of course. )
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+\title{An active contour model for speech balloon detection in comics}
+
+
+% author names and affiliations
+% use a multiple column layout for up to three different
+% affiliations
+\author{\IEEEauthorblockN{Christophe Rigaud, Jean-Christophe Burie, Jean-Marc Ogier}
+\IEEEauthorblockA{Laboratory L3i\\
+Universit\'{e} de La Rochelle\\
+Avenue Michel Cr\'{e}peau 17042 La Rochelle, France\\
+\{christophe.rigaud, jean-marc.ogier, jean-christophe.burie\}@univ-lr.fr}
+\and
+\IEEEauthorblockN{Dimosthenis Karatzas, Joost Van de Weijer}
+\IEEEauthorblockA{Computer Vision Center\\Universitat Aut\`{o}noma de Barcelona\\
+E-08193 Bellaterra (Barcelona), Spain\\
+ \{dimos, joost\}@cvc.uab.es}
+}
+
+% conference papers do not typically use \thanks and this command
+% is locked out in conference mode. If really needed, such as for
+% the acknowledgment of grants, issue a \IEEEoverridecommandlockouts
+% after \documentclass
+
+% for over three affiliations, or if they all won't fit within the width
+% of the page, use this alternative format:
+%
+%\author{\IEEEauthorblockN{Michael Shell\IEEEauthorrefmark{1},
+%Homer Simpson\IEEEauthorrefmark{2},
+%James Kirk\IEEEauthorrefmark{3},
+%Montgomery Scott\IEEEauthorrefmark{3} and
+%Eldon Tyrell\IEEEauthorrefmark{4}}
+%\IEEEauthorblockA{\IEEEauthorrefmark{1}School of Electrical and Computer Engineering\\
+%Georgia Institute of Technology,
+%Atlanta, Georgia 30332--0250\\ Email: see http://www.michaelshell.org/contact.html}
+%\IEEEauthorblockA{\IEEEauthorrefmark{2}Twentieth Century Fox, Springfield, USA\\
+%Email: homer@thesimpsons.com}
+%\IEEEauthorblockA{\IEEEauthorrefmark{3}Starfleet Academy, San Francisco, California 96678-2391\\
+%Telephone: (800) 555--1212, Fax: (888) 555--1212}
+%\IEEEauthorblockA{\IEEEauthorrefmark{4}Tyrell Inc., 123 Replicant Street, Los Angeles, California 90210--4321}}
+
+
+
+
+% use for special paper notices
+%\IEEEspecialpapernotice{(Invited Paper
+% make the title area
+\maketitle
+
+
+\begin{abstract}
+%\boldmath
+
+% OK Dimos_v1: I removed the sentence on "content-based retrieval" as it is the wrong focus of the paper, we do not do retrieval here...
+%Dimos_v1: Check the sentence on "compared with existing methods". If we remove the comparison with Arai from the table, then remove this, or change it to "other contour detection methods"
+
+Comic books constitute an important cultural heritage asset in many countries. Digitization combined with subsequent comic book understanding would enable a variety of new applications, including content-based retrieval and content re-targeting. Document understanding in this domain is challenging as comics are semi-structured documents, combining semantically important graphical and textual parts. Few studies have been done in this direction. In this work we detail a novel approach for closed and non-closed speech balloon localization in scanned comic book pages, an essential step towards a fully automatic comic book understanding. The approach is compared with existing methods for closed balloon localization found in the literature and results are presented.
+\end{abstract}
+% IEEEtran.cls defaults to using nonbold math in the Abstract.
+  % This preserves the distinction between vectors and scalars. However,
+% if the conference you are submitting to favors bold math in the abstract,
+% then you can use LaTeX's standard command \boldmath at the very start
+% of the abstract to achieve this. Many IEEE journals/conferences frown on
+% math in the abstract anyway.
+
+% no keywords why???
+\begin{keywords}
+  active contour, multi-scale, non-closed contour, speech balloon, comics
+\end{keywords}
+
+
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+\IEEEpeerreviewmaketitle
+
+
+%%%%%%%%% BODY TEXT
+\section{Introduction}
+Comic books are a widespread cultural expression and are commonly accepted as the ``ninth art''. They emerged in the United States in the early 20th century alongside with related media such as film and animation. Comics are a hybrid medium, combining textual and visual information in order to convey their narrative. The European market has traditionally been the biggest consumer of comic books, with the number of new paper comic titles in the EU quadrupling over the last decade experienced. Digitization combined with subsequent document understanding of comic books is therefore of interest, both in order to add value to existing paper-based comic heritage, but also to bridge the gap between the paper and electronic comic media.
+In comics content understanding, speech balloons present a lot of interest since they offer the links between the textual content and the comic characters providing information about the localization of the characters and the tone of speech (shape). Apart from being crucial for document understanding, balloon detection is also beneficial in applications such as comic character detection~\cite{Sun2011}, content re-targeting~\cite{Matsui2011}, translation assistance and reading order inference~\cite{Guerin2012}.
+
+The inside area of the balloons is usually light to improve readability, while they are surrounded by a black outline (contour). This contour has a particular shape that conveys the intonation of the text. In this study, we consider four usual shapes: rectangle, oval, cloud and peak which are the most frequent kinds of balloons. The contour is not always completely drawn, it may be ``implied'' due to contrast difference or other surrounding elements (see fig.~\ref{fig:balloon_examples}c).
+In most of the cases, including when contours are implicit, the location of text is generally a good clue to guess where the balloon is. The problem of speech balloon outline detection can therefore be posed as the fitting of a closed contour around text areas, with the distinctiveness that the outline might not be explicitly defined in the image. For the examples given in figure~\ref{fig:balloon_examples}, this would be a smooth contour with relatively constant curvature (fig.~\ref{fig:balloon_examples}a), an irregular one with high local curvature (fig.~\ref{fig:balloon_examples}b), and an implicit one with missing parts (fig.~\ref{fig:balloon_examples}c).
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]%trim=l b r t  width=0.5\textwidth,
+	\begin{center}
+	  \begin{tabular}{ccc}
+	  \includegraphics[trim= 0px 2px 0mm 0mm, clip, width=0.12\textwidth]{fig/round_balloon.png}&
+	  \includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.14\textwidth]{fig/peaked_balloon.png}&
+	  \includegraphics[trim= 15px 7mm 5px 0mm, clip, width=0.115\textwidth]{fig/open_balloon.png} \\ 
+	  \footnotesize a) Round	& \footnotesize b) Peaked & \footnotesize c) Suggested
+	  \end{tabular}
+	\caption{Example of speech balloons. Image credits~\cite{Bubble09}.}
+	\label{fig:balloon_examples}
+	\end{center}
+	\end{figure}	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% 	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth,
+% 	  \centering
+% 		\includegraphics[width=230px]{fig/round_peaked_open_balloon.png}
+% 		\caption{Example of speech balloons, round on the left (a), peaked in the middle (b) and partially suggested balloons on the right side (c). Image credit~\cite{Bubble09}}
+% 		\label{fig:balloon_examples}
+% 	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% \begin{figure*}
+% \centering
+% \subfloat[][\label{b} my caption b]{
+% \includegraphics{[trim= 10mm 0mm 0mm 0mm, clip, width=0.1\textwidth]{fig/round_peaked_open_balloon.png}}
+% }\hfill
+% \subfloat[][\label{c}my caption c]{
+% \includegraphics{[trim= 10mm 0mm 0mm 0mm, clip, width=0.1\textwidth]{fig/round_peaked_open_balloon.png}}
+% } 
+% \caption{\label{validationMN}
+% % \protect\subref{validation} % if i comment this line every thing is okay
+% % my main caption
+% }
+% \end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{figure}[!ht]
+% \centering
+% \subfloat[Image ]{\label{fig:balloon_examples01}\includegraphics[trim= 10mm 0mm 0mm 0mm, clip, width=0.1\textwidth]{fig/round_peaked_open_balloon.png}} \hspace{5em}
+% \subfloat[Histogramme]{\label{fig:im_1_0_hist}\includegraphics[trim= 10mm 0mm 0mm 1mm, clip, width=0.1\textwidth]{fig/round_peaked_open_balloon.png}} \label{fig:balloon_examples}
+% \caption{Example of speech balloons, round on the left, peaked in the middle and partially suggested balloons on the right side. Image credit~\cite{Bubble09}}
+% 
+% \end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Dimos_v1: I removed repetitive statements. I would add more information about the two methods here.
+As far as we know, in the literature, only closed balloon extraction has been studied for comics. Those methods are based on either white blob detection (Arai~\cite{Arai11}) or connected component extraction (Ho~\cite{Ho2012}) combined with heuristic filtering.
+Observing the heterogeneity of balloons, and considering the difficulty to manage ``open'' balloons, it appears necessary to use a dynamic and adaptive outline detection algorithm. Active contours appear to be suitable to the problem.
+The active contour framework was developed for delineating an object outline in an image. The algorithm attempts to minimize the energy associated to the current contour, defined as the sum of an internal and an external energy term. 
+In this paper we propose two adaptations of the active contour theory to the domain of comic balloon detection. Specifically, we handle the case of balloons with missing parts or implicit contours, while we adopt a two-step approach to fit irregular outline types such as peak and cloud type balloons. 
+To achieve this, we propose new energy terms making use of domain knowledge.
+
+After reviewing the main ideas of active contour, section~\ref{sec:snake_comics} and ~\ref{sec:proposed_method} introduce the new aspects of this paper. We illustrate our method by showing the results of speech balloon detection in section~\ref{sec:experiments}.
+
+%------------------------------------------------------------------------
+\section{Active contours}
+\label{sec:snake}
+
+The active contour~\cite{Kass1988} model is a deformable model, also known as snake, corresponding to a curve $\mathbf{v}(s)=[x(s),y(s)], s \in [0,1]$, that moves through the spatial domain of an image to minimize the energy functional (eq.~\ref{eq:energy1}).
+\begin{equation}\label{eq:energy1}
+  E = \int_0^1 \! \frac{1}{2} \left( \alpha \left|\mathbf{v}'(s) \right|^2 + \beta \left| \mathbf{v}''(s) \right|^2 \right) + E_{ext}(\mathbf{v}(s))ds\\
+\end{equation}
+where $\alpha$ and $\beta$ are weighting parameters that respectively control the snake's tension and rigidity, and $\mathbf{v}'$ and $\mathbf{v}''$ denote the first and second derivatives of $\mathbf{v}(s)$ with respect to $s$. This functional energy is also called $E_{int}$ for internal energy. The external energy function $E_{ext}$ is computed from the image so that it takes on its smaller values at the features of interest, such as boundaries~\cite{Xu1998}.
+%It was initially designed to localize nearby edges accurately by using both internal and external energies (see eq.~\ref{eq:energy1}). 
+%The external energy function $E_{ext}$ aim to attract the snake to the feature of interest (e.g. line, edge, corner), it is the image force. 
+One of the proposed energy functions by Kass~\cite{Kass1988} is eq.~\ref{eq:edge} which attracts the contour to edges with large image gradients. 
+\begin{equation}\label{eq:edge}
+  E_{ext} = -|\nabla \mathbf{I}(x,y)^2|
+\end{equation}
+
+Xu~\cite{Xu1998} proposed the Gradient Vector Flow external force to attract snake from further and handle broken object edges and subjective contours. % GVF is adapted to our application of non-closed (broken object).
+Another extension was proposed by Cohen~\cite{Cohen1991} to make the curve behave like a balloon which is inflated by an additional force.
+ %The initial curve needs no longer to be close to the solution to converge''. %We use this last method extension for speech balloon segmentation and customize it in order to detect open balloons.
+%Dimos_v1: I don't understand this sentence. multi-resolution contours have been studied to speekd up the multi-resolution model???
+Finally, active contour in a multi-resolution context have been studied to speed up the process on multi-resolution image and the multi-resolution model itself~\cite{Leroy1996}.
+
+\section{Active contour for speech balloons}
+\label{sec:snake_comics}
+%(In this section we propose our adaptation to the active contour theory).
+
+% OK Dimos_v1: I removed this first paragraph because it is repetitive. I think we have covered all this in the intro section, if you feel we need this paragraph, merge it in the intro section.
+%Speech balloon contours have specific outline shapes depending on the message to transcribe. The main difficulties are that they can be closed or open, smooth or irregular which makes the majority of the methods in the literature fail in at least one of the cases~\cite{Xu1998,Cohen1991}.
+
+% OK Dimos_v1: In the lack of any better name, I changed the Eknow to Etext. Please make sure that this is reflected in the whole document. If you come up with a better name, please let me know. 
+In this section we adapt the active contour framework to the domain of comics to detect speech balloons given a prior detection of text regions, introducing new energy terms based on domain knowledge about the relationship between text and balloons. For the discussion below, we consider that text has been already detected in the image, and we use the method of \cite{Rigaud2013VISAPP} for text detection.
+
+The introduction of statistical shape knowledge has already been studied in the literature~\cite{Cremers2002} but can not be applied here because of the lack of knowledge about the contour shape to detect. Hence we introduce a new energy term, denoted $E_{text}$ (see eq.\ref{eq:energy2}) that conveys information about the relative placement of the balloon outline and the enclosed text.
+\begin{equation}\label{eq:energy2}
+  E = E_{int} + E_{ext} + E_{text}\\
+\end{equation}
+\subsection{External energy}
+\label{sec:external_energie}
+%The external energy $E_{ext}$ encourage curve onto image structures (e.g. edges, line, corner).
+
+We consider edges as features of interest because we expect the speech balloon to be delimited by strong edges, at least partially. Edge detection is performed based on the Sobel operator (see fig.~\ref{fig:distance_transform}).
+% OK Dimos_v1: Check the equations, the notation was wrong. G_y and G_x are scalars, they are not 3x3 matrices. What are 3x3 matrices are the filter masks that are applied to the image, which give you these scalars. I have updated the text, please check.
+% OK Dimos_v1: At the end, I replaced the paragraph below with a single line in the paragraph above, as the technicalities of edge detection can be considered known.
+%The edge detection or gradient magnitude $G$ is calculated by combining the vertical and horizontal gradient $|\nabla G |= \sqrt{G_x^2 + G_y^2}$ where $G_x$ and $G_y$ are estimates of the first order derivatives obtained by applying an appropriate filter mask (e.g. Sobel, Canny, Prewitt). The output is then binarised (see fig.~\ref{fig:distance_transform}) to obtain the thresholded edge map $G_t$.
+The original Kass~\cite{Kass1988} external energy (see eq.~\ref{eq:edge}) is appropriate for natural scene images with smooth gradients but not for comics that comprise uniform coloured regions and strong edges. In our case, we require that edges attract the snake from relatively far away (distances where the original edge gradient has already dropped to zero). The method of Xu~\cite{Xu1998} would be appropriate here, although we have decided to use the equivalent distance transform of the edge image instead for computational efficiency reasons. We therefore define the external energy function as:
+\begin{equation}\label{eq:energy3}
+  E_{ext} = \gamma \min A(i,j) = \gamma \min  \sqrt{(x_i-x_j)^2+(y_i-y_j)^2}\\
+\end{equation}
+where $E_{ext}$ is the minimum Euclidean distance ($A$) between a point $i$ and the nearest edge point $j$, $\gamma$ is a weighting parameter.
+
+Since it is not desirable for edges corresponding to text to attract the snake, any edges that fall within the detected text regions (see \cite{Rigaud2013VISAPP}) are removed before the distance transform is calculated and do not contribute to the external energy.
+
+%In the original version of the snake Kass~\cite{Kass1988}, this parameter was normalized from the local ROI contrast, in our work we normalize it from the page to not consider local contrast due to noise as strong edge (eq.~\ref{eq2}).
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth,
+	  \centering
+		\fbox{\includegraphics[trim = 0mm 0mm 7mm 0mm, clip, width=230px]{fig/edge_dist_trans.png}}
+		\caption{Example of original image (top left) and its corresponding non-text edge detection (top right), $E_{ext}$ energy (bottom-left) and $E_{text}$ energy (bottom-right). In the bottom part, white corresponds to high energy.}
+		\label{fig:distance_transform}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Internal energy}
+We use the original definition of the internal energy (see eq.~\ref{eq:energy1}) which can by decomposed in two energy terms: $E_{cont} = \left|\mathbf{v}'(s) \right|^2$ and $E_{curv}=\left| \mathbf{v}''(s) \right|^2$. %It is composed of a continuity and a curvature energies: $E_{internal} = \alpha E_{cont} + \beta E_{curv}$ as defined in eq.~\ref{eq:energy3}. The coefficients $\alpha$ and $\beta$ give more or less importance to one energy or another.
+% 
+% \begin{equation}\label{eq:energy3}
+%   E_{internal} = \left( \alpha(s)  \left|\frac{d\bar{v}}{ds}(s) \right|^2 + \beta(s) \left| \frac{d^2\bar{v}}{ds^2}(s) \right|^2 \right) /2
+% \end{equation}
+
+% OK Dimos_v1: Is there a "non-discrete case"?
+$E_{cont}$ forces the contour to be continuous by keeping points at equal distance, spreading them equally along the snake according to the average inter-point distance of the contour. It becomes small when the distance between consecutive points is close to the average, see eq.~\ref{eq:cont}.
+\begin{equation}\label{eq:cont}
+ E_{cont} = \alpha |\bar{d} - \sqrt{(x_i - x_{i-1} )^2 + (y_i - y_{i-1} )^2}|
+\end{equation}
+where $\bar{d}$ is the average distance between two consecutive points $i$ and $j$ of the snake and $\alpha$ is a weighting parameter.
+
+$E_{curv}$ enforces smoothness and avoids oscillations of the snake by penalizing high contour curvatures (minimizing the second derivative). It becomes small when the angle between three points is close to zero, see eq.~\ref{eq:curv}.% Note, this energy itself makes the snake deflate and converge to a line or a point.
+\begin{equation}\label{eq:curv}
+  %E_{curv} = \beta | p_{i-1} - 2 * p_i + p_{i+1} |^2
+  E_{curv} = \beta \left( (x_{i-1} - 2x_{i} + x_{i+1})^2 + (y_{i-1} - 2y_{i} + y_{i+1})^2 \right)
+\end{equation}
+where $i$ is a point of the snake and $\beta$ a weighting parameter.
+
+%The distance $h1$ is an a priori distance between the text and its balloon. % for positioning the snake when there is a lake of external energy at low resolution detection.
+
+%The distance $h2$ is the difference between the outer and the inner distance
+
+\subsection{Text energy}
+\label{sec:text_energie}
+The text energy $E_{text}$ conveys domain specific knowledge about the relative locations of text areas and their associated balloon contours. It is necessary in this domain to consider the lack of explicit information in the cases of implicit balloons, where parts of the outline are missing.
+The $E_{text}$ energy aims at pushing the snake outwards toward the most likely balloon localization, given the position of the text area. This energy term has two effects. First, it acts collaboratively to the external energy, by moving the snake towards non-text edges (hopefully corresponding to the balloon outline). Second, in the case of implied contours where no explicit edge exists (the external energy term is not informative), $E_{text}$ assists the algorithm to converge to an approximate contour position based on prior knowledge on the expected localization given the corresponding text area.
+We define the text energy term at a localization $i$ of the image as follows:
+% OK Dimos_v1: Check the equation, it should be 1 if distance = 0, and the fraction below if distance != 0. Then check again the equation (as well as all the rest of the energy equations): are they normalised in [0..1]? Is the maximum energy equal to 1???
+% \begin{equation}\label{eq:know}
+% E_{text} (i) = \kappa \frac{N}{min_{j \in T} dist(i,j)}
+% \end{equation}
+\begin{equation}\label{eq:know}
+E_{text} = \begin{cases} \kappa \frac{N}{min_{j \in T} A(i,j)} & \mbox{if } A(i,j) > 0 \\ \kappa N & \mbox{else} \end{cases}
+\end{equation}
+where $j$ is a pixel in the text area $T$, $N$ is an experimentally defined constant expressing the expected distance in pixel between the text area and the corresponding balloon boundary and $\kappa$ is a weighting parameter that controls the contribution of $E_{text}$ with respect to the other energy terms in eq.~\ref{eq:energy2}. Note when $i$ is on the border of $T$, the distance $A(i,j)$ is equal zero and the energy becomes maximal as if it was inside $T$.
+
+%We define the text energy term at a location $i$ of the image as a function of the minimum distance to the text area: $d_{i} = min_{j \in T} dist(i,j)$ where $j$ is a pixel of the text area $T$ and $i$ a pixel in the image (see eq.~\ref{eq:know}). It is maximal when $d$ is small and minimal from $N$ pixels distance to the text area (see fig.~\ref{fig:distance_transform}). Because we try to minimize the energy function, the snake will move to the lower energy region (away from text).
+%
+%\begin{equation}\label{eq:know}
+%  E_{text} = \kappa \frac{N}{d_{nm}}
+%\end{equation}
+%where $\kappa$ is a weighting parameter that control the ratio with the others energies in eq.~\ref{eq:energy2}.%, and $d$ represent the minimum Euclidean distance between the text area and a pixel of the image.
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth,
+% 	  \centering
+% 		\fbox{\includegraphics[trim = 10mm 105mm 130mm 20mm, clip, width=200px]{fig/inner_outer_contour.pdf}}
+% 		\caption{TO UPDATE WITH REAL CONTOUR AND SUGGESTED CONTOUR DETECTION SCREENSHOTS Representation of the inner and outer contours for a highly curved shape.}
+% 		\label{fig:knowledge_dist}
+% 	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% 
+% \begin{equation}\label{eq:know}
+%  E_{knowledge} = max - (max / N * d);
+% \end{equation}
+% where $d$ represent the number of pixels between the text area and 
+
+% In this study we consider two different parameters for the knowledge energy (see fig.~\ref{fig:knowledge_dist}):
+% \begin{itemize}
+%  \item The distance between the text and the $inert$ contour ($h1$) of the balloon.
+%  \item The shape variation range $outer - inert = h2$). It depends on whether the shape is highly curved or not.
+% \end{itemize}
+
+% \\
+
+% The first parameter ($h1$) is particularly useful for non closed balloons because it prevents the snake to go too far away from its initialization (text area). We use it as distance transform from the prior inert contour [FIG].
+% 
+% The second parameter ($h2$) is used in the high resolution stage to bound the search area.
+% 
+% TO CONTINUE...
+
+
+\section{Proposed method}
+\label{sec:proposed_method}
+%As we also consider elements with missing data, a top-down approach is not appropriate {\bf [TO ARGUE]}. Thus we propose to rely on speech text detection to find speech balloon (bottom-up)
+In this section we detail how to localize speech balloons using active contours based on the definitions given above. 
+First we generate the static external energy map $E_{ext}$ for the whole image and then for each text area we compute the $E_{text}$ energy. The internal energy $E_{int}$ is calculated for each point of the snake before each iteration. We iteratively examine each point of the snake in a clockwise fashion and move it within a neighbourhood region of size $M$ in order to minimize equation~\ref{eq:energy2}. This operation is repeated until no point moves in one turn (see algorithm~\ref{al:method}). We perform a first smooth-contour approximation of the balloon boundary (low resolution)
+and then we fit the contour better to the balloon shape (high resolution) using the same algorithm.%, especially for non-smooth boundaries.% High resolution contour shape fitting - aiming to 
+ %\item Contour classification [NOVELTY? SHAPE COMPOSED BY DIFFERENT PART OF SHAPE]
+\begin{algorithm}
+\caption{Balloon detection}
+\label{al:method}
+\begin{algorithmic}
+%\REQUIRE $n \geq 0 \vee x \neq 0$
+%\ENSURE $y = x^n$
+%\STATE $y \leftarrow 1$
+\State{compute $E_{ext}$ energy}
+\For{each text area}
+  \State compute $E_{text}$ energy
+  \State active contour initialization
+  \Do
+    \State $n = 0$
+    \For{each points of the snake}
+      \State examine neighbourhood position energies
+      \If{one position reduce the current energy}
+	\State move point to this position
+	\State $n=n+1$
+      \EndIf
+    \EndFor
+  \doWhile{$n > 0$} % <--- use \doWhile for the "while" at the end
+  %\While{$n > 0$}
+
+%\EndWhile
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Active Contour initialization}
+\label{sec:cont_init}
+In this study, we propose to rely on text localization to find speech balloons. Comics have several text categories depending on the purpose (e.g. speech, sound effect, illustration, narration), as we aim at detecting speech balloons, we base our work on the speech text localization. At this stage, any speech text detector can be used but our result highly relies on its performance. We use the algorithm presented in Rigaud et al~\cite{Rigaud2013VISAPP} that reaches 75.8\% recall and 76.2\% precision for text line localization (mainly speech text).
+As we are interested in initializing the snake on a single text area for each balloon detection, we post-process the results of the text line detection~\cite{Rigaud2013VISAPP} to group text lines into text area (paragraph) ones, according to two rules. First, we require that the candidate text lines to group have similar heights and second that the inter-line distance is smaller than their average text line height of the current paragraph (see fig.~\ref{fig:paragraphs}a).
+Given a resulting text area, we initialize the snake on its convex hull (see fig.~\ref{fig:paragraphs}b). Note that the convex hull of the text area also corresponds to the $E_{text}$ maximal value border. %At this point, the $E_{text}$ has to be the strongest in eq.~\ref{eq:energy2} in order to ``push'' away the snake from the text area and then facilitate its attraction by $E_{ext}$ (non text edges).
+%Another possible initialization strategy could be to use the smaller ellipse circumscribing the text area.% This has been experimented section~\ref{sec:experiments}.
+
+%Note, in case of wrong initialization, the external energy allow the snake to inflate deflate in the case of the snake initialization is outside the balloon. Gradients that are inside the initial curve repulsed the contour (considered as text areas).
+
+
+%\subsubsection{Number of points}
+% OK Dimos_v1: I changed the last sentence from "reducing the inter-point distance" to "adding more intermediate points". Check this is factual.
+The initial number of points impacts the way that the snake moves and the precision of the final detection. During the first low resolution localization step, we perform a spaced equipartition of the points (see fig.~\ref{fig:paragraphs}c) to quickly localize the global shape avoiding unnecessary stops on image details. In the subsequent high resolution fitting stage, we add more intermediate points to fit the exact shape more precisely.% with an inter-points distance fixed to half line height
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth,
+% 	  \centering
+% 		\includegraphics[width=210px]{fig/snake_init.png}
+% 		\caption{Example of active contour initialization based on text convex hull. %Note that the black points	are the actual points of the polygon and the coloured lines		a representation of the polygon.
+% 		}
+% 		\label{fig:paragraphs}
+% 	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]%trim=l b r t  width=0.5\textwidth,
+	\begin{center}
+	  \begin{tabular}{ccc}
+	  \includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.13\textwidth]{fig/group_lines.png}&
+	  \includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.13\textwidth]{fig/convex_hull.png}&
+	  \includegraphics[trim= 48mm 0mm 0mm 0mm, clip, width=0.13\textwidth]{fig/snake_init.png} \\ 
+	  \footnotesize a) Group of text lines	& \footnotesize b) Text area convex hull 	& \footnotesize c) Snake initialization 
+	  \end{tabular}
+	\caption{Active contour initialization based on text area convex hull.}
+		\label{fig:paragraphs}
+	\end{center}
+	\end{figure}	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%We initialize the active contour of $N$ points on the paragraph shape (group of lines) figure~\ref{fig:paragraphs} and then we make it grow until it hits edges.
+
+
+%We define a paragraph as a group of text lines spoken by the same speaker and with no interruptions (e.g. time break, interaction, other person talk). These group of lines are written close to each other by convention . We labelize two consecutive lines as part of the same paragraph if there is no enough space for an other line similar in height between them.
+
+\subsection{Low resolution contour localization}
+Following a two stage process, we first aim to obtain a rough localization of the balloons by fitting a smooth contour using a few contour points during initialization. The idea is to progressively push the snake away from the text area and towards the balloon boundary giving an increased weight to both the $E_{ext}$ and $E_{text}$ energy terms. If the balloon has an explicit boundary then $E_{ext}$ will attract the snake to it. If there is no explicit contour close enough to attract the snake then the $E_{text}$ term will push the snake to the suggested position of the balloon contour. Also the internal energies are important at this stage to maintain a certain rigidity of the snake.
+%The and low external energy parameter $\gamma$, a large internal curvature energy parameter $\beta$ and a large knowledge energy parameter $\eta$ (see fig.~\ref{fig:multiscale01}). 
+At the end of this step, we obtain a preliminary localization of the speech balloons, see fig.~\ref{fig:mono_res_det}. 
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth,
+	  \centering
+		\fbox{\includegraphics[trim = 0mm 3mm 0mm 1mm, clip, width=220px]{fig/mono_res_det.png}}
+		\caption{Example of low resolution contour detection (red line) for closed (left) and open (right) balloons.}
+		\label{fig:mono_res_det}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsection{Candidate point selection}
+% {\bf SECTION REMOVED because we don't know yet how to efficiently select the point  and because multi-resolution method already improves results without using candidate point selection. We can mention it in the prospects.}
+%The candidate point selection aim to determine if the snake segments between points can be more detailed or not (e.g. detection of peak, circle, tail). Figure~\ref{fig:multiscale01} shown two categories of points, those who has been attracted and stopped by edge (part of the real contour) and the others (part of the suggested contour). At this point we can see that adding more points on the real contour parts and relaxing the internal energies could improve the contour detection. This a true but then all the contour will be affected and we could degrade the suggested contour detection part if it is a non closed contour. Therefore we add new points only between those stopped by edge because we can not get more detail about suggested parts of the contour and we could even loose the low resolution detection information.
+%We consider as ``stopped'' the points that are common with the ``text less'' edge map (left part of fig.~\ref{fig:distance_transform}).
+ %An example of candidate points is on figure~\ref{fig:multiscale01} and~\ref{fig:multiscale02}). We keep those new generated points only if they hit and edge before the snake stabilize again (only if they improve the contour detection). The aim is to get a higher resolution contour detection only where there is a contour drawn. If no contour (non closed balloon case) then we keep the appropriate shape from low resolution detection.
+
+
+\subsection{High resolution contour shape fitting}
+Figure~\ref{fig:mono_res_det} shows that the global shape of the top balloon has been detected although it is still far from a perfect fit because, as we can see on bottom part of the balloon, the snake was not able to describe the coarse parts of the boundary (e.g. peaks, tail). To achieve a better fitting, we increase the resolution of the snake by adding new points between the current ones and by changing the weighting parameters of the energy function, and go through a second fitting process. At this stage, we relax the $E_{curv}$ energy to make the snake fit to coarser parts of the boundary and we set $E_{cont}$ strong enough to keep a regular inter-point distance all over the contour. Also, we reduce the $E_{text}$ energy weight because at this step, the snake is already far from text and this term is not informative any more. %to give more importance to the image energy than the prior knowledge. %is reduced because  external  avoid point  is closer to the final contour and do not need the $E_{know}$ energy start to minimize we reduced the inter-points distance, we also increase the external energy parameter $\gamma$ to make the snake more attractable by image edge, decrease the internal curvature energy parameter $\beta$ to allow more flexible contour fitting and decrease the knowledge energy parameter $\eta$ because the contour is now far from the text. 
+This new configuration allows the snake to detect more coarse elements as shown in figure~\ref{fig:hd_contour}.
+%{\bf TO ADD IF RESULTS CONFIRMS: we consider external energy map based from edge detection only (no distance transform any more)?}
+
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth,
+	  \centering
+		\fbox{\includegraphics[trim = 0mm 2mm 0mm 1mm, clip, width=180px]{fig/multi_res_det.png}}
+		\caption{Example of high resolution contour detection (red line) for closed (left) and open (right) balloons.}
+		\label{fig:hd_contour}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \begin{comment}
+% \subsubsection{Balloon energy}
+% THIS SECTION SHOULD BE REPLACED BY DISTANCE TRANSFORM EXTERNAL ENERGY
+%
+%
+% $E_{balloon}$ makes the curve inflate~\cite{Cohen1991}. It is a computed value that is maximal inside the current curve and decrease according to the distance from the curve.
+% \begin{equation}\label{eq:ball}
+%   E_{balloon} = \begin{cases} 1 & \mbox{if }(x,y) \in \mbox{curve} \\
+%   1 - \Delta d / log(10) & \mbox{else} \end{cases}
+% \end{equation}
+% where $\Delta d$ is the distance between the current and future position of a contour point.
+%
+% This balloon force makes the balloon inflate until an edge or the internal forces stop it. We propose different solutions to improve the snake stop by using a priori knowledges as:
+% \begin{itemize}
+%  \item the concentricity between the text paragraph and its balloon (characteristic of comics)
+%  \item the distance between text and balloon (learning)
+% \end{itemize}
+
+%distance between the initial centroid of the snake initialization and the current snake after each ``turn" (contour level) [FIG]. This corresponds to a characteristic of comics which is that the text is centred in the balloon.
+% \end{comment}
+
+% 
+% \section{Balloon shape {\bf SECTION TO DELETE?}}
+% \label{sec:balloon_shape}
+%   When we read a comics book, our eyes are attracted by balloons and we first look at its shapes [REF] to identify who is doing the action (localization and tail) and how (e.g. exclamation, thought). Those two information belongs to comics content understanding field of research and were never studied before from our knowledge.
+% 
+%   \subsection{Balloon shape description}
+%     \label{sec:balloon_shape_description}
+%     In this study, we consider four categories of balloon shape (oval, cloud, rectangle and peak) which are either closed, open or mixed [FIG]. Balloon contour is composed by edges that we already have detected for balloon localization section~\ref{sec:cont_init}. We select edges that ``stopped'' the balloon detection as candidate for the contour description [FIG]. Note that such edges may be discontinuous. Then we describe each edge segment (what is a segment???) and classify them into one of the four categories. A drawback is that if the detection fails then the classification will be difficult.
+% 
+%     \subsubsection{Local shape matching}
+%       For shape classification, we first describe the four ``standard'' shape, as mentioned in section~\ref{sec:balloon_shape_description}, with an invariant in scale and rotation shape descriptor. For this purpose, ??? are suitable but we chose Curvature Scale Space (CSS) because of ???. Similar methods were applied on leaves [REF] and fish [REF] shape recognition. We want to quantify the amount of straight lines, curve and corner (squared or not) that compose the shape. For this purpose, we perform a comparison between each part of the contour and the four ``standard'' shapes. The comparison consist in measuring the distance (which one?) between the contour of the image and the models. By classifying sequential contour segments instead of complete contour in once, this approach is able to classify any shape independently from their appearance.
+% 
+% 
+% TO CONTINUE...
+
+%------------------------------------------------------------------------
+\section{Experiments}
+\label{sec:experiments}
+In this section we evaluate the proposed method on a dataset of scanned comic books, and compare our results to other approaches, including a naive baseline.
+
+%compare each level of our contribution to a baseline of other speech balloon detector found in the literature, which were designed for closed balloon. From our knowledge, this is the first work concerning non closed balloon detection.
+
+\subsection{Experimental setup}
+
+During the experiments the energy function was computed for each pixel within a neighbourhood of each point of the snake and the minimum score pixel becomes the new position of the snake point. % The size of the neighbourhood was defined by a ROI that must be smaller than the stroke-width to ovoid edge over-passing issues.
+We fixed the neighbourhood region $M$ to 5x5 pixels and the $E_{text}$ energy term's optimal distance parameter $N$ at one half of the average text line height of the page, based on experimental validation.
+%{\bf to replace by real data evaluation within range [5-10]}).
+All the energies (eq.~\ref{eq:energy3},~\ref{eq:cont} and~\ref{eq:curv}) where normalised between zero and one by dividing by the maximum value of each energy terms.
+The snake was initialized with a variable number of points $P$ so that the inter-point distance is less or equals to one quarter of the average text line height of the page. 
+We based $N$ and $P$ on text height to be invariant to image definition. 
+
+The weighting parameters $\gamma$ of the external energy term ($E_{ext}$), $\alpha$ and $\beta$ of the internal energy terms ($E_{int}$) and $\kappa$ for the text energy term ($E_{text}$) where defined based on validation as $\gamma = 0.2$, $\alpha = 0.1$, $\beta = 0.2$, $\kappa = 0.5$ for the localization step and $\gamma = 0.2$, $\alpha = 0.3$, $\beta = 0.4$, $\kappa = 0.1$ for the contour fitting step.
+
+% \begin{equation}\label{eq:energy4}
+%   E = 0.2 E_{ext} + 0.1 E_{cont} + 0.2 E_{curv} + 0.5 E_{know}\\
+% \end{equation}
+% at low resolution, and at:
+% \begin{equation}\label{eq:energy5}
+%   E = 0.2 E_{ext} + 0.4 E_{cont} + 0.3 E_{curv} + 0.1 E_{know}\\
+% \end{equation}
+% at high resolution.
+
+%The four weighting parameters are actually based on experiments but could be learnt from real data as well. At low resolution, the $E_{know}$ energy has the main role to push the snake to the supposed contour area. Then at high resolution, internal energies maintain inter-point distance and contortion while the external energy continue to pull the snake onto the contour edges.% (see result fig.~\ref{fig:mono_multi_detection}).% represented ($E_{ext}$) by keeping a certain rigidity at low resolution and release the snake at higher resolution.the real image ($E_{ext}$) has to make the snake fit the balloon detail. 
+
+\subsection{Dataset}
+\label{sec:dataset}
+We made experiments with the dataset eBDtheque~\cite{Guerin2013} from which we selected 50 pages on 100 containing 453 speech balloons and 1547 text lines. In this dataset, balloon localization are given as orthogonal horizontal bounding boxes circumscribing either the balloon boundary when explicit or the contained text implicit. The tail of this balloon is ignored in the ground truth.
+
+% (see fig.~\ref{fig:gt_balloon}).
+
+% 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth,
+% 	  \centering
+% 		\fbox{\includegraphics[trim = 0mm 50mm 0mm 0mm, clip, width=70px]{fig/gt_balloon.png}}
+% 		\caption{Example of balloon ground truth. The bounding box is represented as a red rectangles. Image credit~\cite{Bubble09}}
+% 		\label{fig:gt_balloon}
+% 	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Performance evaluation}
+\label{sec:eval}
+
+We evaluated our different contributions separately. First we measured balloon localization performance at bounding box level to highlight the benefits of both active contour theory and domain specific knowledge. Second, we performed pixel level evaluation on a smaller subset to show the ability of our method to fit balloon contour details.
+
+
+\subsubsection{Localization}
+The following results were obtained with the common evaluation measures of recall, precision and $F_1$ score at bounding box level.
+Recall ($R$) is the number of correctly detected balloons divided by the number of balloons in the ground truth.
+Precision ($P$) is the number of correctly detected balloons divided by the number of detected balloons.
+Each detected balloon $D$ was compared to the corresponding ground truth one $G$ with the nearest centroid, considering only one matching per ground truth balloon.
+We consider as correctly detected, balloons that overlap with a ground truth one more than 80\% ($D \cap G > 0.8 * G$) and overflow the ground truth one less than 40\% ($G - (D \cap G) < 0.4 * G$).
+%We consider as correctly detected only balloons that intersect more than 80\% area of a GT balloon (recall) and this same intersection represent more than 40\% of the detected balloon area (precision).%We consider as correctly detected only balloons that overlap more than $80\%$ and overflow less than $40\%$ a GT balloon area.
+
+
+%See eq.~\ref{eq:recall} and ~\ref{eq:precision} {\bf REMOVE EQ.~\ref{eq:recall} and ~\ref{eq:precision} TO SAVE SPACE?}.% evaluation tool proposed by Christian Wolf and Jean-Michel Jolion~\cite{Wolf2006}. 
+
+% \begin{eqnarray}
+%   \text{R} = \frac{\text{number of detected pixels overlapping the GT}}{\text{number of pixels in the GT}} \label{eq:recall} \\
+%   \text{P} = \frac{\text{number of detected pixels overlapping the GT}}{\text{number of detected pixels}}  \label{eq:precision}
+% \end{eqnarray}
+
+%and we decreased the area recall threshold from $tr = 0.8$ to $tr = 0.6$ in order to be more flexible with the different shapes of balloons. Also, we did not use the penalization parameter (originally designed for text detection) because do not consider having split or merge effects between different balloon.
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth,
+% 	  \centering
+% 		\includegraphics[width=210px]{fig/para_regularized.png}
+% 		\caption{Snake initialization points repartition (black squares).}
+% 		\label{fig:para_regularized}
+% 	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+%\subsection{Balloon localization}
+% \label{sec:bal_loc}
+
+% OK Dimos_v1: What happened with Ho? You only say that Arai was not possible to compare against. If you don't put Ho in the table, then remove any references to him from the next paragraph.
+In order to provide a comparative analysis we attempted comparison to the methods of Arai~\cite{Arai11} and Ho~\cite{Ho2012}, which are based on connected component detection and filtering. Unfortunately, direct comparison to these methods is not possible as Arai's approach~\cite{Arai11} is based on two rules specifically designed for Japanese manga comics with vertical text and Ho~\cite{Ho2012} is based on growing region segmentation which is not appropriate for open balloon detection neither.
+We also compared to the original active contour implementation proposed by Kass et al.~\cite{Kass1988} but because the initialization is not close enough to the edges, the internal energies make the snake retracts on itself.
+%. First, they assume that balloons are higher than large with a certain ratio to the page and to the balloon itself. Second, they search for two vertical white and continuous straight lines on the right and the left part of the balloon. Such rules are not applicable to our scenario, yielding unrealistic values below 1\% for both precision and recall based on the described evaluation scheme and dataset.
+
+Therefore, we compare our results to a baseline method (1) that considers as balloon any white connected components that overlaps at more than $10\%$ with text regions. We also compare against the active contour with a distance transform based external energy described section~\ref{sec:external_energie} (2) and finally we add the $E_{text}$ energy (3) from section.~\ref{sec:text_energie}. The results are presented in table~\ref{tab:bal_loc}. For each method, we present two variants, one making use of ground truth localization for the text areas as seeds for balloon localization, and another making use the results of the automatic text localization method of~\cite{Rigaud2013VISAPP}.
+
+%Each method is evaluated from a ground truth text line extraction and the automatic text line extraction (see section~\ref{sec:cont_init}) to highlight the different sources of error.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% OK Dimos_v1: Fix the table, make sure if fits one column, otherwise split it in two tables.
+\begin{table}[ht]
+	\normalsize
+\renewcommand{\arraystretch}{1.3}
+% if using array.sty, it might be a good idea to tweak the value of
+% \extrarowheight as needed to properly center the text within the cells
+	\centering
+	\caption{Balloon localization recall and precision.}
+	\begin{tabular}{|c|c|c|c|c|c|c|}
+	\hline
+
+		& \multicolumn{3}{|c|}{Ground truth} 	& \multicolumn{3}{|c|}{Automatic}		\\
+	\hline
+	Method	&  $ R$ (\%)  & $P$ (\%)& $F_1$  	&  $R$ (\%)  & $P$ (\%) 	& $F_1$\\
+% 	\hline
+% 	Ho~\cite{Ho2012}	& ???     & ??? 	&	& ???     & ???&		\\
+
+	%Arai~\cite{Arai11} 		& 0.8     	& 0.8 		& ???     	& ???		\\
+	\hline
+	(1) 		& 56.6     & 79.2 	& 66.0	& 53.1     & 53.0	& 53.1		\\
+% 	\hline
+% 	(2)	& ???     & ??? 	&	& ???     & ???&		\\
+	%\hline
+	%Log dist. trans. 			& ???     	& ??? 	&	& ???     	& ???		\\	
+% 	\hline
+% 	(2) 		& ???	& ???	& ???   & ???	& ???	& ???	\\
+	\hline
+	(2)		& 89.0	&90.7 	& 89.8	& 82.1	& 53.7    & 64.9	\\
+	\hline
+	(3)		& 92.3	& 94.4 	& 93.4	& 83.4	& 55.5    & 66.6	\\
+	\hline
+%	Multi {\bf DEL?}			& 92.3	& 94.4  & 93.4	& 83.4	& 55.5    & 66.6	\\
+	%\hline
+%       Proposed multi scale 	& ???	&??? 	& ???		& ???     	\\
+% 	\hline
+	\end{tabular}
+      \label{tab:bal_loc}
+\end{table}%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% OK Dimos_v1: Ho's results are not in the table, unless you put them there, remove any references to him from this paragraph.
+The baseline method (1) detects half of the balloons (about $56\%$ recall) in this dataset as it is not able to detect open balloons or balloons containing little text. However, it has two advantages in comparison with the proposed active contour based method. First, as the a connected component is considered as balloon, when correct, the precision at the pixel level is maximal. Second, it is faster to compute.
+The results using active contour with distance transform (2) shows a significant improvement, thanks to the active contour theory that detect much more balloons whether open or closed than connected component based methods. 
+%Making the edges attract the active contour from further is an essential step as we can see line (3). We gain up to {\bf X RECALL AND Y PRECISION}.
+%Mono-resolution and multi-resolution shows similar recall result because the high resolution affects only the shape details, not significantly changing the location of the detection. Next section explains how to evaluate the benefits of the high-resolution detection. %However there is a slight improvement for the precision measure due to higher precision in the shape detection. {\bf ADD RESULT FIGURE?}
+Doing just the low resolution localization step, or continuing to include the high resolution fitting step does not cause any difference for our method (3) under this evaluation scheme, as the evaluation is performed at the level of bounding boxes overlapping. 
+
+\subsubsection{Contour fitting}
+To evaluate the benefits of the second stage we propose, we repeated the evaluation using pixel level ground truth, on a small subset of three comic pages (24 balloons). The results are shown in table~\ref{tab:high_res}. Note that for this experiment we selected three pages where ground truth and automatic text detection give the same results.
+
+%\subsection{Balloon shape detection}
+% OK Dimos_v1: There is no need for the footnote
+%The bounding box level ground truth we used for balloon localization evaluation is not precise enough to know if all the detail of the balloon shape have been correctly detected or not. Here we evaluate the balloon detection from a pixel level ground truth (including the tail) on few pages\footnote{Page 1 refer to ``CYB\_BUBBLEGOM\_T01\_008'', page 2 to ``6673465787\_668ec4eff4\_o'' and page 3 to ``LAMISSEB\_ETPISTAF\_013''.{\bf should I add complete ref. in ref. section instead?}} from the same dataset as section~\ref{sec:dataset} and the evaluation measures of section~\ref{sec:eval}, in order to compare the performance between mono and multi-scale detection with more accuracy (see table~\ref{tab:high_res}). Note, for this experiment we selected only pages where ground truth and automatic text detection give same results.
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{table}[ht]
+		\normalsize
+\renewcommand{\arraystretch}{1.2}
+
+		\centering
+		\caption{Balloon shape detection recall and precision.}
+		\begin{tabular}{|c|c|c|c|c|}
+		      \hline
+			      & \multicolumn{2}{|c|}{Single-stage} 	& \multicolumn{2}{|c|}{Two-stage}		\\
+		      \hline
+			      &  R (\%)  & P (\%)  	&  R (\%)  & P (\%) 	\\
+		      \hline
+		      Page 1 	& 91.3     	& 86.5 		& 95.9     	& 90.1		\\
+		      \hline
+		      Page 2 	& 79.0     	& 95.9 		& 78.4     	& 94.8		\\
+		      \hline
+		      Page 3 	& 93.4		& 92.8 		& 97.7		& 88.7     	\\
+		      \hline
+	      %       Proposed multi scale & ???	&??? 	& ???		& ???     	\\
+	      % 	\hline
+	      \end{tabular}
+		\label{tab:high_res}
+	\end{table}%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+Table~\ref{tab:high_res} shows higher score for the two-stage variant for the page 1 and 3. These two pages contain mainly closed balloons, we see here that the second stage improves the accuracy of the detection of closed balloons. In the case of implied balloon boundaries, as in page 2, the second stage is not resulting in any improvement as there is no extra local information that can assist in the fitting. In this case the results mainly depends  of the low resolution detection. Note, processing time was about 10 seconds for a 300DPI A4 image on a regular machine.
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth,
+% 	  \centering
+% 		\includegraphics[width=170px]{fig/mono_multi_detection.png}
+% 		\caption{Examples of closed balloon detection. The pixel level ground truth in red, the mono-resolution detection in grey and the multi-resolution in green. {\bf ADD OPEN BALLOON EXAMPLE}}
+% 		\label{fig:mono_multi_detection}
+% 	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Discussion}
+The presented method highly depends on the active contour initialization success. In this study, we relied on speech text detection as we assume it is the most common feature that balloons include, while past experiments have shown that its accurate detection is feasible and stable. A side-effect of this choice is that the text line detector we used was not able to detect balloons that contain other contents (e.g. drawings, punctuation). %and its bounding box level may also include non-textual information (e.g. portion of the balloon contour) that alter our method. % see fig.~\ref{fig:case_of_failure}. Moreover, : text line bounding boxes removal may also remove some part of the drawing before the external energy edge detection.
+We believe there is room for improvement of the different energy terms we used. For example, one could use the Gradient Vector Flow proposed by Xu~\cite{Xu1998} for the external energy, especially in the case of missing data balloon boundaries. %We could also initialize the snake with a more balloon-like shape as the minimal ellipse including the text area for example. This would also reduce computation time.
+On the other hand, the ground truth of implicit balloons is at best questionable as the exact localization of the balloon is quite subjective. An way to circumvent this problem could be to either define the boundary in a flexible way, or directly define ground truth at the pixel level.
+All the materials for reproducing and comparing the results presented in this paper are publicly available through \url{http://ebdtheque.univ-lr.fr/references}.
+
+% add a ``no matter'' area to handle the subjectivity of suggested contour in the ground truth
+
+
+
+\section{Conclusion}
+%In this paper we propose a multi-scale method applicable to both closed and non-closed speech text localization in comics.
+
+We have proposed and evaluated a new active contour based method to accurately localize open and closed speech balloon in comic book. The proposed approach relies on text detection and prior knowledge to fit balloon contour at different resolutions. The evaluation shows 92.3\% recall and 94.4\% precision using ground truth text and 83.4\% recall and 55.5\% precision using an automatic text detector. Further effort has to be made to define open balloons ground truth.
+
+
+
+% conference papers do not normally have an appendix
+
+
+% use section* for acknowledgement
+\section*{Acknowledgment}
+%Dimos_v1: I am not sure I understand what Clement Guerin did... what ontology framework?
+The authors would like to thank Clement Gu\'{e}rin for his work about the evaluation framework we used to evaluate this work section~\ref{sec:eval}. This work was supported by the European Doctorate founds of the  University of La Rochelle, European Regional Development Fund, the region Poitou-Charentes (France), the General Council of Charente Maritime (France), the town of La Rochelle (France) and the Spanish research projects TIN2011-24631, RYC-2009-05031.
+
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth,
+% 	  \centering
+% 		\includegraphics[width=210px]{fig/case_of_failure.png}
+% 		\caption{Examples of non detected balloons. The red tectangle represent the bounding box used for evaluation.}
+% 		\label{fig:case_of_failure}
+% 	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+ %as $\alpha=0.20$, $\beta=0.25$, $\gamma=0.25$ for the $E_{cont}, E_{curv}$ and $E_{edge}$ respectively. Note the $\beta$ parameter changes according to the processing step.% need to be changed depending and the balloon shape. A solution could be to compute several snakes for each balloon with different $E_{curv}$ parameter and select the one who has the best fitting (e.g. total energy).
+
+
+%   \item One of the forces is not stable (field force?) = snake is stopped by ``time
+% to live'' trigger.
+% Example of field force ($log(10)$):
+%
+% 0 0 0.1 1 1
+%
+% 0 0.4 0.6 1 1
+%
+% 0.1 0.6 1 1 1
+%
+% 0 0.4 0.6 1 1
+%
+% 0 0 0.1 0 1
+
+% \item Some points still sticked on the initial contour (see
+% figure~\ref{fig:sticky_points}).
+% 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 	\begin{figure}[!ht]	%trim=l b r t  width=0.5\textwidth,
+% 	  \centering
+% 		\includegraphics[width=210px]{fig/sticky_points.png}
+% 		\caption{Snake still sicked to some points.}
+% 		\label{fig:sticky_points}
+% 	\end{figure}
+% 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+% An example of a floating figure using the graphicx package.
+% Note that \label must occur AFTER (or within) \caption.
+% For figures, \caption should occur after the \includegraphics.
+% Note that IEEEtran v1.7 and later has special internal code that
+% is designed to preserve the operation of \label within \caption
+% even when the captionsoff option is in effect. However, because
+% of issues like this, it may be the safest practice to put all your
+% \label just after \caption rather than within \caption{}.
+%
+% Reminder: the "draftcls" or "draftclsnofoot", not "draft", class
+% option should be used if it is desired that the figures are to be
+% displayed while in draft mode.
+%
+%\begin{figure}[!t]
+%\centering
+%\includegraphics[width=2.5in]{myfigure}
+% where an .eps filename suffix will be assumed under latex,
+% and a .pdf suffix will be assumed for pdflatex; or what has been declared
+% via \DeclareGraphicsExtensions.
+%\caption{Simulation Results}
+%\label{fig_sim}
+%\end{figure}
+
+% Note that IEEE typically puts floats only at the top, even when this
+% results in a large percentage of a column being occupied by floats.
+
+
+% An example of a double column floating figure using two subfigures.
+% (The subfig.sty package must be loaded for this to work.)
+% The subfigure \label commands are set within each subfloat command, the
+% \label for the overall figure must come after \caption.
+% \hfil must be used as a separator to get equal spacing.
+% The subfigure.sty package works much the same way, except \subfigure is
+% used instead of \subfloat.
+%
+%\begin{figure*}[!t]
+%\centerline{\subfloat[Case I]\includegraphics[width=2.5in]{subfigcase1}%
+%\label{fig_first_case}}
+%\hfil
+%\subfloat[Case II]{\includegraphics[width=2.5in]{subfigcase2}%
+%\label{fig_second_case}}}
+%\caption{Simulation results}
+%\label{fig_sim}
+%\end{figure*}
+%
+% Note that often IEEE papers with subfigures do not employ subfigure
+% captions (using the optional argument to \subfloat), but instead will
+% reference/describe all of them (a), (b), etc., within the main caption.
+
+
+% An example of a floating table. Note that, for IEEE style tables, the
+% \caption command should come BEFORE the table. Table text will default to
+% \footnotesize as IEEE normally uses this smaller font for tables.
+% The \label must come after \caption as always.
+%
+%\begin{table}[!t]
+%% increase table row spacing, adjust to taste
+%\renewcommand{\arraystretch}{1.3}
+% if using array.sty, it might be a good idea to tweak the value of
+% \extrarowheight as needed to properly center the text within the cells
+%\caption{An Example of a Table}
+%\label{table_example}
+%\centering
+%% Some packages, such as MDW tools, offer better commands for making tables
+%% than the plain LaTeX2e tabular which is used here.
+%\begin{tabular}{|c||c|}
+%\hline
+%One & Two\\
+%\hline
+%Three & Four\\
+%\hline
+%\end{tabular}
+%\end{table}
+
+
+% Note that IEEE does not put floats in the very first column - or typically
+% anywhere on the first page for that matter. Also, in-text middle ("here")
+% positioning is not used. Most IEEE journals/conferences use top floats
+% exclusively. Note that, LaTeX2e, unlike IEEE journals/conferences, places
+% footnotes above bottom floats. This can be corrected via the \fnbelowfloat
+% command of the stfloats package.
+
+
+
+
+% trigger a \newpage just before the given reference
+% number - used to balance the columns on the last page
+% adjust value as needed - may need to be readjusted if
+% the document is modified later
+%\IEEEtriggeratref{8}
+% The "triggered" command can be changed if desired:
+%\IEEEtriggercmd{\enlargethispage{-5in}}
+
+% references section
+
+% can use a bibliography generated by BibTeX as a .bbl file
+% BibTeX documentation can be easily obtained at:
+% http://www.ctan.org/tex-archive/biblio/bibtex/contrib/doc/
+% The IEEEtran BibTeX style support page is at:
+% http://www.michaelshell.org/tex/ieeetran/bibtex/
+\bibliographystyle{IEEEtran}
+% \bibliographystyle{ieee}
+
+% argument is your BibTeX string definitions and bibliography database(s)
+% \bibliography{IEEEabrv,example}
+
+% \bibliographystyle{ieee}
+  \bibliography{bibliography}
+
+%
+% <OR> manually copy in the resultant .bbl file
+% set second argument of \begin to the number of references
+% (used to reserve space for the reference number labels box)
+% \begin{thebibliography}{1}
+
+% \bibitem{IEEEhowto:kopka}
+% H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+%   0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+%
+% \end{thebibliography}
+
+% that's all folks
+\end{document}
+
+

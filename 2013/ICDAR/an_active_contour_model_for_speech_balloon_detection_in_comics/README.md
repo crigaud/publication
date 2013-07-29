@@ -12,8 +12,19 @@ existing methods for closed balloon localization found in the
 literature and results are presented.
 
 
-Citation
+Citation BiBteX
 -------------------------------------------------
-Waiting for publication at the ICDAR'13 conference (August 28, 2013).
+Publication at the ICDAR'13 conference (August 28, 2013).
 
+<pre><code>
+@inproceedings{Rigaud2013ICDAR,
+	title = {An active contour model for speech balloon
+detection in comics},
+	author = {Rigaud, Christophe and Karatzas, Dimosthenis and Van de Weijer
+, Joost and Burie, Jean-Christophe and Ogier, Jean-Marc},
+	booktitle = {Proceedings of the 12th International Conference on Document Analysis and Recognition (ICDAR)},
+	publisher = {IEEE},
+	year = {2013}
+}
+</code></pre>
 
