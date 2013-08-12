@@ -1,0 +1,120 @@
+
+\makeatletter
+
+\renewcommand{\maketitle}{%
+{
+	\pagestyle{empty}
+\begin{center}
+
+	%\includegraphics[width=2cm]{fig/logo_UnivLR2011.png}\\
+	\bigskip
+	
+	\begin{LARGE}
+		Scientific report\\
+		%Master Recherche en Systèmes Dynamiques et Signaux\\
+	\end{LARGE}\bigskip
+	
+	\begin{large}
+		First year PhD report\\
+		%Année 2010-2011\\
+	\end{large}\bigskip\bigskip
+	
+%	\begin{LARGE}
+%		Rapport bibliographique intermédiaire\\% de Master 2 Recherche SDS:\\
+%	\end{LARGE}\bigskip
+	
+	\begin{large}
+		\href{http://www.christophe-rigaud.com}{Christophe RIGAUD}\\
+	\end{large}\bigskip\bigskip
+
+	\begin{normalsize}
+		September 28, 2012\\
+	\end{normalsize}\medskip
+	
+	\begin{normalsize}
+		%L3i lab, University of La Rochelle\\
+		%LISA - ISTIA - 62 avenue Notre-Dame du Lac 49000 ANGERS\\\bigskip
+		\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip
+	\end{normalsize}
+	
+	\begin{Large}
+		\bf{Segmentation and indexation of complex object: application to the detection and recognition of complex objects in comics books}
+		\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip
+	\end{Large}
+	
+	\begin{normalsize}
+		Supervisors:\\
+	\end{normalsize}
+	\parbox{15cm}{
+		\begin{tabbing}
+			Dr. Jean-Christophe BURIE\hspace{5em}\= Professor at University of La Rochelle\\
+			Pr. Jean Marc OGIER\> Professor and director of L3i lab\\
+				%\> F. Chapeau Blondeau	\> Professeur Université d'Angers\\
+				%\> J.L. Boimond			\> Professeur Université d'Angers\\
+				%\> M. Bourcerie			\> Professeur Université d'Angers\\
+				%\> P. Declerck			\> MCF Université d'Angers\\
+				%\> J.B. Fasquel  		\> MCF Université d'Angers\\
+				%\> C. Jean-Guillaume	\> MCF Université d'Angers\\
+				%\> M. Lhommeau			\> MCF Université d'Angers\\
+				%\> D.Rousseau			\> MCF Université d'Angers
+		
+		\end{tabbing}
+	}
+	\bigskip\bigskip\bigskip
+\end{center}
+%	\begin{large}
+%		Encadrant: Jean-Baptiste FASQUEL		
+%	\end{large}
+
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft}
+    \includegraphics[width=2cm]{fig/logo_UnivLR2011.png}\\
+    Technoforum \\
+    Université de La Rochelle \\
+    23, avenue Albert Einstein \\
+    17071 La Rochelle - Cedex 9 - France
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{flushright}
+    \includegraphics[width=4cm]{fig/L3I-LOGO-quadri1.jpg}\\
+    Pôle Sciences et Technologies \\
+    Université de La Rochelle\\    
+    Avenue M. Crépeau\\	
+    17042 La Rochelle - Cedex 01 - France
+\end{flushright}
+\end{minipage}
+
+
+		\clearpage
+	}
+}
+
+%\def\thechapter{\Roman{chapter}} 
+%\def\thesection{\arabic{section}} 
+        
+% Chapter (general)
+\def\@makechapterhead#1{%
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        %\huge\bfseries \@chapapp\space \thechapter
+        \par\nobreak
+        \vskip 20\p@
+    \fi
+    \interlinepenalty\@M
+    \Huge \bfseries \thechapter \hspace{0.2em} #1 \par\nobreak
+    \vskip 30\p@			% space under chapter name
+  }}
+
+% Chapter table of content
+\def\@makeschapterhead#1{%
+  {\parindent \z@ \raggedright
+    \normalfont
+    \interlinepenalty\@M
+    \Huge \bfseries  #1\par\nobreak
+    \vskip 40\p@			% space under "table of content"
+  }}
+
+
+
+\makeatother

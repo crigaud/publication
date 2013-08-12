@@ -1,0 +1,129 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%clear; bibtex main.aux;pdflatex main.tex ;evince main.pdf &
+
+\documentclass[final,12pt]{report} 						% list options between brackets [draft]
+
+\pdfminorversion = 5									% changing the default PDF version
+
+\include{include/packages}								% Custom packages		
+\include{include/commands}								% Custom commands
+%\include{include/style}									% Custom styles
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\makeglossaries
+%\newglossaryentry{ROI}{name={ROI}, description={app Domain Description...}}
+
+%\newglossaryentry{sample}{name={has been inserted aaa},description={testing testing 123}}
+%\newglossaryentry{topologie}{description={La topologie est une branche des mathématiques concernant l'étude des déformations spatiales par des transformations continues (sans arrachages ni recollement des structures)\url{http://fr.wikipedia.org/wiki/Topologie}}
+%\newglossaryentry{Moteur d'inférence, de l'anglais "enference engine" et du verbe « inférer » qui signifie « déduire », c'est un concept de raisonnement déductif, qui peut être concrètement un logiciel, à qui on demande des informations et qui essaye de les déduire à partir de sa base de connaissances.})
+%\footnote{Le fenêtrage est le fait de considérer qu'une fraction de la dynamique d'une image (exemple : un intervalle dans un histogramme d'image), on l'utilise souvent pour faciliter la visualisation ou les traitements d'une image.}
+
+\begin{document}
+	%--------------------------------------------------------------------------------------------------
+	\renewcommand{\labelitemi}{$\bullet$}
+	\renewcommand{\appendixtocname}{Annexes}
+	\newcounter{ale}
+	\setcounter{tocdepth}{4}
+
+
+
+\chapter{Doctoral consortium application}
+
+\section{General Information}
+% \begin{tabular}{ l r  }
+  \begin{tabular}{| p{4cm} | p{12.8cm} | }
+\hline
+      Name surname: & \href{http://www.christophe-rigaud.com/}{Christophe Rigaud} \\
+\hline
+      University: & Laboratory L3i, University of La Rochelle, France\\
+\hline
+%       Thematic axe & IDDC \\ \hline
+%       Phone & +33 6 80 81 00 22 \\ \hline
+%       Email & christophe.rigaud@univ-lr.fr \\ \hline
+%       Web page & http://l3i.univ-larochelle.fr/Rigaud-Christophe.html \\  \hline
+%       &  \\ \hline
+%       End date & October 1st, 2014 \\ \hline
+      Supervisors: & Jean-Christophe Burie, Dimosthenis Karatzas and Jean-Marc Ogier  \\ 
+\hline
+      Thesis title:&  Segmentation and indexation of complex object: application to the detection and recognition of complex objects in comics books\\
+\hline
+      Date:	&  October 1$^{st}$, 2011 to September 30$^{st}$, 2014 \\
+\hline
+
+%       Scholarship & Ministry \\ \hline
+    \end{tabular}
+%     & \includegraphics{fig/christophe_rigaud-ce168.jpg} \\
+% \end{tabular}
+% 	- your name and surname
+% 	- advisor's names (mine is: Oriol Ramos Terrades)
+% 	- thesis title
+% 	- admission date
+
+%-------------------------------------------------------------------------------------
+
+\section{Research plan}
+\subsection{Overview}
+L3i lab initiated the e-BDthèque project to develop digital comics books under the CPER 2008-2013 founds. Nowadays, many large scale digitalization processes of comics are considered at national and international scale. From one hand, the digitalization of the comics rise new needs of indexing tools allowing to browse a large amount of data. With such tool, it could be possible to find specific drawings, animate objects or characters, analyse specific strip sequence, etc... On the other hand, several company feedbacks shows that there is no tool allowing to automatically extract comics content from digitized books such as frames, speech balloons and text. The implementation of reading scenario for new devices as tablet and smartphones is made manually and take an terrible time. The development of automatic content extraction tools is relevant for full-text search, frame per frame reading, automatic translation, text-to-speech, etc...
+
+
+%Image processing has been widely studied during the last decades on grey-scale image and on colour images. We are now able to provide a low level description for simple object recognition purpose. In the case of complex object composed of many regions as comics characters (where each region has its own shape, colour, texture), it is necessary to consider the location of each region as well. A priori model of character is very tricky to specify because of shadow, posture and overlapping variabilities.
+%This thesis focus on, from one hand, frame-content description, and on another hand, to propose an indexation process with the objective of redundant structure retrieval among the different frames of the comics albums. These particular structures may be assimilated as recurrent object and therefore characters or special sceneries.
+ %The user may be included in the loop to interact throughout the process and provide relevant feedback to revise the description model in order to reach a ``high level'' description.
+%The last step is passing from ``high level'' (e.g. it is a character) to semantic representation (e.g. it is Tintin/Asterix). This representation will enrich a system of knowledge representation developed as part of another thesis.
+
+\subsection{Contributions}
+Comics content many heterogeneous elements that is better to treat separately. We decided to split our work into several steps. First, we defined a dataset and its ground truth in order to evaluate our work later on and to share with the community, make new cooperation and propose new solutions for comics in a meantime. Second, we extract frames, text, balloons in order to focus on the much more complex elements in a limited areas: we call them ``complex objects'' (e.g. character, monument, vehicle). Third, we index the extracted elements to allow information retrieval and evaluation.
+
+\subsubsection{Dataset}
+We built the first dataset of comics in the literature. It took almost one year to define which type of comics we needed, get an agreement for copyright authorizations from comics authors and publishers, develop a specific tool to make the ground truth, define a protocol and hire people to make the ground truth. This ground truth will be published in ICDAR'13 poster session and is now available at \textit{http://ebdtheque.univ-lr.fr}.
+
+\subsubsection{Frame segmentation}
+Frame segmentation has been mainly studied for reading comics on mobile device in order to display them frame by frame on a small screen. Our work concerns the indexing of a huge amount of albums that raises new issues in terms of variety of format, resolution and content. We published a new comics frame extraction method\footnote{C. Rigaud, N. Tsopze, J-C. Burie and J-M Ogier, Frame and text extraction from comic books, 
+Graphics Recognition. New Trends and Challenges, volume 7423 of Lecture Notes in
+Computer Science (LNCS), pp. 129-138. Springer Berlin Heidelberg, 2013.
+}.
+
+\subsubsection{Text localization}
+To solve the particular problems which are provoked by the combination of complex background and unstructured documents, we have published a new text localization method called ``Automatic Text Localisation in Scanned Comic Books''\footnote{C. Rigaud, D. Karatzas, J. Van de Weijer, J-C Burie and J-M Ogier. Automatic text localisation in scanned comic books. International Conference on Computer Vision Theory and Applications (VISAPP), pp. 814-819. SCITEPRESS Digital Library, 2013.}. The evaluation part shows that we overpass other method combination found in the literature by reaching 76\% recall and precision for text line localization in comics. 
+
+\subsubsection{Balloon detection}
+We will present at ICDAR'13 poster session an active contour based method to accurately localize open and closed speech balloon in comics book. The proposed approach relies on text detection and prior knowledge to fit balloon contour at different resolutions. The evaluation shows 92.3\% recall and 94.4\% precision using ground truth text and 83.4\% recall and 55.5\% precision using the automatic text detector presented above. Balloon classification is also in the pipeline (GREC'13), it consist in analysing the balloon contour variations and classifying as ``dialogue'', ``exclamation'' or ``though'' according to ``smooth'', ``zigzag'' and ``wavy'' contour types.
+
+\subsection{Future work}
+We now have detected all the recurrent feature that compose comics but for a complete comics content understanding we need to focus on remaining panel contents which is graphical drawing. Those drawings are everything except text and balloons (e.g. characters, buildings, objects). Segmenting such ``non-rigid'' objects is a real challenge because they are position, rotation, scale, colour and occlusion variants. We plan to split this work into two tasks. First using CBIR techniques based on local feature, colour and spatial information to retrieve similar objects in all the frames of the same album given an image example. Second we will try to automatically detect the more redundant objects (hopefully the hero of the comics), without previous learning, by analysing frame content redundancy throughout pages and albums. So far, we investigated redundant object detection by adjacent sub-graph matching (GREC'13) and a first work on high apparition frequency local feature matching applied on comics has been carried out (``Specific Comic Character Detection Using Local Feature Matching'', ICDAR'13).
+
+
+%-------------------------------------------------------------------------------------
+
+%\section{CV}
+%\textbf{UPDATE AND INCLUDE PDF}
+%\includegraphics{CV_Christophe_Rigaud_en.pdf}
+
+
+%Improvement to the actual content extraction method will be submitted to VISAPP 2013 and ICIP 2013 conferences with online demonstrators. A dedicated website for the ground truth will be created and submitted to ICDAR 2013 conference. Complex object extraction result will be submitted to CVPR 2014 international conference. Moreover, we will submit to an international journal as Pattern Recognition from Elsevier.
+
+%{\bf GUIDELINE: description of the evaluation metrics for the tasks you'll do. For instance, reports, papers in conference and journals, prototypes, etc.}
+
+	%--------------------------------------------------------------------------------------------------
+	%\pagestyle{empty} 									%get rid of header/footer for toc page
+%	\renewcommand{\appendixpagename}{Annexes}
+%	\appendix
+%	\appendixpage
+	%\renewcommand{\appendixtocname}{Annexes A}
+	%\addappheadtotoc
+	%\renewcommand{\appendixname}{Annexes I}
+	%\appendixname
+%	\input{Appendix/appendixA}
+	%--------------------------------------------------------------------------------------------------
+	%\bibliographystyle{plain}							% ordre alphabétique et les numérote en conséquence.
+	%\bibliographystyle{unsrt}% trie les entrées par ordre d’apparition dans le texte.
+	%\bibliography{../../bibliography}
+
+
+	  
+
+\end{document}          
+
