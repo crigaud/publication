@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="640mm" zoomAndPan="magnify" contentStyleType="text/css" height="700mm" viewBox="0 0 1280 1400" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <title>CYB_SUPERCOMPTOIR_001.jpg</title>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="1280" xlink:href="../Pages/CYB_SUPERCOMPTOIR_001.jpg" xlink:type="simple" xlink:actuate="onLoad" height="1400" opacity="0.5" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 0; stroke-linejoin: round; }
+		.Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+		.Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Panel { fill: red; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Line { fill: green; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Balloon { fill: cyan; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Line" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="TextArea" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="725,160 848,158 875,174 894,200 901,223 890,256 875,270 860,279 840,290 834,283 824,283 817,273 810,285 797,287 792,296 788,295 783,289 774,298 762,296 742,293 729,288 716,280 708,277 697,280 688,286 681,291 680,295 686,298 693,302 688,307 680,312 676,319 672,324 677,328 684,333 686,339 677,334 667,330 666,322 674,313 683,302 676,300 670,300 674,291 682,282 694,272 698,270 689,259 677,242 674,219 677,203 686,187 697,174 717,162 725,160">
+            <metadata shape="oval" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+        <polygon points="501,978 556,979 579,983 603,993 616,999 627,1010 639,1026 642,1037 640,1049 636,1061 627,1074 613,1085 595,1093 582,1100 567,1104 553,1106 539,1108 522,1109 516,1108 510,1116 502,1121 488,1123 501,1115 505,1106 487,1102 466,1095 444,1083 425,1062 418,1042 422,1023 435,1005 452,994 476,985 501,978">
+            <metadata shape="oval" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <metadata method="GroundTruth" lastModificationDate="Sun Nov 03 13:56:40 CET 2013" lastStepModified="Page_Ended"/>
+</svg>

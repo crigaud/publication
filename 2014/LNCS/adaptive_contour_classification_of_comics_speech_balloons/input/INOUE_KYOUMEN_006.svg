@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="350mm" zoomAndPan="magnify" contentStyleType="text/css" height="495mm" viewBox="0 0 700 990" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <title>INOUE_KYOUMEN_006.jpg</title>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="700" xlink:href="../Pages/INOUE_KYOUMEN_006.jpg" xlink:type="simple" xlink:actuate="onLoad" height="990" opacity="0.5" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 0; stroke-linejoin: round; }
+		.Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+		.Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Panel { fill: red; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Line { fill: green; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Balloon { fill: cyan; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Line" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="TextArea" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="230,104 314,103 312,224 229,225 230,104">
+            <metadata shape="rectangle" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+        <polygon points="527,124 530,110 535,96 543,90 553,84 564,79 573,75 578,73 587,73 597,76 606,80 612,87 619,94 625,108 627,123 628,134 629,151 627,166 626,179 622,194 617,201 606,213 598,219 589,223 577,226 568,225 557,220 548,213 538,200 531,187 528,166 526,151 527,124">
+            <metadata shape="oval" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+        <polygon points="86,421 213,422 213,559 84,560 86,421">
+            <metadata shape="rectangle" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+        <polygon points="436,386 528,386 532,281 624,281 623,396 545,395 543,514 436,514 436,386">
+            <metadata shape="rectangle" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+        <polygon points="529,769 622,769 621,875 528,873 529,769 529,769">
+            <metadata shape="rectangle" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+        <polygon points="383,851 386,840 392,832 397,824 401,818 408,813 415,809 420,807 428,805 436,805 439,806 441,812 445,814 451,816 455,816 460,815 463,819 467,827 472,837 475,848 477,859 478,873 476,886 475,898 472,906 469,913 465,920 458,928 450,936 441,942 435,945 428,947 422,945 414,942 406,937 398,928 391,920 388,912 383,902 381,892 379,882 383,851">
+            <metadata shape="oval" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+        <polygon points="180,792 181,783 184,775 187,765 192,755 197,749 203,742 212,738 220,734 241,735 248,738 255,744 262,751 266,756 271,764 273,774 276,782 275,802 273,819 268,828 262,840 257,848 251,855 247,859 242,863 234,869 223,869 213,865 203,859 192,847 184,837 181,830 179,820 178,796 180,792">
+            <metadata shape="oval" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+        <polygon points="66,903 66,878 69,869 71,858 76,846 83,835 90,827 96,823 103,818 108,815 114,813 120,812 128,811 138,812 146,814 154,818 160,821 164,825 168,830 173,835 178,842 185,852 188,859 191,868 193,878 195,886 193,895 192,903 191,911 185,934 181,943 176,951 170,956 165,961 162,963 98,963 91,956 84,945 79,937 74,928 70,921 66,903">
+            <metadata shape="oval" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <metadata method="GroundTruth" lastModificationDate="Sun Nov 03 13:38:25 CET 2013" lastStepModified="Page_Ended"/>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="1230mm" zoomAndPan="magnify" contentStyleType="text/css" height="1699mm" viewBox="0 0 2461 3398" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <title>LAMISSEB_LESNOEILS1_020.jpg</title>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="2461" xlink:href="../Pages/LAMISSEB_LESNOEILS1_020.jpg" xlink:type="simple" xlink:actuate="onLoad" height="3398" opacity="0.5" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 0; stroke-linejoin: round; }
+		.Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+		.Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Panel { fill: red; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Line { fill: green; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Balloon { fill: cyan; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Line" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="TextArea" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="233,151 775,147 779,245 517,245 529,292 538,348 535,390 537,422 529,460 523,483 500,540 521,462 521,401 516,344 497,294 472,247 233,252 233,151">
+            <metadata shape="rectangle" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+        <polygon points="1753,142 1976,138 1976,229 1906,227 1929,273 1933,323 1933,380 1933,412 1925,466 1900,517 1919,411 1915,348 1896,294 1877,260 1839,229 1755,229 1753,142">
+            <metadata shape="rectangle" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+        <polygon points="468,910 527,914 588,922 647,922 697,920 744,916 788,908 765,941 752,1004 758,1049 764,1080 773,1116 739,1122 682,1110 645,1105 605,1143 573,1171 550,1202 552,1221 573,1219 588,1225 577,1238 537,1274 517,1288 508,1303 538,1326 504,1307 485,1297 495,1284 531,1263 550,1246 550,1233 529,1229 500,1225 495,1215 521,1191 548,1160 558,1131 563,1114 476,1120 481,1076 489,1007 485,969 468,910">
+            <metadata shape="peak" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+        <polygon id="selected" points="1825,2496 1842,2485 1859,2484 1876,2478 1893,2475 1906,2475 1922,2475 1945,2481 1956,2485 1969,2494 1985,2482 2012,2476 2038,2474 2056,2472 2074,2474 2089,2478 2099,2491 2122,2484 2151,2484 2178,2489 2195,2502 2207,2527 2208,2549 2201,2567 2188,2579 2179,2585 2192,2592 2201,2604 2205,2625 2202,2648 2195,2677 2187,2680 2195,2704 2199,2728 2194,2753 2179,2767 2159,2787 2128,2793 2106,2791 2088,2788 2078,2780 2068,2790 2053,2795 2035,2800 2011,2804 1996,2798 1983,2785 1962,2780 1943,2785 1932,2794 1925,2801 1916,2808 1913,2811 1903,2814 1865,2820 1840,2815 1815,2808 1792,2800 1785,2787 1773,2791 1759,2791 1742,2790 1737,2795 1722,2794 1700,2785 1687,2778 1674,2768 1677,2751 1686,2747 1679,2750 1674,2737 1667,2718 1664,2700 1662,2678 1660,2661 1663,2631 1667,2614 1673,2597 1679,2578 1676,2561 1679,2537 1686,2527 1697,2515 1707,2501 1727,2491 1746,2482 1775,2478 1810,2484 1825,2496">
+            <metadata shape="cloud" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+        <polygon points="294,2513 754,2511 756,2681 568,2685 550,2709 548,2746 548,2788 554,2815 562,2853 525,2782 519,2752 519,2713 521,2687 461,2687 412,2687 365,2689 329,2689 294,2691 294,2513">
+            <metadata shape="rectangle" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+        <polygon points="1050,2511 1354,2511 1358,2600 1234,2602 1232,2643 1212,2705 1198,2754 1173,2817 1149,2857 1129,2884 1157,2827 1178,2776 1188,2720 1190,2679 1190,2634 1186,2606 1056,2604 1050,2511">
+            <metadata shape="rectangle" uri="" queueDirection="" area="" fillingPcent="" rank=""/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <metadata method="GroundTruth" lastModificationDate="Sun Nov 03 10:54:16 CET 2013" lastStepModified="Line_Polygons"/>
+</svg>
