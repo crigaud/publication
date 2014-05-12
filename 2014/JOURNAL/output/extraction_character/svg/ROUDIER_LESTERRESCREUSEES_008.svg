@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1908" version="1.0" height="2643"><title>ROUDIER_LESTERRESCREUSEES_008</title><svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0"><image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1908" height="2643" xlink:href="../Pages/ROUDIER_LESTERRESCREUSEES_008.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/></svg><style type="text/css" xml:space="preserve">
+            * { stroke-width: 0; stroke-linejoin: round; }
+            .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+            .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+            polygon:hover { opacity:0.2; }
+    </style><ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns0:polygon points="793,697 154,697 154,29 793,29 793,697">
+            <ns0:metadata id="ROUDIER_LESTERRESCREUSEES_008_panel_0" rank="1"/>
+        </ns0:polygon>
+        <ns0:polygon points="1907,622 1189,622 1189,-6 1907,-6 1907,622">
+            <ns0:metadata id="ROUDIER_LESTERRESCREUSEES_008_panel_2" rank="3"/>
+        </ns0:polygon>
+        <ns0:polygon points="1907,2613 361,2613 361,779 1907,779 1907,2613">
+            <ns0:metadata id="ROUDIER_LESTERRESCREUSEES_008_panel_4" rank="5"/>
+        </ns0:polygon>
+        <ns0:polygon points="1536,1093 836,1093 836,32 1536,32 1536,1093">
+            <ns0:metadata id="ROUDIER_LESTERRESCREUSEES_008_panel_1" rank="2"/>
+        </ns0:polygon>
+        <ns0:polygon points="1042,1617 174,1617 174,655 1042,655 1042,1617">
+            <ns0:metadata id="ROUDIER_LESTERRESCREUSEES_008_panel_3" rank="4"/>
+        </ns0:polygon>
+    </ns0:svg>
+    <ns1:svg xmlns:ns1="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <ns2:svg xmlns:ns2="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"/><metadata lastModificationDate="Wed, 07 May 2014 11+:40:19 +0000" method="Christophe Rigaud's extractor"/></svg>

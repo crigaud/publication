@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" version="1.0" height="1400"><title>CYB_SUPERCOMPTOIR_001</title><svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0"><image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1280" height="1400" xlink:href="../Pages/CYB_SUPERCOMPTOIR_001.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/></svg><style type="text/css" xml:space="preserve">
+            * { stroke-width: 0; stroke-linejoin: round; }
+            .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+            .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+            polygon:hover { opacity:0.2; }
+    </style><ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns0:polygon points="1026,1370 242,1368 242,978 1023,976 1026,1370">
+            <ns0:metadata id="CYB_SUPERCOMPTOIR_001_panel_2" rank="3"/>
+        </ns0:polygon>
+        <ns0:polygon points="1025,955 242,959 242,567 1023,567 1025,955">
+            <ns0:metadata id="CYB_SUPERCOMPTOIR_001_panel_1" rank="2"/>
+        </ns0:polygon>
+        <ns0:polygon points="1025,546 240,546 242,156 1025,156 1025,546">
+            <ns0:metadata id="CYB_SUPERCOMPTOIR_001_panel_0" rank="1"/>
+        </ns0:polygon>
+    </ns0:svg>
+    <ns1:svg xmlns:ns1="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns1:polygon points="902,225 895,246 873,274 853,287 840,292 690,343 678,339 662,333 670,213 674,195 686,178 696,168 717,155 852,155 865,162 881,175 893,189 902,210 902,225">
+            <ns1:metadata id="CYB_SUPERCOMPTOIR_001_balloon_1" tailTip="690,343" tailDirection="SE" rank="3"/>
+        </ns1:polygon>
+        <ns1:polygon points="643,1039 638,1059 625,1079 603,1094 572,1106 499,1128 479,1124 426,1071 417,1054 416,1039 424,1013 435,1000 462,984 481,977 576,977 603,989 625,1001 638,1021 643,1039">
+            <ns1:metadata id="CYB_SUPERCOMPTOIR_001_balloon_3" tailTip="479,1124" tailDirection="W" rank="7"/>
+        </ns1:polygon>
+        <ns1:polygon points="675,156 674,181 658,225 631,259 524,343 338,268 303,223 291,192 287,155 675,156">
+            <ns1:metadata id="CYB_SUPERCOMPTOIR_001_balloon_0" tailTip="524,343" tailDirection="S" rank="1"/>
+        </ns1:polygon>
+        <ns1:polygon points="882,597 881,625 865,659 834,691 825,696 649,778 633,779 457,733 342,676 322,649 312,629 308,614 311,585 322,565 867,564 875,574 882,597">
+            <ns1:metadata id="CYB_SUPERCOMPTOIR_001_balloon_2" tailTip="649,778" tailDirection="SE" rank="5"/>
+        </ns1:polygon>
+    </ns1:svg>
+    <ns2:svg xmlns:ns2="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns2:polygon points="607,732 586,732 586,711 607,711 607,732">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_19" rank="39"/>
+        </ns2:polygon>
+        <ns2:polygon points="596,235 371,235 371,218 596,218 596,235">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_3" rank="7"/>
+        </ns2:polygon>
+        <ns2:polygon points="820,220 742,220 742,192 820,192 820,220">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_7" rank="15"/>
+        </ns2:polygon>
+        <ns2:polygon points="608,255 355,255 355,239 608,239 608,255">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_4" rank="9"/>
+        </ns2:polygon>
+        <ns2:polygon points="751,686 476,686 476,667 751,667 751,686">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_17" rank="35"/>
+        </ns2:polygon>
+        <ns2:polygon points="622,176 345,176 345,157 622,157 622,176">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_0" rank="1"/>
+        </ns2:polygon>
+        <ns2:polygon points="806,256 763,256 763,227 806,227 806,256">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_8" rank="17"/>
+        </ns2:polygon>
+        <ns2:polygon points="513,296 492,296 492,275 513,275 513,296">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_6" rank="13"/>
+        </ns2:polygon>
+        <ns2:polygon points="633,216 332,216 332,201 633,201 633,216">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_2" rank="5"/>
+        </ns2:polygon>
+        <ns2:polygon points="570,279 459,279 459,258 570,258 570,279">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_5" rank="11"/>
+        </ns2:polygon>
+        <ns2:polygon points="581,1054 480,1054 480,1035 581,1035 581,1054">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_21" rank="43"/>
+        </ns2:polygon>
+        <ns2:polygon points="575,1072 475,1072 475,1054 575,1054 575,1072">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_22" rank="45"/>
+        </ns2:polygon>
+        <ns2:polygon points="839,610 353,610 353,595 839,595 839,610">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_13" rank="27"/>
+        </ns2:polygon>
+        <ns2:polygon points="855,595 336,595 336,574 855,574 855,595">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_12" rank="25"/>
+        </ns2:polygon>
+        <ns2:polygon points="822,629 376,629 376,614 822,614 822,629">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_14" rank="29"/>
+        </ns2:polygon>
+        <ns2:polygon points="693,707 497,707 497,692 693,692 693,707">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_18" rank="37"/>
+        </ns2:polygon>
+        <ns2:polygon points="855,650 339,650 339,631 855,631 855,650">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_15" rank="31"/>
+        </ns2:polygon>
+        <ns2:polygon points="584,1033 469,1033 469,1014 584,1014 584,1033">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_20" rank="41"/>
+        </ns2:polygon>
+        <ns2:polygon points="841,669 367,669 367,650 841,650 841,669">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_16" rank="33"/>
+        </ns2:polygon>
+        <ns2:polygon points="629,197 336,197 336,180 629,180 629,197">
+            <ns2:metadata id="CYB_SUPERCOMPTOIR_001_line_1" rank="3"/>
+        </ns2:polygon>
+    </ns2:svg>
+    <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"><polygon points="706,338 918,338 918,514 706,514 706,338"><metadata id="CYB_SUPERCOMPTOIR_001_character_2" idBalloon="CYB_SUPERCOMPTOIR_001_balloon_1" idPanel="CYB_SUPERCOMPTOIR_001_panel_0"/>
+        </polygon><polygon points="743,771 893,771 893,925 743,925 743,771"><metadata id="CYB_SUPERCOMPTOIR_001_character_4" idBalloon="CYB_SUPERCOMPTOIR_001_balloon_2" idPanel="CYB_SUPERCOMPTOIR_001_panel_1"/>
+        </polygon><polygon points="311,326 444,326 444,508 311,508 311,326"><metadata id="CYB_SUPERCOMPTOIR_001_character_1" idBalloon="CYB_SUPERCOMPTOIR_001_balloon_0" idPanel="CYB_SUPERCOMPTOIR_001_panel_0"/>
+        </polygon><polygon points="254,992 463,992 463,1329 254,1329 254,992"><metadata id="CYB_SUPERCOMPTOIR_001_character_3" idBalloon="CYB_SUPERCOMPTOIR_001_balloon_3" idPanel="CYB_SUPERCOMPTOIR_001_panel_2"/>
+        </polygon></svg><metadata lastModificationDate="Wed, 07 May 2014 11+:40:17 +0000" method="Christophe Rigaud's extractor"/></svg>

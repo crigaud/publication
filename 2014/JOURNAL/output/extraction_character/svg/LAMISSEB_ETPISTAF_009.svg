@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" version="1.0" height="314"><title>LAMISSEB_ETPISTAF_009</title><svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0"><image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="800" height="314" xlink:href="../Pages/LAMISSEB_ETPISTAF_009.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/></svg><style type="text/css" xml:space="preserve">
+            * { stroke-width: 0; stroke-linejoin: round; }
+            .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+            .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+            polygon:hover { opacity:0.2; }
+    </style><ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns0:polygon points="797,290 415,290 415,20 796,20 797,290">
+            <ns0:metadata id="LAMISSEB_ETPISTAF_009_panel_1" rank="2"/>
+        </ns0:polygon>
+        <ns0:polygon points="429,290 15,290 15,37 416,37 429,290">
+            <ns0:metadata id="LAMISSEB_ETPISTAF_009_panel_0" rank="1"/>
+        </ns0:polygon>
+    </ns0:svg>
+    <ns1:svg xmlns:ns1="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns1:polygon points="394,116 391,131 383,145 378,150 306,194 221,152 205,135 199,119 198,104 202,89 208,80 232,78 385,75 392,85 394,99 394,116">
+            <ns1:metadata id="LAMISSEB_ETPISTAF_009_balloon_2" tailTip="306,194" tailDirection="SE" rank="5"/>
+        </ns1:polygon>
+        <ns1:polygon points="654,66 647,97 642,111 501,140 445,113 434,96 431,70 436,39 443,23 642,22 649,31 652,51 654,66">
+            <ns1:metadata id="LAMISSEB_ETPISTAF_009_balloon_3" tailTip="501,140" tailDirection="SW" rank="7"/>
+        </ns1:polygon>
+        <ns1:polygon points="141,96 135,113 111,161 104,168 50,114 46,109 48,101 52,89 59,83 76,76 83,74 106,76 134,83 139,87 141,96">
+            <ns1:metadata id="LAMISSEB_ETPISTAF_009_balloon_1" tailTip="104,168" tailDirection="S" rank="3"/>
+        </ns1:polygon>
+        <ns1:polygon points="643,152 639,167 624,169 588,169 556,164 584,136 588,135 636,134 640,141 643,152">
+            <ns1:metadata id="LAMISSEB_ETPISTAF_009_balloon_4" tailTip="556,164" tailDirection="E" rank="9"/>
+        </ns1:polygon>
+        <ns1:polygon points="247,63 238,73 164,111 47,74 35,57 36,36 44,23 238,25 244,40 247,63">
+            <ns1:metadata id="LAMISSEB_ETPISTAF_009_balloon_0" tailTip="164,111" tailDirection="S" rank="1"/>
+        </ns1:polygon>
+    </ns1:svg>
+    <ns2:svg xmlns:ns2="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns2:polygon points="611,87 610,98 471,98 471,88 611,87">
+            <ns2:metadata id="LAMISSEB_ETPISTAF_009_line_12" rank="25"/>
+        </ns2:polygon>
+        <ns2:polygon points="635,161 588,161 588,152 635,152 635,161">
+            <ns2:metadata id="LAMISSEB_ETPISTAF_009_line_14" rank="29"/>
+        </ns2:polygon>
+        <ns2:polygon points="111,95 74,95 74,84 111,84 111,95">
+            <ns2:metadata id="LAMISSEB_ETPISTAF_009_line_2" rank="5"/>
+        </ns2:polygon>
+        <ns2:polygon points="130,107 62,108 61,97 130,95 130,107">
+            <ns2:metadata id="LAMISSEB_ETPISTAF_009_line_3" rank="7"/>
+        </ns2:polygon>
+        <ns2:polygon points="619,57 464,57 464,45 619,45 619,57">
+            <ns2:metadata id="LAMISSEB_ETPISTAF_009_line_9" rank="19"/>
+        </ns2:polygon>
+        <ns2:polygon points="639,71 443,71 443,60 639,60 639,71">
+            <ns2:metadata id="LAMISSEB_ETPISTAF_009_line_10" rank="21"/>
+        </ns2:polygon>
+        <ns2:polygon points="628,44 454,44 454,31 628,31 628,44">
+            <ns2:metadata id="LAMISSEB_ETPISTAF_009_line_8" rank="17"/>
+        </ns2:polygon>
+        <ns2:polygon points="626,84 460,84 460,73 626,73 626,84">
+            <ns2:metadata id="LAMISSEB_ETPISTAF_009_line_11" rank="23"/>
+        </ns2:polygon>
+        <ns2:polygon points="369,139 224,139 224,128 369,128 369,139">
+            <ns2:metadata id="LAMISSEB_ETPISTAF_009_line_7" rank="15"/>
+        </ns2:polygon>
+        <ns2:polygon points="234,60 45,60 45,48 234,48 234,60">
+            <ns2:metadata id="LAMISSEB_ETPISTAF_009_line_1" rank="3"/>
+        </ns2:polygon>
+        <ns2:polygon points="369,114 226,114 226,103 369,104 369,114">
+            <ns2:metadata id="LAMISSEB_ETPISTAF_009_line_5" rank="11"/>
+        </ns2:polygon>
+        <ns2:polygon points="381,102 215,102 214,90 380,91 381,102">
+            <ns2:metadata id="LAMISSEB_ETPISTAF_009_line_4" rank="9"/>
+        </ns2:polygon>
+        <ns2:polygon points="227,46 50,46 50,33 227,33 227,46">
+            <ns2:metadata id="LAMISSEB_ETPISTAF_009_line_0" rank="1"/>
+        </ns2:polygon>
+        <ns2:polygon points="626,150 597,150 597,140 626,140 626,150">
+            <ns2:metadata id="LAMISSEB_ETPISTAF_009_line_13" rank="27"/>
+        </ns2:polygon>
+        <ns2:polygon points="371,126 223,126 223,115 371,115 371,126">
+            <ns2:metadata id="LAMISSEB_ETPISTAF_009_line_6" rank="13"/>
+        </ns2:polygon>
+    </ns2:svg>
+    <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"><polygon points="19,148 159,148 159,288 19,288 19,148"><metadata id="LAMISSEB_ETPISTAF_009_character_3" idBalloon="LAMISSEB_ETPISTAF_009_balloon_1" idPanel="LAMISSEB_ETPISTAF_009_panel_0"/>
+        </polygon><polygon points="548,46 700,46 700,286 548,286 548,46"><metadata id="LAMISSEB_ETPISTAF_009_character_4" idBalloon="LAMISSEB_ETPISTAF_009_balloon_4" idPanel="LAMISSEB_ETPISTAF_009_panel_1"/>
+        </polygon><polygon points="320,182 425,182 425,288 320,288 320,182"><metadata id="LAMISSEB_ETPISTAF_009_character_2" idBalloon="LAMISSEB_ETPISTAF_009_balloon_2" idPanel="LAMISSEB_ETPISTAF_009_panel_0"/>
+        </polygon><polygon points="414,136 506,136 506,260 414,260 414,136"><metadata id="LAMISSEB_ETPISTAF_009_character_5" idBalloon="LAMISSEB_ETPISTAF_009_balloon_3" idPanel="LAMISSEB_ETPISTAF_009_panel_1"/>
+        </polygon><polygon points="19,108 251,108 251,288 19,288 19,108"><metadata id="LAMISSEB_ETPISTAF_009_character_1" idBalloon="LAMISSEB_ETPISTAF_009_balloon_0" idPanel="LAMISSEB_ETPISTAF_009_panel_0"/>
+        </polygon></svg><metadata lastModificationDate="Wed, 07 May 2014 11+:40:18 +0000" method="Christophe Rigaud's extractor"/></svg>

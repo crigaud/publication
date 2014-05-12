@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2482" version="1.0" height="3438"><title>FRED_PHILEMON9_011</title><svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0"><image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2482" height="3438" xlink:href="../Pages/FRED_PHILEMON9_011.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/></svg><style type="text/css" xml:space="preserve">
+            * { stroke-width: 0; stroke-linejoin: round; }
+            .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+            .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+            polygon:hover { opacity:0.2; }
+    </style><ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns0:polygon points="1566,349 1563,1048 819,1048 816,346 1566,349">
+            <ns0:metadata id="FRED_PHILEMON9_011_panel_5" rank="2"/>
+        </ns0:polygon>
+        <ns0:polygon points="790,1049 43,1048 39,346 788,345 790,1049">
+            <ns0:metadata id="FRED_PHILEMON9_011_panel_0" rank="1"/>
+        </ns0:polygon>
+        <ns0:polygon points="2351,3239 39,3239 39,1074 2351,1074 2351,3239">
+            <ns0:metadata id="FRED_PHILEMON9_011_panel_4" rank="5"/>
+        </ns0:polygon>
+        <ns0:polygon points="2353,1049 1598,1050 1596,346 2352,347 2353,1049">
+            <ns0:metadata id="FRED_PHILEMON9_011_panel_1" rank="3"/>
+        </ns0:polygon>
+    </ns0:svg>
+    <ns1:svg xmlns:ns1="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns1:polygon points="1507,443 1504,471 1493,502 1469,526 1437,539 1126,632 863,536 841,521 820,497 817,486 816,419 824,398 834,384 865,365 914,344 1435,346 1447,350 1470,366 1488,388 1499,415 1507,443">
+            <ns1:metadata id="FRED_PHILEMON9_011_balloon_0" tailTip="1126,632" tailDirection="S" rank="1"/>
+        </ns1:polygon>
+        <ns1:polygon points="1230,1433 1174,1446 1156,1446 1136,1439 1124,1427 1116,1415 1111,1400 1109,1377 1115,1355 1124,1335 1136,1317 1153,1305 1176,1300 1194,1306 1210,1316 1217,1327 1223,1339 1226,1359 1230,1433">
+            <ns1:metadata id="FRED_PHILEMON9_011_balloon_1" tailTip="1230,1433" tailDirection="SE" rank="3"/>
+        </ns1:polygon>
+        <ns1:polygon points="1439,1352 1438,1366 1435,1380 1432,1392 1419,1406 1401,1419 1381,1429 1368,1432 1318,1442 1309,1396 1311,1378 1323,1360 1334,1349 1374,1328 1388,1324 1403,1327 1422,1334 1434,1343 1439,1352">
+            <ns1:metadata id="FRED_PHILEMON9_011_balloon_2" tailTip="1318,1442" tailDirection="SW" rank="5"/>
+        </ns1:polygon>
+        <ns1:polygon points="2354,1076 2352,1778 1596,1778 1596,1075 2354,1076">
+            <ns1:metadata id="FRED_PHILEMON9_011_panel_3"/>
+        </ns1:polygon>
+    </ns1:svg>
+    <ns2:svg xmlns:ns2="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns2:polygon points="1471,464 836,464 836,421 1471,421 1471,464">
+            <ns2:metadata id="FRED_PHILEMON9_011_line_7" rank="15"/>
+        </ns2:polygon>
+        <ns2:polygon points="2353,1167 1597,1167 1597,1093 2353,1093 2353,1167">
+            <ns2:metadata id="FRED_PHILEMON9_011_line_5" rank="11"/>
+        </ns2:polygon>
+        <ns2:polygon points="1207,1427 1133,1427 1133,1308 1207,1308 1207,1427">
+            <ns2:metadata id="FRED_PHILEMON9_011_line_3" rank="7"/>
+        </ns2:polygon>
+        <ns2:polygon points="1436,417 883,417 883,357 1436,357 1436,417">
+            <ns2:metadata id="FRED_PHILEMON9_011_line_6" rank="13"/>
+        </ns2:polygon>
+        <ns2:polygon points="1475,524 836,524 836,472 1475,472 1475,524">
+            <ns2:metadata id="FRED_PHILEMON9_011_line_8" rank="17"/>
+        </ns2:polygon>
+        <ns2:polygon points="1417,1414 1333,1414 1333,1335 1417,1335 1417,1414">
+            <ns2:metadata id="FRED_PHILEMON9_011_line_4" rank="9"/>
+        </ns2:polygon>
+    </ns2:svg>
+    <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"><polygon points="1235,1420 1561,1420 1561,1797 1235,1797 1235,1420"><metadata id="FRED_PHILEMON9_011_character_2" idBalloon="FRED_PHILEMON9_011_balloon_1" idPanel="FRED_PHILEMON9_011_panel_4"/>
+        </polygon><polygon points="831,541 1531,541 1531,1051 831,1051 831,541"><metadata id="FRED_PHILEMON9_011_character_3" idBalloon="FRED_PHILEMON9_011_balloon_0" idPanel="FRED_PHILEMON9_011_panel_5"/>
+        </polygon><polygon points="958,1419 1320,1419 1320,1854 958,1854 958,1419"><metadata id="FRED_PHILEMON9_011_character_1" idBalloon="FRED_PHILEMON9_011_balloon_2" idPanel="FRED_PHILEMON9_011_panel_4"/>
+        </polygon></svg><metadata lastModificationDate="Wed, 07 May 2014 11+:40:18 +0000" method="Christophe Rigaud's extractor"/></svg>

@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="541" version="1.0" height="1024"><title>CYB_MAGICIENLOOSE_001</title><svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0"><image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="541" height="1024" xlink:href="../Pages/CYB_MAGICIENLOOSE_001.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/></svg><style type="text/css" xml:space="preserve">
+            * { stroke-width: 0; stroke-linejoin: round; }
+            .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+            .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+            polygon:hover { opacity:0.2; }
+    </style><ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns0:polygon points="521,607 277,607 277,417 521,417 521,607">
+            <ns0:metadata id="CYB_MAGICIENLOOSE_001_panel_5" rank="6"/>
+        </ns0:polygon>
+        <ns0:polygon points="522,1011 277,1011 277,820 522,820 522,1011">
+            <ns0:metadata id="CYB_MAGICIENLOOSE_001_panel_9" rank="10"/>
+        </ns0:polygon>
+        <ns0:polygon points="265,204 21,204 21,11 265,11 265,204">
+            <ns0:metadata id="CYB_MAGICIENLOOSE_001_panel_0" rank="1"/>
+        </ns0:polygon>
+        <ns0:polygon points="266,810 23,810 23,619 266,619 266,810">
+            <ns0:metadata id="CYB_MAGICIENLOOSE_001_panel_6" rank="7"/>
+        </ns0:polygon>
+        <ns0:polygon points="267,1011 25,1011 25,820 267,820 267,1011">
+            <ns0:metadata id="CYB_MAGICIENLOOSE_001_panel_8" rank="9"/>
+        </ns0:polygon>
+        <ns0:polygon points="266,607 23,607 23,414 266,414 266,607">
+            <ns0:metadata id="CYB_MAGICIENLOOSE_001_panel_4" rank="5"/>
+        </ns0:polygon>
+        <ns0:polygon points="521,207 277,207 277,11 521,11 521,207">
+            <ns0:metadata id="CYB_MAGICIENLOOSE_001_panel_1" rank="2"/>
+        </ns0:polygon>
+        <ns0:polygon points="521,811 277,811 277,620 521,620 521,811">
+            <ns0:metadata id="CYB_MAGICIENLOOSE_001_panel_7" rank="8"/>
+        </ns0:polygon>
+        <ns0:polygon points="266,405 22,405 22,215 266,215 266,405">
+            <ns0:metadata id="CYB_MAGICIENLOOSE_001_panel_2" rank="3"/>
+        </ns0:polygon>
+        <ns0:polygon points="521,406 277,406 277,215 521,215 521,406">
+            <ns0:metadata id="CYB_MAGICIENLOOSE_001_panel_3" rank="4"/>
+        </ns0:polygon>
+    </ns0:svg>
+    <ns1:svg xmlns:ns1="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns1:polygon points="440,37 439,42 428,51 383,77 309,50 300,46 293,42 290,31 298,19 301,16 305,13 428,13 432,17 436,22 438,27 440,37">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_2" tailTip="383,77" tailDirection="S" rank="5"/>
+        </ns1:polygon>
+        <ns1:polygon points="244,899 211,951 169,910 159,900 156,895 158,889 161,883 166,879 173,876 201,867 206,867 229,875 242,882 244,887 244,899">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_14" tailTip="211,951" tailDirection="S" rank="29"/>
+        </ns1:polygon>
+        <ns1:polygon points="212,238 211,241 191,266 137,295 78,246 76,238 78,229 83,224 87,221 94,217 99,215 190,215 195,218 201,222 212,233 212,238">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_4" tailTip="137,295" tailDirection="SW" rank="9"/>
+        </ns1:polygon>
+        <ns1:polygon points="517,56 516,63 509,71 483,83 446,70 439,63 438,52 441,45 447,38 460,32 469,30 483,31 502,35 513,44 517,56">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_3" tailTip="483,83" tailDirection="SW" rank="7"/>
+        </ns1:polygon>
+        <ns1:polygon points="169,508 168,519 165,526 158,531 141,543 133,545 120,526 121,494 129,491 138,489 149,490 159,494 167,503 169,508">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_9" tailTip="133,545" tailDirection="SW" rank="19"/>
+        </ns1:polygon>
+        <ns1:polygon points="509,437 506,445 499,455 494,461 473,469 414,484 412,484 370,463 346,447 341,442 339,436 339,422 343,416 464,416 504,417 507,422 509,437">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_10" tailTip="414,484" tailDirection="SE" rank="21"/>
+        </ns1:polygon>
+        <ns1:polygon points="501,252 498,259 492,267 484,274 476,277 415,299 410,298 406,295 376,260 373,253 374,241 388,228 401,222 413,219 426,218 439,218 452,219 466,222 478,225 489,230 496,236 501,243 501,252">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_6" tailTip="415,299" tailDirection="SE" rank="13"/>
+        </ns1:polygon>
+        <ns1:polygon points="428,555 422,562 408,569 377,577 373,577 358,560 355,555 368,512 383,506 394,505 410,506 418,509 428,555">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_11" tailTip="368,570" tailDirection="NW" rank="23"/>
+        </ns1:polygon>
+        <ns1:polygon points="254,46 252,56 243,65 230,69 171,85 167,83 162,80 139,52 140,45 143,37 157,25 173,19 187,17 205,17 221,20 237,27 247,34 254,41 254,46">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_1" tailTip="171,85" tailDirection="SE" rank="3"/>
+        </ns1:polygon>
+        <ns1:polygon points="134,51 132,58 127,65 40,53 27,48 20,42 20,12 122,12 124,18 134,51">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_0" tailTip="127,65" tailDirection="S" rank="1"/>
+        </ns1:polygon>
+        <ns1:polygon points="501,911 497,927 495,930 490,927 423,884 408,870 409,849 417,840 425,833 434,827 443,827 455,828 464,830 475,841 478,845 501,911">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_15" tailTip="495,930" tailDirection="S" rank="31"/>
+        </ns1:polygon>
+        <ns1:polygon points="498,657 495,668 484,678 421,717 411,711 407,706 386,668 384,651 386,646 389,640 410,634 429,629 445,629 479,634 484,635 498,657">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_13" tailTip="421,717" tailDirection="S" rank="27"/>
+        </ns1:polygon>
+        <ns1:polygon points="243,253 241,267 237,283 232,289 198,272 191,268 189,263 188,257 190,250 196,245 202,242 210,240 221,240 228,242 235,246 240,250 243,253">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_5" tailTip="232,289" tailDirection="SW" rank="11"/>
+        </ns1:polygon>
+        <ns1:polygon points="258,629 249,653 226,670 141,709 115,640 115,639 122,628 130,618 241,618 258,629">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_12" tailTip="141,709" tailDirection="SW" rank="25"/>
+        </ns1:polygon>
+        <ns1:polygon points="461,918 458,926 447,935 431,938 406,942 394,943 390,920 390,910 394,904 404,898 416,894 434,893 443,896 452,901 458,909 461,918">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_16" tailTip="394,943" tailDirection="SW" rank="33"/>
+        </ns1:polygon>
+        <ns1:polygon points="266,468 257,474 240,478 179,488 175,487 171,485 153,465 148,458 144,448 145,437 150,428 156,422 163,416 266,416 266,468">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_8" tailTip="179,488" tailDirection="SE" rank="17"/>
+        </ns1:polygon>
+        <ns1:polygon points="166,416 148,457 36,480 32,477 31,472 33,463 45,427 49,422 54,416 166,416">
+            <ns1:metadata id="CYB_MAGICIENLOOSE_001_balloon_7" tailTip="36,480" tailDirection="SE" rank="15"/>
+        </ns1:polygon>
+    </ns1:svg>
+    <ns2:svg xmlns:ns2="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns2:polygon points="478,655 406,655 406,646 478,646 478,655">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_28" rank="57"/>
+        </ns2:polygon>
+        <ns2:polygon points="478,262 397,261 397,252 478,252 478,262">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_13" rank="27"/>
+        </ns2:polygon>
+        <ns2:polygon points="421,42 310,42 310,34 419,34 421,42">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_4" rank="9"/>
+        </ns2:polygon>
+        <ns2:polygon points="457,462 395,462 395,454 457,454 457,462">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_23" rank="47"/>
+        </ns2:polygon>
+        <ns2:polygon points="413,546 374,546 374,538 413,538 413,546">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_25" rank="51"/>
+        </ns2:polygon>
+        <ns2:polygon points="225,893 176,893 176,884 225,884 225,893">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_30" rank="61"/>
+        </ns2:polygon>
+        <ns2:polygon points="471,666 413,666 413,657 471,657 471,666">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_29" rank="59"/>
+        </ns2:polygon>
+        <ns2:polygon points="196,245 88,245 88,235 196,235 196,245">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_8" rank="17"/>
+        </ns2:polygon>
+        <ns2:polygon points="488,250 386,250 386,242 488,242 488,250">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_12" rank="25"/>
+        </ns2:polygon>
+        <ns2:polygon points="488,452 364,452 364,443 488,443 488,452">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_22" rank="45"/>
+        </ns2:polygon>
+        <ns2:polygon points="484,66 470,66 470,57 484,57 484,66">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_6" rank="13"/>
+        </ns2:polygon>
+        <ns2:polygon points="409,535 379,535 379,527 409,527 409,535">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_24" rank="49"/>
+        </ns2:polygon>
+        <ns2:polygon points="241,640 133,640 133,630 241,630 241,640">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_26" rank="53"/>
+        </ns2:polygon>
+        <ns2:polygon points="233,265 201,265 201,257 233,257 233,265">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_10" rank="21"/>
+        </ns2:polygon>
+        <ns2:polygon points="209,904 192,904 192,895 209,895 209,904">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_31" rank="63"/>
+        </ns2:polygon>
+        <ns2:polygon points="500,55 453,55 453,46 500,46 500,55">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_5" rank="11"/>
+        </ns2:polygon>
+        <ns2:polygon points="144,435 53,435 53,424 144,424 144,435">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_15" rank="31"/>
+        </ns2:polygon>
+        <ns2:polygon points="424,31 307,31 307,23 424,23 424,31">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_3" rank="7"/>
+        </ns2:polygon>
+        <ns2:polygon points="236,54 157,54 157,42 236,42 236,54">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_2" rank="5"/>
+        </ns2:polygon>
+        <ns2:polygon points="194,655 181,655 181,644 194,644 194,655">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_27" rank="55"/>
+        </ns2:polygon>
+        <ns2:polygon points="479,240 397,240 397,228 479,228 479,240">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_11" rank="23"/>
+        </ns2:polygon>
+        <ns2:polygon points="255,450 158,450 158,439 255,439 255,450">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_18" rank="37"/>
+        </ns2:polygon>
+        <ns2:polygon points="224,42 168,42 168,34 224,34 224,42">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_1" rank="3"/>
+        </ns2:polygon>
+        <ns2:polygon points="102,35 34,35 34,23 102,23 102,35">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_0" rank="1"/>
+        </ns2:polygon>
+        <ns2:polygon points="479,431 373,431 373,422 479,422 479,431">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_20" rank="41"/>
+        </ns2:polygon>
+        <ns2:polygon points="149,259 136,259 136,249 149,249 149,259">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_9" rank="19"/>
+        </ns2:polygon>
+        <ns2:polygon points="160,520 129,520 129,512 160,512 160,520">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_34" rank="69"/>
+        </ns2:polygon>
+        <ns2:polygon points="448,918 404,918 404,909 448,909 448,918">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_32" rank="65"/>
+        </ns2:polygon>
+        <ns2:polygon points="247,439 167,439 167,430 247,430 247,439">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_17" rank="35"/>
+        </ns2:polygon>
+        <ns2:polygon points="235,462 178,462 178,453 235,453 235,462">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_19" rank="39"/>
+        </ns2:polygon>
+        <ns2:polygon points="138,446 61,446 61,435 138,435 138,446">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_16" rank="33"/>
+        </ns2:polygon>
+        <ns2:polygon points="483,441 369,441 369,433 483,433 483,441">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_21" rank="43"/>
+        </ns2:polygon>
+        <ns2:polygon points="464,271 411,271 411,263 464,263 464,271">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_14" rank="29"/>
+        </ns2:polygon>
+        <ns2:polygon points="165,231 119,231 119,221 165,221 165,231">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_7" rank="15"/>
+        </ns2:polygon>
+        <ns2:polygon points="399,558 387,558 387,549 399,549 399,558">
+            <ns2:metadata id="CYB_MAGICIENLOOSE_001_line_35" rank="71"/>
+        </ns2:polygon>
+    </ns2:svg>
+    <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"><polygon points="89,543 109,543 109,556 89,556 89,543"><metadata id="CYB_MAGICIENLOOSE_001_character_13" idBalloon="CYB_MAGICIENLOOSE_001_balloon_9" idPanel="CYB_MAGICIENLOOSE_001_panel_4"/>
+        </polygon><polygon points="174,486 240,486 240,564 174,564 174,486"><metadata id="CYB_MAGICIENLOOSE_001_character_12" idBalloon="CYB_MAGICIENLOOSE_001_balloon_8" idPanel="CYB_MAGICIENLOOSE_001_panel_4"/>
+        </polygon><polygon points="447,291 486,291 486,386 447,386 447,291"><metadata id="CYB_MAGICIENLOOSE_001_character_5" idBalloon="CYB_MAGICIENLOOSE_001_balloon_6" idPanel="CYB_MAGICIENLOOSE_001_panel_3"/>
+        </polygon><polygon points="364,952 388,952 388,975 364,975 364,952"><metadata id="CYB_MAGICIENLOOSE_001_character_10" idBalloon="CYB_MAGICIENLOOSE_001_balloon_16" idPanel="CYB_MAGICIENLOOSE_001_panel_9"/>
+        </polygon><polygon points="57,486 119,486 119,556 57,556 57,486"><metadata id="CYB_MAGICIENLOOSE_001_character_14" idBalloon="CYB_MAGICIENLOOSE_001_balloon_7" idPanel="CYB_MAGICIENLOOSE_001_panel_4"/>
+        </polygon><polygon points="301,83 434,83 434,201 301,201 301,83"><metadata id="CYB_MAGICIENLOOSE_001_character_4" idBalloon="CYB_MAGICIENLOOSE_001_balloon_2" idPanel="CYB_MAGICIENLOOSE_001_panel_1"/>
+        </polygon><polygon points="999999,999999 0,999999 0,0 999999,0 999999,999999"><metadata id="CYB_MAGICIENLOOSE_001_character_8" idBalloon="CYB_MAGICIENLOOSE_001_balloon_1" idPanel="CYB_MAGICIENLOOSE_001_panel_0"/>
+        </polygon><polygon points="48,298 119,298 119,371 48,371 48,298"><metadata id="CYB_MAGICIENLOOSE_001_character_16" idBalloon="CYB_MAGICIENLOOSE_001_balloon_4" idPanel="CYB_MAGICIENLOOSE_001_panel_2"/>
+        </polygon><polygon points="168,287 231,287 231,361 168,361 168,287"><metadata id="CYB_MAGICIENLOOSE_001_character_17" idBalloon="CYB_MAGICIENLOOSE_001_balloon_5" idPanel="CYB_MAGICIENLOOSE_001_panel_2"/>
+        </polygon><polygon points="304,484 368,484 368,575 304,575 304,484"><metadata id="CYB_MAGICIENLOOSE_001_character_6" idBalloon="CYB_MAGICIENLOOSE_001_balloon_11" idPanel="CYB_MAGICIENLOOSE_001_panel_5"/>
+        </polygon><polygon points="419,83 485,83 485,158 419,158 419,83"><metadata id="CYB_MAGICIENLOOSE_001_character_3" idBalloon="CYB_MAGICIENLOOSE_001_balloon_3" idPanel="CYB_MAGICIENLOOSE_001_panel_1"/>
+        </polygon><polygon points="70,711 126,711 126,776 70,776 70,711"><metadata id="CYB_MAGICIENLOOSE_001_character_2" idBalloon="CYB_MAGICIENLOOSE_001_balloon_12" idPanel="CYB_MAGICIENLOOSE_001_panel_6"/>
+        </polygon><polygon points="26,50 122,50 122,198 26,198 26,50"><metadata id="CYB_MAGICIENLOOSE_001_character_9" idBalloon="CYB_MAGICIENLOOSE_001_balloon_0" idPanel="CYB_MAGICIENLOOSE_001_panel_0"/>
+        </polygon><polygon points="999999,999999 0,999999 0,0 999999,0 999999,999999"><metadata id="CYB_MAGICIENLOOSE_001_character_15" idBalloon="CYB_MAGICIENLOOSE_001_balloon_14" idPanel="CYB_MAGICIENLOOSE_001_panel_8"/>
+        </polygon><polygon points="421,489 486,489 486,565 421,565 421,489"><metadata id="CYB_MAGICIENLOOSE_001_character_7" idBalloon="CYB_MAGICIENLOOSE_001_balloon_10" idPanel="CYB_MAGICIENLOOSE_001_panel_5"/>
+        </polygon><polygon points="485,935 493,935 493,958 485,958 485,935"><metadata id="CYB_MAGICIENLOOSE_001_character_11" idBalloon="CYB_MAGICIENLOOSE_001_balloon_15" idPanel="CYB_MAGICIENLOOSE_001_panel_9"/>
+        </polygon><polygon points="422,723 487,723 487,799 422,799 422,723"><metadata id="CYB_MAGICIENLOOSE_001_character_1" idBalloon="CYB_MAGICIENLOOSE_001_balloon_13" idPanel="CYB_MAGICIENLOOSE_001_panel_7"/>
+        </polygon></svg><metadata lastModificationDate="Wed, 07 May 2014 11+:40:19 +0000" method="Christophe Rigaud's extractor"/></svg>

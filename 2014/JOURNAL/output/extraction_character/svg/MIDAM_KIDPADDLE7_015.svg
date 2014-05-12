@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2434" version="1.0" height="3465"><title>MIDAM_KIDPADDLE7_015</title><svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0"><image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2434" height="3465" xlink:href="../Pages/MIDAM_KIDPADDLE7_015.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/></svg><style type="text/css" xml:space="preserve">
+            * { stroke-width: 0; stroke-linejoin: round; }
+            .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+            .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+            polygon:hover { opacity:0.2; }
+    </style><ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns0:polygon points="2286,2511 1234,2511 1234,1829 2286,1829 2286,2511">
+            <ns0:metadata id="MIDAM_KIDPADDLE7_015_panel_5" rank="7"/>
+        </ns0:polygon>
+        <ns0:polygon points="2286,1047 1174,1047 1174,356 2286,356 2286,1047">
+            <ns0:metadata id="MIDAM_KIDPADDLE7_015_panel_1" rank="3"/>
+        </ns0:polygon>
+        <ns0:polygon points="2260,3258 1951,3258 1951,2589 2260,2589 2260,3258">
+            <ns0:metadata id="MIDAM_KIDPADDLE7_015_panel_10" rank="11"/>
+        </ns0:polygon>
+        <ns0:polygon points="1217,1781 44,1781 44,1090 1217,1090 1217,1781">
+            <ns0:metadata id="MIDAM_KIDPADDLE7_015_panel_2" rank="4"/>
+        </ns0:polygon>
+        <ns0:polygon points="650,3220 83,3220 83,2760 650,2760 650,3220">
+            <ns0:metadata id="MIDAM_KIDPADDLE7_015_panel_7" rank="8"/>
+        </ns0:polygon>
+        <ns0:polygon points="2286,1786 1238,1786 1238,1090 2286,1090 2286,1786">
+            <ns0:metadata id="MIDAM_KIDPADDLE7_015_panel_3" rank="5"/>
+        </ns0:polygon>
+        <ns0:polygon points="298,300 36,300 36,25 298,25 298,300">
+            <ns0:metadata id="MIDAM_KIDPADDLE7_015_panel_6" rank="1"/>
+        </ns0:polygon>
+        <ns0:polygon points="1259,3220 723,3220 723,2657 1259,2657 1259,3220">
+            <ns0:metadata id="MIDAM_KIDPADDLE7_015_panel_8" rank="9"/>
+        </ns0:polygon>
+        <ns0:polygon points="1208,2516 49,2516 49,1829 1208,1829 1208,2516">
+            <ns0:metadata id="MIDAM_KIDPADDLE7_015_panel_4" rank="6"/>
+        </ns0:polygon>
+        <ns0:polygon points="1869,3220 1345,3220 1345,2717 1869,2717 1869,3220">
+            <ns0:metadata id="MIDAM_KIDPADDLE7_015_panel_9" rank="10"/>
+        </ns0:polygon>
+        <ns0:polygon points="1148,1051 36,1051 36,347 1148,347 1148,1051">
+            <ns0:metadata id="MIDAM_KIDPADDLE7_015_panel_0" rank="2"/>
+        </ns0:polygon>
+    </ns0:svg>
+    <ns1:svg xmlns:ns1="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns1:polygon points="1219,1387 1205,1399 997,1501 989,1502 576,1306 558,1262 558,1204 571,1139 587,1085 1219,1086 1219,1387">
+            <ns1:metadata id="MIDAM_KIDPADDLE7_015_balloon_5" tailTip="981,1491" tailDirection="SW" rank="11"/>
+        </ns1:polygon>
+        <ns1:polygon points="1212,2097 1205,2104 1197,2110 1158,2106 901,2022 881,1998 876,1936 903,1878 919,1867 946,1862 1059,1862 1155,1882 1179,1899 1192,1917 1196,1943 1212,2097">
+            <ns1:metadata id="MIDAM_KIDPADDLE7_015_balloon_9" tailTip="1212,2097" tailDirection="SE" rank="19"/>
+        </ns1:polygon>
+        <ns1:polygon points="2287,1083 2286,1229 1849,1363 1830,1359 1814,1347 1700,1241 1679,1173 1691,1130 1713,1083 2287,1083">
+            <ns1:metadata id="MIDAM_KIDPADDLE7_015_balloon_7" tailTip="1863,1351" tailDirection="E" rank="15"/>
+        </ns1:polygon>
+        <ns1:polygon points="2285,345 2284,569 2271,582 2239,592 1809,698 1795,694 1786,687 1766,656 1716,556 1706,511 1704,443 1719,395 1741,346 2285,345">
+            <ns1:metadata id="MIDAM_KIDPADDLE7_015_balloon_3" tailTip="1816,681" tailDirection="E" rank="7"/>
+        </ns1:polygon>
+        <ns1:polygon points="575,1131 564,1224 436,1362 411,1378 98,1269 35,1241 35,1090 546,1090 561,1105 573,1123 575,1131">
+            <ns1:metadata id="MIDAM_KIDPADDLE7_015_balloon_4" tailTip="399,1365" tailDirection="SW" rank="9"/>
+        </ns1:polygon>
+        <ns1:polygon points="2205,1873 2203,1892 2198,1920 2182,1937 1991,2093 1963,2095 1941,2095 1905,1900 1905,1884 1924,1856 1947,1834 2030,1830 2109,1831 2164,1833 2186,1847 2205,1873">
+            <ns1:metadata id="MIDAM_KIDPADDLE7_015_balloon_11" tailTip="1941,2095" tailDirection="W" rank="23"/>
+        </ns1:polygon>
+        <ns1:polygon points="1694,1221 1680,1313 1674,1333 1665,1350 1641,1362 1298,1288 1252,1267 1238,1256 1237,1086 1657,1083 1668,1099 1679,1118 1692,1146 1694,1221">
+            <ns1:metadata id="MIDAM_KIDPADDLE7_015_balloon_6" tailTip="1641,1362" tailDirection="SW" rank="13"/>
+        </ns1:polygon>
+        <ns1:polygon points="1117,473 1114,503 1111,525 1107,539 1062,551 615,661 589,656 573,640 561,622 521,484 529,420 545,378 559,348 1084,347 1093,361 1103,380 1110,407 1117,452 1117,473">
+            <ns1:metadata id="MIDAM_KIDPADDLE7_015_balloon_1" tailTip="621,650" tailDirection="SE" rank="3"/>
+        </ns1:polygon>
+        <ns1:polygon points="1655,1920 1553,2171 1544,2183 1497,2188 1489,2186 1350,2083 1274,1974 1255,1909 1262,1870 1283,1821 1635,1822 1647,1858 1653,1891 1655,1920">
+            <ns1:metadata id="MIDAM_KIDPADDLE7_015_balloon_10" tailTip="1553,2171" tailDirection="E" rank="21"/>
+        </ns1:polygon>
+        <ns1:polygon points="1689,448 1672,526 1645,543 1262,662 1243,666 1223,655 1212,637 1173,526 1174,347 1665,346 1679,373 1687,402 1689,448">
+            <ns1:metadata id="MIDAM_KIDPADDLE7_015_balloon_2" tailTip="1262,653" tailDirection="E" rank="5"/>
+        </ns1:polygon>
+        <ns1:polygon points="507,405 505,418 492,446 447,540 440,554 431,563 413,578 398,576 94,493 52,476 31,452 34,350 476,347 489,366 500,388 507,405">
+            <ns1:metadata id="MIDAM_KIDPADDLE7_015_balloon_0" tailTip="398,576" tailDirection="SW" rank="1"/>
+        </ns1:polygon>
+        <ns1:polygon points="753,1892 751,1917 738,1960 718,1975 372,2117 49,1981 37,1968 37,1827 724,1825 739,1845 748,1870 753,1892">
+            <ns1:metadata id="MIDAM_KIDPADDLE7_015_balloon_8" tailTip="353,2102" tailDirection="SW" rank="17"/>
+        </ns1:polygon>
+    </ns1:svg>
+    <ns2:svg xmlns:ns2="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns2:polygon points="2161,1914 1953,1914 1953,1866 2161,1866 2161,1914">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_41" rank="83"/>
+        </ns2:polygon>
+        <ns2:polygon points="1094,1291 582,1291 582,1253 1094,1253 1094,1291">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_22" rank="45"/>
+        </ns2:polygon>
+        <ns2:polygon points="1211,1325 911,1325 911,1303 1211,1303 1211,1325">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_23" rank="47"/>
+        </ns2:polygon>
+        <ns2:polygon points="417,1232 57,1232 57,1184 417,1184 417,1232">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_17" rank="35"/>
+        </ns2:polygon>
+        <ns2:polygon points="1562,1947 1292,1947 1292,1912 1562,1912 1562,1947">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_39" rank="79"/>
+        </ns2:polygon>
+        <ns2:polygon points="1598,1248 1264,1248 1264,1217 1598,1217 1598,1248">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_29" rank="59"/>
+        </ns2:polygon>
+        <ns2:polygon points="2232,557 1753,557 1753,514 2232,514 2232,557">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_14" rank="29"/>
+        </ns2:polygon>
+        <ns2:polygon points="2230,442 1743,442 1743,406 2230,406 2230,442">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_11" rank="23"/>
+        </ns2:polygon>
+        <ns2:polygon points="2275,1175 1715,1175 1715,1136 2275,1136 2275,1175">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_31" rank="63"/>
+        </ns2:polygon>
+        <ns2:polygon points="1540,514 1185,514 1185,478 1540,478 1540,514">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_9" rank="19"/>
+        </ns2:polygon>
+        <ns2:polygon points="1202,1253 582,1253 582,1213 1202,1213 1202,1253">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_21" rank="43"/>
+        </ns2:polygon>
+        <ns2:polygon points="1011,404 586,404 586,368 1011,368 1011,404">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_2" rank="5"/>
+        </ns2:polygon>
+        <ns2:polygon points="565,1878 52,1878 52,1840 565,1840 565,1878">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_33" rank="67"/>
+        </ns2:polygon>
+        <ns2:polygon points="405,406 62,406 62,373 405,373 405,406">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_0" rank="1"/>
+        </ns2:polygon>
+        <ns2:polygon points="1047,523 562,523 562,478 1047,478 1047,523">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_5" rank="11"/>
+        </ns2:polygon>
+        <ns2:polygon points="1653,406 1197,406 1197,366 1653,366 1653,406">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_6" rank="13"/>
+        </ns2:polygon>
+        <ns2:polygon points="1171,2005 908,2005 908,1907 1171,1907 1171,2005">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_36" rank="73"/>
+        </ns2:polygon>
+        <ns2:polygon points="2239,1139 1767,1139 1767,1098 2239,1098 2239,1139">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_30" rank="61"/>
+        </ns2:polygon>
+        <ns2:polygon points="1612,1907 1278,1907 1278,1876 1612,1876 1612,1907">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_38" rank="77"/>
+        </ns2:polygon>
+        <ns2:polygon points="1653,480 1185,480 1185,447 1653,447 1653,480">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_8" rank="17"/>
+        </ns2:polygon>
+        <ns2:polygon points="1645,442 1183,442 1183,406 1645,406 1645,442">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_7" rank="15"/>
+        </ns2:polygon>
+        <ns2:polygon points="1636,1210 1249,1210 1249,1177 1636,1177 1636,1210">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_28" rank="57"/>
+        </ns2:polygon>
+        <ns2:polygon points="1657,1177 1252,1177 1252,1132 1657,1132 1657,1177">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_27" rank="55"/>
+        </ns2:polygon>
+        <ns2:polygon points="1154,1139 593,1139 593,1105 1154,1105 1154,1139">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_18" rank="37"/>
+        </ns2:polygon>
+        <ns2:polygon points="2270,478 1729,478 1729,442 2270,442 2270,478">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_12" rank="25"/>
+        </ns2:polygon>
+        <ns2:polygon points="1185,1380 920,1380 920,1353 1185,1353 1185,1380">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_25" rank="51"/>
+        </ns2:polygon>
+        <ns2:polygon points="1066,480 553,480 553,433 1066,433 1066,480">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_4" rank="9"/>
+        </ns2:polygon>
+        <ns2:polygon points="1183,1351 954,1351 954,1327 1183,1327 1183,1351">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_24" rank="49"/>
+        </ns2:polygon>
+        <ns2:polygon points="1032,447 555,447 555,409 1032,409 1032,447">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_3" rank="7"/>
+        </ns2:polygon>
+        <ns2:polygon points="1583,1873 1323,1873 1323,1840 1583,1840 1583,1873">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_37" rank="75"/>
+        </ns2:polygon>
+        <ns2:polygon points="1085,1175 591,1175 591,1144 1085,1144 1085,1175">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_19" rank="39"/>
+        </ns2:polygon>
+        <ns2:polygon points="517,1144 59,1144 59,1101 517,1101 517,1144">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_15" rank="31"/>
+        </ns2:polygon>
+        <ns2:polygon points="624,1950 52,1950 52,1919 624,1919 624,1950">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_35" rank="71"/>
+        </ns2:polygon>
+        <ns2:polygon points="1538,2057 1362,2057 1362,2024 1538,2024 1538,2057">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_40" rank="81"/>
+        </ns2:polygon>
+        <ns2:polygon points="722,1919 50,1919 50,1878 722,1878 722,1919">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_34" rank="69"/>
+        </ns2:polygon>
+        <ns2:polygon points="2153,1217 1758,1217 1758,1179 2153,1179 2153,1217">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_32" rank="65"/>
+        </ns2:polygon>
+        <ns2:polygon points="1118,1210 591,1210 591,1182 1118,1182 1118,1210">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_20" rank="41"/>
+        </ns2:polygon>
+        <ns2:polygon points="448,442 45,442 45,406 448,406 448,442">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_1" rank="3"/>
+        </ns2:polygon>
+        <ns2:polygon points="2187,509 1738,509 1738,483 2187,483 2187,509">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_13" rank="27"/>
+        </ns2:polygon>
+        <ns2:polygon points="2258,402 1758,402 1758,366 2258,366 2258,402">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_10" rank="21"/>
+        </ns2:polygon>
+        <ns2:polygon points="1629,1141 1269,1141 1269,1105 1629,1105 1629,1141">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_26" rank="53"/>
+        </ns2:polygon>
+        <ns2:polygon points="551,1175 45,1175 45,1139 551,1139 551,1175">
+            <ns2:metadata id="MIDAM_KIDPADDLE7_015_line_16" rank="33"/>
+        </ns2:polygon>
+    </ns2:svg>
+    <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"><polygon points="49,1256 390,1256 390,1787 49,1787 49,1256"><metadata id="MIDAM_KIDPADDLE7_015_character_11" idBalloon="MIDAM_KIDPADDLE7_015_balloon_4" idPanel="MIDAM_KIDPADDLE7_015_panel_2"/>
+        </polygon><polygon points="709,1490 947,1490 947,1784 709,1784 709,1490"><metadata id="MIDAM_KIDPADDLE7_015_character_12" idBalloon="MIDAM_KIDPADDLE7_015_balloon_5" idPanel="MIDAM_KIDPADDLE7_015_panel_2"/>
+        </polygon><polygon points="1879,1102 2265,1102 2265,1730 1879,1730 1879,1102"><metadata id="MIDAM_KIDPADDLE7_015_character_9" idBalloon="MIDAM_KIDPADDLE7_015_balloon_7" idPanel="MIDAM_KIDPADDLE7_015_panel_3"/>
+        </polygon><polygon points="594,646 993,646 993,1050 594,1050 594,646"><metadata id="MIDAM_KIDPADDLE7_015_character_3" idBalloon="MIDAM_KIDPADDLE7_015_balloon_1" idPanel="MIDAM_KIDPADDLE7_015_panel_0"/>
+        </polygon><polygon points="1251,1272 1644,1272 1644,1782 1251,1782 1251,1272"><metadata id="MIDAM_KIDPADDLE7_015_character_10" idBalloon="MIDAM_KIDPADDLE7_015_balloon_6" idPanel="MIDAM_KIDPADDLE7_015_panel_3"/>
+        </polygon><polygon points="1184,362 1683,362 1683,1047 1184,1047 1184,362"><metadata id="MIDAM_KIDPADDLE7_015_character_7" idBalloon="MIDAM_KIDPADDLE7_015_balloon_2" idPanel="MIDAM_KIDPADDLE7_015_panel_1"/>
+        </polygon><polygon points="1538,1920 1939,1920 1939,2516 1538,2516 1538,1920"><metadata id="MIDAM_KIDPADDLE7_015_character_6" idBalloon="MIDAM_KIDPADDLE7_015_balloon_11" idPanel="MIDAM_KIDPADDLE7_015_panel_5"/>
+        </polygon><polygon points="1844,372 2228,372 2228,1046 1844,1046 1844,372"><metadata id="MIDAM_KIDPADDLE7_015_character_8" idBalloon="MIDAM_KIDPADDLE7_015_balloon_3" idPanel="MIDAM_KIDPADDLE7_015_panel_1"/>
+        </polygon><polygon points="95,2171 337,2171 337,2525 95,2525 95,2171"><metadata id="MIDAM_KIDPADDLE7_015_character_1" idBalloon="MIDAM_KIDPADDLE7_015_balloon_8" idPanel="MIDAM_KIDPADDLE7_015_panel_4"/>
+        </polygon><polygon points="209,662 375,662 375,969 209,969 209,662"><metadata id="MIDAM_KIDPADDLE7_015_character_4" idBalloon="MIDAM_KIDPADDLE7_015_balloon_0" idPanel="MIDAM_KIDPADDLE7_015_panel_0"/>
+        </polygon><polygon points="1596,1988 1939,1988 1939,2516 1596,2516 1596,1988"><metadata id="MIDAM_KIDPADDLE7_015_character_5" idBalloon="MIDAM_KIDPADDLE7_015_balloon_10" idPanel="MIDAM_KIDPADDLE7_015_panel_5"/>
+        </polygon></svg><metadata lastModificationDate="Wed, 07 May 2014 11+:40:19 +0000" method="Christophe Rigaud's extractor"/></svg>

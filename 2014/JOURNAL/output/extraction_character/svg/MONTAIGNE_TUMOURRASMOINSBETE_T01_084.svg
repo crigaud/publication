@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="509" version="1.0" height="824"><title>MONTAIGNE_TUMOURRASMOINSBETE_T01_084</title><svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0"><image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="509" height="824" xlink:href="../Pages/MONTAIGNE_TUMOURRASMOINSBETE_T01_084.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/></svg><style type="text/css" xml:space="preserve">
+            * { stroke-width: 0; stroke-linejoin: round; }
+            .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+            .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+            polygon:hover { opacity:0.2; }
+    </style><ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns0:polygon points="267,564 131,564 131,409 267,409 267,564">
+            <ns0:metadata id="MONTAIGNE_TUMOURRASMOINSBETE_T01_084_panel_1" rank="2"/>
+        </ns0:polygon>
+        <ns0:polygon points="338,368 97,368 97,185 338,185 338,368">
+            <ns0:metadata id="MONTAIGNE_TUMOURRASMOINSBETE_T01_084_panel_0" rank="1"/>
+        </ns0:polygon>
+        <ns0:polygon points="385,813 68,813 68,597 385,597 385,813">
+            <ns0:metadata id="MONTAIGNE_TUMOURRASMOINSBETE_T01_084_panel_2" rank="3"/>
+        </ns0:polygon>
+    </ns0:svg>
+    <ns1:svg xmlns:ns1="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns1:polygon points="257,621 238,651 235,653 231,649 225,628 224,617 228,613 234,610 246,609 252,609 256,616 257,621">
+            <ns1:metadata id="MONTAIGNE_TUMOURRASMOINSBETE_T01_084_balloon_4" tailTip="238,651" tailDirection="E" rank="9"/>
+        </ns1:polygon>
+        <ns1:polygon points="362,699 358,704 355,705 348,707 325,708 303,706 294,705 289,700 279,686 295,671 303,669 330,670 342,672 351,678 362,689 362,699">
+            <ns1:metadata id="MONTAIGNE_TUMOURRASMOINSBETE_T01_084_balloon_5" tailTip="279,686" tailDirection="W" rank="11"/>
+        </ns1:polygon>
+    </ns1:svg>
+    <ns2:svg xmlns:ns2="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns2:polygon points="336,688 296,688 296,672 336,672 336,688">
+            <ns2:metadata id="MONTAIGNE_TUMOURRASMOINSBETE_T01_084_line_15" rank="31"/>
+        </ns2:polygon>
+        <ns2:polygon points="256,627 226,627 226,609 256,609 256,627">
+            <ns2:metadata id="MONTAIGNE_TUMOURRASMOINSBETE_T01_084_line_14" rank="29"/>
+        </ns2:polygon>
+        <ns2:polygon points="359,706 296,706 296,688 359,688 359,706">
+            <ns2:metadata id="MONTAIGNE_TUMOURRASMOINSBETE_T01_084_line_16" rank="33"/>
+        </ns2:polygon>
+    </ns2:svg>
+    <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"><polygon points="227,632 287,632 287,702 227,702 227,632"><metadata id="MONTAIGNE_TUMOURRASMOINSBETE_T01_084_character_2" idBalloon="MONTAIGNE_TUMOURRASMOINSBETE_T01_084_balloon_5" idPanel="MONTAIGNE_TUMOURRASMOINSBETE_T01_084_panel_2"/>
+        </polygon><polygon points="227,639 287,639 287,702 227,702 227,639"><metadata id="MONTAIGNE_TUMOURRASMOINSBETE_T01_084_character_1" idBalloon="MONTAIGNE_TUMOURRASMOINSBETE_T01_084_balloon_4" idPanel="MONTAIGNE_TUMOURRASMOINSBETE_T01_084_panel_2"/>
+        </polygon></svg><metadata lastModificationDate="Wed, 07 May 2014 11+:40:19 +0000" method="Christophe Rigaud's extractor"/></svg>
