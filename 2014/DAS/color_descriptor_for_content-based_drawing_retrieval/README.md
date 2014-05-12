@@ -21,8 +21,7 @@ Publication at the DAS'14 conference (April 7-10, 2014).
 @inproceedings{Rigaud2014DAS,
 	title = {Color descriptor for content-based drawing retrieval},
 	author = {Rigaud, Christophe and Karatzas, Dimosthenis and Burie, Jean-Christophe and Ogier, Jean-Marc},
-	booktitle = {Proceedings of the 11th IAPR International Workshop on
-Document Analysis Systems (DAS)},
+	booktitle = {Proceedings of the 11th IAPR International Workshop on Document Analysis Systems (DAS)},
 	publisher = {IEEE},
 	year = {2014}
 	doi={}
