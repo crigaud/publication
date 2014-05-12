@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1955" version="1.0" height="2670"><title>ROUDIER_LESTERRESCREUSEES_017</title><svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0"><image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1955" height="2670" xlink:href="../Pages/ROUDIER_LESTERRESCREUSEES_017.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/></svg><style type="text/css" xml:space="preserve">
+            * { stroke-width: 0; stroke-linejoin: round; }
+            .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+            .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+            polygon:hover { opacity:0.2; }
+    </style><ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns0:polygon points="1956,2666 0,2666 -11,0 1956,0 1956,2666">
+            <ns0:metadata id="ROUDIER_LESTERRESCREUSEES_017_panel_0" rank="1"/>
+        </ns0:polygon>
+    </ns0:svg>
+    <ns1:svg xmlns:ns1="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns1:polygon points="1141,958 970,1210 945,1233 890,1258 835,1264 768,1261 691,1238 657,1203 650,1157 651,1108 676,1082 727,1049 778,1036 1141,958">
+            <ns1:metadata id="ROUDIER_LESTERRESCREUSEES_017_balloon_5" tailTip="1141,958" tailDirection="NE" rank="11"/>
+        </ns1:polygon>
+        <ns1:polygon points="1850,1821 1837,1869 1824,1897 1797,1952 1777,1989 1759,2009 1371,1940 1301,1912 993,1659 967,1611 969,1551 986,1512 1041,1476 1081,1460 1154,1458 1409,1457 1482,1464 1520,1482 1559,1514 1801,1713 1832,1749 1846,1775 1850,1821">
+            <ns1:metadata id="ROUDIER_LESTERRESCREUSEES_017_balloon_6" tailTip="1759,2009" tailDirection="SW" rank="13"/>
+        </ns1:polygon>
+        <ns1:polygon points="1237,702 1144,912 1110,906 1080,891 833,764 805,737 791,703 793,665 811,638 846,612 889,596 979,591 1090,591 1147,595 1193,610 1235,654 1237,702">
+            <ns1:metadata id="ROUDIER_LESTERRESCREUSEES_017_balloon_4" tailTip="1144,912" tailDirection="SE" rank="9"/>
+        </ns1:polygon>
+        <ns1:polygon points="1830,640 1829,674 1811,713 1776,748 1718,777 1647,788 1574,788 1492,781 1435,760 1382,723 1355,683 1347,643 1353,600 1374,570 1395,549 1672,330 1804,575 1820,610 1830,640">
+            <ns1:metadata id="ROUDIER_LESTERRESCREUSEES_017_balloon_3" tailTip="1672,330" tailDirection="N" rank="7"/>
+        </ns1:polygon>
+        <ns1:polygon points="1120,377 1116,420 1101,462 1062,485 1012,495 956,497 912,494 869,490 847,480 816,434 755,260 1046,290 1086,302 1107,325 1116,348 1120,377">
+            <ns1:metadata id="ROUDIER_LESTERRESCREUSEES_017_balloon_1" tailTip="755,260" tailDirection="NW" rank="3"/>
+        </ns1:polygon>
+        <ns1:polygon points="1202,124 1197,149 1183,170 1153,192 1104,201 799,245 779,243 735,229 720,142 716,107 718,90 743,42 771,24 806,16 1116,12 1150,24 1177,49 1193,78 1201,101 1202,124">
+            <ns1:metadata id="ROUDIER_LESTERRESCREUSEES_017_balloon_0" tailTip="735,229" tailDirection="W" rank="1"/>
+        </ns1:polygon>
+        <ns1:polygon points="678,2559 665,2588 651,2614 618,2626 573,2632 515,2636 441,2640 368,2641 323,2633 283,2590 277,2560 282,2529 294,2498 460,2314 468,2315 642,2466 664,2492 676,2526 678,2559">
+            <ns1:metadata id="ROUDIER_LESTERRESCREUSEES_017_balloon_7" tailTip="460,2314" tailDirection="NE" rank="15"/>
+        </ns1:polygon>
+        <ns1:polygon points="1591,415 1588,467 1561,523 1377,563 1274,562 1213,553 1173,531 1143,491 1128,443 1128,395 1145,346 1174,317 1254,288 1553,233 1589,378 1591,415">
+            <ns1:metadata id="ROUDIER_LESTERRESCREUSEES_017_balloon_2" tailTip="1553,233" tailDirection="NE" rank="5"/>
+        </ns1:polygon>
+    </ns1:svg>
+    <ns2:svg xmlns:ns2="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns2:polygon points="885,1219 750,1219 750,1173 885,1173 885,1219">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_20" rank="41"/>
+        </ns2:polygon>
+        <ns2:polygon points="1658,760 1526,760 1526,720 1658,720 1658,760">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_14" rank="29"/>
+        </ns2:polygon>
+        <ns2:polygon points="1485,1583 1054,1583 1054,1537 1485,1537 1485,1583">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_22" rank="45"/>
+        </ns2:polygon>
+        <ns2:polygon points="1777,1840 1296,1840 1296,1792 1777,1792 1777,1840">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_27" rank="55"/>
+        </ns2:polygon>
+        <ns2:polygon points="1531,381 1185,381 1185,341 1531,341 1531,381">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_6" rank="13"/>
+        </ns2:polygon>
+        <ns2:polygon points="1728,1743 1344,1743 1344,1704 1728,1704 1728,1743">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_25" rank="51"/>
+        </ns2:polygon>
+        <ns2:polygon points="1122,165 801,165 801,131 1122,131 1122,165">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_2" rank="5"/>
+        </ns2:polygon>
+        <ns2:polygon points="1084,657 935,657 935,621 1084,621 1084,657">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_15" rank="31"/>
+        </ns2:polygon>
+        <ns2:polygon points="1450,1625 1089,1625 1089,1580 1450,1580 1450,1625">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_23" rank="47"/>
+        </ns2:polygon>
+        <ns2:polygon points="919,1164 716,1164 716,1134 919,1134 919,1164">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_19" rank="39"/>
+        </ns2:polygon>
+        <ns2:polygon points="1164,131 759,131 759,88 1164,88 1164,131">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_1" rank="3"/>
+        </ns2:polygon>
+        <ns2:polygon points="1546,514 1177,514 1177,468 1546,468 1546,514">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_9" rank="19"/>
+        </ns2:polygon>
+        <ns2:polygon points="1451,1536 1089,1536 1089,1494 1451,1494 1451,1536">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_21" rank="43"/>
+        </ns2:polygon>
+        <ns2:polygon points="634,2619 341,2619 341,2574 634,2574 634,2619">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_32" rank="65"/>
+        </ns2:polygon>
+        <ns2:polygon points="635,2576 337,2576 337,2530 635,2530 635,2576">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_31" rank="63"/>
+        </ns2:polygon>
+        <ns2:polygon points="1088,455 841,455 841,410 1088,410 1088,455">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_5" rank="11"/>
+        </ns2:polygon>
+        <ns2:polygon points="1075,370 855,370 855,329 1075,329 1075,370">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_3" rank="7"/>
+        </ns2:polygon>
+        <ns2:polygon points="631,2533 337,2533 337,2483 631,2483 631,2533">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_30" rank="61"/>
+        </ns2:polygon>
+        <ns2:polygon points="1778,1793 1295,1793 1295,1748 1778,1748 1778,1793">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_26" rank="53"/>
+        </ns2:polygon>
+        <ns2:polygon points="1139,752 877,752 877,715 1139,715 1139,752">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_17" rank="35"/>
+        </ns2:polygon>
+        <ns2:polygon points="1683,1914 1393,1914 1393,1880 1683,1880 1683,1914">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_29" rank="59"/>
+        </ns2:polygon>
+        <ns2:polygon points="1740,597 1437,597 1437,552 1740,552 1740,597">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_10" rank="21"/>
+        </ns2:polygon>
+        <ns2:polygon points="1559,432 1158,432 1158,381 1559,381 1559,432">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_7" rank="15"/>
+        </ns2:polygon>
+        <ns2:polygon points="1543,472 1177,472 1177,423 1543,423 1543,472">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_8" rank="17"/>
+        </ns2:polygon>
+        <ns2:polygon points="1134,91 787,91 787,47 1134,47 1134,91">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_0" rank="1"/>
+        </ns2:polygon>
+        <ns2:polygon points="1769,720 1411,720 1411,676 1769,676 1769,720">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_13" rank="27"/>
+        </ns2:polygon>
+        <ns2:polygon points="1777,1881 1299,1881 1299,1836 1777,1836 1777,1881">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_28" rank="57"/>
+        </ns2:polygon>
+        <ns2:polygon points="870,1129 763,1129 763,1086 870,1086 870,1129">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_18" rank="37"/>
+        </ns2:polygon>
+        <ns2:polygon points="1754,678 1427,678 1427,636 1754,636 1754,678">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_12" rank="25"/>
+        </ns2:polygon>
+        <ns2:polygon points="1772,638 1409,638 1409,596 1772,596 1772,638">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_11" rank="23"/>
+        </ns2:polygon>
+        <ns2:polygon points="1184,716 835,716 835,674 1184,674 1184,716">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_16" rank="33"/>
+        </ns2:polygon>
+        <ns2:polygon points="1411,1672 1130,1672 1130,1626 1411,1626 1411,1672">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_24" rank="49"/>
+        </ns2:polygon>
+        <ns2:polygon points="1077,412 853,412 853,369 1077,369 1077,412">
+            <ns2:metadata id="ROUDIER_LESTERRESCREUSEES_017_line_4" rank="9"/>
+        </ns2:polygon>
+    </ns2:svg>
+    <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"><polygon points="1331,1940 1774,1940 1774,2454 1331,2454 1331,1940"><metadata id="ROUDIER_LESTERRESCREUSEES_017_character_7" idBalloon="ROUDIER_LESTERRESCREUSEES_017_balloon_6" idPanel="ROUDIER_LESTERRESCREUSEES_017_panel_0"/>
+        </polygon><polygon points="1110,917 1625,917 1625,1323 1110,1323 1110,917"><metadata id="ROUDIER_LESTERRESCREUSEES_017_character_6" idBalloon="ROUDIER_LESTERRESCREUSEES_017_balloon_4" idPanel="ROUDIER_LESTERRESCREUSEES_017_panel_0"/>
+        </polygon><polygon points="1161,439 1941,439 1941,1069 1161,1069 1161,439"><metadata id="ROUDIER_LESTERRESCREUSEES_017_character_3" idBalloon="ROUDIER_LESTERRESCREUSEES_017_balloon_5" idPanel="ROUDIER_LESTERRESCREUSEES_017_panel_0"/>
+        </polygon><polygon points="364,1867 1953,1867 1953,2331 364,2331 364,1867"><metadata id="ROUDIER_LESTERRESCREUSEES_017_character_5" idBalloon="ROUDIER_LESTERRESCREUSEES_017_balloon_7" idPanel="ROUDIER_LESTERRESCREUSEES_017_panel_0"/>
+        </polygon><polygon points="1577,12 1936,12 1936,226 1577,226 1577,12"><metadata id="ROUDIER_LESTERRESCREUSEES_017_character_8" idBalloon="ROUDIER_LESTERRESCREUSEES_017_balloon_2" idPanel="ROUDIER_LESTERRESCREUSEES_017_panel_0"/>
+        </polygon><polygon points="382,2 702,2 702,268 382,268 382,2"><metadata id="ROUDIER_LESTERRESCREUSEES_017_character_2" idBalloon="ROUDIER_LESTERRESCREUSEES_017_balloon_1" idPanel="ROUDIER_LESTERRESCREUSEES_017_panel_0"/>
+        </polygon><polygon points="311,2 753,2 753,677 311,677 311,2"><metadata id="ROUDIER_LESTERRESCREUSEES_017_character_1" idBalloon="ROUDIER_LESTERRESCREUSEES_017_balloon_0" idPanel="ROUDIER_LESTERRESCREUSEES_017_panel_0"/>
+        </polygon><polygon points="1265,12 1939,12 1939,342 1265,342 1265,12"><metadata id="ROUDIER_LESTERRESCREUSEES_017_character_4" idBalloon="ROUDIER_LESTERRESCREUSEES_017_balloon_3" idPanel="ROUDIER_LESTERRESCREUSEES_017_panel_0"/>
+        </polygon></svg><metadata lastModificationDate="Wed, 07 May 2014 11+:40:19 +0000" method="Christophe Rigaud's extractor"/></svg>

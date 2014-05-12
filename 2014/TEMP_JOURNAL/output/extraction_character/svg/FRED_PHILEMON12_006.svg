@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2480" version="1.0" height="3508"><title>FRED_PHILEMON12_006</title><svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0"><image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2480" height="3508" xlink:href="../Pages/FRED_PHILEMON12_006.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/></svg><style type="text/css" xml:space="preserve">
+            * { stroke-width: 0; stroke-linejoin: round; }
+            .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+            .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+            polygon:hover { opacity:0.2; }
+    </style><ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns0:polygon points="2291,3208 1148,3212 1144,1799 2291,1799 2291,3208">
+            <ns0:metadata id="FRED_PHILEMON12_006_panel_2" rank="4"/>
+        </ns0:polygon>
+        <ns0:polygon points="1118,1803 1113,3212 5,3216 1,1803 1118,1803">
+            <ns0:metadata id="FRED_PHILEMON12_006_panel_3" rank="3"/>
+        </ns0:polygon>
+        <ns0:polygon points="2291,1773 1148,1769 1140,334 2291,334 2291,1773">
+            <ns0:metadata id="FRED_PHILEMON12_006_panel_1" rank="2"/>
+        </ns0:polygon>
+        <ns0:polygon points="1118,1769 1,1773 5,343 1118,339 1118,1769">
+            <ns0:metadata id="FRED_PHILEMON12_006_panel_0" rank="1"/>
+        </ns0:polygon>
+    </ns0:svg>
+    <ns1:svg xmlns:ns1="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns1:polygon points="1106,906 1100,943 932,1109 717,934 717,889 767,852 866,810 958,802 1037,819 1088,841 1099,865 1106,906">
+            <ns1:metadata id="FRED_PHILEMON12_006_balloon_1" tailTip="932,1109" tailDirection="S" rank="3"/>
+        </ns1:polygon>
+        <ns1:polygon points="1119,2214 953,2469 684,2250 677,2203 714,2166 763,2138 854,2125 978,2125 1066,2155 1106,2186 1119,2214">
+            <ns1:metadata id="FRED_PHILEMON12_006_balloon_4" tailTip="953,2469" tailDirection="S" rank="9"/>
+        </ns1:polygon>
+        <ns1:polygon points="2230,1968 2173,2055 1943,2312 1321,2101 1261,2074 1207,2021 1201,1947 1236,1886 1287,1862 1420,1842 1637,1829 1856,1839 2063,1852 2184,1862 2229,1916 2230,1968">
+            <ns1:metadata id="FRED_PHILEMON12_006_balloon_5" tailTip="1943,2312" tailDirection="SW" rank="11"/>
+        </ns1:polygon>
+        <ns1:polygon points="672,778 669,840 655,1068 648,1133 636,1148 162,900 102,832 101,732 150,655 261,608 389,598 484,602 553,620 639,667 661,724 672,778">
+            <ns1:metadata id="FRED_PHILEMON12_006_balloon_0" tailTip="636,1148" tailDirection="S" rank="1"/>
+        </ns1:polygon>
+        <ns1:polygon points="2089,600 2079,681 2036,737 1772,1060 1730,1056 1691,1035 1577,683 1573,582 1601,510 1681,443 1747,426 1841,421 1965,441 2040,482 2073,534 2089,600">
+            <ns1:metadata id="FRED_PHILEMON12_006_balloon_2" tailTip="1772,1060" tailDirection="SE" rank="5"/>
+        </ns1:polygon>
+        <ns1:polygon points="841,2004 820,2075 774,2135 556,2346 322,2138 267,2043 301,1934 347,1879 494,1822 638,1825 777,1890 830,1959 841,2004">
+            <ns1:metadata id="FRED_PHILEMON12_006_balloon_3" tailTip="556,2346" tailDirection="S" rank="7"/>
+        </ns1:polygon>
+    </ns1:svg>
+    <ns2:svg xmlns:ns2="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns2:polygon points="763,2085 346,2085 346,2053 763,2053 763,2085">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_25" rank="51"/>
+        </ns2:polygon>
+        <ns2:polygon points="762,1971 341,1974 341,1940 762,1940 762,1971">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_21" rank="43"/>
+        </ns2:polygon>
+        <ns2:polygon points="2009,717 1658,717 1658,685 2009,685 2009,717">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_15" rank="31"/>
+        </ns2:polygon>
+        <ns2:polygon points="738,1998 326,1998 326,1967 738,1967 738,1998">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_22" rank="45"/>
+        </ns2:polygon>
+        <ns2:polygon points="642,2116 386,2116 386,2084 642,2084 642,2116">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_26" rank="53"/>
+        </ns2:polygon>
+        <ns2:polygon points="596,811 171,811 171,780 596,780 596,811">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_4" rank="9"/>
+        </ns2:polygon>
+        <ns2:polygon points="808,2027 327,2027 327,1992 808,1992 808,2027">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_23" rank="47"/>
+        </ns2:polygon>
+        <ns2:polygon points="620,1908 427,1908 427,1868 620,1868 620,1908">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_19" rank="39"/>
+        </ns2:polygon>
+        <ns2:polygon points="614,839 165,839 165,807 614,807 614,839">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_5" rank="11"/>
+        </ns2:polygon>
+        <ns2:polygon points="480,897 280,897 280,868 480,868 480,897">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_7" rank="15"/>
+        </ns2:polygon>
+        <ns2:polygon points="1974,541 1665,541 1665,510 1974,510 1974,541">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_9" rank="19"/>
+        </ns2:polygon>
+        <ns2:polygon points="551,783 156,783 156,751 551,751 551,783">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_3" rank="7"/>
+        </ns2:polygon>
+        <ns2:polygon points="622,870 189,870 189,837 622,837 622,870">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_6" rank="13"/>
+        </ns2:polygon>
+        <ns2:polygon points="1921,687 1659,687 1659,655 1921,655 1921,687">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_14" rank="29"/>
+        </ns2:polygon>
+        <ns2:polygon points="645,1939 368,1939 368,1907 645,1907 645,1939">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_20" rank="41"/>
+        </ns2:polygon>
+        <ns2:polygon points="2180,1941 1250,1941 1250,1901 2180,1901 2180,1941">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_30" rank="61"/>
+        </ns2:polygon>
+        <ns2:polygon points="1969,566 1658,566 1658,534 1969,534 1969,566">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_10" rank="21"/>
+        </ns2:polygon>
+        <ns2:polygon points="1815,1911 1402,1911 1402,1875 1815,1875 1815,1911">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_29" rank="59"/>
+        </ns2:polygon>
+        <ns2:polygon points="1042,871 849,871 849,831 1042,831 1042,871">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_16" rank="33"/>
+        </ns2:polygon>
+        <ns2:polygon points="1945,655 1663,655 1663,624 1945,624 1945,655">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_13" rank="27"/>
+        </ns2:polygon>
+        <ns2:polygon points="1031,900 778,900 778,868 1031,868 1031,900">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_17" rank="35"/>
+        </ns2:polygon>
+        <ns2:polygon points="2159,1997 1241,1997 1241,1966 2159,1966 2159,1997">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_32" rank="65"/>
+        </ns2:polygon>
+        <ns2:polygon points="1080,931 771,931 771,900 1080,900 1080,931">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_18" rank="37"/>
+        </ns2:polygon>
+        <ns2:polygon points="559,751 167,751 167,723 559,718 559,751">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_2" rank="5"/>
+        </ns2:polygon>
+        <ns2:polygon points="749,2056 335,2056 335,2023 749,2023 749,2056">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_24" rank="49"/>
+        </ns2:polygon>
+        <ns2:polygon points="587,726 173,726 173,678 587,678 587,726">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_1" rank="3"/>
+        </ns2:polygon>
+        <ns2:polygon points="2157,2026 1253,2026 1253,1997 2157,1997 2157,2026">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_33" rank="67"/>
+        </ns2:polygon>
+        <ns2:polygon points="1085,2248 723,2248 723,2198 1085,2198 1085,2248">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_28" rank="57"/>
+        </ns2:polygon>
+        <ns2:polygon points="1962,626 1661,626 1661,594 1962,594 1962,626">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_12" rank="25"/>
+        </ns2:polygon>
+        <ns2:polygon points="2186,1969 1252,1969 1252,1935 2186,1935 2186,1969">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_31" rank="63"/>
+        </ns2:polygon>
+        <ns2:polygon points="1980,511 1663,511 1663,474 1980,474 1980,511">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_8" rank="17"/>
+        </ns2:polygon>
+        <ns2:polygon points="1986,597 1656,597 1656,567 1986,567 1986,597">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_11" rank="23"/>
+        </ns2:polygon>
+        <ns2:polygon points="537,692 207,692 207,655 537,655 537,692">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_0" rank="1"/>
+        </ns2:polygon>
+        <ns2:polygon points="1060,2218 721,2218 721,2173 1060,2173 1060,2218">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_27" rank="55"/>
+        </ns2:polygon>
+        <ns2:polygon points="1877,2062 1387,2062 1387,2026 1877,2026 1877,2062">
+            <ns2:metadata id="FRED_PHILEMON12_006_line_34" rank="69"/>
+        </ns2:polygon>
+    </ns2:svg>
+    <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"><polygon points="1,2347 918,2347 918,3225 1,3225 1,2347"><metadata id="FRED_PHILEMON12_006_character_5" idBalloon="FRED_PHILEMON12_006_balloon_3" idPanel="FRED_PHILEMON12_006_panel_3"/>
+        </polygon><polygon points="729,1131 1119,1131 1119,1775 729,1775 729,1131"><metadata id="FRED_PHILEMON12_006_character_1" idBalloon="FRED_PHILEMON12_006_balloon_1" idPanel="FRED_PHILEMON12_006_panel_0"/>
+        </polygon><polygon points="652,2470 1126,2470 1126,3218 652,3218 652,2470"><metadata id="FRED_PHILEMON12_006_character_4" idBalloon="FRED_PHILEMON12_006_balloon_4" idPanel="FRED_PHILEMON12_006_panel_3"/>
+        </polygon><polygon points="1784,1047 2294,1047 2294,1616 1784,1616 1784,1047"><metadata id="FRED_PHILEMON12_006_character_3" idBalloon="FRED_PHILEMON12_006_balloon_2" idPanel="FRED_PHILEMON12_006_panel_1"/>
+        </polygon><polygon points="1,1133 680,1133 680,1780 1,1780 1,1133"><metadata id="FRED_PHILEMON12_006_character_2" idBalloon="FRED_PHILEMON12_006_balloon_0" idPanel="FRED_PHILEMON12_006_panel_0"/>
+        </polygon><polygon points="1408,2306 1950,2306 1950,2897 1408,2897 1408,2306"><metadata id="FRED_PHILEMON12_006_character_6" idBalloon="FRED_PHILEMON12_006_balloon_5" idPanel="FRED_PHILEMON12_006_panel_2"/>
+        </polygon></svg><metadata lastModificationDate="Wed, 07 May 2014 11+:40:18 +0000" method="Christophe Rigaud's extractor"/></svg>

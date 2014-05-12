@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" version="1.0" height="1798"><title>CYB_MOUETTEMAN_008</title><svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0"><image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1280" height="1798" xlink:href="../Pages/CYB_MOUETTEMAN_008.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/></svg><style type="text/css" xml:space="preserve">
+            * { stroke-width: 0; stroke-linejoin: round; }
+            .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+            .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+            polygon:hover { opacity:0.2; }
+    </style><ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns0:polygon points="1103,543 156,543 156,162 1103,162 1103,543">
+            <ns0:metadata id="CYB_MOUETTEMAN_008_panel_0" rank="2"/>
+        </ns0:polygon>
+        <ns0:polygon points="954,1744 372,1744 372,1463 954,1463 954,1744">
+            <ns0:metadata id="CYB_MOUETTEMAN_008_panel_3" rank="5"/>
+        </ns0:polygon>
+        <ns0:polygon points="1101,958 154,958 154,574 1101,574 1101,958">
+            <ns0:metadata id="CYB_MOUETTEMAN_008_panel_1" rank="3"/>
+        </ns0:polygon>
+        <ns0:polygon points="1105,1370 156,1370 156,989 1105,989 1105,1370">
+            <ns0:metadata id="CYB_MOUETTEMAN_008_panel_2" rank="4"/>
+        </ns0:polygon>
+        <ns0:polygon points="334,158 176,158 176,2 334,2 334,158">
+            <ns0:metadata id="CYB_MOUETTEMAN_008_panel_4" rank="1"/>
+        </ns0:polygon>
+    </ns0:svg>
+    <ns1:svg xmlns:ns1="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns1:polygon points="439,563 433,733 407,735 361,737 173,735 168,627 172,566 209,563 264,562 385,560 439,563">
+            <ns1:metadata id="CYB_MOUETTEMAN_008_balloon_3" tailDirection="none" rank="7"/>
+        </ns1:polygon>
+        <ns1:polygon points="522,1007 520,1152 519,1211 517,1244 474,1246 245,1248 188,1242 185,1161 188,1064 192,1007 290,1004 337,1004 461,1006 522,1007">
+            <ns1:metadata id="CYB_MOUETTEMAN_008_balloon_4" tailDirection="none" rank="9"/>
+        </ns1:polygon>
+        <ns1:polygon points="922,232 919,259 905,273 732,304 694,257 690,241 693,217 706,201 732,188 758,182 793,179 819,179 851,181 868,183 895,188 909,198 916,210 922,232">
+            <ns1:metadata id="CYB_MOUETTEMAN_008_balloon_1" tailTip="732,304" tailDirection="SW" rank="3"/>
+        </ns1:polygon>
+        <ns1:polygon points="1140,1249 1135,1334 960,1331 938,1330 928,1116 928,1044 930,1008 1131,1005 1134,1029 1140,1170 1140,1249">
+            <ns1:metadata id="CYB_MOUETTEMAN_008_balloon_5" tailDirection="none" rank="11"/>
+        </ns1:polygon>
+        <ns1:polygon points="1129,379 1123,419 1102,419 832,418 830,393 826,333 832,291 869,289 980,285 1098,281 1125,284 1129,358 1129,379">
+            <ns1:metadata id="CYB_MOUETTEMAN_008_balloon_2" tailDirection="none" rank="5"/>
+        </ns1:polygon>
+        <ns1:polygon points="447,148 443,341 440,376 402,380 306,375 182,368 178,273 178,212 181,151 447,148">
+            <ns1:metadata id="CYB_MOUETTEMAN_008_balloon_0" tailDirection="none" rank="1"/>
+        </ns1:polygon>
+    </ns1:svg>
+    <ns2:svg xmlns:ns2="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns2:polygon points="419,216 205,216 205,201 419,201 419,216">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_4" rank="9"/>
+        </ns2:polygon>
+        <ns2:polygon points="1090,366 861,366 861,352 1090,352 1090,366">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_16" rank="33"/>
+        </ns2:polygon>
+        <ns2:polygon points="425,274 201,274 201,261 425,261 425,274">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_7" rank="15"/>
+        </ns2:polygon>
+        <ns2:polygon points="855,247 756,247 756,230 855,230 855,247">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_13" rank="27"/>
+        </ns2:polygon>
+        <ns2:polygon points="1103,1078 962,1078 962,1058 1103,1058 1103,1078">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_35" rank="71"/>
+        </ns2:polygon>
+        <ns2:polygon points="387,644 210,644 210,631 387,631 387,644">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_21" rank="43"/>
+        </ns2:polygon>
+        <ns2:polygon points="474,1131 232,1131 232,1116 474,1116 474,1131">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_29" rank="59"/>
+        </ns2:polygon>
+        <ns2:polygon points="1103,346 848,346 848,333 1103,333 1103,346">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_15" rank="31"/>
+        </ns2:polygon>
+        <ns2:polygon points="382,607 213,607 213,585 382,585 382,607">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_19" rank="39"/>
+        </ns2:polygon>
+        <ns2:polygon points="370,624 225,624 225,611 370,611 370,624">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_20" rank="41"/>
+        </ns2:polygon>
+        <ns2:polygon points="413,237 213,237 213,221 413,221 413,237">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_5" rank="11"/>
+        </ns2:polygon>
+        <ns2:polygon points="475,1190 232,1190 232,1177 475,1177 475,1190">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_32" rank="65"/>
+        </ns2:polygon>
+        <ns2:polygon points="414,294 212,294 212,275 414,275 414,294">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_11" rank="23"/>
+        </ns2:polygon>
+        <ns2:polygon points="494,1150 212,1150 212,1134 494,1134 494,1150">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_30" rank="61"/>
+        </ns2:polygon>
+        <ns2:polygon points="494,1091 213,1091 213,1075 494,1075 494,1091">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_27" rank="55"/>
+        </ns2:polygon>
+        <ns2:polygon points="495,1111 209,1111 209,1096 495,1096 495,1111">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_28" rank="57"/>
+        </ns2:polygon>
+        <ns2:polygon points="420,314 205,314 205,301 420,301 420,314">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_8" rank="17"/>
+        </ns2:polygon>
+        <ns2:polygon points="377,706 218,706 218,685 377,685 377,706">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_24" rank="49"/>
+        </ns2:polygon>
+        <ns2:polygon points="1094,328 856,328 856,306 1094,306 1094,328">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_14" rank="29"/>
+        </ns2:polygon>
+        <ns2:polygon points="1116,1217 951,1217 951,1202 1116,1202 1116,1217">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_42" rank="85"/>
+        </ns2:polygon>
+        <ns2:polygon points="443,1169 263,1169 263,1157 443,1157 443,1169">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_31" rank="63"/>
+        </ns2:polygon>
+        <ns2:polygon points="414,195 212,195 212,173 414,173 414,195">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_0" rank="1"/>
+        </ns2:polygon>
+        <ns2:polygon points="320,354 306,354 306,351 320,351 320,354">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_10" rank="21"/>
+        </ns2:polygon>
+        <ns2:polygon points="399,685 196,685 196,671 399,671 399,685">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_23" rank="47"/>
+        </ns2:polygon>
+        <ns2:polygon points="415,256 210,256 210,240 415,240 415,256">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_6" rank="13"/>
+        </ns2:polygon>
+        <ns2:polygon points="876,229 736,229 736,216 876,216 876,229">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_12" rank="25"/>
+        </ns2:polygon>
+        <ns2:polygon points="1095,1236 974,1236 974,1217 1095,1217 1095,1236">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_43" rank="87"/>
+        </ns2:polygon>
+        <ns2:polygon points="1094,385 856,385 856,371 1094,371 1094,385">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_17" rank="35"/>
+        </ns2:polygon>
+        <ns2:polygon points="1068,1157 999,1157 999,1142 1068,1142 1068,1157">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_39" rank="79"/>
+        </ns2:polygon>
+        <ns2:polygon points="1099,1197 969,1197 969,1181 1099,1181 1099,1197">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_41" rank="83"/>
+        </ns2:polygon>
+        <ns2:polygon points="370,668 227,668 227,651 370,651 370,668">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_22" rank="45"/>
+        </ns2:polygon>
+        <ns2:polygon points="461,1074 246,1074 246,1056 461,1056 461,1074">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_26" rank="53"/>
+        </ns2:polygon>
+        <ns2:polygon points="1113,1177 955,1177 955,1163 1113,1163 1113,1177">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_40" rank="81"/>
+        </ns2:polygon>
+        <ns2:polygon points="1107,1097 959,1097 959,1083 1107,1083 1107,1097">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_36" rank="73"/>
+        </ns2:polygon>
+        <ns2:polygon points="470,1051 236,1051 236,1029 470,1029 470,1051">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_25" rank="51"/>
+        </ns2:polygon>
+        <ns2:polygon points="369,334 257,334 257,320 369,320 369,334">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_9" rank="19"/>
+        </ns2:polygon>
+        <ns2:polygon points="1113,1137 955,1137 955,1123 1113,1123 1113,1137">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_38" rank="77"/>
+        </ns2:polygon>
+        <ns2:polygon points="1107,1118 959,1118 959,1098 1107,1098 1107,1118">
+            <ns2:metadata id="CYB_MOUETTEMAN_008_line_37" rank="75"/>
+        </ns2:polygon>
+    </ns2:svg>
+    <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"><polygon points="464,310 732,310 732,543 464,543 464,310"><metadata id="CYB_MOUETTEMAN_008_character_1" idBalloon="CYB_MOUETTEMAN_008_balloon_1" idPanel="CYB_MOUETTEMAN_008_panel_0"/>
+        </polygon></svg><metadata lastModificationDate="Wed, 07 May 2014 11+:40:17 +0000" method="Christophe Rigaud's extractor"/></svg>

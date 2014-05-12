@@ -1,0 +1,279 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3078" version="1.0" height="4196"><title>MCCAY_LITTLENEMO_090</title><svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0"><image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="3078" height="4196" xlink:href="../Pages/MCCAY_LITTLENEMO_090.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/></svg><style type="text/css" xml:space="preserve">
+            * { stroke-width: 0; stroke-linejoin: round; }
+            .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+            .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+            polygon:hover { opacity:0.2; }
+    </style><ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns0:polygon points="1552,2749 91,2770 82,1967 1544,1949 1552,2749">
+            <ns0:metadata id="MCCAY_LITTLENEMO_090_panel_3" rank="4"/>
+        </ns0:polygon>
+        <ns0:polygon points="3020,4040 88,4040 88,2755 3020,2755 3020,4040">
+            <ns0:metadata id="MCCAY_LITTLENEMO_090_panel_6" rank="6"/>
+        </ns0:polygon>
+        <ns0:polygon points="3011,1028 73,1054 68,164 3008,150 3011,1028">
+            <ns0:metadata id="MCCAY_LITTLENEMO_090_panel_0" rank="1"/>
+        </ns0:polygon>
+        <ns0:polygon points="3014,1048 3011,1900 1567,1918 1567,1068 3014,1048">
+            <ns0:metadata id="MCCAY_LITTLENEMO_090_panel_2" rank="3"/>
+        </ns0:polygon>
+        <ns0:polygon points="1555,1923 79,1944 79,1077 1549,1065 1555,1923">
+            <ns0:metadata id="MCCAY_LITTLENEMO_090_panel_1" rank="2"/>
+        </ns0:polygon>
+        <ns0:polygon points="3015,2734 1570,2750 1559,1949 3010,1929 3015,2734">
+            <ns0:metadata id="MCCAY_LITTLENEMO_090_panel_5" rank="5"/>
+        </ns0:polygon>
+    </ns0:svg>
+    <ns1:svg xmlns:ns1="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns1:polygon points="3021,3459 3019,3469 2985,3528 2969,3538 2935,3544 2870,3548 2808,3548 2779,3542 2759,3524 2753,3479 2754,3398 2759,3361 2770,3344 2839,3342 2960,3339 2981,3359 3021,3459">
+            <ns1:metadata id="MCCAY_LITTLENEMO_090_balloon_13" tailTip="3019,3469" tailDirection="W" rank="27"/>
+        </ns1:polygon>
+        <ns1:polygon points="2122,1258 2120,1289 2118,1308 2109,1319 2042,1360 2037,1360 1962,1334 1949,1324 1943,1304 1941,1177 1943,1139 1949,1126 1959,1121 2017,1118 2035,1118 2094,1120 2106,1125 2115,1131 2119,1148 2121,1161 2122,1240 2122,1258">
+            <ns1:metadata id="MCCAY_LITTLENEMO_090_balloon_4" tailTip="2037,1360" tailDirection="S" rank="9"/>
+        </ns1:polygon>
+        <ns1:polygon points="555,3131 554,3165 551,3192 545,3219 533,3234 475,3270 470,3272 405,3222 398,3211 396,3140 395,3081 410,3069 430,3061 526,3067 546,3074 552,3097 555,3131">
+            <ns1:metadata id="MCCAY_LITTLENEMO_090_balloon_11" tailTip="470,3272" tailDirection="S" rank="23"/>
+        </ns1:polygon>
+        <ns1:polygon points="2702,1301 2690,1303 2527,1299 2455,1291 2439,1280 2432,1262 2425,1232 2423,1188 2431,1120 2438,1099 2466,1089 2557,1088 2612,1088 2640,1089 2658,1099 2668,1118 2702,1301">
+            <ns1:metadata id="MCCAY_LITTLENEMO_090_balloon_5" tailTip="2702,1301" tailDirection="SE" rank="11"/>
+        </ns1:polygon>
+        <ns1:polygon points="1187,3291 1183,3324 1169,3339 1139,3359 1109,3340 1102,3322 1101,3272 1104,3254 1115,3248 1176,3244 1185,3262 1187,3291">
+            <ns1:metadata id="MCCAY_LITTLENEMO_090_balloon_12" tailTip="1139,3359" tailDirection="S" rank="25"/>
+        </ns1:polygon>
+        <ns1:polygon points="1045,548 1016,630 1000,630 843,583 822,568 812,550 814,411 821,391 854,381 1011,387 1033,394 1040,424 1044,469 1045,517 1045,548">
+            <ns1:metadata id="MCCAY_LITTLENEMO_090_balloon_0" tailTip="1016,630" tailDirection="SE" rank="1"/>
+        </ns1:polygon>
+        <ns1:polygon points="513,1373 508,1402 490,1424 446,1465 336,1432 330,1413 326,1281 332,1266 355,1258 424,1257 496,1264 506,1269 509,1288 513,1373">
+            <ns1:metadata id="MCCAY_LITTLENEMO_090_balloon_2" tailTip="446,1465" tailDirection="S" rank="5"/>
+        </ns1:polygon>
+        <ns1:polygon points="2490,2165 2477,2190 2356,2256 2304,2186 2298,2074 2301,2040 2324,2023 2378,2014 2446,2016 2466,2017 2476,2025 2484,2054 2490,2132 2490,2165">
+            <ns1:metadata id="MCCAY_LITTLENEMO_090_balloon_9" tailTip="2356,2256" tailDirection="S" rank="19"/>
+        </ns1:polygon>
+        <ns1:polygon points="2163,2067 2161,2102 2143,2120 2098,2130 2027,2138 1970,2136 1949,2134 1890,2086 1925,1984 1935,1967 1948,1959 2064,1956 2125,1957 2145,1964 2158,1982 2163,2067">
+            <ns1:metadata id="MCCAY_LITTLENEMO_090_balloon_8" tailTip="1890,2086" tailDirection="W" rank="17"/>
+        </ns1:polygon>
+        <ns1:polygon points="2729,2245 2721,2261 2700,2268 2654,2281 2622,2266 2612,2258 2611,2230 2610,2201 2614,2174 2624,2163 2633,2158 2689,2158 2719,2159 2726,2171 2729,2204 2729,2245">
+            <ns1:metadata id="MCCAY_LITTLENEMO_090_balloon_10" tailTip="2654,2281" tailDirection="S" rank="21"/>
+        </ns1:polygon>
+        <ns1:polygon points="571,2076 569,2133 553,2159 531,2163 494,2169 472,2170 429,2167 418,2164 409,2153 378,2109 380,2100 407,2007 416,1980 441,1970 517,1967 543,1970 558,1988 568,2011 570,2040 571,2076">
+            <ns1:metadata id="MCCAY_LITTLENEMO_090_balloon_6" tailTip="378,2109" tailDirection="W" rank="13"/>
+        </ns1:polygon>
+        <ns1:polygon points="1224,1273 1194,1293 1177,1299 1120,1302 1066,1303 1015,1303 974,1298 941,1282 931,1254 926,1189 926,1123 935,1097 955,1090 995,1083 1170,1091 1190,1102 1223,1265 1224,1273">
+            <ns1:metadata id="MCCAY_LITTLENEMO_090_balloon_3" tailTip="1223,1265" tailDirection="E" rank="7"/>
+        </ns1:polygon>
+        <ns1:polygon points="1061,2408 1039,2428 1026,2430 1010,2432 992,2433 970,2433 954,2429 950,2396 948,2368 950,2348 959,2342 1023,2345 1036,2355 1061,2408">
+            <ns1:metadata id="MCCAY_LITTLENEMO_090_balloon_7" tailTip="1061,2408" tailDirection="E" rank="15"/>
+        </ns1:polygon>
+        <ns1:polygon points="2558,358 2552,499 2538,527 2510,536 2441,540 2369,537 2347,519 2285,443 2340,311 2360,288 2455,283 2514,282 2536,288 2548,308 2555,331 2558,358">
+            <ns1:metadata id="MCCAY_LITTLENEMO_090_balloon_1" tailTip="2285,443" tailDirection="W" rank="3"/>
+        </ns1:polygon>
+    </ns1:svg>
+    <ns2:svg xmlns:ns2="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns2:polygon points="2142,2026 1927,2026 1927,1996 2142,1996 2142,2026">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_21" rank="43"/>
+        </ns2:polygon>
+        <ns2:polygon points="1011,495 826,495 826,467 1011,467 1011,495">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_59" rank="119"/>
+        </ns2:polygon>
+        <ns2:polygon points="2726,2227 2616,2227 2616,2200 2726,2200 2726,2227">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_30" rank="61"/>
+        </ns2:polygon>
+        <ns2:polygon points="2730,2255 2616,2255 2616,2229 2730,2229 2730,2255">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_31" rank="63"/>
+        </ns2:polygon>
+        <ns2:polygon points="2549,343 2362,343 2362,307 2549,307 2549,343">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_62" rank="125"/>
+        </ns2:polygon>
+        <ns2:polygon points="2675,1252 2430,1252 2430,1222 2675,1222 2675,1252">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_54" rank="109"/>
+        </ns2:polygon>
+        <ns2:polygon points="480,1307 336,1307 336,1275 480,1275 480,1307">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_39" rank="79"/>
+        </ns2:polygon>
+        <ns2:polygon points="1036,430 833,430 833,401 1036,401 1036,430">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_57" rank="115"/>
+        </ns2:polygon>
+        <ns2:polygon points="489,1376 336,1376 336,1348 489,1348 489,1376">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_41" rank="83"/>
+        </ns2:polygon>
+        <ns2:polygon points="2501,378 2352,378 2352,346 2501,346 2501,378">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_63" rank="127"/>
+        </ns2:polygon>
+        <ns2:polygon points="2089,1312 1961,1312 1961,1280 2089,1280 2089,1312">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_49" rank="99"/>
+        </ns2:polygon>
+        <ns2:polygon points="1176,1135 931,1135 931,1106 1176,1106 1176,1135">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_33" rank="67"/>
+        </ns2:polygon>
+        <ns2:polygon points="2659,1289 2442,1289 2442,1254 2659,1254 2659,1289">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_55" rank="111"/>
+        </ns2:polygon>
+        <ns2:polygon points="2133,1994 1934,1994 1934,1964 2133,1964 2133,1994">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_20" rank="41"/>
+        </ns2:polygon>
+        <ns2:polygon points="1007,568 826,568 826,536 1007,536 1007,568">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_61" rank="123"/>
+        </ns2:polygon>
+        <ns2:polygon points="2673,1156 2439,1156 2439,1129 2673,1129 2673,1156">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_51" rank="103"/>
+        </ns2:polygon>
+        <ns2:polygon points="549,3179 398,3179 398,3145 549,3145 549,3179">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_3" rank="7"/>
+        </ns2:polygon>
+        <ns2:polygon points="2426,2175 2336,2175 2336,2142 2426,2142 2426,2175">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_28" rank="57"/>
+        </ns2:polygon>
+        <ns2:polygon points="2481,2094 2309,2094 2309,2065 2481,2065 2481,2094">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_26" rank="53"/>
+        </ns2:polygon>
+        <ns2:polygon points="2462,2138 2311,2138 2311,2097 2462,2097 2462,2138">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_27" rank="55"/>
+        </ns2:polygon>
+        <ns2:polygon points="2549,449 2348,449 2348,419 2549,419 2549,449">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_65" rank="131"/>
+        </ns2:polygon>
+        <ns2:polygon points="2936,3516 2762,3516 2762,3486 2936,3486 2936,3516">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_10" rank="21"/>
+        </ns2:polygon>
+        <ns2:polygon points="2655,1190 2435,1190 2435,1161 2655,1161 2655,1190">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_52" rank="105"/>
+        </ns2:polygon>
+        <ns2:polygon points="560,2012 412,2012 412,1987 560,1987 560,2012">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_15" rank="31"/>
+        </ns2:polygon>
+        <ns2:polygon points="1135,1206 936,1206 936,1177 1135,1177 1135,1206">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_35" rank="71"/>
+        </ns2:polygon>
+        <ns2:polygon points="2114,1257 1952,1257 1952,1227 2114,1227 2114,1257">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_47" rank="95"/>
+        </ns2:polygon>
+        <ns2:polygon points="2980,3385 2762,3385 2762,3358 2980,3358 2980,3385">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_6" rank="13"/>
+        </ns2:polygon>
+        <ns2:polygon points="1162,1172 936,1172 936,1138 1162,1138 1162,1172">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_34" rank="69"/>
+        </ns2:polygon>
+        <ns2:polygon points="526,2149 439,2149 439,2120 526,2120 526,2149">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_19" rank="39"/>
+        </ns2:polygon>
+        <ns2:polygon points="2533,490 2350,490 2350,456 2533,456 2533,490">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_66" rank="133"/>
+        </ns2:polygon>
+        <ns2:polygon points="515,1405 329,1405 329,1378 515,1378 515,1405">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_42" rank="85"/>
+        </ns2:polygon>
+        <ns2:polygon points="1185,3310 1105,3310 1105,3275 1185,3275 1185,3310">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_5" rank="11"/>
+        </ns2:polygon>
+        <ns2:polygon points="496,3108 405,3108 405,3079 496,3079 496,3108">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_1" rank="3"/>
+        </ns2:polygon>
+        <ns2:polygon points="986,533 821,533 821,501 986,501 986,533">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_60" rank="121"/>
+        </ns2:polygon>
+        <ns2:polygon points="2151,2053 1936,2053 1936,2026 2151,2026 2151,2053">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_22" rank="45"/>
+        </ns2:polygon>
+        <ns2:polygon points="476,2081 416,2081 416,2053 476,2053 476,2081">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_17" rank="35"/>
+        </ns2:polygon>
+        <ns2:polygon points="553,2115 414,2115 414,2083 553,2083 553,2115">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_18" rank="37"/>
+        </ns2:polygon>
+        <ns2:polygon points="2986,3420 2755,3420 2755,3390 2986,3390 2986,3420">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_7" rank="15"/>
+        </ns2:polygon>
+        <ns2:polygon points="560,2046 412,2046 412,2014 560,2014 560,2046">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_16" rank="33"/>
+        </ns2:polygon>
+        <ns2:polygon points="1126,1302 1039,1302 1039,1270 1126,1270 1126,1302">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_38" rank="77"/>
+        </ns2:polygon>
+        <ns2:polygon points="505,1341 334,1341 334,1314 505,1314 505,1341">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_40" rank="81"/>
+        </ns2:polygon>
+        <ns2:polygon points="2435,2065 2316,2065 2316,2030 2435,2030 2435,2065">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_25" rank="51"/>
+        </ns2:polygon>
+        <ns2:polygon points="2975,3484 2755,3484 2755,3454 2975,3454 2975,3484">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_9" rank="19"/>
+        </ns2:polygon>
+        <ns2:polygon points="2716,2197 2620,2197 2620,2168 2716,2168 2716,2197">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_29" rank="59"/>
+        </ns2:polygon>
+        <ns2:polygon points="2114,1188 1954,1188 1954,1161 2114,1161 2114,1188">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_45" rank="91"/>
+        </ns2:polygon>
+        <ns2:polygon points="1117,1273 943,1273 943,1243 1117,1243 1117,1273">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_37" rank="75"/>
+        </ns2:polygon>
+        <ns2:polygon points="2156,2090 1943,2090 1943,2055 2156,2055 2156,2090">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_23" rank="47"/>
+        </ns2:polygon>
+        <ns2:polygon points="478,1435 359,1435 359,1405 478,1405 478,1435">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_43" rank="87"/>
+        </ns2:polygon>
+        <ns2:polygon points="2989,3452 2758,3452 2758,3424 2989,3424 2989,3452">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_8" rank="17"/>
+        </ns2:polygon>
+        <ns2:polygon points="2096,1154 1954,1154 1954,1124 2096,1124 2096,1154">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_44" rank="89"/>
+        </ns2:polygon>
+        <ns2:polygon points="2547,522 2359,522 2359,497 2547,497 2547,522">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_67" rank="135"/>
+        </ns2:polygon>
+        <ns2:polygon points="551,3145 402,3145 402,3108 551,3108 551,3145">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_2" rank="5"/>
+        </ns2:polygon>
+        <ns2:polygon points="2128,1282 1956,1282 1956,1252 2128,1252 2128,1282">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_48" rank="97"/>
+        </ns2:polygon>
+        <ns2:polygon points="2648,1131 2444,1131 2444,1092 2648,1092 2648,1131">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_50" rank="101"/>
+        </ns2:polygon>
+        <ns2:polygon points="2538,414 2348,414 2348,385 2538,385 2538,414">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_64" rank="129"/>
+        </ns2:polygon>
+        <ns2:polygon points="2970,3536 2810,3536 2810,3507 2970,3507 2970,3536">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_11" rank="23"/>
+        </ns2:polygon>
+        <ns2:polygon points="1158,1241 938,1241 938,1211 1158,1211 1158,1241">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_36" rank="73"/>
+        </ns2:polygon>
+        <ns2:polygon points="2121,1222 1952,1222 1952,1193 2121,1193 2121,1222">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_46" rank="93"/>
+        </ns2:polygon>
+        <ns2:polygon points="508,3223 405,3223 405,3186 508,3186 508,3223">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_4" rank="9"/>
+        </ns2:polygon>
+        <ns2:polygon points="2673,1220 2430,1220 2430,1190 2673,1190 2673,1220">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_53" rank="107"/>
+        </ns2:polygon>
+        <ns2:polygon points="2160,2124 1952,2124 1952,2090 2160,2090 2160,2124">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_24" rank="49"/>
+        </ns2:polygon>
+        <ns2:polygon points="1034,465 821,465 821,435 1034,435 1034,465">
+            <ns2:metadata id="MCCAY_LITTLENEMO_090_line_58" rank="117"/>
+        </ns2:polygon>
+    </ns2:svg>
+    <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"><polygon points="105,3336 1190,3336 1190,3806 105,3806 105,3336"><metadata id="MCCAY_LITTLENEMO_090_character_13" idBalloon="MCCAY_LITTLENEMO_090_balloon_12" idPanel="MCCAY_LITTLENEMO_090_panel_6"/>
+        </polygon><polygon points="2077,253 2290,253 2290,627 2077,627 2077,253"><metadata id="MCCAY_LITTLENEMO_090_character_7" idBalloon="MCCAY_LITTLENEMO_090_balloon_1" idPanel="MCCAY_LITTLENEMO_090_panel_0"/>
+        </polygon><polygon points="173,2001 387,2001 387,2284 173,2284 173,2001"><metadata id="MCCAY_LITTLENEMO_090_character_8" idBalloon="MCCAY_LITTLENEMO_090_balloon_6" idPanel="MCCAY_LITTLENEMO_090_panel_3"/>
+        </polygon><polygon points="2476,2255 3016,2255 3016,2742 2476,2742 2476,2255"><metadata id="MCCAY_LITTLENEMO_090_character_5" idBalloon="MCCAY_LITTLENEMO_090_balloon_10" idPanel="MCCAY_LITTLENEMO_090_panel_5"/>
+        </polygon><polygon points="1004,585 1203,585 1203,841 1004,841 1004,585"><metadata id="MCCAY_LITTLENEMO_090_character_6" idBalloon="MCCAY_LITTLENEMO_090_balloon_0" idPanel="MCCAY_LITTLENEMO_090_panel_0"/>
+        </polygon><polygon points="2821,3263 2999,3263 2999,3658 2821,3658 2821,3263"><metadata id="MCCAY_LITTLENEMO_090_character_14" idBalloon="MCCAY_LITTLENEMO_090_balloon_13" idPanel="MCCAY_LITTLENEMO_090_panel_6"/>
+        </polygon><polygon points="2707,1298 2931,1298 2931,1534 2707,1534 2707,1298"><metadata id="MCCAY_LITTLENEMO_090_character_1" idBalloon="MCCAY_LITTLENEMO_090_balloon_5" idPanel="MCCAY_LITTLENEMO_090_panel_2"/>
+        </polygon><polygon points="106,3218 563,3218 563,3707 106,3707 106,3218"><metadata id="MCCAY_LITTLENEMO_090_character_12" idBalloon="MCCAY_LITTLENEMO_090_balloon_11" idPanel="MCCAY_LITTLENEMO_090_panel_6"/>
+        </polygon><polygon points="1576,1351 2114,1351 2114,1821 1576,1821 1576,1351"><metadata id="MCCAY_LITTLENEMO_090_character_2" idBalloon="MCCAY_LITTLENEMO_090_balloon_4" idPanel="MCCAY_LITTLENEMO_090_panel_2"/>
+        </polygon><polygon points="1218,1081 1438,1081 1438,1452 1218,1452 1218,1081"><metadata id="MCCAY_LITTLENEMO_090_character_10" idBalloon="MCCAY_LITTLENEMO_090_balloon_3" idPanel="MCCAY_LITTLENEMO_090_panel_1"/>
+        </polygon><polygon points="89,1459 530,1459 530,1880 89,1880 89,1459"><metadata id="MCCAY_LITTLENEMO_090_character_11" idBalloon="MCCAY_LITTLENEMO_090_balloon_2" idPanel="MCCAY_LITTLENEMO_090_panel_1"/>
+        </polygon><polygon points="2295,2243 3016,2243 3016,2742 2295,2742 2295,2243"><metadata id="MCCAY_LITTLENEMO_090_character_4" idBalloon="MCCAY_LITTLENEMO_090_balloon_9" idPanel="MCCAY_LITTLENEMO_090_panel_5"/>
+        </polygon><polygon points="1692,1959 1894,1959 1894,2263 1692,2263 1692,1959"><metadata id="MCCAY_LITTLENEMO_090_character_3" idBalloon="MCCAY_LITTLENEMO_090_balloon_8" idPanel="MCCAY_LITTLENEMO_090_panel_5"/>
+        </polygon><polygon points="1073,2200 1258,2200 1258,2611 1073,2611 1073,2200"><metadata id="MCCAY_LITTLENEMO_090_character_9" idBalloon="MCCAY_LITTLENEMO_090_balloon_7" idPanel="MCCAY_LITTLENEMO_090_panel_3"/>
+        </polygon></svg><metadata lastModificationDate="Wed, 07 May 2014 11+:40:19 +0000" method="Christophe Rigaud's extractor"/></svg>

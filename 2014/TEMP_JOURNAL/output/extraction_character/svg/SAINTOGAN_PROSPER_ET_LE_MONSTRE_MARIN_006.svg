@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5265" version="1.0" height="3637"><title>SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006</title><svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0"><image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="5265" height="3637" xlink:href="../Pages/SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/></svg><style type="text/css" xml:space="preserve">
+            * { stroke-width: 0; stroke-linejoin: round; }
+            .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+            .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+            .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+            .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+            .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+            polygon:hover { opacity:0.2; }
+    </style><ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns0:polygon points="2484,3210 1360,3210 1360,2430 2484,2430 2484,3210">
+            <ns0:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_panel_3" rank="4"/>
+        </ns0:polygon>
+        <ns0:polygon points="2500,1409 337,1409 337,331 2500,331 2500,1409">
+            <ns0:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_panel_0" rank="1"/>
+        </ns0:polygon>
+        <ns0:polygon points="4992,3353 2795,3353 2795,266 4992,266 4992,3353">
+            <ns0:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_panel_4" rank="5"/>
+        </ns0:polygon>
+        <ns0:polygon points="2490,2352 328,2348 329,1526 2490,1526 2490,2352">
+            <ns0:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_panel_1" rank="2"/>
+        </ns0:polygon>
+        <ns0:polygon points="1319,3204 323,3204 323,2422 1319,2422 1319,3204">
+            <ns0:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_panel_2" rank="3"/>
+        </ns0:polygon>
+    </ns0:svg>
+    <ns1:svg xmlns:ns1="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns1:polygon points="4976,3356 2799,3341 2797,3218 4961,3218 4976,3356">
+            <ns1:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_balloon_7" tailDirection="none" rank="15"/>
+        </ns1:polygon>
+        <ns1:polygon points="4976,2061 4958,2196 3793,2196 3761,2076 4976,2061">
+            <ns1:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_balloon_6" tailDirection="none" rank="13"/>
+        </ns1:polygon>
+        <ns1:polygon points="3473,931 3463,1079 2825,1094 2804,944 3473,931">
+            <ns1:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_balloon_4" tailDirection="none" rank="9"/>
+        </ns1:polygon>
+        <ns1:polygon points="4973,1219 3921,1221 3861,1054 4971,1065 4973,1219">
+            <ns1:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_balloon_5" tailDirection="none" rank="11"/>
+        </ns1:polygon>
+    </ns1:svg>
+    <ns2:svg xmlns:ns2="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <ns2:polygon points="4948,2129 3775,2129 3775,2087 4948,2087 4948,2129">
+            <ns2:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_line_16" rank="33"/>
+        </ns2:polygon>
+        <ns2:polygon points="4797,2173 3925,2173 3925,2134 4797,2134 4797,2173">
+            <ns2:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_line_17" rank="35"/>
+        </ns2:polygon>
+        <ns2:polygon points="3458,987 2818,987 2818,945 3458,945 3458,987">
+            <ns2:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_line_10" rank="21"/>
+        </ns2:polygon>
+        <ns2:polygon points="4948,1171 4054,1171 4054,1129 4948,1129 4948,1171">
+            <ns2:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_line_14" rank="29"/>
+        </ns2:polygon>
+        <ns2:polygon points="3458,1032 2861,1032 2861,996 3458,996 3458,1032">
+            <ns2:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_line_11" rank="23"/>
+        </ns2:polygon>
+        <ns2:polygon points="3337,1070 2973,1070 2973,1038 3337,1038 3337,1070">
+            <ns2:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_line_12" rank="25"/>
+        </ns2:polygon>
+        <ns2:polygon points="4952,1124 3883,1124 3883,1083 4952,1083 4952,1124">
+            <ns2:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_line_13" rank="27"/>
+        </ns2:polygon>
+        <ns2:polygon points="4298,3325 3444,3325 3444,3280 4298,3281 4298,3325">
+            <ns2:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_line_19" rank="39"/>
+        </ns2:polygon>
+        <ns2:polygon points="4946,3278 2811,3277 2811,3234 4944,3234 4946,3278">
+            <ns2:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_line_18" rank="37"/>
+        </ns2:polygon>
+        <ns2:polygon points="4948,1215 4054,1215 4054,1176 4948,1176 4948,1215">
+            <ns2:metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_006_line_15" rank="31"/>
+        </ns2:polygon>
+    </ns2:svg>
+    <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Object" preserveAspectRatio="xMidYMid meet" version="1.0"/><metadata lastModificationDate="Wed, 07 May 2014 11+:40:19 +0000" method="Christophe Rigaud's extractor"/></svg>
