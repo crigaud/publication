@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1488" xmlns="http://www.w3.org/2000/svg" version="1.0" height="2160">
+  <title>MCCALL_ROBINHOOD_T31_005</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1488" height="2160" xlink:href="../Pages/MCCALL_ROBINHOOD_T31_005.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="711,2051 710,2090 708,2092 697,2099 683,2100 496,2102 285,2102 154,2101 60,2100 47,2099 44,2089 44,2086 47,1512 48,1426 49,1373 50,1372 53,1371 488,1371 692,1372 711,1987 711,2051">
+      <metadata confidence="0.0" id="MCCALL_ROBINHOOD_T31_005_panel_0"/>
+    </polygon>
+    <polygon points="1460,2004 1453,2095 1452,2096 1094,2098 765,2099 724,2099 721,2098 720,2097 48,1350 47,1186 44,647 44,134 46,95 50,94 60,93 357,88 516,86 978,85 1448,85 1449,86 1460,1966 1460,2004">
+      <metadata confidence="0.0" id="MCCALL_ROBINHOOD_T31_005_panel_1"/>
+    </polygon>
+  </svg>
+</svg>

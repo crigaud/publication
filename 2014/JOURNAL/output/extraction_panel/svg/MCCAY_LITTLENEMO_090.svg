@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="3078" xmlns="http://www.w3.org/2000/svg" version="1.0" height="4196">
+  <title>MCCAY_LITTLENEMO_090</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="3078" height="4196" xlink:href="../Pages/MCCAY_LITTLENEMO_090.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="3021,3131 3020,3270 3019,3313 2362,4007 2360,4009 2319,4010 2196,4012 445,4040 133,4044 113,4044 99,4043 97,4041 96,4033 95,4015 92,3077 92,2816 93,2801 543,2792 714,2789 922,2786 1134,2783 1934,2773 2228,2770 3017,2762 3019,2763 3020,2764 3021,2767 3021,3131">
+      <metadata confidence="0.0" id="MCCAY_LITTLENEMO_090_panel_0"/>
+    </polygon>
+    <polygon points="1558,2753 1557,2754 1550,2755 1486,2756 114,2776 110,2776 92,2775 91,2774 90,2768 81,2073 81,2011 82,1970 84,1968 87,1967 381,1961 442,1960 1494,1949 1505,1949 1545,1950 1546,1951 1548,1975 1549,2007 1551,2127 1558,2753">
+      <metadata confidence="0.0" id="MCCAY_LITTLENEMO_090_panel_1"/>
+    </polygon>
+    <polygon points="3020,2733 3019,2735 3017,2736 2992,2737 2953,2738 2549,2744 1623,2752 1574,2752 1573,2751 1572,2739 1571,2702 1561,2017 1561,1953 1563,1951 1568,1950 1766,1944 3012,1926 3013,1928 3014,1980 3015,2033 3020,2733">
+      <metadata confidence="0.0" id="MCCAY_LITTLENEMO_090_panel_2"/>
+    </polygon>
+    <polygon points="1556,1906 1555,1916 1554,1924 1531,1925 87,1946 82,1946 81,1945 80,1943 77,1203 77,1165 78,1080 79,1079 82,1078 136,1077 528,1073 1143,1069 1545,1067 1549,1067 1552,1070 1553,1073 1554,1125 1556,1755 1556,1906">
+      <metadata confidence="0.0" id="MCCAY_LITTLENEMO_090_panel_3"/>
+    </polygon>
+    <polygon points="3017,1252 3016,1495 3013,1897 3012,1900 3011,1901 2660,1907 2343,1912 1709,1921 1577,1921 1572,1920 1569,1919 1567,1912 1566,1771 1564,1108 1564,1069 1565,1068 1567,1067 1709,1065 3009,1052 3010,1052 3013,1053 3015,1055 3016,1072 3017,1174 3017,1252">
+      <metadata confidence="0.0" id="MCCAY_LITTLENEMO_090_panel_4"/>
+    </polygon>
+    <polygon points="3013,540 3012,1026 3001,1027 572,1052 80,1054 78,1053 76,1051 74,879 71,485 70,172 70,167 71,166 177,163 281,161 350,160 1960,152 2752,149 2888,149 2988,150 3004,151 3010,152 3011,153 3012,287 3013,530 3013,540">
+      <metadata confidence="0.0" id="MCCAY_LITTLENEMO_090_panel_5"/>
+    </polygon>
+  </svg>
+</svg>

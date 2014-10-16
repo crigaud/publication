@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2474" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3411">
+  <title>LAMISSEB_LESNOEILS1_016</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2474" height="3411" xlink:href="../Pages/LAMISSEB_LESNOEILS1_016.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="928,3215 927,3218 926,3219 276,3223 261,3222 259,3220 258,3162 257,3018 255,2587 255,2586 256,2565 258,2563 338,2528 371,2526 420,2525 600,2523 745,2523 846,2524 921,2558 922,2559 923,2562 928,3214 928,3215">
+      <metadata confidence="0.0" id="LAMISSEB_LESNOEILS1_016_panel_0"/>
+    </polygon>
+    <polygon points="1616,3213 1608,3214 1070,3218 964,3218 962,3216 961,3193 959,3004 957,2803 956,2632 956,2557 1006,2522 1022,2521 1073,2520 1528,2516 1548,2516 1611,2551 1612,2552 1616,3099 1616,3213">
+      <metadata confidence="0.0" id="LAMISSEB_LESNOEILS1_016_panel_1"/>
+    </polygon>
+    <polygon points="2324,3205 2323,3213 1657,3214 1649,3214 1648,3213 1647,3204 1643,2699 1643,2551 1644,2550 1693,2515 1699,2514 1887,2512 2047,2511 2248,2511 2268,2512 2319,2545 2321,2547 2322,2549 2324,3190 2324,3205">
+      <metadata confidence="0.0" id="LAMISSEB_LESNOEILS1_016_panel_2"/>
+    </polygon>
+    <polygon points="921,2431 920,2432 796,2433 283,2436 255,2436 253,2435 252,2433 226,2352 226,2345 248,1776 305,1739 345,1738 699,1736 721,1736 918,1772 921,2330 921,2431">
+      <metadata confidence="0.0" id="LAMISSEB_LESNOEILS1_016_panel_3"/>
+    </polygon>
+    <polygon points="1611,2426 1609,2428 958,2432 957,2432 955,2431 954,2425 953,2337 952,2227 950,1952 949,1787 949,1772 950,1771 1045,1734 1068,1733 1522,1730 1530,1730 1607,1767 1608,1770 1611,2338 1611,2426">
+      <metadata confidence="0.0" id="LAMISSEB_LESNOEILS1_016_panel_4"/>
+    </polygon>
+    <polygon points="2320,2423 1747,2427 1644,2427 1638,1836 1638,1766 1639,1765 1704,1730 1810,1727 2029,1727 2316,1760 2317,1761 2320,2328 2320,2423">
+      <metadata confidence="0.0" id="LAMISSEB_LESNOEILS1_016_panel_5"/>
+    </polygon>
+    <polygon points="917,1643 915,1645 376,1650 255,1651 251,1651 249,1650 248,1600 245,1413 242,1062 242,989 350,953 595,950 700,949 757,949 763,950 909,982 912,985 917,1585 917,1643">
+      <metadata confidence="0.0" id="LAMISSEB_LESNOEILS1_016_panel_6"/>
+    </polygon>
+    <polygon points="1608,1638 1515,1639 1004,1644 952,1644 950,1642 949,1640 947,1209 947,983 948,982 1081,944 1105,942 1249,939 1428,939 1604,975 1605,976 1606,1146 1608,1540 1608,1638">
+      <metadata confidence="0.0" id="LAMISSEB_LESNOEILS1_016_panel_7"/>
+    </polygon>
+    <polygon points="2320,1629 2319,1630 2311,1631 1674,1637 1642,1637 1641,1635 1640,1598 1639,1478 1638,1320 1637,1128 1637,974 1638,973 1743,936 1767,935 2216,930 2219,931 2316,966 2317,1103 2320,1629">
+      <metadata confidence="0.0" id="LAMISSEB_LESNOEILS1_016_panel_8"/>
+    </polygon>
+    <polygon points="906,852 905,853 837,854 324,860 238,860 234,295 234,201 320,166 474,160 517,159 644,159 774,160 905,193 906,567 906,852">
+      <metadata confidence="0.0" id="LAMISSEB_LESNOEILS1_016_panel_9"/>
+    </polygon>
+    <polygon points="1598,844 1594,845 1586,846 981,852 939,852 938,851 938,850 939,281 940,192 941,191 1054,155 1114,153 1151,152 1452,150 1456,150 1460,151 1594,185 1596,187 1598,724 1598,844">
+      <metadata confidence="0.0" id="LAMISSEB_LESNOEILS1_016_panel_10"/>
+    </polygon>
+    <polygon points="2311,836 2309,838 1657,845 1632,845 1631,844 1630,253 1630,184 1665,147 1667,145 2192,140 2241,140 2281,141 2308,175 2309,312 2310,548 2311,836">
+      <metadata confidence="0.0" id="LAMISSEB_LESNOEILS1_016_panel_11"/>
+    </polygon>
+  </svg>
+</svg>

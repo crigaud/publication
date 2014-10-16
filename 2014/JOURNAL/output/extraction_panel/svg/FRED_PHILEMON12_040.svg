@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2480" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3508">
+  <title>FRED_PHILEMON12_040</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2480" height="3508" xlink:href="../Pages/FRED_PHILEMON12_040.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="1587,3216 1586,3218 1585,3219 1543,3220 1447,3222 1387,3223 1319,3224 1180,3226 591,3227 583,3227 582,3226 581,3199 571,2745 570,2694 569,2641 565,2423 564,2368 566,2366 1570,2352 1572,2352 1574,2353 1575,2403 1578,2592 1583,2910 1587,3213 1587,3216">
+      <metadata confidence="0.0" id="FRED_PHILEMON12_040_panel_0"/>
+    </polygon>
+    <polygon points="2260,2164 2259,2167 2230,2196 2228,2197 2213,2198 2201,2198 1823,2165 1821,2164 1777,2139 1774,2136 1706,2033 1705,2031 1704,2028 1704,2018 1736,1542 1738,1526 1739,1519 1741,1511 1743,1505 1747,1494 1750,1486 1753,1479 1763,1461 1774,1445 1780,1437 1781,1436 1790,1429 1794,1426 1808,1419 1825,1413 1830,1412 1837,1411 1845,1410 2016,1401 2032,1401 2051,1403 2057,1404 2071,1407 2117,1417 2131,1424 2145,1434 2155,1442 2166,1454 2172,1462 2247,1568 2248,1609 2260,2155 2260,2164">
+      <metadata confidence="0.0" id="FRED_PHILEMON12_040_panel_1"/>
+    </polygon>
+    <polygon points="2319,3209 2317,3212 2237,3213 1664,3219 7,3235 5,3234 4,3233 3,3191 1,3071 1,344 24,343 199,339 1741,320 1824,319 1915,318 2104,316 2210,315 2276,315 2277,337 2279,395 2287,944 2319,3150 2319,3209">
+      <metadata confidence="0.0" id="FRED_PHILEMON12_040_panel_2"/>
+    </polygon>
+  </svg>
+</svg>

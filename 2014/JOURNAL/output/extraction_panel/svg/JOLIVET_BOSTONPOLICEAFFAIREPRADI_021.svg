@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2326" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3297">
+  <title>JOLIVET_BOSTONPOLICEAFFAIREPRADI_021</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2326" height="3297" xlink:href="../Pages/JOLIVET_BOSTONPOLICEAFFAIREPRADI_021.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="1115,3088 1064,3089 994,3090 696,3094 536,3096 418,3097 185,3097 105,3096 61,3095 60,3092 56,2503 56,2388 57,2387 1092,2379 1110,2379 1111,2380 1112,2480 1115,2991 1115,3088">
+      <metadata confidence="0.0" id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_021_panel_0"/>
+    </polygon>
+    <polygon points="2193,3079 2148,3080 2064,3081 1167,3088 1143,3088 1142,3087 1141,2967 1140,2821 1138,2523 1138,2379 1208,2378 1541,2375 1774,2373 2169,2370 2186,2370 2187,2371 2188,2407 2189,2505 2190,2615 2191,2731 2193,3027 2193,3079">
+      <metadata confidence="0.0" id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_021_panel_1"/>
+    </polygon>
+    <polygon points="2187,2344 2186,2345 1155,2354 1139,2354 1138,2353 1137,2340 1136,2107 1136,2030 1137,2029 1250,2028 1855,2023 2105,2021 2185,2021 2186,2111 2187,2321 2187,2344">
+      <metadata confidence="0.0" id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_021_panel_2"/>
+    </polygon>
+    <polygon points="1110,2353 1083,2354 742,2358 552,2360 420,2361 211,2362 163,2362 56,2361 55,2279 53,2041 49,1464 49,1445 50,1444 144,1443 241,1442 360,1441 513,1440 674,1439 839,1438 1009,1437 1105,1437 1106,1478 1107,1636 1110,2158 1110,2353">
+      <metadata confidence="0.0" id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_021_panel_3"/>
+    </polygon>
+    <polygon points="2185,1994 1426,2000 1166,2002 1135,2002 1132,1516 1132,1437 1144,1436 2176,1428 2178,1428 2181,1429 2182,1518 2184,1783 2185,1971 2185,1994">
+      <metadata confidence="0.0" id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_021_panel_4"/>
+    </polygon>
+    <polygon points="2181,1400 2180,1401 2079,1402 1969,1403 1634,1406 1496,1407 1355,1408 1212,1409 1061,1410 908,1411 854,1411 853,1410 849,830 849,821 851,819 2061,796 2067,796 2176,811 2177,812 2179,1064 2181,1399 2181,1400">
+      <metadata confidence="0.0" id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_021_panel_5"/>
+    </polygon>
+    <polygon points="827,1410 826,1411 756,1412 50,1418 49,1418 48,1354 41,268 41,138 43,137 98,135 126,134 167,133 216,132 274,131 342,130 817,130 818,200 819,305 820,423 821,542 827,1386 827,1410">
+      <metadata confidence="0.0" id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_021_panel_6"/>
+    </polygon>
+    <polygon points="2176,783 2096,784 1748,787 1630,788 1491,789 1332,790 1117,791 849,791 848,691 844,186 844,131 845,130 2138,122 2173,122 2175,524 2176,752 2176,783">
+      <metadata confidence="0.0" id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_021_panel_7"/>
+    </polygon>
+  </svg>
+</svg>

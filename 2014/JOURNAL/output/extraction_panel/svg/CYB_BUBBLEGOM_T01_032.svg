@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="750" xmlns="http://www.w3.org/2000/svg" version="1.0" height="1060">
+  <title>CYB_BUBBLEGOM_T01_032</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="750" height="1060" xlink:href="../Pages/CYB_BUBBLEGOM_T01_032.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="699,675 698,964 697,965 681,965 366,964 324,963 322,962 322,671 475,671 699,673 699,675">
+      <metadata confidence="0.0" id="CYB_BUBBLEGOM_T01_032_panel_0"/>
+    </polygon>
+    <polygon points="305,887 301,888 218,900 209,900 56,885 55,883 55,752 56,671 275,671 304,672 305,846 305,887">
+      <metadata confidence="0.0" id="CYB_BUBBLEGOM_T01_032_panel_1"/>
+    </polygon>
+    <polygon points="568,589 567,646 566,648 477,648 447,647 290,638 287,637 286,596 287,522 302,475 428,475 565,526 566,528 567,539 568,564 568,589">
+      <metadata confidence="0.0" id="CYB_BUBBLEGOM_T01_032_panel_2"/>
+    </polygon>
+    <polygon points="270,637 258,638 82,637 56,636 55,635 54,425 55,403 56,403 269,404 270,405 270,637">
+      <metadata confidence="0.0" id="CYB_BUBBLEGOM_T01_032_panel_3"/>
+    </polygon>
+    <polygon points="305,294 304,369 55,369 54,367 54,84 55,83 304,83 305,294">
+      <metadata confidence="0.0" id="CYB_BUBBLEGOM_T01_032_panel_4"/>
+    </polygon>
+  </svg>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1908" xmlns="http://www.w3.org/2000/svg" version="1.0" height="2643">
+  <title>ROUDIER_LESTERRESCREUSEES_008</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1908" height="2643" xlink:href="../Pages/ROUDIER_LESTERRESCREUSEES_008.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="1906,789 1875,2101 1821,2452 1819,2464 1818,2469 1817,2473 1814,2479 1810,2481 1413,2616 1407,2616 640,2452 555,2426 552,2425 551,2424 488,2312 483,2301 478,2288 473,2272 366,1920 364,1911 361,1889 360,1876 361,1860 362,1851 366,1835 372,1817 373,1815 387,1790 399,1775 408,1764 420,1752 435,1740 1668,841 1702,817 1707,814 1709,813 1749,794 1796,782 1803,781 1904,776 1906,776 1906,789">
+      <metadata confidence="0.0" id="ROUDIER_LESTERRESCREUSEES_008_panel_0"/>
+    </polygon>
+    <polygon points="1038,1226 1035,1244 1032,1255 1022,1288 1020,1294 1008,1320 979,1365 959,1395 955,1400 945,1412 921,1439 796,1574 795,1575 526,1618 521,1618 402,1589 398,1588 384,1584 369,1579 339,1564 328,1557 314,1548 311,1546 298,1537 290,1531 285,1527 273,1517 263,1508 249,1493 229,1465 218,1449 201,1416 194,1401 190,1390 189,1387 184,1370 180,1355 176,1337 175,1332 174,1320 174,1319 175,1292 215,760 218,724 219,716 220,710 224,696 227,686 234,672 236,669 240,666 252,660 261,657 266,656 268,656 285,658 290,659 314,664 658,808 681,818 706,833 709,835 716,840 726,848 735,856 754,873 764,882 970,1072 991,1093 1001,1104 1012,1118 1022,1132 1029,1146 1031,1151 1035,1166 1037,1180 1038,1198 1038,1226">
+      <metadata confidence="0.0" id="ROUDIER_LESTERRESCREUSEES_008_panel_1"/>
+    </polygon>
+    <polygon points="1533,767 1532,778 1530,795 1528,810 1525,823 1522,834 1520,841 1508,870 1502,882 1496,893 1486,907 1472,923 1464,932 1452,944 1306,1086 1245,1101 1244,1101 1027,1007 1017,1001 1007,994 1003,991 990,981 948,940 933,921 923,908 913,894 901,877 896,869 893,864 885,850 879,838 871,820 866,808 863,800 854,775 851,765 845,741 842,724 840,709 838,690 836,664 835,638 834,611 834,579 837,189 838,160 840,134 843,106 844,98 850,64 856,55 863,45 872,37 884,32 891,31 903,31 910,33 918,36 929,42 932,44 1086,151 1104,165 1115,174 1150,203 1161,213 1174,225 1195,246 1215,267 1221,274 1249,307 1439,533 1460,563 1478,590 1500,631 1508,647 1525,685 1530,704 1533,724 1533,767">
+      <metadata confidence="0.0" id="ROUDIER_LESTERRESCREUSEES_008_panel_2"/>
+    </polygon>
+    <polygon points="790,402 788,419 780,460 775,478 770,491 768,496 758,520 755,527 726,591 701,620 700,621 579,694 572,696 570,696 563,695 559,694 554,692 370,602 352,593 337,585 330,581 321,575 312,568 289,545 281,536 259,508 233,467 223,450 219,443 213,431 203,410 189,376 181,354 180,351 172,322 165,293 161,275 159,261 158,233 158,225 159,205 160,195 162,178 167,145 170,128 181,78 187,64 189,60 199,45 203,41 207,38 215,34 222,32 231,30 251,29 264,29 353,31 394,34 406,35 415,36 422,37 439,40 484,50 529,66 593,93 629,109 631,110 651,123 657,127 664,132 685,148 714,180 721,189 731,206 740,222 746,233 753,248 759,263 768,289 779,322 784,338 786,347 788,361 790,382 790,402">
+      <metadata confidence="0.0" id="ROUDIER_LESTERRESCREUSEES_008_panel_3"/>
+    </polygon>
+    <polygon points="1906,82 1890,276 1871,496 1870,499 1869,500 1662,618 1654,622 1640,622 1613,618 1579,610 1565,605 1535,588 1492,551 1296,226 1228,104 1215,78 1209,65 1201,44 1195,19 1192,6 1192,1 1195,1 1595,35 1906,63 1906,82">
+      <metadata confidence="0.0" id="ROUDIER_LESTERRESCREUSEES_008_panel_4"/>
+    </polygon>
+  </svg>
+</svg>

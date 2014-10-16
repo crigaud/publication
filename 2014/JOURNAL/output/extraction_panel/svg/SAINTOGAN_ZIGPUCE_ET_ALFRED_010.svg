@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2481" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3492">
+  <title>SAINTOGAN_ZIGPUCE_ET_ALFRED_010</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2481" height="3492" xlink:href="../Pages/SAINTOGAN_ZIGPUCE_ET_ALFRED_010.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="2315,2932 2314,3081 2313,3215 2312,3231 2311,3234 2270,3236 2039,3237 1840,3237 1587,3236 1586,3230 1585,3222 1587,2546 1589,2544 1591,2544 2300,2548 2309,2549 2311,2550 2313,2552 2314,2598 2315,2666 2315,2932">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_ET_ALFRED_010_panel_0"/>
+    </polygon>
+    <polygon points="807,2703 794,3233 792,3235 788,3236 497,3236 82,3229 69,3227 68,3226 67,3213 67,3209 77,2538 78,2536 96,2533 179,2534 769,2544 790,2545 792,2546 804,2608 807,2686 807,2703">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_ET_ALFRED_010_panel_1"/>
+    </polygon>
+    <polygon points="1571,2647 1551,3235 1550,3237 1547,3238 1362,3239 1291,3239 824,3238 822,3237 820,3235 820,3234 822,2546 824,2544 1247,2523 1278,2522 1364,2522 1538,2525 1552,2526 1556,2527 1561,2529 1563,2531 1566,2540 1571,2625 1571,2647">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_ET_ALFRED_010_panel_2"/>
+    </polygon>
+    <polygon points="795,2096 793,2404 792,2509 791,2513 790,2514 746,2514 508,2512 278,2509 150,2507 81,2505 78,2504 78,2442 83,1840 84,1831 261,1816 410,1815 427,1815 784,1835 790,1836 793,1837 794,1838 795,1863 795,2096">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_ET_ALFRED_010_panel_3"/>
+    </polygon>
+    <polygon points="1561,2035 1560,2378 1558,2504 1557,2513 1554,2516 1551,2517 1198,2518 1197,2518 987,2516 835,2514 831,2513 828,2511 825,2508 824,2506 823,1861 823,1836 824,1835 1220,1811 1234,1811 1552,1835 1555,1836 1558,1838 1560,1840 1561,1846 1561,2035">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_ET_ALFRED_010_panel_4"/>
+    </polygon>
+    <polygon points="2320,1291 2314,2517 2313,2518 2033,2518 1590,2517 1588,2515 1578,1511 1578,1508 1590,1124 1591,1122 1593,1121 1666,1113 1705,1113 2033,1114 2298,1119 2311,1120 2317,1121 2319,1123 2320,1125 2320,1291">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_ET_ALFRED_010_panel_5"/>
+    </polygon>
+    <polygon points="1571,1179 1561,1779 1560,1799 1558,1800 1460,1802 831,1802 824,1801 821,1798 821,1797 823,1124 825,1123 855,1119 863,1118 872,1117 890,1116 1507,1110 1521,1110 1528,1111 1539,1114 1546,1117 1552,1121 1555,1124 1559,1129 1560,1131 1565,1142 1569,1157 1570,1162 1571,1176 1571,1179">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_ET_ALFRED_010_panel_6"/>
+    </polygon>
+    <polygon points="795,1350 794,1651 793,1786 790,1797 789,1800 784,1801 698,1801 120,1798 86,1795 81,1790 80,1786 80,1557 84,1122 90,1104 101,1099 203,1098 372,1098 585,1099 620,1100 631,1101 792,1122 794,1123 795,1124 795,1350">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_ET_ALFRED_010_panel_7"/>
+    </polygon>
+    <polygon points="2321,1015 2320,1083 2319,1084 2313,1088 2302,1089 1610,1091 1593,1091 1591,1090 1590,1089 1589,1087 1590,737 1591,432 1593,429 1988,427 2163,427 2319,428 2320,429 2321,431 2321,1015">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_ET_ALFRED_010_panel_8"/>
+    </polygon>
+    <polygon points="817,568 795,1072 794,1089 793,1093 785,1094 262,1094 123,1093 92,1092 88,1091 85,1087 84,1085 80,557 80,465 81,435 82,433 83,432 506,415 761,410 788,412 794,414 806,422 807,423 811,431 813,436 814,440 816,450 817,525 817,568">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_ET_ALFRED_010_panel_9"/>
+    </polygon>
+    <polygon points="1586,776 1585,1016 1584,1023 1582,1031 1579,1040 1555,1089 1554,1091 1160,1096 983,1097 826,1094 823,1091 822,1087 810,773 810,765 823,434 824,433 861,406 863,405 866,404 918,404 1368,407 1476,409 1534,411 1540,412 1544,413 1547,414 1555,418 1560,424 1563,431 1565,437 1566,441 1569,465 1583,627 1584,639 1585,653 1586,750 1586,776">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_ET_ALFRED_010_panel_10"/>
+    </polygon>
+    <polygon points="2324,193 2322,339 2321,394 2319,396 1324,398 1211,398 118,397 85,393 81,392 80,390 79,380 78,346 78,308 79,89 80,81 82,80 307,78 484,77 1932,74 2267,74 2322,75 2323,76 2324,120 2324,193">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_ET_ALFRED_010_panel_11"/>
+    </polygon>
+  </svg>
+</svg>

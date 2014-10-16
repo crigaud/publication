@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1280" xmlns="http://www.w3.org/2000/svg" version="1.0" height="1798">
+  <title>CYB_MOUETTEMAN_006</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1280" height="1798" xlink:href="../Pages/CYB_MOUETTEMAN_006.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="1094,1479 1092,1778 1091,1779 202,1781 201,1781 183,1778 182,1774 181,1267 181,1266 183,1264 312,1264 1092,1265 1094,1266 1094,1479">
+      <metadata confidence="0.0" id="CYB_MOUETTEMAN_006_panel_0"/>
+    </polygon>
+    <polygon points="1097,1239 1096,1240 1093,1240 427,1239 183,1238 182,1237 181,1235 165,887 165,885 178,784 179,781 180,780 692,777 1095,777 1096,783 1097,1162 1097,1239">
+      <metadata confidence="0.0" id="CYB_MOUETTEMAN_006_panel_1"/>
+    </polygon>
+    <polygon points="1097,757 1096,758 876,758 183,757 182,756 181,754 180,733 165,405 165,404 178,302 179,298 728,295 1094,295 1095,296 1096,425 1097,755 1097,757">
+      <metadata confidence="0.0" id="CYB_MOUETTEMAN_006_panel_2"/>
+    </polygon>
+    <polygon points="1093,273 631,276 626,276 233,274 182,273 180,271 179,269 180,14 1093,14 1093,273">
+      <metadata confidence="0.0" id="CYB_MOUETTEMAN_006_panel_3"/>
+    </polygon>
+  </svg>
+</svg>

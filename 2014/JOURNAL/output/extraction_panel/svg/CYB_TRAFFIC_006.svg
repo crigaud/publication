@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="700" xmlns="http://www.w3.org/2000/svg" version="1.0" height="720">
+  <title>CYB_TRAFFIC_006</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="700" height="720" xlink:href="../Pages/CYB_TRAFFIC_006.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="644,580 643,663 642,669 641,671 640,672 530,672 461,669 455,668 454,663 454,577 455,502 456,488 457,477 458,476 466,475 474,475 573,476 643,478 644,481 644,580">
+      <metadata confidence="0.0" id="CYB_TRAFFIC_006_panel_0"/>
+    </polygon>
+    <polygon points="245,639 244,666 242,669 98,669 58,667 55,666 54,659 53,642 52,602 54,476 55,475 64,474 106,473 111,473 165,474 209,475 241,476 243,477 244,479 245,594 245,639">
+      <metadata confidence="0.0" id="CYB_TRAFFIC_006_panel_1"/>
+    </polygon>
+    <polygon points="447,665 259,666 257,666 256,664 255,659 255,470 256,470 406,473 442,474 443,475 446,564 447,663 447,665">
+      <metadata confidence="0.0" id="CYB_TRAFFIC_006_panel_2"/>
+    </polygon>
+    <polygon points="647,317 646,388 643,461 641,462 627,466 456,461 454,459 453,324 456,269 457,268 606,268 643,269 645,271 646,274 647,282 647,317">
+      <metadata confidence="0.0" id="CYB_TRAFFIC_006_panel_3"/>
+    </polygon>
+    <polygon points="446,284 444,454 443,459 442,461 441,462 407,463 304,463 258,460 256,458 255,451 255,391 256,324 257,273 258,268 262,267 320,267 378,268 418,269 444,270 445,271 446,276 446,284">
+      <metadata confidence="0.0" id="CYB_TRAFFIC_006_panel_4"/>
+    </polygon>
+    <polygon points="245,272 244,394 243,457 242,460 221,461 136,462 135,462 55,460 53,458 52,454 51,315 53,279 54,271 58,267 84,266 91,266 240,267 243,268 245,269 245,272">
+      <metadata confidence="0.0" id="CYB_TRAFFIC_006_panel_5"/>
+    </polygon>
+    <polygon points="649,238 648,246 647,252 641,255 575,255 457,253 456,252 455,250 455,135 456,82 457,62 459,60 471,59 529,59 590,60 646,62 648,63 649,219 649,238">
+      <metadata confidence="0.0" id="CYB_TRAFFIC_006_panel_6"/>
+    </polygon>
+    <polygon points="447,216 446,248 444,251 442,253 356,254 355,254 256,252 255,251 255,248 257,70 258,60 260,58 272,58 391,59 445,60 446,61 447,63 447,216">
+      <metadata confidence="0.0" id="CYB_TRAFFIC_006_panel_7"/>
+    </polygon>
+    <polygon points="248,95 246,251 57,251 55,247 54,171 54,77 55,63 56,60 58,59 240,57 241,57 246,59 247,61 248,95">
+      <metadata confidence="0.0" id="CYB_TRAFFIC_006_panel_8"/>
+    </polygon>
+  </svg>
+</svg>

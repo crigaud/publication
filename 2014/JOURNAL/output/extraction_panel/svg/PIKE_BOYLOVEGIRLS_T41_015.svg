@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1468" xmlns="http://www.w3.org/2000/svg" version="1.0" height="2220">
+  <title>PIKE_BOYLOVEGIRLS_T41_015</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1468" height="2220" xlink:href="../Pages/PIKE_BOYLOVEGIRLS_T41_015.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="799,1987 798,2142 794,2157 793,2158 753,2159 377,2166 376,2166 45,2150 43,2148 40,1801 40,1799 42,1548 44,1546 80,1545 631,1530 632,1530 786,1549 792,1550 793,1551 799,1985 799,1987">
+      <metadata confidence="0.0" id="PIKE_BOYLOVEGIRLS_T41_015_panel_0"/>
+    </polygon>
+    <polygon points="1435,2095 1429,2159 1428,2160 1420,2161 888,2162 886,2162 817,2159 813,2158 811,2157 811,2087 812,1480 813,1474 815,1473 953,1468 954,1468 1427,1475 1428,1476 1431,1598 1435,2094 1435,2095">
+      <metadata confidence="0.0" id="PIKE_BOYLOVEGIRLS_T41_015_panel_1"/>
+    </polygon>
+    <polygon points="1432,1059 1428,1452 1426,1454 1182,1454 620,1452 557,1451 555,1208 555,833 556,825 567,822 794,810 801,810 1422,814 1428,821 1432,1059">
+      <metadata confidence="0.0" id="PIKE_BOYLOVEGIRLS_T41_015_panel_2"/>
+    </polygon>
+    <polygon points="537,1114 536,1449 534,1451 287,1451 46,1450 44,1449 41,1280 38,783 38,780 40,777 42,776 48,775 291,772 293,772 425,773 521,777 533,781 535,782 536,783 537,1114">
+      <metadata confidence="0.0" id="PIKE_BOYLOVEGIRLS_T41_015_panel_3"/>
+    </polygon>
+    <polygon points="493,575 492,758 491,760 63,763 47,763 43,762 42,761 41,725 41,376 42,234 43,233 74,232 125,231 187,230 348,229 490,229 491,230 493,575">
+      <metadata confidence="0.0" id="PIKE_BOYLOVEGIRLS_T41_015_panel_4"/>
+    </polygon>
+    <polygon points="1427,762 1425,764 1293,764 1074,763 971,762 966,663 966,662 969,217 970,202 984,201 1293,200 1422,200 1425,203 1427,342 1427,762">
+      <metadata confidence="0.0" id="PIKE_BOYLOVEGIRLS_T41_015_panel_5"/>
+    </polygon>
+    <polygon points="954,628 952,760 951,761 949,762 941,762 527,761 513,760 512,759 506,699 506,698 507,430 511,79 512,78 697,78 949,79 950,80 951,83 954,627 954,628">
+      <metadata confidence="0.0" id="PIKE_BOYLOVEGIRLS_T41_015_panel_6"/>
+    </polygon>
+  </svg>
+</svg>

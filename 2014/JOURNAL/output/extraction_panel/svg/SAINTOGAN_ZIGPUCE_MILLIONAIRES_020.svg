@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2501" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3506">
+  <title>SAINTOGAN_ZIGPUCE_MILLIONAIRES_020</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2501" height="3506" xlink:href="../Pages/SAINTOGAN_ZIGPUCE_MILLIONAIRES_020.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="1609,2719 1606,3282 1605,3283 1602,3283 881,3273 876,3272 875,3271 875,3268 876,2602 877,2600 878,2599 919,2599 1121,2600 1606,2610 1607,2611 1609,2621 1609,2719">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_panel_0"/>
+    </polygon>
+    <polygon points="2371,2668 2370,3145 2367,3290 2366,3291 2059,3292 2056,3292 1784,3289 1642,3283 1641,3282 1640,3280 1638,3246 1617,2659 1617,2657 1638,2604 1639,2602 1645,2596 1652,2593 1655,2592 1707,2590 1842,2587 1860,2587 2236,2588 2322,2589 2335,2590 2342,2591 2352,2594 2357,2599 2360,2604 2369,2621 2371,2626 2371,2668">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_panel_1"/>
+    </polygon>
+    <polygon points="847,2978 844,3177 842,3269 840,3271 630,3273 628,3273 170,3265 140,3264 111,3263 107,3259 107,3257 109,2945 114,2597 116,2584 120,2572 121,2571 124,2569 126,2568 138,2564 151,2563 241,2563 730,2567 744,2569 842,2599 844,2600 845,2601 846,2627 847,2927 847,2978">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_panel_2"/>
+    </polygon>
+    <polygon points="1612,2179 1607,2569 1606,2572 1605,2574 1603,2575 1573,2575 1194,2570 1124,2569 1056,2568 880,2564 879,2563 875,2431 875,2429 884,1887 887,1886 924,1886 1067,1887 1607,1892 1610,1893 1611,1895 1612,1898 1612,2179">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_panel_3"/>
+    </polygon>
+    <polygon points="2378,1908 2373,2361 2372,2448 2370,2581 2369,2583 2366,2584 2286,2584 2175,2583 1677,2574 1641,2573 1640,2572 1640,2535 1643,1896 1644,1894 1645,1893 1977,1877 2078,1876 2323,1881 2343,1885 2349,1888 2377,1904 2378,1905 2378,1908">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_panel_4"/>
+    </polygon>
+    <polygon points="853,2205 845,2530 844,2561 842,2563 840,2564 839,2564 405,2560 117,2553 114,2552 112,2550 112,2547 119,1875 124,1874 585,1881 848,1886 851,1888 853,2204 853,2205">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_panel_5"/>
+    </polygon>
+    <polygon points="2379,1397 2376,1857 2374,1863 2372,1865 2367,1866 2258,1866 1748,1857 1729,1856 1728,1855 1645,1716 1645,1181 1647,1180 1653,1180 2375,1186 2378,1189 2379,1325 2379,1397">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_panel_6"/>
+    </polygon>
+    <polygon points="1622,1523 1612,1848 1611,1852 1610,1854 1608,1856 1497,1856 887,1848 885,1846 884,1843 883,1180 883,1179 884,1176 885,1174 887,1173 1121,1156 1126,1156 1571,1164 1575,1165 1589,1169 1592,1170 1612,1178 1614,1182 1622,1518 1622,1523">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_panel_7"/>
+    </polygon>
+    <polygon points="853,1409 850,1845 849,1846 841,1846 317,1842 211,1841 141,1840 123,1839 119,1838 117,1835 116,1674 116,1283 118,1167 121,1164 145,1152 161,1152 809,1156 815,1158 850,1173 852,1175 853,1408 853,1409">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_panel_8"/>
+    </polygon>
+    <polygon points="2380,844 2379,1150 2377,1152 2348,1153 2268,1153 2156,1152 2049,1151 1843,1149 1695,1146 1660,1145 1652,1144 1650,1143 1649,1142 1648,1139 1646,905 1646,904 1649,475 1658,451 1660,447 1665,442 1671,440 1675,439 1681,439 1801,440 2337,447 2350,449 2353,450 2358,453 2367,462 2380,483 2380,844">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_panel_9"/>
+    </polygon>
+    <polygon points="1630,611 1626,790 1615,1142 1614,1143 1609,1144 1596,1144 1396,1143 1009,1140 925,1139 900,1138 884,1137 882,1135 882,1114 885,467 895,443 898,440 901,438 903,437 912,434 931,433 932,433 1611,438 1618,440 1621,441 1623,442 1625,444 1626,448 1629,497 1630,608 1630,611">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_panel_10"/>
+    </polygon>
+    <polygon points="872,702 850,1136 849,1137 846,1138 761,1138 565,1137 473,1136 209,1132 124,1130 122,1129 120,1127 119,794 122,489 123,463 132,438 141,429 147,428 154,428 837,432 846,433 854,437 861,441 866,445 868,448 869,451 870,473 871,574 872,702">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_panel_11"/>
+    </polygon>
+    <polygon points="2385,122 2382,387 2381,424 2380,440 2379,442 2343,442 548,428 172,421 132,420 127,419 124,418 123,417 122,317 122,179 123,105 124,102 126,100 128,99 264,96 265,96 1422,104 2148,112 2342,115 2375,117 2384,118 2385,120 2385,122">
+      <metadata confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_panel_12"/>
+    </polygon>
+  </svg>
+</svg>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2694" xmlns="http://www.w3.org/2000/svg" version="1.0" height="4435">
+  <title>WARE_ACME_032</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2694" height="4435" xlink:href="../Pages/WARE_ACME_032.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="1025,4364 1024,4365 245,4370 241,4368 240,4366 240,3627 270,3626 433,3625 944,3623 1022,3623 1023,3624 1024,3804 1025,4158 1025,4364">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_0"/>
+    </polygon>
+    <polygon points="1820,4357 1819,4363 1447,4364 1034,4364 1032,3634 1032,3623 1184,3622 1490,3621 1815,3620 1818,3621 1820,4285 1820,4357">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_1"/>
+    </polygon>
+    <polygon points="2623,4358 2622,4359 2613,4360 2448,4361 2247,4362 1834,4363 1828,4363 1827,4357 1827,3620 1973,3619 2521,3618 2622,3618 2623,3619 2623,4358">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_2"/>
+    </polygon>
+    <polygon points="1023,3613 1022,3614 863,3615 455,3617 248,3618 240,3618 239,3563 238,3391 238,2879 240,2877 556,2875 1017,2873 1020,2874 1021,2876 1022,2899 1023,3600 1023,3613">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_3"/>
+    </polygon>
+    <polygon points="1817,3601 1816,3612 1455,3613 1066,3614 1033,3614 1032,3613 1031,3605 1030,3434 1028,2876 1030,2874 1054,2873 1814,2869 1815,2869 1816,2876 1817,2942 1817,3601">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_4"/>
+    </polygon>
+    <polygon points="2623,3609 2484,3610 1959,3612 1827,3612 1826,3476 1825,2875 1825,2870 1830,2869 2621,2865 2622,2866 2623,3602 2623,3609">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_5"/>
+    </polygon>
+    <polygon points="1816,2833 1815,2860 1700,2861 1039,2865 1029,2865 1026,2180 1026,2123 1815,2123 1816,2132 1816,2833">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_6"/>
+    </polygon>
+    <polygon points="1021,2863 1020,2864 967,2865 868,2866 543,2868 271,2869 240,2869 238,2867 237,2864 236,2260 236,2126 251,2125 1014,2123 1017,2123 1018,2156 1019,2305 1021,2854 1021,2863">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_7"/>
+    </polygon>
+    <polygon points="2622,2847 2621,2857 2128,2859 1839,2860 1826,2860 1825,2667 1824,2248 1824,2123 1974,2122 2388,2121 2602,2121 2612,2122 2619,2123 2620,2124 2621,2196 2622,2590 2622,2847">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_8"/>
+    </polygon>
+    <polygon points="1814,2113 1813,2114 678,2117 241,2117 236,2116 235,2070 235,2069 236,1382 244,1381 1812,1376 1813,1377 1814,1526 1814,2113">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_9"/>
+    </polygon>
+    <polygon points="2622,1620 2620,2112 2619,2113 1931,2114 1824,2114 1822,2083 1822,2077 1823,1376 2536,1374 2621,1374 2622,1375 2622,1620">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_10"/>
+    </polygon>
+    <polygon points="1015,1351 1014,1370 895,1371 477,1372 236,1372 235,1371 231,637 231,631 413,630 928,628 1012,628 1013,629 1015,1173 1015,1351">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_11"/>
+    </polygon>
+    <polygon points="1813,1368 1023,1371 1021,790 1021,628 1080,627 1224,626 1695,625 1809,625 1810,626 1811,763 1812,985 1813,1357 1813,1368">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_12"/>
+    </polygon>
+    <polygon points="2622,1365 2620,1366 2385,1367 1932,1368 1823,1368 1822,1367 1821,1336 1819,629 1819,625 2610,622 2621,622 2622,998 2622,1365">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_13"/>
+    </polygon>
+    <polygon points="2621,611 2330,612 1540,612 1526,611 1522,161 1523,160 1525,159 1558,158 1592,157 1627,156 1720,155 1725,155 2255,156 2604,157 2620,158 2621,278 2621,611">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_14"/>
+    </polygon>
+    <polygon points="1329,610 1328,611 1313,613 1294,614 1236,615 919,617 735,618 415,619 233,619 229,164 229,157 230,156 601,155 1156,155 1292,157 1304,158 1305,159 1329,609 1329,610">
+      <metadata confidence="0.0" id="WARE_ACME_032_panel_15"/>
+    </polygon>
+  </svg>
+</svg>

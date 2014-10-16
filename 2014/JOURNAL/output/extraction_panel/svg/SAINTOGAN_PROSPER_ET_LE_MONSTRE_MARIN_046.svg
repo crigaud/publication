@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="5313" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3633">
+  <title>SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_046</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="5313" height="3633" xlink:href="../Pages/SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_046.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="5040,2327 5037,3239 5035,3244 5034,3245 5032,3245 3922,3240 3782,3239 3665,3238 3663,3236 3662,2872 3667,2314 3668,2312 3673,2311 4215,2311 4445,2312 5023,2316 5037,2317 5039,2318 5040,2320 5040,2327">
+      <metadata confidence="0.0" id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_046_panel_0"/>
+    </polygon>
+    <polygon points="5043,1335 5042,1352 5041,1353 5037,1354 5023,1354 4823,1353 4415,1350 4301,1349 4298,1348 4297,1347 4295,484 4295,306 4296,304 4298,303 4314,302 4662,302 5042,303 5043,304 5043,1335">
+      <metadata confidence="0.0" id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_046_panel_1"/>
+    </polygon>
+    <polygon points="4265,1344 4264,1347 4263,1348 3972,1349 3901,1349 3608,1348 3445,1347 3288,1346 2994,1344 2888,1343 2887,1249 2886,302 2886,301 2888,300 2891,300 4249,301 4259,302 4260,303 4261,346 4262,488 4264,903 4265,1344">
+      <metadata confidence="0.0" id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_046_panel_2"/>
+    </polygon>
+    <polygon points="2620,3362 2619,3366 2618,3367 2605,3368 468,3375 416,3375 413,3374 412,3371 411,3321 407,2632 394,300 394,298 397,288 399,286 405,285 459,283 1952,282 2604,282 2606,330 2607,374 2620,3362">
+      <metadata confidence="0.0" id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_046_panel_3"/>
+    </polygon>
+    <polygon points="5071,1581 5066,3265 5065,3355 5062,3358 2864,3359 2862,3359 2860,3358 2859,3288 2858,521 2858,278 2859,276 2860,275 2862,274 4328,273 5061,273 5064,274 5066,275 5067,276 5068,488 5071,1581">
+      <metadata confidence="0.0" id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_046_panel_4"/>
+    </polygon>
+  </svg>
+</svg>

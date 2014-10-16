@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1491" xmlns="http://www.w3.org/2000/svg" version="1.0" height="2166">
+  <title>MCCALL_ROBINHOOD_T31_015</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1491" height="2166" xlink:href="../Pages/MCCALL_ROBINHOOD_T31_015.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="1457,1916 1451,2092 1450,2094 1449,2095 1446,2097 1439,2098 1223,2101 911,2104 801,2105 776,2105 762,2104 760,2103 755,1374 755,1372 756,1371 800,1370 1439,1369 1442,1369 1444,1371 1446,1414 1449,1529 1457,1916">
+      <metadata confidence="0.0" id="MCCALL_ROBINHOOD_T31_015_panel_0"/>
+    </polygon>
+    <polygon points="745,1715 742,1984 739,2090 738,2101 736,2103 734,2104 724,2105 711,2106 495,2110 330,2111 123,2110 73,2109 50,2107 47,2104 46,2102 45,2054 45,780 47,778 50,777 283,776 286,776 695,777 699,779 738,1411 745,1664 745,1715">
+      <metadata confidence="0.0" id="MCCALL_ROBINHOOD_T31_015_panel_1"/>
+    </polygon>
+    <polygon points="1448,1230 1446,1351 1445,1353 1444,1354 1440,1355 723,1355 720,1353 47,764 46,763 45,681 45,676 46,159 47,103 49,93 57,92 84,91 177,88 283,86 397,84 914,80 915,80 1427,82 1439,84 1441,85 1443,87 1444,90 1445,107 1447,203 1448,815 1448,1230">
+      <metadata confidence="0.0" id="MCCALL_ROBINHOOD_T31_015_panel_2"/>
+    </polygon>
+  </svg>
+</svg>

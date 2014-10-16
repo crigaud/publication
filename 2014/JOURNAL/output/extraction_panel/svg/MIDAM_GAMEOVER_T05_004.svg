@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2413" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3445">
+  <title>MIDAM_GAMEOVER_T05_004</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2413" height="3445" xlink:href="../Pages/MIDAM_GAMEOVER_T05_004.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="1409,3254 1408,3255 1297,3256 1174,3257 638,3261 123,3262 108,3262 106,3260 105,3198 97,2575 97,2552 98,2551 1403,2541 1405,2542 1408,2950 1409,3108 1409,3254">
+      <metadata confidence="0.0" id="MIDAM_GAMEOVER_T05_004_panel_0"/>
+    </polygon>
+    <polygon points="2352,3249 2351,3250 1978,3254 1437,3254 1435,3253 1434,3252 1432,2677 1432,2547 1433,2542 1434,2541 2326,2534 2344,2534 2345,2535 2351,3084 2352,3187 2352,3249">
+      <metadata confidence="0.0" id="MIDAM_GAMEOVER_T05_004_panel_1"/>
+    </polygon>
+    <polygon points="1200,2497 1188,2498 876,2501 767,2502 547,2504 425,2505 133,2507 99,2507 97,2506 96,2504 86,1804 86,1802 88,1800 1190,1788 1191,1789 1192,1796 1193,1877 1199,2373 1200,2461 1200,2497">
+      <metadata confidence="0.0" id="MIDAM_GAMEOVER_T05_004_panel_2"/>
+    </polygon>
+    <polygon points="2343,2487 2342,2488 2289,2489 2211,2490 1975,2492 1850,2493 1305,2497 1232,2497 1231,2496 1224,1818 1224,1792 1227,1789 2232,1778 2326,1777 2334,1777 2335,1779 2336,1852 2343,2406 2343,2487">
+      <metadata confidence="0.0" id="MIDAM_GAMEOVER_T05_004_panel_3"/>
+    </polygon>
+    <polygon points="824,1738 823,1751 822,1752 780,1753 89,1761 88,1761 87,1760 86,1757 80,1057 80,1052 81,1051 440,1047 811,1043 815,1043 816,1045 817,1049 818,1109 824,1737 824,1738">
+      <metadata confidence="0.0" id="MIDAM_GAMEOVER_T05_004_panel_4"/>
+    </polygon>
+    <polygon points="1603,1742 1602,1743 1536,1744 1463,1745 1217,1748 888,1752 851,1752 850,1750 849,1704 843,1062 843,1043 850,1042 1596,1033 1598,1035 1602,1514 1603,1668 1603,1742">
+      <metadata confidence="0.0" id="MIDAM_GAMEOVER_T05_004_panel_5"/>
+    </polygon>
+    <polygon points="2334,1733 2332,1735 1647,1743 1629,1743 1626,1095 1626,1033 1829,1030 1903,1029 2167,1026 2257,1025 2325,1025 2326,1027 2327,1103 2329,1278 2334,1733">
+      <metadata confidence="0.0" id="MIDAM_GAMEOVER_T05_004_panel_6"/>
+    </polygon>
+    <polygon points="781,997 779,998 774,999 83,1007 81,1007 79,1005 72,299 72,291 73,290 76,289 770,282 771,282 774,285 781,996 781,997">
+      <metadata confidence="0.0" id="MIDAM_GAMEOVER_T05_004_panel_7"/>
+    </polygon>
+    <polygon points="2335,979 2325,981 810,999 803,998 802,997 795,285 795,283 796,282 2010,266 2124,265 2266,264 2316,264 2317,265 2318,268 2335,978 2335,979">
+      <metadata confidence="0.0" id="MIDAM_GAMEOVER_T05_004_panel_8"/>
+    </polygon>
+  </svg>
+</svg>

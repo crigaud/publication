@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="5320" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3621">
+  <title>SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_026</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="5320" height="3621" xlink:href="../Pages/SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_026.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="5080,274 5078,2238 5070,3264 5069,3371 5068,3372 4992,3372 2866,3368 2864,3367 2863,3365 2862,3337 2861,3154 2861,2903 2864,472 2868,287 2869,282 2871,279 4376,262 5080,274">
+      <metadata confidence="0.0" id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_026_panel_0"/>
+    </polygon>
+    <polygon points="2549,2784 2543,3302 2542,3334 2540,3339 2409,3340 1516,3342 333,3342 332,3341 331,3339 330,3334 328,3276 328,1490 331,249 332,246 336,244 1787,249 2309,251 2521,252 2545,253 2546,254 2547,337 2548,1339 2549,2781 2549,2784">
+      <metadata confidence="0.0" id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_026_panel_1"/>
+    </polygon>
+  </svg>
+</svg>

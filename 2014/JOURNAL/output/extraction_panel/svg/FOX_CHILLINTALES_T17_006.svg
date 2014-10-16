@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1280" xmlns="http://www.w3.org/2000/svg" version="1.0" height="1844">
+  <title>FOX_CHILLINTALES_T17_006</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1280" height="1844" xlink:href="../Pages/FOX_CHILLINTALES_T17_006.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="850,1111 835,1761 833,1764 830,1766 828,1767 696,1768 558,1769 557,1769 449,1768 448,1767 446,1763 445,1604 444,1401 443,1103 443,1005 444,1004 446,1003 447,1003 827,1008 831,1011 832,1013 850,1101 850,1111">
+      <metadata confidence="0.0" id="FOX_CHILLINTALES_T17_006_panel_0"/>
+    </polygon>
+    <polygon points="1241,1235 1240,1493 1239,1717 1238,1741 1211,1764 1209,1765 1086,1778 1085,1778 862,1767 858,1766 856,1764 854,1397 855,1010 870,987 881,985 972,984 973,984 1218,992 1238,1008 1239,1009 1240,1070 1241,1221 1241,1235">
+      <metadata confidence="0.0" id="FOX_CHILLINTALES_T17_006_panel_1"/>
+    </polygon>
+    <polygon points="428,1648 427,1730 426,1765 425,1766 422,1768 410,1769 380,1770 379,1770 41,1767 38,1765 34,1762 29,1199 29,1029 31,932 32,928 33,926 36,925 40,924 339,923 418,923 419,924 421,928 428,1418 428,1648">
+      <metadata confidence="0.0" id="FOX_CHILLINTALES_T17_006_panel_2"/>
+    </polygon>
+    <polygon points="835,821 834,871 833,897 832,899 829,901 553,916 552,916 444,903 443,901 441,672 440,125 440,122 448,118 832,105 833,105 834,113 835,663 835,821">
+      <metadata confidence="0.0" id="FOX_CHILLINTALES_T17_006_panel_3"/>
+    </polygon>
+    <polygon points="1241,763 1240,858 1239,897 1238,899 1237,900 1228,901 975,902 858,902 856,900 855,898 854,789 851,73 851,53 853,51 1221,49 1234,50 1237,51 1239,71 1241,763">
+      <metadata confidence="0.0" id="FOX_CHILLINTALES_T17_006_panel_4"/>
+    </polygon>
+    <polygon points="432,712 431,732 430,737 421,759 420,761 419,762 373,802 354,818 331,836 320,842 314,845 181,856 176,854 172,852 39,699 32,570 28,54 28,53 29,52 36,51 73,50 343,48 345,48 417,51 418,52 420,55 430,226 432,626 432,712">
+      <metadata confidence="0.0" id="FOX_CHILLINTALES_T17_006_panel_5"/>
+    </polygon>
+  </svg>
+</svg>

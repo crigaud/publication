@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2447" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3465">
+  <title>MIDAM_KIDPADDLE7_005</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2447" height="3465" xlink:href="../Pages/MIDAM_KIDPADDLE7_005.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="974,3248 973,3249 812,3252 548,3255 358,3257 85,3257 83,3056 80,2625 80,2560 81,2559 960,2553 964,2554 965,2555 974,3245 974,3248">
+      <metadata confidence="0.0" id="MIDAM_KIDPADDLE7_005_panel_0"/>
+    </polygon>
+    <polygon points="2359,3235 2358,3239 2356,3243 2355,3244 2349,3249 2346,3251 2337,3254 2316,3254 1574,3243 1572,3242 1571,3236 1569,3046 1568,2836 1567,2619 1567,2553 1568,2549 1569,2548 1599,2547 1720,2546 2256,2542 2329,2542 2330,2543 2359,3224 2359,3235">
+      <metadata confidence="0.0" id="MIDAM_KIDPADDLE7_005_panel_1"/>
+    </polygon>
+    <polygon points="1192,2512 1190,2513 273,2519 272,2519 80,2517 79,2515 78,2504 76,1917 76,1823 77,1822 1186,1815 1189,1815 1190,1820 1191,2064 1192,2375 1192,2512">
+      <metadata confidence="0.0" id="MIDAM_KIDPADDLE7_005_panel_2"/>
+    </polygon>
+    <polygon points="2328,2499 2326,2501 1218,2512 1215,2511 1213,2083 1212,1825 1212,1817 1213,1816 2257,1808 2324,1808 2325,1809 2327,2223 2328,2437 2328,2499">
+      <metadata confidence="0.0" id="MIDAM_KIDPADDLE7_005_panel_3"/>
+    </polygon>
+    <polygon points="1260,1772 1259,1773 81,1779 79,1779 77,1778 75,1435 73,1087 73,1084 74,1082 292,1081 526,1080 1252,1077 1255,1078 1256,1079 1257,1203 1259,1485 1260,1699 1260,1772">
+      <metadata confidence="0.0" id="MIDAM_KIDPADDLE7_005_panel_4"/>
+    </polygon>
+    <polygon points="2325,1766 1285,1774 1281,1773 1280,1772 1276,1081 1276,1078 1277,1077 2302,1070 2323,1070 2324,1261 2325,1622 2325,1766">
+      <metadata confidence="0.0" id="MIDAM_KIDPADDLE7_005_panel_5"/>
+    </polygon>
+    <polygon points="2013,841 1985,1030 1984,1031 1548,1036 1296,875 1292,871 1290,867 1290,860 1292,852 1294,846 1328,754 1330,749 1333,744 1518,448 1519,447 1522,446 1528,445 1538,444 1554,444 1572,445 1580,446 1586,447 1591,448 1644,460 1646,461 2011,826 2013,830 2013,841">
+      <metadata confidence="0.0" id="MIDAM_KIDPADDLE7_005_panel_6"/>
+    </polygon>
+    <polygon points="1282,1033 1281,1035 1280,1036 92,1041 74,1041 73,1037 70,824 70,342 71,341 98,340 156,339 363,338 719,338 1277,339 1279,341 1282,1033">
+      <metadata confidence="0.0" id="MIDAM_KIDPADDLE7_005_panel_7"/>
+    </polygon>
+  </svg>
+</svg>

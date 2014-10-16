@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="848" xmlns="http://www.w3.org/2000/svg" version="1.0" height="1200">
+  <title>LUBBIN_LESBULLESDULABO_001</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="848" height="1200" xlink:href="../Pages/LUBBIN_LESBULLESDULABO_001.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="530,1161 528,1162 313,1164 272,1164 195,1163 33,1158 31,1157 30,1155 29,1147 24,1082 23,1065 22,1047 22,1034 25,861 248,859 433,859 530,978 530,1161">
+      <metadata confidence="0.0" id="LUBBIN_LESBULLESDULABO_001_panel_0"/>
+    </polygon>
+    <polygon points="826,1048 824,1145 609,1162 556,1163 546,1163 545,1157 542,1041 542,1016 543,863 550,861 564,859 587,858 822,859 823,860 826,1017 826,1048">
+      <metadata confidence="0.0" id="LUBBIN_LESBULLESDULABO_001_panel_1"/>
+    </polygon>
+    <polygon points="409,846 297,847 221,846 220,818 218,674 218,668 304,622 311,622 408,624 409,778 409,846">
+      <metadata confidence="0.0" id="LUBBIN_LESBULLESDULABO_001_panel_2"/>
+    </polygon>
+    <polygon points="827,645 826,719 824,840 823,845 759,846 730,846 627,844 623,805 623,799 625,621 627,620 718,620 827,623 827,645">
+      <metadata confidence="0.0" id="LUBBIN_LESBULLESDULABO_001_panel_3"/>
+    </polygon>
+    <polygon points="612,838 610,846 446,847 427,847 424,738 421,628 421,623 451,620 594,620 607,621 610,642 611,651 612,809 612,838">
+      <metadata confidence="0.0" id="LUBBIN_LESBULLESDULABO_001_panel_4"/>
+    </polygon>
+    <polygon points="207,821 206,829 205,836 203,847 176,847 55,844 23,842 20,796 20,779 22,621 33,619 132,619 204,656 207,747 207,821">
+      <metadata confidence="0.0" id="LUBBIN_LESBULLESDULABO_001_panel_5"/>
+    </polygon>
+    <polygon points="827,434 826,507 825,537 824,554 821,602 820,603 796,606 772,608 739,608 392,607 376,606 372,605 372,601 373,465 374,438 375,425 560,424 720,424 760,425 827,427 827,434">
+      <metadata confidence="0.0" id="LUBBIN_LESBULLESDULABO_001_panel_6"/>
+    </polygon>
+    <polygon points="361,454 360,566 357,605 355,606 309,607 83,607 61,606 44,605 38,604 29,602 26,601 24,600 24,215 358,203 361,203 361,454">
+      <metadata confidence="0.0" id="LUBBIN_LESBULLESDULABO_001_panel_7"/>
+    </polygon>
+    <polygon points="684,410 655,412 470,412 433,411 376,408 374,373 373,302 373,300 375,201 538,157 619,156 635,156 682,157 683,158 684,239 684,410">
+      <metadata confidence="0.0" id="LUBBIN_LESBULLESDULABO_001_panel_8"/>
+    </polygon>
+    <polygon points="827,140 727,144 262,144 50,142 26,140 20,139 20,133 21,37 22,35 824,34 827,131 827,140">
+      <metadata confidence="0.0" id="LUBBIN_LESBULLESDULABO_001_panel_9"/>
+    </polygon>
+  </svg>
+</svg>

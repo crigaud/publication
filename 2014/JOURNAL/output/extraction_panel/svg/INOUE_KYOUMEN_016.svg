@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="700" xmlns="http://www.w3.org/2000/svg" version="1.0" height="990">
+  <title>INOUE_KYOUMEN_016</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="700" height="990" xlink:href="../Pages/INOUE_KYOUMEN_016.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Panel" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="217,961 215,965 125,965 110,964 58,936 58,932 67,846 71,836 75,828 81,818 91,804 94,800 95,799 104,791 108,788 111,786 122,780 136,775 149,777 153,778 156,779 158,780 164,784 172,793 175,797 177,800 180,805 184,814 186,821 213,917 217,957 217,961">
+      <metadata confidence="0.0" id="INOUE_KYOUMEN_016_panel_0"/>
+    </polygon>
+    <polygon points="508,963 479,964 373,964 283,929 279,927 276,925 20,754 19,625 20,450 207,450 374,451 490,528 497,552 508,962 508,963">
+      <metadata confidence="0.0" id="INOUE_KYOUMEN_016_panel_1"/>
+    </polygon>
+    <polygon points="688,432 628,898 562,963 532,964 20,432 20,231 34,66 36,62 54,29 55,28 63,22 220,21 681,21 685,24 688,40 688,432">
+      <metadata confidence="0.0" id="INOUE_KYOUMEN_016_panel_2"/>
+    </polygon>
+  </svg>
+</svg>
