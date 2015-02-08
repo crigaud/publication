@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="749" xmlns="http://www.w3.org/2000/svg" version="1.0" height="848">
+  <title>CYB_PSYCOCHON_001</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="749" height="848" xlink:href="../Pages/CYB_PSYCOCHON_001.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Line" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="618,826 736,826 736,837 618,837 618,826">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_0">ww </metadata>
+    </polygon>
+    <polygon points="628,434 677,434 677,465 628,465 628,434">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_1"> QT</metadata>
+    </polygon>
+    <polygon points="435,384 485,384 485,394 435,394 435,384">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_2">vmmm</metadata>
+    </polygon>
+    <polygon points="407,373 439,373 439,383 407,383 407,373">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_3">a  s </metadata>
+    </polygon>
+    <polygon points="461,373 522,373 522,383 461,383 461,373">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_4">a   was a</metadata>
+    </polygon>
+    <polygon points="438,363 519,363 519,375 438,375 438,363">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_5">   r   ew e  au u</metadata>
+    </polygon>
+    <polygon points="397,364 421,364 421,373 397,373 397,364">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_6"> em</metadata>
+    </polygon>
+    <polygon points="400,353 537,353 537,364 400,364 400,353">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_7">n  nuque v fsw        ..</metadata>
+    </polygon>
+    <polygon points="424,340 450,340 450,352 424,352 424,340">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_8"> ww</metadata>
+    </polygon>
+    <polygon points="464,341 534,341 534,354 464,354 464,341">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_9">ne vesueu  </metadata>
+    </polygon>
+    <polygon points="410,320 494,320 494,331 410,331 410,320">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_10">iwm1e  se   ma</metadata>
+    </polygon>
+    <polygon points="411,302 483,302 483,322 411,322 411,302">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_11">me pmm   vas   mnms</metadata>
+    </polygon>
+    <polygon points="423,299 506,299 506,310 423,310 423,299">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_12">Ne   nmmafnn</metadata>
+    </polygon>
+    <polygon points="625,161 678,161 678,195 625,195 625,161">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_13">IB </metadata>
+    </polygon>
+    <polygon points="214,155 279,155 279,165 214,165 214,155">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_14">La   svzcr</metadata>
+    </polygon>
+    <polygon points="173,143 321,143 321,154 173,154 173,143">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_15">maauzwun   un ra vom </metadata>
+    </polygon>
+    <polygon points="442,105 488,105 488,115 442,115 442,105">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_16">wmv</metadata>
+    </polygon>
+    <polygon points="476,85 508,85 508,95 476,95 476,85">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_17">nem</metadata>
+    </polygon>
+    <polygon points="407,84 442,84 442,94 407,94 407,84">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_18"> n n0</metadata>
+    </polygon>
+    <polygon points="408,67 523,67 523,93 408,93 408,67">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_19">      1   E.           1     i   n          5 ne nem  </metadata>
+    </polygon>
+    <polygon points="411,54 520,54 520,73 411,73 411,54">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_PSYCOCHON_001_line_20">Q  gl mwmfg  Hmeme muse. am</metadata>
+    </polygon>
+  </svg>
+</svg>

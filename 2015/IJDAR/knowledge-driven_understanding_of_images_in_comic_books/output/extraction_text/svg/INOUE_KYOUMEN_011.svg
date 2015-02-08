@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="700" xmlns="http://www.w3.org/2000/svg" version="1.0" height="990">
+  <title>INOUE_KYOUMEN_011</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="700" height="990" xlink:href="../Pages/INOUE_KYOUMEN_011.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Line" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="525,681 544,681 544,865 525,865 525,681">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="INOUE_KYOUMEN_011_line_0">      u  m  tu  g   </metadata>
+    </polygon>
+    <polygon points="556,629 575,629 575,727 556,727 556,629">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="INOUE_KYOUMEN_011_line_1">m    h  l</metadata>
+    </polygon>
+    <polygon points="71,587 108,587 108,771 71,771 71,587">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="INOUE_KYOUMEN_011_line_2">1  1 1Z      v</metadata>
+    </polygon>
+    <polygon points="100,203 135,203 135,611 100,611 100,203">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="INOUE_KYOUMEN_011_line_3">     n      N .. ad     0W tx    FuP  yJ   </metadata>
+    </polygon>
+    <polygon points="413,157 451,157 451,390 413,390 413,157">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="INOUE_KYOUMEN_011_line_4">               QM </metadata>
+    </polygon>
+  </svg>
+</svg>

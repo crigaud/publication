@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1280" xmlns="http://www.w3.org/2000/svg" version="1.0" height="1400">
+  <title>CYB_SUPERCOMPTOIR_001</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1280" height="1400" xlink:href="../Pages/CYB_SUPERCOMPTOIR_001.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Line" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="358,1307 406,1307 406,1329 358,1329 358,1307">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_0">914</metadata>
+    </polygon>
+    <polygon points="596,1275 657,1275 657,1286 596,1286 596,1275">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_1">un.</metadata>
+    </polygon>
+    <polygon points="757,1238 839,1238 839,1290 757,1290 757,1238">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_2">5 401 </metadata>
+    </polygon>
+    <polygon points="546,1223 600,1223 600,1267 546,1267 546,1223">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_3">ii I</metadata>
+    </polygon>
+    <polygon points="476,1056 576,1056 576,1071 476,1071 476,1056">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_4">BOIJME  </metadata>
+    </polygon>
+    <polygon points="480,1038 572,1038 572,1056 480,1056 480,1038">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_5">saw 5    A</metadata>
+    </polygon>
+    <polygon points="473,1018 579,1018 579,1033 473,1033 473,1018">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_6">SALUT LES</metadata>
+    </polygon>
+    <polygon points="755,827 839,827 839,869 755,869 755,827">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_7">a if  ....ii</metadata>
+    </polygon>
+    <polygon points="503,693 692,693 692,707 503,707 503,693">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_8">MONUE UE MEPUE</metadata>
+    </polygon>
+    <polygon points="675,674 746,674 746,688 675,688 675,674">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_9">TIENS  </metadata>
+    </polygon>
+    <polygon points="482,674 659,674 659,688 482,688 482,674">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_10">SUPER BENEVOLE</metadata>
+    </polygon>
+    <polygon points="374,655 837,655 837,669 374,669 374,655">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_11"> JN UEMI EAUI5 V JE VAIS ME FAIRE APPELEP</metadata>
+    </polygon>
+    <polygon points="344,636 850,636 850,651 344,651 344,636">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_12">QUOI    QUE UALLE 1 ON N E5T MEME PAS PAYE</metadata>
+    </polygon>
+    <polygon points="378,616 817,616 817,635 378,635 378,616">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_13">SOI  AIJ MATIN  ET TOUT   A POLJR GAGNE </metadata>
+    </polygon>
+    <polygon points="359,592 836,592 836,612 359,612 359,592">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_14">   Loueuzu   v    w   4  E v eaux ER LE Mauve vu</metadata>
+    </polygon>
+    <polygon points="340,578 855,578 855,592 340,592 340,578">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_15">MAQ  E UE ME FAI  E PQENUPE POU  UNE TANCHE</metadata>
+    </polygon>
+    <polygon points="755,416 839,416 839,458 755,458 755,416">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_16">b i   ....ii</metadata>
+    </polygon>
+    <polygon points="329,406 456,406 456,430 329,430 329,406">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_17">       .        .z</metadata>
+    </polygon>
+    <polygon points="462,260 567,260 567,278 462,278 462,260">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_18">  A Baume</metadata>
+    </polygon>
+    <polygon points="358,241 605,241 605,255 358,255 358,241">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_19">STEACK V ET TOI GDLUD</metadata>
+    </polygon>
+    <polygon points="371,221 594,221 594,240 371,240 371,221">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_20">  A VAUT BIEN UN BON</metadata>
+    </polygon>
+    <polygon points="431,203 624,203 624,217 431,217 431,203">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_21">SAUVE  LE MONDE</metadata>
+    </polygon>
+    <polygon points="335,203 404,203 404,216 335,216 335,203">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_22">A DRE</metadata>
+    </polygon>
+    <polygon points="753,199 813,199 813,219 753,219 753,199">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_23">NAN</metadata>
+    </polygon>
+    <polygon points="336,183 629,183 629,201 336,201 336,183">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_24">MOI  AIJJOIJPVHIJI   Y A PAS</metadata>
+    </polygon>
+    <polygon points="345,164 616,164 616,178 345,178 345,164">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_25">J Al UNE PECHE DE GUEUIN</metadata>
+    </polygon>
+    <polygon points="420,46 521,46 521,60 420,60 420,46">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_26">P  ESENTE</metadata>
+    </polygon>
+    <polygon points="552,20 609,20 609,40 552,40 552,20">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_27">ll  </metadata>
+    </polygon>
+    <polygon points="243,67 339,67 339,94 243,94 243,67">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_SUPERCOMPTOIR_001_line_28">Zf    l</metadata>
+    </polygon>
+  </svg>
+</svg>

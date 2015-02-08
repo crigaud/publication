@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="700" xmlns="http://www.w3.org/2000/svg" version="1.0" height="720">
+  <title>CYB_TRAFFIC_002</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="700" height="720" xlink:href="../Pages/CYB_TRAFFIC_002.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Line" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="549,676 609,676 609,686 549,686 549,676">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_0">A wwe.</metadata>
+    </polygon>
+    <polygon points="166,628 224,628 224,646 166,646 166,628">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_1"> i  i  HH</metadata>
+    </polygon>
+    <polygon points="54,579 116,579 116,598 54,598 54,579">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_2">r  w    </metadata>
+    </polygon>
+    <polygon points="142,530 198,530 198,540 142,540 142,530">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_3">camus </metadata>
+    </polygon>
+    <polygon points="83,521 133,521 133,540 83,540 83,521">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_4">aw Amusewz</metadata>
+    </polygon>
+    <polygon points="115,516 216,516 216,530 115,530 115,516">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_5">MW 5155 s       151    </metadata>
+    </polygon>
+    <polygon points="83,505 212,505 212,519 83,519 83,505">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_6">WLla           s 5ELZ Z  r  </metadata>
+    </polygon>
+    <polygon points="73,494 219,494 219,508 73,508 73,494">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_7">ZbK  2  5V      1    E         i VZ</metadata>
+    </polygon>
+    <polygon points="66,486 225,486 225,497 66,497 66,486">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_8"> am  saw Nwszs ne ses</metadata>
+    </polygon>
+    <polygon points="462,408 566,408 566,433 462,433 462,408">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_9">ik </metadata>
+    </polygon>
+    <polygon points="614,425 639,425 639,438 614,438 614,425">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_10">C  uz</metadata>
+    </polygon>
+    <polygon points="595,401 639,401 639,414 595,414 595,401">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_11">Fi    s</metadata>
+    </polygon>
+    <polygon points="601,395 630,395 630,405 601,405 601,395">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_12">un</metadata>
+    </polygon>
+    <polygon points="574,349 620,349 620,363 574,363 574,349">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_13">     z  m  </metadata>
+    </polygon>
+    <polygon points="532,309 597,309 597,325 532,325 532,309">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_14">mms fl</metadata>
+    </polygon>
+    <polygon points="475,291 523,291 523,302 475,302 475,291">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_15">xmzzf</metadata>
+    </polygon>
+    <polygon points="360,339 425,339 425,357 360,357 360,339">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_16">          Wrow Arrscr</metadata>
+    </polygon>
+    <polygon points="355,335 432,335 432,346 355,346 355,335">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_17">sw cssr auo</metadata>
+    </polygon>
+    <polygon points="302,321 439,321 439,334 302,334 302,321">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_18">HOMO H0 Ho I Sal    </metadata>
+    </polygon>
+    <polygon points="314,308 432,308 432,321 314,321 314,308">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_19">HA Il T7ZL7P DMI  HJ</metadata>
+    </polygon>
+    <polygon points="366,296 435,296 435,308 366,308 366,296">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_20"> HAHAHA</metadata>
+    </polygon>
+    <polygon points="307,283 440,283 440,295 307,295 307,283">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_21">OKAAHAHA I  AH AH J </metadata>
+    </polygon>
+    <polygon points="312,296 347,296 347,308 312,308 312,296">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_22">GAL  I</metadata>
+    </polygon>
+    <polygon points="58,424 148,424 148,450 58,450 58,424">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_23">Q v   v</metadata>
+    </polygon>
+    <polygon points="85,408 138,408 138,432 85,432 85,408">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_24">.  A</metadata>
+    </polygon>
+    <polygon points="186,389 223,389 223,404 186,404 186,389">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_25">mwa.</metadata>
+    </polygon>
+    <polygon points="101,348 145,348 145,358 101,358 101,348">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_26">aum M</metadata>
+    </polygon>
+    <polygon points="169,345 236,345 236,358 169,358 169,345">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_27">YE    HQE I </metadata>
+    </polygon>
+    <polygon points="99,326 159,326 159,336 99,336 99,326">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_28">vzvms usa</metadata>
+    </polygon>
+    <polygon points="173,314 232,314 232,325 173,325 173,314">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_29">mvmezz</metadata>
+    </polygon>
+    <polygon points="108,307 153,307 153,325 108,325 108,307">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_30">Kw.  mms</metadata>
+    </polygon>
+    <polygon points="119,304 156,304 156,314 119,314 119,304">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_31">Kw. A</metadata>
+    </polygon>
+    <polygon points="178,304 207,304 207,314 178,314 178,304">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_32">Para</metadata>
+    </polygon>
+    <polygon points="108,292 210,292 210,303 108,303 108,292">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_33">Ya J cssr xem</metadata>
+    </polygon>
+    <polygon points="62,279 106,279 106,290 62,290 62,279">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_34"> mus v</metadata>
+    </polygon>
+    <polygon points="57,229 97,229 97,247 57,247 57,229">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_35">0V  </metadata>
+    </polygon>
+    <polygon points="616,32 645,32 645,42 616,42 616,32">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_36">me</metadata>
+    </polygon>
+    <polygon points="113,23 157,23 157,43 113,43 113,23">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_37">Wil </metadata>
+    </polygon>
+    <polygon points="560,20 645,20 645,35 560,35 560,20">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_TRAFFIC_002_line_38">ma asoguqg</metadata>
+    </polygon>
+  </svg>
+</svg>
