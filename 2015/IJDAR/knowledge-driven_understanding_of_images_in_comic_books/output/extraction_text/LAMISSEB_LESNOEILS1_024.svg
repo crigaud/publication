@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2461" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3411">
+  <title>LAMISSEB_LESNOEILS1_024</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2461" height="3411" xlink:href="../Pages/LAMISSEB_LESNOEILS1_024.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Line" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="389,2632 677,2632 677,2669 389,2669 389,2632">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_0">A LA Pnupn  rzs   </metadata>
+    </polygon>
+    <polygon points="354,2591 711,2591 711,2627 354,2627 354,2591">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_1">QUEST CE QUE TAS</metadata>
+    </polygon>
+    <polygon points="409,2545 656,2545 656,2579 409,2579 409,2545">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_2">OH MON DIEU  </metadata>
+    </polygon>
+    <polygon points="1057,2590 1380,2590 1380,2622 1057,2622 1057,2590">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_3">VU UN OPHTALMO 7</metadata>
+    </polygon>
+    <polygon points="1028,2543 1407,2543 1407,2577 1028,2577 1028,2543">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_4">CEST AFFIZEUX   T745</metadata>
+    </polygon>
+    <polygon points="1930,3084 2042,3084 2042,3127 1930,3127 1930,3084">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_5">E    2</metadata>
+    </polygon>
+    <polygon points="1699,3123 1772,3123 1772,3162 1699,3162 1699,3123">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_6">    ff</metadata>
+    </polygon>
+    <polygon points="1775,2627 2077,2627 2077,2660 1775,2660 1775,2627">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_7">FICHUE M  DUSE    </metadata>
+    </polygon>
+    <polygon points="1708,2578 2143,2578 2143,2616 1708,2616 1708,2578">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_8">ET AIDE Mon A vuzsrz cam </metadata>
+    </polygon>
+    <polygon points="1675,2541 2176,2541 2176,2572 1675,2572 1675,2541">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_9">ARRETE AVEC TES SARCASMES</metadata>
+    </polygon>
+    <polygon points="589,2152 742,2152 742,2193 589,2193 589,2152">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_10">        IZ7</metadata>
+    </polygon>
+    <polygon points="807,2153 1004,2153 1004,2216 807,2216 807,2153">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_11">    il     </metadata>
+    </polygon>
+    <polygon points="279,1815 789,1815 789,1846 279,1846 279,1815">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_12">NE ME SENS PAS A MA PLACE ICI</metadata>
+    </polygon>
+    <polygon points="291,1770 782,1770 782,1802 291,1802 291,1770">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_13">JE NE SAIS PAS POURQUOI  JE</metadata>
+    </polygon>
+    <polygon points="1149,2146 1276,2146 1276,2184 1149,2184 1149,2146">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_14">il </metadata>
+    </polygon>
+    <polygon points="1070,1854 1367,1854 1367,1885 1070,1885 1070,1854">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_15">PLAGE NATUIZISTE</metadata>
+    </polygon>
+    <polygon points="992,1802 1448,1802 1448,1840 992,1840 992,1802">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_16">Pas rzssrsrz LA  cssf une</metadata>
+    </polygon>
+    <polygon points="982,1763 1459,1763 1459,1797 982,1797 982,1763">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_17">MONSIEUR  VOUS NE POUVEZ</metadata>
+    </polygon>
+    <polygon points="1659,1801 2188,1801 2188,1836 1659,1836 1659,1801">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_18">NE PAS M EN FZENDIZE COMPTE 7</metadata>
+    </polygon>
+    <polygon points="1672,1758 2175,1758 2175,1791 1672,1791 1672,1758">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_19">OH MINCE   COMMENT Al JE PU</metadata>
+    </polygon>
+    <polygon points="1202,1410 1767,1410 1767,1485 1202,1485 1202,1410">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_20">U      7  1 F        </metadata>
+    </polygon>
+    <polygon points="193,1421 322,1421 322,1467 193,1467 193,1421">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_21">C213</metadata>
+    </polygon>
+    <polygon points="394,982 740,982 740,1026 394,1026 394,982">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_22">AIE     A ME BIZULE  </metadata>
+    </polygon>
+    <polygon points="1012,1022 1391,1022 1391,1055 1012,1055 1012,1022">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_23">DE LA CREME SOLAIRE</metadata>
+    </polygon>
+    <polygon points="1031,977 1377,977 1377,1009 1031,1009 1031,977">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_24">TU DEV BAIS METTRE</metadata>
+    </polygon>
+    <polygon points="1708,971 2122,971 2122,1007 1708,1007 1708,971">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_LESNOEILS1_024_line_25">CEST CE  UE JE FAIS  </metadata>
+    </polygon>
+  </svg>
+</svg>

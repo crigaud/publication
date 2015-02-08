@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="4961" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3508">
+  <title>TRONDHEIM_LES_TROIS_CHEMINS_003</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="4961" height="3508" xlink:href="../Pages/TRONDHEIM_LES_TROIS_CHEMINS_003.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="2413,1775 2412,1851 2411,1852 2405,1855 2297,1862 2122,1869 2120,1869 1426,1860 1394,1850 1393,1849 1386,1786 1386,1783 1387,1782 1669,1547 1696,1543 1715,1543 1836,1544 1977,1549 2395,1566 2407,1567 2412,1568 2413,1757 2413,1775">
+      <metadata tailDirection="NE" confidence="0.0" id="TRONDHEIM_LES_TROIS_CHEMINS_003_balloon_0" tailTip="1669,1547"/>
+    </polygon>
+    <polygon points="3612,1405 3610,1411 3499,1581 3426,1644 3354,1702 3345,1708 3266,1731 3107,1756 2902,1776 2895,1775 2880,1769 2879,1768 2852,1726 2787,1534 2787,1531 2789,1527 3389,1318 3417,1322 3445,1327 3455,1329 3480,1335 3511,1347 3540,1359 3593,1390 3605,1398 3612,1404 3612,1405">
+      <metadata tailDirection="W" confidence="0.0" id="TRONDHEIM_LES_TROIS_CHEMINS_003_balloon_1" tailTip="2787,1534"/>
+    </polygon>
+  </svg>
+</svg>

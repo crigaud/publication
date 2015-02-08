@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2480" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3508">
+  <title>FRED_PHILEMON12_006</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2480" height="3508" xlink:href="../Pages/FRED_PHILEMON12_006.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Line" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="279,2789 580,2789 580,2882 279,2882 279,2789">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_0">  ll      </metadata>
+    </polygon>
+    <polygon points="305,2643 625,2643 625,2738 305,2738 305,2643">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_1"> ME</metadata>
+    </polygon>
+    <polygon points="541,2581 757,2581 757,2627 541,2627 541,2581">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_2">L   1     2155</metadata>
+    </polygon>
+    <polygon points="554,2357 628,2357 628,2394 554,2394 554,2357">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_3">N27</metadata>
+    </polygon>
+    <polygon points="134,2355 351,2355 351,2405 134,2405 134,2355">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_4">mr    </metadata>
+    </polygon>
+    <polygon points="1001,2369 1075,2369 1075,2431 1001,2431 1001,2369">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_5">  fIlW</metadata>
+    </polygon>
+    <polygon points="1013,2359 1073,2359 1073,2393 1013,2393 1013,2359">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_6">30</metadata>
+    </polygon>
+    <polygon points="1000,2310 1065,2310 1065,2343 1000,2343 1000,2310">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_7">VU</metadata>
+    </polygon>
+    <polygon points="748,2284 916,2284 916,2345 748,2345 748,2284">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_8">517    </metadata>
+    </polygon>
+    <polygon points="1001,2272 1074,2272 1074,2303 1001,2303 1001,2272">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_9">EU</metadata>
+    </polygon>
+    <polygon points="924,2219 1034,2219 1034,2241 924,2241 924,2219">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_10">  A  9</metadata>
+    </polygon>
+    <polygon points="724,2218 802,2218 802,2242 724,2242 724,2218">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_11">00   </metadata>
+    </polygon>
+    <polygon points="661,2184 1082,2184 1082,2244 661,2244 661,2184">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_12">  J u 4V     i  AR 0  01 H   46    A      .</metadata>
+    </polygon>
+    <polygon points="987,2005 1111,2005 1111,2041 987,2041 987,2005">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_13">EL  U</metadata>
+    </polygon>
+    <polygon points="1043,1958 1171,1958 1171,1995 1043,1995 1043,1958">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_14"> IDE</metadata>
+    </polygon>
+    <polygon points="928,1920 1077,1920 1077,1954 928,1954 928,1920">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_15">J Ul UN</metadata>
+    </polygon>
+    <polygon points="917,1960 990,1960 990,1994 917,1994 917,1960">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_16">Ut </metadata>
+    </polygon>
+    <polygon points="997,1863 1235,1863 1235,1906 997,1906 997,1863">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_17">    L      I   Q  </metadata>
+    </polygon>
+    <polygon points="670,1834 942,1834 942,1870 670,1870 670,1834">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_18">QIIH  IU</metadata>
+    </polygon>
+    <polygon points="386,2090 586,2090 586,2115 386,2115 386,2090">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_19">ROM   O</metadata>
+    </polygon>
+    <polygon points="348,2056 502,2056 502,2085 348,2085 348,2056">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_20">VFOuF</metadata>
+    </polygon>
+    <polygon points="545,2056 702,2056 702,2085 545,2085 545,2056">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_21"> F0u F</metadata>
+    </polygon>
+    <polygon points="422,2026 704,2026 704,2055 422,2055 422,2026">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_22">5 P5 GTAOV6</metadata>
+    </polygon>
+    <polygon points="331,2006 416,2006 416,2056 331,2056 331,2006">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_23">J   Ip  </metadata>
+    </polygon>
+    <polygon points="439,1999 808,1999 808,2026 439,2026 439,1999">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_24"> JN  I JOI   CAA UG</metadata>
+    </polygon>
+    <polygon points="328,1966 692,1966 692,1999 328,1999 328,1966">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_25">J    w   Homme</metadata>
+    </polygon>
+    <polygon points="343,1941 742,1941 742,1972 343,1972 343,1941">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_26">FAQ  .Wu uucaqnguu</metadata>
+    </polygon>
+    <polygon points="368,1909 643,1909 643,1940 368,1940 368,1909">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_27">46 M6   uuf  </metadata>
+    </polygon>
+    <polygon points="426,1870 616,1870 616,1909 426,1909 426,1870">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_28">0   aoao</metadata>
+    </polygon>
+    <polygon points="2047,2954 2213,2954 2213,2983 2047,2983 2047,2954">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_29">C  l  </metadata>
+    </polygon>
+    <polygon points="1188,2867 1453,2867 1453,2921 1188,2921 1188,2867">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_30">  . f I   Z         </metadata>
+    </polygon>
+    <polygon points="1977,2728 2121,2728 2121,2766 1977,2766 1977,2728">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_31">II L ia</metadata>
+    </polygon>
+    <polygon points="1976,2703 2123,2703 2123,2743 1976,2743 1976,2703">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_32"> JP  J</metadata>
+    </polygon>
+    <polygon points="1234,2629 1535,2629 1535,2731 1234,2731 1234,2629">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_33">L    z     W</metadata>
+    </polygon>
+    <polygon points="1419,2578 1554,2578 1554,2630 1419,2630 1419,2578">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_34">V     ffq</metadata>
+    </polygon>
+    <polygon points="1191,2481 1255,2481 1255,2513 1191,2513 1191,2481">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_35">ED</metadata>
+    </polygon>
+    <polygon points="1181,2441 1255,2441 1255,2474 1181,2474 1181,2441">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_36">gb</metadata>
+    </polygon>
+    <polygon points="1356,2391 1429,2391 1429,2422 1356,2422 1356,2391">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_37"> VG</metadata>
+    </polygon>
+    <polygon points="1356,2349 1430,2349 1430,2385 1356,2385 1356,2349">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_38">Un</metadata>
+    </polygon>
+    <polygon points="1188,2305 1254,2305 1254,2339 1188,2339 1188,2305">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_39"> JD</metadata>
+    </polygon>
+    <polygon points="1193,2267 1253,2267 1253,2300 1193,2300 1193,2267">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_40">BD</metadata>
+    </polygon>
+    <polygon points="1353,2175 1619,2175 1619,2220 1353,2220 1353,2175">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_41">     wlm</metadata>
+    </polygon>
+    <polygon points="1632,2093 1692,2093 1692,2124 1632,2124 1632,2093">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_42">354</metadata>
+    </polygon>
+    <polygon points="1354,2216 1427,2216 1427,2248 1354,2248 1354,2216">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_43">Wc </metadata>
+    </polygon>
+    <polygon points="1393,2031 1588,2031 1588,2056 1393,2056 1393,2031">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_44">  TIUI    J</metadata>
+    </polygon>
+    <polygon points="1622,2030 1860,2030 1860,2057 1622,2057 1622,2030">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_45"> Ul CAJAJMU</metadata>
+    </polygon>
+    <polygon points="1255,1998 2106,1998 2106,2029 1255,2029 1255,1998">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_46">M   2oe        4   NU1  61  Mouf   P 6  u r P 0M     </metadata>
+    </polygon>
+    <polygon points="1772,1972 2156,1972 2156,1999 1772,1999 1772,1972">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_47">FL  JA 1 CCJMTFAT</metadata>
+    </polygon>
+    <polygon points="1618,1971 1736,1971 1736,1998 1618,1998 1618,1971">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_48">  C  AJ</metadata>
+    </polygon>
+    <polygon points="1245,1968 1581,1968 1581,1998 1245,1998 1245,1968">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_49">J   LE      FAQ 9</metadata>
+    </polygon>
+    <polygon points="1252,1937 2186,1937 2186,1972 1252,1972 1252,1937">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_50">Qy  g           MOM         5  i iT    2      A  1      </metadata>
+    </polygon>
+    <polygon points="1488,1913 2177,1913 2177,1941 1488,1941 1488,1913">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_51">.uouf   Au  aMf   R  uco    a  </metadata>
+    </polygon>
+    <polygon points="1371,1918 1438,1918 1438,1942 1371,1942 1371,1918">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_52">QU</metadata>
+    </polygon>
+    <polygon points="1255,1906 1345,1906 1345,1939 1255,1939 1255,1906">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_53">D  f  </metadata>
+    </polygon>
+    <polygon points="1581,1880 1767,1880 1767,1910 1581,1910 1581,1880">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_54">61  19  16</metadata>
+    </polygon>
+    <polygon points="1407,1882 1517,1882 1517,1911 1407,1911 1407,1882">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_55">HMM</metadata>
+    </polygon>
+    <polygon points="1191,1828 1339,1828 1339,1862 1191,1862 1191,1828">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_56">J bll  </metadata>
+    </polygon>
+    <polygon points="861,1742 1116,1742 1116,1774 861,1774 861,1742">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_57"> IIIQ J</metadata>
+    </polygon>
+    <polygon points="945,1685 1337,1685 1337,1729 945,1729 945,1685">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_58">ilf     lL Iilu nj    </metadata>
+    </polygon>
+    <polygon points="380,1697 474,1697 474,1736 380,1736 380,1697">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_59">J Dg</metadata>
+    </polygon>
+    <polygon points="995,1654 1298,1654 1298,1694 995,1694 995,1654">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_60">nnlllll WI </metadata>
+    </polygon>
+    <polygon points="556,1602 717,1602 717,1644 556,1644 556,1602">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_61"> Q rl    </metadata>
+    </polygon>
+    <polygon points="0,1572 194,1572 194,1648 0,1648 0,1572">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_62">    IR</metadata>
+    </polygon>
+    <polygon points="565,1570 629,1570 629,1602 565,1602 565,1570">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_63">Jb</metadata>
+    </polygon>
+    <polygon points="1038,1476 1249,1476 1249,1514 1038,1514 1038,1476">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_64">Ul   IDG</metadata>
+    </polygon>
+    <polygon points="690,1436 795,1436 795,1467 690,1467 690,1436">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_65">  IU  </metadata>
+    </polygon>
+    <polygon points="619,1392 792,1392 792,1430 619,1430 619,1392">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_66">HW  Z</metadata>
+    </polygon>
+    <polygon points="848,1368 993,1368 993,1429 848,1429 848,1368">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_67">piD</metadata>
+    </polygon>
+    <polygon points="682,1347 803,1347 803,1384 682,1384 682,1347">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_68">FUJI</metadata>
+    </polygon>
+    <polygon points="776,1307 849,1307 849,1340 776,1340 776,1307">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_69">Old</metadata>
+    </polygon>
+    <polygon points="830,1255 1069,1255 1069,1292 830,1292 830,1255">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_70">ZF         </metadata>
+    </polygon>
+    <polygon points="391,1200 1068,1200 1068,1298 391,1298 391,1200">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_71">   1 Ju1 1  1    u     1   I W      x.       V    </metadata>
+    </polygon>
+    <polygon points="992,1345 1066,1345 1066,1378 992,1378 992,1345">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_72">QF</metadata>
+    </polygon>
+    <polygon points="993,1306 1066,1306 1066,1339 993,1339 993,1306">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_73"> NSA</metadata>
+    </polygon>
+    <polygon points="873,1127 1058,1127 1058,1184 873,1184 873,1127">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_74">W  I        </metadata>
+    </polygon>
+    <polygon points="709,1132 800,1132 800,1166 709,1166 709,1132">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_75">Nb</metadata>
+    </polygon>
+    <polygon points="420,1129 476,1129 476,1163 420,1163 420,1129">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_76">7Ii</metadata>
+    </polygon>
+    <polygon points="639,985 869,985 869,1036 639,1036 639,985">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_77">    ll  l fi</metadata>
+    </polygon>
+    <polygon points="965,993 1074,993 1074,1032 965,1032 965,993">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_78">ll  lgjn</metadata>
+    </polygon>
+    <polygon points="280,869 472,869 472,897 280,897 280,869">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_79">PAKFAFF</metadata>
+    </polygon>
+    <polygon points="190,840 384,840 384,870 190,870 190,840">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_80">W  F FA  T</metadata>
+    </polygon>
+    <polygon points="423,838 594,838 594,867 423,867 423,838">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_81">PA  2FA T  </metadata>
+    </polygon>
+    <polygon points="166,815 298,815 298,840 166,840 166,815">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_82">AQAJ  I</metadata>
+    </polygon>
+    <polygon points="371,808 613,808 613,838 371,838 371,808">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_83">I 5 A   6 C        </metadata>
+    </polygon>
+    <polygon points="840,899 1064,899 1064,928 840,928 840,899">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_84">c 4 6 O  F     </metadata>
+    </polygon>
+    <polygon points="778,869 1031,869 1031,900 778,900 778,869">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_85">c     f   aa 4</metadata>
+    </polygon>
+    <polygon points="922,833 1037,833 1037,870 922,870 922,833">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_86">vw f  .</metadata>
+    </polygon>
+    <polygon points="171,782 596,782 596,811 171,811 171,782">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_87">PA6  0u T 0uT   c  wx</metadata>
+    </polygon>
+    <polygon points="0,783 88,783 88,815 0,815 0,783">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_88">   l l</metadata>
+    </polygon>
+    <polygon points="158,753 549,753 549,781 158,781 158,753">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_89">.l     u uv AG   uA     </metadata>
+    </polygon>
+    <polygon points="911,717 1053,717 1053,759 911,759 911,717">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_90">      Il   </metadata>
+    </polygon>
+    <polygon points="167,723 319,723 319,751 167,751 167,723">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_91"> l  6I 1 </metadata>
+    </polygon>
+    <polygon points="357,724 508,724 508,752 357,752 357,724">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_92"> l  6 l   </metadata>
+    </polygon>
+    <polygon points="463,682 569,682 569,718 463,718 463,682">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_93">JG </metadata>
+    </polygon>
+    <polygon points="173,694 357,694 357,722 173,722 173,694">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_94">l  6TTR  9  </metadata>
+    </polygon>
+    <polygon points="210,658 536,658 536,690 210,690 210,658">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_95">La Mmuo   o    </metadata>
+    </polygon>
+    <polygon points="10,645 95,645 95,691 10,691 10,645">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_96">IL  E</metadata>
+    </polygon>
+    <polygon points="23,622 93,622 93,658 23,658 23,622">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_97">Bf</metadata>
+    </polygon>
+    <polygon points="985,614 1110,614 1110,672 985,672 985,614">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_98">  XIII</metadata>
+    </polygon>
+    <polygon points="21,433 458,433 458,541 21,541 21,433">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_99">L  il  lell 4</metadata>
+    </polygon>
+    <polygon points="2026,1736 2292,1736 2292,1771 2026,1771 2026,1736">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_100">  EEI  Q</metadata>
+    </polygon>
+    <polygon points="1713,1652 1776,1652 1776,1683 1713,1683 1713,1652">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_101">554</metadata>
+    </polygon>
+    <polygon points="1621,1605 1774,1605 1774,1639 1621,1639 1621,1605">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_102">  IDIQU</metadata>
+    </polygon>
+    <polygon points="1082,1598 1334,1598 1334,1641 1082,1641 1082,1598">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_103">ilil  iluw</metadata>
+    </polygon>
+    <polygon points="1651,1565 1773,1565 1773,1599 1651,1599 1651,1565">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_104"> ZHU</metadata>
+    </polygon>
+    <polygon points="1714,1477 1776,1477 1776,1510 1714,1510 1714,1477">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_105"> CI</metadata>
+    </polygon>
+    <polygon points="1635,1389 1773,1389 1773,1422 1635,1422 1635,1389">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_106">    bl Q</metadata>
+    </polygon>
+    <polygon points="1182,1344 1246,1344 1246,1376 1182,1376 1182,1344">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_107">70</metadata>
+    </polygon>
+    <polygon points="1173,1303 1246,1303 1246,1345 1173,1345 1173,1303">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_108">QU</metadata>
+    </polygon>
+    <polygon points="1712,1206 1811,1206 1811,1246 1712,1246 1712,1206">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_109">37 </metadata>
+    </polygon>
+    <polygon points="1691,1165 1834,1165 1834,1214 1691,1214 1691,1165">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_110">fm</metadata>
+    </polygon>
+    <polygon points="2144,1156 2288,1156 2288,1194 2144,1194 2144,1156">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_111">i   I     </metadata>
+    </polygon>
+    <polygon points="1434,1110 1515,1110 1515,1189 1434,1189 1434,1110">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_112">QW Il</metadata>
+    </polygon>
+    <polygon points="2146,1137 2287,1137 2287,1174 2146,1174 2146,1137">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_113"> J Il</metadata>
+    </polygon>
+    <polygon points="1455,1012 1698,1012 1698,1099 1455,1099 1455,1012">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_114">f      H   L    </metadata>
+    </polygon>
+    <polygon points="1179,1083 1239,1083 1239,1115 1179,1115 1179,1083">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_115">qi</metadata>
+    </polygon>
+    <polygon points="1180,1042 1253,1042 1253,1073 1180,1073 1180,1042">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_116">QQ</metadata>
+    </polygon>
+    <polygon points="1351,962 1548,962 1548,1024 1351,1024 1351,962">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_117">  wpau in 1ml     </metadata>
+    </polygon>
+    <polygon points="1176,954 1236,954 1236,987 1176,987 1176,954">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_118">sf  </metadata>
+    </polygon>
+    <polygon points="1926,1045 2034,1045 2034,1085 1926,1085 1926,1045">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_119">9  s </metadata>
+    </polygon>
+    <polygon points="2057,785 2199,785 2199,842 2057,842 2057,785">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_120">    Il  </metadata>
+    </polygon>
+    <polygon points="2072,633 2163,633 2163,680 2072,680 2072,633">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_121">Uk</metadata>
+    </polygon>
+    <polygon points="1662,683 1999,683 1999,716 1662,716 1662,683">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_122">  TP 6   0  uT 6ru   </metadata>
+    </polygon>
+    <polygon points="1752,656 1918,656 1918,682 1752,682 1752,656">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_123">  A  A </metadata>
+    </polygon>
+    <polygon points="1664,626 1852,626 1852,656 1664,656 1664,626">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_124"> A        a </metadata>
+    </polygon>
+    <polygon points="1661,596 1951,596 1951,627 1661,627 1661,596">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_125">   F    u    f     A</metadata>
+    </polygon>
+    <polygon points="1657,572 1985,572 1985,599 1657,599 1657,572">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_126">QU 2151 IMCOMMU</metadata>
+    </polygon>
+    <polygon points="1661,542 1926,542 1926,568 1661,568 1661,542">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_127">  PP     r .l0P </metadata>
+    </polygon>
+    <polygon points="1668,508 1974,508 1974,539 1668,539 1668,508">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_128">    uuaa  iux A</metadata>
+    </polygon>
+    <polygon points="1666,484 1976,484 1976,511 1666,511 1666,484">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON12_006_line_129">QQ   AJO ON Gb  </metadata>
+    </polygon>
+  </svg>
+</svg>

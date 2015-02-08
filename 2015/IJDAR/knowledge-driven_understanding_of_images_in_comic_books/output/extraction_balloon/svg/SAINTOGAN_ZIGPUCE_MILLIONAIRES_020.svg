@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2501" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3506">
+  <title>SAINTOGAN_ZIGPUCE_MILLIONAIRES_020</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2501" height="3506" xlink:href="../Pages/SAINTOGAN_ZIGPUCE_MILLIONAIRES_020.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="1610,2720 1607,3281 1604,3284 1602,3284 880,3274 876,3273 874,3271 874,3268 875,2817 876,2600 878,2598 893,2598 1120,2599 1572,2608 1605,2609 1608,2612 1609,2614 1610,2620 1610,2720">
+      <metadata tailDirection="none" confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_balloon_0" tailTip=""/>
+    </polygon>
+    <polygon points="848,2979 845,3177 843,3269 840,3272 631,3272 370,3269 169,3266 131,3265 112,3264 108,3262 107,3261 106,3259 106,3256 108,2944 113,2596 114,2587 115,2583 118,2574 119,2572 121,2570 125,2567 138,2563 157,2561 158,2561 733,2566 745,2568 842,2598 844,2599 846,2601 847,2625 848,2926 848,2979">
+      <metadata tailDirection="none" confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_balloon_1" tailTip=""/>
+    </polygon>
+    <polygon points="1613,2179 1608,2569 1607,2572 1606,2574 1604,2576 1573,2576 1097,2570 1041,2569 880,2565 878,2563 877,2561 878,2429 879,2315 883,1888 886,1885 891,1884 892,1884 1608,1891 1610,1892 1611,1893 1612,1895 1613,1898 1613,2179">
+      <metadata tailDirection="none" confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_balloon_2" tailTip=""/>
+    </polygon>
+    <polygon points="1590,1184 1577,1328 1575,1335 1572,1339 1571,1340 1565,1345 1561,1347 1333,1393 1331,1393 1127,1345 1123,1344 1119,1342 1112,1335 1110,1332 1108,1328 1107,1323 1105,1193 1105,1180 1108,1172 1111,1166 1113,1164 1119,1161 1124,1161 1569,1170 1574,1171 1587,1175 1588,1176 1589,1178 1590,1183 1590,1184">
+      <metadata tailDirection="S" confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_balloon_3" tailTip="1331,1393"/>
+    </polygon>
+    <polygon points="2365,807 2362,821 2360,826 2354,836 2352,838 2326,853 2150,854 2149,854 2148,853 2144,846 2142,831 2141,811 2142,789 2143,788 2216,753 2230,753 2285,758 2322,763 2331,768 2333,770 2365,805 2365,807">
+      <metadata tailDirection="NE" confidence="0.0" id="SAINTOGAN_ZIGPUCE_MILLIONAIRES_020_balloon_4" tailTip="2365,805"/>
+    </polygon>
+  </svg>
+</svg>

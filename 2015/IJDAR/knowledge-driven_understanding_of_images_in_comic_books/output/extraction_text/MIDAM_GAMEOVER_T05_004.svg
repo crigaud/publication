@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2413" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3445">
+  <title>MIDAM_GAMEOVER_T05_004</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2413" height="3445" xlink:href="../Pages/MIDAM_GAMEOVER_T05_004.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Line" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="1442,3218 1760,3218 1760,3248 1442,3248 1442,3218">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_0">M o um  ADAM . Le   ooae</metadata>
+    </polygon>
+    <polygon points="2243,3222 2310,3222 2310,3245 2243,3245 2243,3222">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_1">an </metadata>
+    </polygon>
+    <polygon points="314,3148 602,3148 602,3208 314,3208 314,3148">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_2">   .   V       </metadata>
+    </polygon>
+    <polygon points="754,2938 885,2938 885,2987 754,2987 754,2938">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_3"> ZZ</metadata>
+    </polygon>
+    <polygon points="852,2766 976,2766 976,2800 852,2800 852,2766">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_4">MQRRIED</metadata>
+    </polygon>
+    <polygon points="842,2708 961,2708 961,2750 842,2750 842,2708">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_5">    U ST</metadata>
+    </polygon>
+    <polygon points="628,2159 684,2159 684,2183 628,2183 628,2159">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_6">G2</metadata>
+    </polygon>
+    <polygon points="446,2091 566,2091 566,2140 446,2140 446,2091">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_7">e   ig    </metadata>
+    </polygon>
+    <polygon points="2028,1972 2144,1972 2144,2077 2028,2077 2028,1972">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_8">1.7            W 1</metadata>
+    </polygon>
+    <polygon points="2024,1910 2184,1910 2184,1977 2024,1977 2024,1910">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_9">    o      m</metadata>
+    </polygon>
+    <polygon points="252,1567 316,1567 316,1604 252,1604 252,1567">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_10"> v  4I  a    D</metadata>
+    </polygon>
+    <polygon points="383,1416 535,1416 535,1450 383,1450 383,1416">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_11">     .   G</metadata>
+    </polygon>
+    <polygon points="1234,1630 1358,1630 1358,1672 1234,1672 1234,1630">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_12">0 Q  </metadata>
+    </polygon>
+    <polygon points="1053,1434 1114,1434 1114,1472 1053,1472 1053,1434">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_13">ar </metadata>
+    </polygon>
+    <polygon points="1096,1342 1215,1342 1215,1407 1096,1407 1096,1342">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_14">WWW</metadata>
+    </polygon>
+    <polygon points="1114,1298 1181,1298 1181,1365 1114,1365 1114,1298">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_15">    s      qm</metadata>
+    </polygon>
+    <polygon points="1782,1265 1896,1265 1896,1307 1782,1307 1782,1265">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_16">Qizib   </metadata>
+    </polygon>
+    <polygon points="295,746 378,746 378,782 295,782 295,746">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_17"> V   1</metadata>
+    </polygon>
+    <polygon points="1436,859 1588,859 1588,918 1436,918 1436,859">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_18"> LOG</metadata>
+    </polygon>
+    <polygon points="1341,749 1420,749 1420,802 1341,802 1341,749">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_19">gg  </metadata>
+    </polygon>
+    <polygon points="1443,358 1700,358 1700,406 1443,406 1443,358">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_20">     H.f II</metadata>
+    </polygon>
+    <polygon points="104,70 227,70 227,117 104,117 104,70">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MIDAM_GAMEOVER_T05_004_line_21">a    l  </metadata>
+    </polygon>
+  </svg>
+</svg>

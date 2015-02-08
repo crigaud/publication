@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="3078" xmlns="http://www.w3.org/2000/svg" version="1.0" height="4196">
+  <title>MCCAY_LITTLENEMO_090</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="3078" height="4196" xlink:href="../Pages/MCCAY_LITTLENEMO_090.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="1549,2425 1405,2628 1404,2629 1392,2629 1389,2628 1387,2627 1344,2602 1342,2599 1303,2514 1287,2440 1287,2437 1291,2421 1295,2407 1338,2272 1339,2270 1381,2221 1538,2299 1548,2318 1549,2377 1549,2425">
+      <metadata tailDirection="NE" confidence="0.0" id="MCCAY_LITTLENEMO_090_balloon_0" tailTip="1538,2299"/>
+    </polygon>
+    <polygon points="566,2081 563,2127 561,2135 556,2145 554,2148 551,2151 548,2153 545,2154 537,2156 530,2157 510,2159 497,2160 457,2163 440,2163 432,2162 426,2160 424,2159 421,2157 419,2155 417,2152 416,2150 415,2147 401,2100 401,2099 412,2008 414,1998 415,1995 418,1989 421,1985 426,1981 455,1966 459,1965 460,1965 513,1966 544,1977 549,1982 553,1988 558,1998 560,2003 562,2013 564,2026 565,2038 566,2054 566,2081">
+      <metadata tailDirection="none" confidence="0.0" id="MCCAY_LITTLENEMO_090_balloon_1" tailTip=""/>
+    </polygon>
+    <polygon points="507,1376 504,1396 503,1399 501,1403 498,1408 488,1420 485,1422 481,1424 444,1441 348,1433 343,1432 340,1430 337,1427 336,1424 335,1420 334,1390 332,1325 331,1288 331,1285 333,1276 335,1272 336,1271 339,1269 341,1268 350,1264 432,1264 491,1269 497,1271 502,1275 504,1291 505,1306 506,1324 507,1351 507,1376">
+      <metadata tailDirection="none" confidence="0.0" id="MCCAY_LITTLENEMO_090_balloon_2" tailTip=""/>
+    </polygon>
+    <polygon points="2679,1291 2644,1297 2539,1293 2473,1289 2467,1288 2460,1286 2457,1285 2452,1283 2448,1281 2393,1226 2391,1223 2374,1186 2460,1063 2462,1062 2513,1062 2633,1092 2649,1100 2653,1103 2655,1105 2657,1108 2660,1113 2662,1117 2665,1126 2666,1130 2671,1175 2679,1290 2679,1291">
+      <metadata tailDirection="NE" confidence="0.0" id="MCCAY_LITTLENEMO_090_balloon_3" tailTip="2460,1063"/>
+    </polygon>
+    <polygon points="2553,516 2536,535 2534,536 2531,537 2506,540 2469,542 2417,544 2409,544 2368,530 2358,525 2353,520 2351,517 2350,515 2329,441 2338,334 2340,324 2341,320 2346,308 2354,299 2356,297 2362,294 2384,292 2461,289 2523,289 2527,290 2530,291 2534,294 2537,297 2540,301 2544,309 2546,316 2551,337 2552,344 2553,359 2553,516">
+      <metadata tailDirection="NE" confidence="0.0" id="MCCAY_LITTLENEMO_090_balloon_4" tailTip="2553,516"/>
+    </polygon>
+  </svg>
+</svg>

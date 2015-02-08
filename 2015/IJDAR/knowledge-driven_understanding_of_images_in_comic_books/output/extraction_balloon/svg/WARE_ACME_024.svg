@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="4483" xmlns="http://www.w3.org/2000/svg" version="1.0" height="2623">
+  <title>WARE_ACME_024</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="4483" height="2623" xlink:href="../Pages/WARE_ACME_024.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="2049,2354 2045,2375 2044,2378 2043,2380 2038,2385 2011,2404 1948,2384 1945,2383 1942,2381 1936,2375 1934,2371 1933,2368 1932,2364 1932,2352 1935,2346 1937,2344 1946,2339 1949,2338 1953,2337 1962,2337 2031,2340 2035,2341 2038,2342 2044,2345 2045,2346 2047,2349 2049,2353 2049,2354">
+      <metadata tailDirection="SE" confidence="0.0" id="WARE_ACME_024_balloon_0" tailTip="2011,2404"/>
+    </polygon>
+    <polygon points="875,2553 874,2554 842,2555 645,2555 643,2553 642,2546 641,2445 640,2336 640,2321 641,2305 642,2304 654,2303 872,2303 873,2304 874,2306 875,2514 875,2553">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_1" tailTip=""/>
+    </polygon>
+    <polygon points="866,2467 865,2539 864,2545 767,2545 766,2544 755,2527 754,2474 754,2425 864,2420 865,2420 866,2466 866,2467">
+      <metadata tailDirection="S" confidence="0.0" id="WARE_ACME_024_balloon_2" tailTip="755,2527"/>
+    </polygon>
+    <polygon points="865,2409 864,2413 860,2417 856,2419 663,2419 658,2417 654,2415 652,2413 651,2411 650,2384 650,2314 703,2313 864,2313 865,2367 865,2409">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_3" tailTip=""/>
+    </polygon>
+    <polygon points="622,2412 620,2414 614,2417 611,2418 606,2418 490,2417 430,2416 420,2415 416,2413 411,2408 407,2403 407,2401 408,2313 620,2313 621,2314 622,2335 622,2412">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_4" tailTip=""/>
+    </polygon>
+    <polygon points="1638,2550 1637,2552 1636,2553 1634,2554 1417,2555 1415,2555 1411,2551 1411,2306 1412,2304 1414,2302 1416,2302 1634,2303 1637,2306 1638,2545 1638,2550">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_5" tailTip=""/>
+    </polygon>
+    <polygon points="1373,2397 1372,2416 1367,2421 1364,2422 1247,2422 1172,2421 1151,2420 1145,2418 1143,2417 1141,2415 1138,2410 1137,2394 1137,2324 1138,2312 1316,2312 1372,2313 1373,2314 1373,2397">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_6" tailTip=""/>
+    </polygon>
+    <polygon points="1111,2410 1110,2412 1108,2415 1104,2417 1101,2418 1034,2433 955,2434 916,2434 914,2433 892,2415 891,2414 890,2395 890,2325 891,2313 1020,2312 1110,2312 1111,2313 1111,2410">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_7" tailTip=""/>
+    </polygon>
+    <polygon points="2533,2402 2532,2403 2528,2406 2524,2408 2476,2409 2350,2409 2344,2408 2338,2405 2336,2403 2334,2400 2333,2331 2333,2314 2334,2313 2350,2312 2532,2312 2533,2330 2533,2402">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_8" tailTip=""/>
+    </polygon>
+    <polygon points="3046,2383 3044,2385 2897,2385 2895,2384 2894,2383 2894,2243 2895,2242 3030,2241 3034,2241 3043,2242 3045,2244 3046,2376 3046,2383">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_9" tailTip=""/>
+    </polygon>
+    <polygon points="2035,2176 2034,2178 2032,2180 2028,2182 2025,2183 1997,2184 1923,2183 1910,2182 1902,2180 1899,2179 1896,2176 1896,2115 1897,2114 1987,2113 1990,2113 2034,2114 2035,2123 2035,2176">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_10" tailTip=""/>
+    </polygon>
+    <polygon points="1882,2268 1881,2270 1880,2271 1728,2271 1726,2269 1725,2206 1724,2107 1727,2104 1879,2104 1881,2106 1882,2259 1882,2268">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_11" tailTip=""/>
+    </polygon>
+    <polygon points="1543,2182 1540,2188 1538,2191 1537,2192 1532,2195 1526,2197 1512,2197 1426,2196 1424,2195 1419,2190 1418,2186 1417,2144 1417,2118 1418,2114 1542,2114 1543,2115 1543,2182">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_12" tailTip=""/>
+    </polygon>
+    <polygon points="1399,2267 1397,2269 1277,2269 1246,2268 1243,2265 1242,2110 1242,2105 1243,2104 1396,2104 1398,2106 1399,2108 1399,2267">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_13" tailTip=""/>
+    </polygon>
+    <polygon points="2532,2131 2531,2151 2526,2159 2523,2162 2519,2165 2477,2191 2474,2192 2436,2193 2435,2193 2408,2192 2405,2191 2400,2188 2397,2186 2395,2184 2394,2181 2394,2112 2531,2112 2532,2129 2532,2131">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_14" tailTip=""/>
+    </polygon>
+    <polygon points="668,2104 667,2144 666,2146 662,2149 659,2151 653,2154 647,2156 512,2156 472,2145 428,2126 427,2125 426,2096 426,1996 659,1996 665,1997 666,1999 667,2008 668,2102 668,2104">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_15" tailTip=""/>
+    </polygon>
+    <polygon points="408,2257 407,2268 404,2271 360,2271 140,2270 137,2267 136,2264 135,2207 135,1991 136,1988 137,1987 139,1986 398,1986 400,1987 402,1989 403,1997 405,2048 406,2091 408,2239 408,2257">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_16" tailTip=""/>
+    </polygon>
+    <polygon points="397,2107 383,2128 381,2130 378,2132 337,2153 335,2154 309,2155 156,2157 153,2156 146,2149 145,2147 144,2144 143,2095 143,2057 144,2056 239,2055 396,2055 397,2059 397,2107">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_17" tailTip=""/>
+    </polygon>
+    <polygon points="1209,2077 1206,2083 1200,2089 1153,2113 1099,2114 978,2114 967,2113 964,2112 960,2110 957,2107 955,2104 954,2102 953,2063 953,1996 975,1995 1204,1995 1208,1996 1209,1997 1209,2077">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_18" tailTip=""/>
+    </polygon>
+    <polygon points="3043,1889 3042,1908 3038,1912 3032,1915 3028,1916 3019,1917 2787,1938 2737,1939 2731,1939 2713,1938 2702,1937 2696,1934 2662,1913 2657,1908 2655,1903 2654,1895 2654,1790 2655,1789 3040,1789 3041,1790 3042,1822 3043,1885 3043,1889">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_19" tailTip=""/>
+    </polygon>
+    <polygon points="3451,1897 3440,1908 3395,1937 3391,1939 3388,1940 3382,1941 3189,1942 3145,1942 3092,1932 3088,1931 3085,1930 3079,1927 3073,1922 3072,1921 3070,1918 3069,1916 3068,1896 3067,1815 3067,1811 3068,1789 3258,1788 3449,1788 3451,1790 3451,1897">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_20" tailTip=""/>
+    </polygon>
+    <polygon points="1552,2084 1551,2085 1549,2086 1452,2086 1245,2085 1242,2082 1241,1998 1240,1781 1240,1779 1241,1777 1243,1775 1304,1775 1524,1776 1548,1777 1549,1778 1550,1780 1552,2043 1552,2084">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_21" tailTip=""/>
+    </polygon>
+    <polygon points="647,1953 492,1953 491,1937 491,1788 492,1787 633,1786 647,1787 647,1953">
+      <metadata tailDirection="S" confidence="0.0" id="WARE_ACME_024_balloon_22" tailTip="492,1953"/>
+    </polygon>
+    <polygon points="306,1959 305,1961 304,1962 137,1962 135,1960 134,1952 133,1786 133,1782 134,1776 135,1775 180,1775 302,1776 304,1778 305,1781 306,1867 306,1959">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_23" tailTip=""/>
+    </polygon>
+    <polygon points="1019,1951 1017,1952 877,1954 875,1954 863,1953 857,1952 856,1934 856,1786 1018,1786 1019,1936 1019,1951">
+      <metadata tailDirection="W" confidence="0.0" id="WARE_ACME_024_balloon_24" tailTip="877,1954"/>
+    </polygon>
+    <polygon points="4299,1894 4297,1898 4295,1900 4292,1902 4290,1903 4214,1927 4185,1928 4076,1930 4013,1930 3933,1908 3927,1905 3923,1901 3922,1899 3920,1814 3920,1813 3921,1811 3923,1808 3926,1806 3928,1805 4181,1804 4291,1804 4293,1805 4297,1809 4298,1826 4299,1849 4299,1894">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_25" tailTip=""/>
+    </polygon>
+    <polygon points="2531,2069 2530,2073 2330,2074 2224,2074 2223,2069 2222,1977 2220,1787 2220,1785 2297,1784 2429,1783 2528,1783 2529,1811 2531,2034 2531,2069">
+      <metadata tailDirection="E" confidence="0.0" id="WARE_ACME_024_balloon_26" tailTip="2530,2073"/>
+    </polygon>
+    <polygon points="2235,1740 2233,1742 2136,1743 1940,1744 1928,1744 1927,1743 1926,1429 1926,1424 1928,1422 1930,1421 2227,1421 2230,1422 2231,1423 2232,1463 2235,1733 2235,1740">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_27" tailTip=""/>
+    </polygon>
+    <polygon points="2841,1552 2840,1563 2835,1568 2832,1570 2824,1574 2821,1575 2816,1576 2801,1577 2609,1578 2607,1578 2584,1577 2581,1576 2579,1575 2573,1571 2567,1563 2565,1560 2564,1544 2564,1431 2577,1430 2815,1430 2839,1431 2840,1432 2841,1471 2841,1552">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_28" tailTip=""/>
+    </polygon>
+    <polygon points="2536,1505 2535,1507 2531,1510 2474,1535 2319,1535 2312,1534 2309,1533 2257,1514 2255,1513 2255,1432 2257,1431 2441,1430 2511,1430 2535,1431 2536,1489 2536,1505">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_29" tailTip=""/>
+    </polygon>
+    <polygon points="3346,1537 3345,1538 3333,1548 3327,1551 3321,1553 3271,1553 3073,1539 3064,1538 3056,1535 3054,1534 3050,1531 3048,1529 3047,1519 3047,1432 3048,1431 3240,1430 3344,1430 3345,1437 3346,1498 3346,1537">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_30" tailTip=""/>
+    </polygon>
+    <polygon points="3679,1529 3677,1531 3672,1534 3665,1536 3539,1556 3527,1557 3487,1557 3437,1556 3401,1555 3394,1553 3391,1552 3385,1548 3383,1546 3379,1541 3378,1538 3377,1533 3376,1526 3376,1430 3637,1428 3678,1428 3679,1457 3679,1529">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_31" tailTip=""/>
+    </polygon>
+    <polygon points="1487,1567 1486,1576 1485,1579 1483,1583 1481,1586 1474,1593 1472,1594 1469,1595 1302,1596 1301,1596 1253,1595 1243,1594 1240,1593 1236,1591 1230,1587 1229,1586 1226,1582 1225,1580 1224,1577 1223,1572 1222,1513 1222,1453 1223,1450 1225,1446 1230,1441 1237,1440 1462,1440 1479,1441 1481,1442 1484,1445 1485,1447 1486,1452 1487,1567">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_32" tailTip=""/>
+    </polygon>
+    <polygon points="808,1568 807,1573 805,1575 802,1577 755,1608 750,1610 738,1611 689,1612 536,1612 519,1608 517,1607 513,1604 512,1603 510,1600 508,1596 507,1585 506,1549 505,1479 505,1451 507,1448 511,1444 515,1443 786,1442 792,1442 798,1444 800,1445 805,1448 807,1450 808,1482 808,1568">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_33" tailTip=""/>
+    </polygon>
+    <polygon points="472,1737 471,1739 470,1740 463,1741 270,1742 133,1742 131,1740 130,1678 128,1442 128,1416 129,1414 130,1413 132,1412 147,1411 150,1411 468,1412 469,1413 470,1498 472,1734 472,1737">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_34" tailTip=""/>
+    </polygon>
+    <polygon points="1146,1560 1145,1566 1143,1570 1142,1571 1135,1575 1122,1576 1023,1577 915,1576 913,1575 909,1571 907,1568 905,1564 904,1463 904,1452 905,1449 907,1446 913,1443 931,1442 1098,1441 1137,1441 1141,1445 1144,1449 1145,1451 1146,1517 1146,1560">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_35" tailTip=""/>
+    </polygon>
+    <polygon points="3040,1266 3039,1278 3037,1280 3031,1285 3027,1286 3014,1287 2893,1289 2877,1289 2865,1288 2860,1287 2855,1285 2849,1281 2848,1280 2847,1278 2846,1205 2846,1193 2847,1192 3039,1192 3040,1205 3040,1266">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_36" tailTip=""/>
+    </polygon>
+    <polygon points="3239,1333 3238,1345 3225,1357 3177,1386 3083,1387 3082,1387 3067,1386 3066,1374 3065,1303 3065,1192 3085,1191 3237,1191 3238,1193 3239,1333">
+      <metadata tailDirection="E" confidence="0.0" id="WARE_ACME_024_balloon_37" tailTip="3177,1386"/>
+    </polygon>
+    <polygon points="578,1382 575,1385 136,1386 131,1386 129,1385 128,1384 127,1382 125,1130 125,964 126,963 294,962 571,962 572,963 573,965 575,1067 576,1168 578,1379 578,1382">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_38" tailTip=""/>
+    </polygon>
+    <polygon points="546,1159 544,1165 540,1170 534,1176 529,1177 415,1178 406,1178 350,1177 347,1175 341,1169 339,1165 338,1160 337,1072 337,1071 341,1066 347,1062 349,1061 535,1061 538,1063 540,1065 544,1073 545,1077 546,1091 546,1159">
+      <metadata tailDirection="E" confidence="0.0" id="WARE_ACME_024_balloon_39" tailTip="415,1178"/>
+    </polygon>
+    <polygon points="2819,1155 2814,1165 2810,1171 2808,1173 2804,1176 2794,1181 2791,1182 2666,1204 2632,1204 2543,1203 2454,1180 2450,1178 2445,1174 2442,1171 2440,1168 2437,1162 2435,1156 2434,1075 2434,975 2435,971 2817,971 2818,987 2819,1044 2819,1155">
+      <metadata tailDirection="E" confidence="0.0" id="WARE_ACME_024_balloon_40" tailTip="2666,1204"/>
+    </polygon>
+    <polygon points="2419,1394 2417,1396 2351,1397 2044,1398 2015,1398 1931,1397 1928,1396 1926,1394 1922,970 1922,966 1924,964 1927,963 2121,962 2391,961 2411,961 2414,962 2416,964 2417,1091 2419,1362 2419,1394">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_41" tailTip=""/>
+    </polygon>
+    <polygon points="2392,1074 2391,1078 2390,1081 2386,1089 2381,1094 2378,1096 2376,1097 2367,1100 2348,1101 2237,1101 2051,1075 2047,1074 2045,1073 2042,1071 2038,1067 2036,1064 2035,1062 2033,1046 2033,985 2034,981 2036,977 2039,974 2041,973 2119,972 2325,971 2369,971 2376,972 2383,976 2387,980 2388,982 2390,988 2391,1007 2392,1047 2392,1074">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_42" tailTip=""/>
+    </polygon>
+    <polygon points="3237,1030 3236,1035 3234,1039 3232,1041 3229,1043 3225,1045 3186,1063 3151,1064 3123,1064 3099,1063 3093,1061 3091,1060 3065,1043 3064,1042 3064,971 3065,970 3080,969 3235,969 3236,970 3237,990 3237,1030">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_43" tailTip=""/>
+    </polygon>
+    <polygon points="1459,1057 1458,1080 1457,1084 1454,1088 1453,1089 1448,1093 1446,1094 1432,1095 1177,1096 1152,1096 1130,1095 1104,1076 1102,1074 1101,1051 1100,1000 1100,995 1101,992 1103,988 1109,984 1132,983 1446,983 1451,984 1455,988 1457,992 1458,1017 1459,1050 1459,1057">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_44" tailTip=""/>
+    </polygon>
+    <polygon points="3642,1114 3641,1117 3638,1122 3637,1123 3631,1127 3629,1128 3622,1129 3430,1131 3329,1131 3314,1130 3306,1129 3302,1127 3299,1125 3296,1122 3292,1114 3292,1021 3293,1015 3295,1011 3298,1008 3303,1004 3308,1002 3541,1000 3623,1000 3633,1002 3635,1003 3637,1005 3639,1009 3640,1017 3641,1030 3642,1059 3642,1114">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_45" tailTip=""/>
+    </polygon>
+    <polygon points="935,719 934,757 933,759 930,763 929,764 926,766 918,770 915,771 911,772 867,773 726,773 720,772 717,771 713,769 707,765 705,763 703,760 701,756 700,741 700,685 701,664 702,663 931,662 933,662 934,665 935,718 935,719">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_46" tailTip=""/>
+    </polygon>
+    <polygon points="674,743 669,748 667,749 587,773 545,774 544,774 473,773 455,772 452,771 444,767 440,764 433,757 432,754 432,663 672,663 673,664 674,666 674,743">
+      <metadata tailDirection="E" confidence="0.0" id="WARE_ACME_024_balloon_47" tailTip="587,773"/>
+    </polygon>
+    <polygon points="414,918 413,919 411,920 131,922 129,921 128,920 127,843 126,730 126,710 127,668 128,654 129,653 131,653 408,654 410,656 412,708 413,777 414,912 414,918">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_48" tailTip=""/>
+    </polygon>
+    <polygon points="1210,724 1206,728 1203,730 1032,731 1002,731 982,730 975,729 970,727 966,724 964,722 962,719 962,663 963,662 1209,662 1210,663 1210,724">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_49" tailTip=""/>
+    </polygon>
+    <polygon points="3296,650 3286,665 3281,671 3275,677 3182,727 3175,728 3041,729 3036,729 3011,728 3003,727 3000,726 2994,723 2988,717 2986,714 2985,700 2985,589 3078,588 3295,588 3296,589 3296,650">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_50" tailTip=""/>
+    </polygon>
+    <polygon points="2920,683 2919,689 2917,693 2915,696 2913,698 2911,699 2830,727 2669,727 2663,725 2656,721 2653,718 2651,715 2650,704 2649,679 2649,609 2650,589 2651,588 2673,588 2878,589 2880,590 2884,594 2915,636 2919,644 2920,658 2920,683">
+      <metadata tailDirection="E" confidence="0.0" id="WARE_ACME_024_balloon_51" tailTip="2911,699"/>
+    </polygon>
+    <polygon points="3639,743 3638,744 3616,762 3608,766 3605,767 3455,768 3453,768 3445,767 3343,748 3337,746 3332,743 3328,739 3326,736 3325,734 3324,644 3324,589 3325,588 3435,587 3619,586 3621,586 3636,587 3637,588 3638,598 3639,705 3639,743">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_52" tailTip=""/>
+    </polygon>
+    <polygon points="4306,716 4305,717 4149,728 4023,728 4019,727 4013,725 4005,721 4000,716 3999,714 3998,697 3997,639 3997,586 3998,585 4303,585 4304,587 4306,704 4306,716">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_53" tailTip=""/>
+    </polygon>
+    <polygon points="2073,606 2071,610 2069,613 2067,615 2062,618 2056,619 1936,620 1730,621 1729,621 1724,620 1719,618 1717,617 1714,615 1711,612 1709,609 1708,606 1707,528 1707,512 1709,508 1713,504 1715,503 1932,502 2062,502 2066,504 2070,508 2071,510 2072,513 2073,540 2073,606">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_54" tailTip=""/>
+    </polygon>
+    <polygon points="1672,916 1671,918 1670,919 1627,920 1326,920 1248,919 1246,918 1245,917 1244,915 1242,480 1242,479 1243,477 1246,474 1251,474 1484,475 1667,476 1669,478 1670,531 1672,905 1672,916">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_55" tailTip=""/>
+    </polygon>
+    <polygon points="2533,903 2531,912 2530,913 2528,914 2475,915 2361,916 2220,917 2116,917 2114,915 2111,644 2110,481 2110,477 2112,475 2523,471 2525,472 2527,474 2528,476 2529,508 2533,881 2533,903">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_56" tailTip=""/>
+    </polygon>
+    <polygon points="2500,689 2499,696 2498,699 2495,706 2494,708 2492,711 2487,716 2484,718 2478,719 2468,720 2376,720 2315,719 2150,688 2148,687 2144,683 2140,677 2139,675 2137,669 2136,515 2136,512 2137,507 2143,501 2439,499 2485,499 2491,502 2496,507 2498,512 2499,544 2500,651 2500,689">
+      <metadata tailDirection="E" confidence="0.0" id="WARE_ACME_024_balloon_57" tailTip="2315,719"/>
+    </polygon>
+    <polygon points="3668,448 3667,457 3663,461 3605,464 3551,464 3492,463 3487,462 3485,461 3482,459 3480,457 3478,453 3476,416 3476,415 3478,357 3483,356 3653,355 3666,355 3667,356 3668,359 3668,448">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_58" tailTip=""/>
+    </polygon>
+    <polygon points="3046,550 3044,552 2551,552 2550,551 2549,547 2546,151 2546,141 2547,140 2566,140 3042,142 3043,143 3044,145 3046,452 3046,550">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_59" tailTip=""/>
+    </polygon>
+    <polygon points="3034,289 3031,295 3024,302 3018,306 3015,307 2828,308 2769,308 2765,307 2761,305 2760,304 2667,195 2666,193 2665,160 2665,158 2666,155 2668,152 2669,151 3032,151 3033,152 3034,163 3034,289">
+      <metadata tailDirection="S" confidence="0.0" id="WARE_ACME_024_balloon_60" tailTip="2760,304"/>
+    </polygon>
+    <polygon points="3448,289 3447,293 3439,301 3433,303 3325,304 3147,305 3087,305 3081,302 3074,296 3073,295 3069,290 3066,286 3065,284 3062,277 3061,259 3061,165 3062,151 3206,150 3446,150 3447,162 3448,241 3448,289">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_61" tailTip=""/>
+    </polygon>
+    <polygon points="3832,194 3831,197 3830,199 3827,202 3825,203 3754,204 3719,204 3716,203 3709,196 3707,192 3708,154 3709,150 3711,148 3821,148 3827,151 3828,152 3830,156 3831,161 3832,194">
+      <metadata tailDirection="none" confidence="0.0" id="WARE_ACME_024_balloon_62" tailTip=""/>
+    </polygon>
+    <polygon points="4264,244 4263,247 4261,251 4256,256 4253,258 4249,260 4246,261 4148,284 4064,284 3934,262 3927,260 3922,255 3921,253 3920,244 3919,228 3918,182 3918,181 3919,178 3925,172 3930,170 4242,169 4244,169 4249,170 4254,172 4256,173 4260,177 4261,179 4263,188 4264,200 4264,244">
+      <metadata tailDirection="E" confidence="0.0" id="WARE_ACME_024_balloon_63" tailTip="4148,284"/>
+    </polygon>
+  </svg>
+</svg>

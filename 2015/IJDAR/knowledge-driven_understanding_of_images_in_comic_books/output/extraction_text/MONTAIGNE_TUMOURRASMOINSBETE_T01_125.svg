@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="509" xmlns="http://www.w3.org/2000/svg" version="1.0" height="924">
+  <title>MONTAIGNE_TUMOURRASMOINSBETE_T01_125</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="509" height="924" xlink:href="../Pages/MONTAIGNE_TUMOURRASMOINSBETE_T01_125.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Line" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="428,779 473,779 473,795 428,795 428,779">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_0">Mn </metadata>
+    </polygon>
+    <polygon points="124,773 158,773 158,787 124,787 124,773">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_1">du</metadata>
+    </polygon>
+    <polygon points="240,766 289,766 289,784 240,784 240,766">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_2">0.55</metadata>
+    </polygon>
+    <polygon points="64,750 121,750 121,781 64,781 64,750">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_3"> 77</metadata>
+    </polygon>
+    <polygon points="343,746 394,746 394,763 343,763 343,746">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_4">Mm</metadata>
+    </polygon>
+    <polygon points="132,725 173,725 173,740 132,740 132,725">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_5">nff   </metadata>
+    </polygon>
+    <polygon points="242,724 321,724 321,738 242,738 242,724">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_6">1      .  .   1.  </metadata>
+    </polygon>
+    <polygon points="298,637 359,637 359,653 298,653 298,637">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_7"> n L  L   I</metadata>
+    </polygon>
+    <polygon points="298,616 359,616 359,632 298,632 298,616">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_8">    b  t  f</metadata>
+    </polygon>
+    <polygon points="102,605 157,605 157,623 102,623 102,605">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_9">EW  Q</metadata>
+    </polygon>
+    <polygon points="99,581 228,581 228,609 99,609 99,581">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_10">n            95</metadata>
+    </polygon>
+    <polygon points="114,571 146,571 146,585 114,585 114,571">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_11">r    v </metadata>
+    </polygon>
+    <polygon points="189,562 273,562 273,589 189,589 189,562">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_12">Ul   L.    </metadata>
+    </polygon>
+    <polygon points="125,387 228,387 228,414 125,414 125,387">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_13">  A E    </metadata>
+    </polygon>
+    <polygon points="183,369 247,369 247,390 183,390 183,369">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_14">IQ </metadata>
+    </polygon>
+    <polygon points="229,345 278,345 278,363 229,363 229,345">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_15">N71</metadata>
+    </polygon>
+    <polygon points="97,296 269,296 269,312 97,312 97,296">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_16">gr a mae nzzcfuuzw.</metadata>
+    </polygon>
+    <polygon points="100,276 277,276 277,294 100,294 100,276">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_17">P    v w L  FI  HE K.</metadata>
+    </polygon>
+    <polygon points="276,269 495,269 495,288 276,288 276,269">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_18">es   mn uuov  vwzesszuks</metadata>
+    </polygon>
+    <polygon points="103,254 358,254 358,275 103,275 103,254">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_19">mms Sow   gf Cnsfae  Divine</metadata>
+    </polygon>
+    <polygon points="347,251 499,251 499,265 347,265 347,251">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_20">n    v H w  nauenzw</metadata>
+    </polygon>
+    <polygon points="263,64 314,64 314,78 263,78 263,64">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_21">bgg   5</metadata>
+    </polygon>
+    <polygon points="139,50 178,50 178,64 139,64 139,50">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_22">Mbk</metadata>
+    </polygon>
+    <polygon points="209,39 381,39 381,57 209,57 209,39">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_125_line_23">nu1ouRO wL    Zs r</metadata>
+    </polygon>
+  </svg>
+</svg>

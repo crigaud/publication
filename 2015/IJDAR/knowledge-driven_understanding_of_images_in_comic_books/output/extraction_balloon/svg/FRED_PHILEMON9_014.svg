@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2480" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3508">
+  <title>FRED_PHILEMON9_014</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2480" height="3508" xlink:href="../Pages/FRED_PHILEMON9_014.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="261,2660 215,3001 209,3045 208,3052 143,3046 137,3045 128,3042 125,3039 124,3016 124,2893 125,2867 160,2668 161,2663 173,2605 174,2604 175,2604 260,2659 261,2660">
+      <metadata tailDirection="NE" confidence="0.0" id="FRED_PHILEMON9_014_balloon_0" tailTip="260,2659"/>
+    </polygon>
+    <polygon points="651,2222 650,2234 649,2244 648,2251 646,2261 643,2274 641,2280 635,2294 630,2304 623,2313 617,2319 605,2327 596,2332 589,2335 578,2339 567,2342 555,2344 454,2359 421,2297 418,2291 416,2285 415,2281 414,2276 412,2265 411,2258 410,2250 410,2223 411,2213 413,2197 417,2179 419,2173 421,2168 424,2161 428,2153 431,2148 433,2145 438,2139 446,2131 454,2124 458,2121 467,2115 477,2111 489,2107 508,2103 526,2101 559,2101 565,2102 570,2103 582,2106 588,2108 593,2110 603,2115 608,2118 611,2120 620,2127 630,2137 636,2145 638,2148 641,2154 643,2159 646,2168 648,2176 649,2181 650,2188 651,2196 651,2222">
+      <metadata tailDirection="none" confidence="0.0" id="FRED_PHILEMON9_014_balloon_1" tailTip=""/>
+    </polygon>
+    <polygon points="617,2017 615,2028 613,2034 608,2042 604,2047 602,2049 599,2051 589,2057 587,2058 570,2066 565,2068 395,2106 380,2106 372,2104 350,2095 445,1980 450,1974 465,1959 471,1954 477,1950 489,1943 491,1942 496,1940 503,1938 508,1937 529,1937 536,1938 551,1943 563,1949 568,1952 574,1956 604,1980 607,1983 612,1990 615,1996 616,2000 617,2006 617,2017">
+      <metadata tailDirection="W" confidence="0.0" id="FRED_PHILEMON9_014_balloon_2" tailTip="350,2095"/>
+    </polygon>
+    <polygon points="1192,2338 1049,2421 902,2422 891,2422 837,2421 830,2420 824,2419 819,2418 801,2414 786,2409 769,2403 761,2400 749,2395 741,2391 731,2384 726,2380 716,2370 710,2362 706,2356 703,2350 702,2225 702,2108 703,2102 705,2095 707,2090 712,2078 721,2060 727,2049 730,2044 732,2041 743,2025 748,2018 752,2013 767,1995 782,1980 791,1973 797,1969 809,1962 819,1957 830,1952 839,1949 846,1947 875,1939 879,1938 884,1937 901,1935 912,1934 943,1934 958,1935 963,1936 976,1939 982,1941 989,1944 1000,1951 1012,1959 1016,1962 1022,1967 1027,1972 1033,1979 1048,2001 1050,2004 1067,2040 1176,2280 1180,2294 1189,2326 1192,2337 1192,2338">
+      <metadata tailDirection="SE" confidence="0.0" id="FRED_PHILEMON9_014_balloon_3" tailTip="1192,2338"/>
+    </polygon>
+    <polygon points="1833,3191 1289,2753 1288,2740 1286,2408 1285,2210 1285,1936 1286,1933 1287,1931 1290,1931 1310,1932 1317,1936 1831,2333 1832,2511 1833,2694 1833,3191">
+      <metadata tailDirection="N" confidence="0.0" id="FRED_PHILEMON9_014_balloon_4" tailTip="1317,1936"/>
+    </polygon>
+    <polygon points="2350,2572 2122,2435 2124,2010 2128,2004 2144,1991 2146,1990 2148,1991 2192,2021 2207,2032 2210,2035 2270,2233 2342,2537 2350,2571 2350,2572">
+      <metadata tailDirection="SW" confidence="0.0" id="FRED_PHILEMON9_014_balloon_5" tailTip="2122,2435"/>
+    </polygon>
+    <polygon points="1207,517 1206,522 1205,526 1203,533 1202,536 1198,547 1196,552 1191,562 1184,569 1178,574 1170,580 1155,590 1149,593 1139,597 1127,601 951,650 941,650 865,578 861,574 851,561 848,555 846,550 845,547 844,543 839,504 839,493 841,488 846,478 851,471 854,467 856,465 862,460 866,457 872,453 891,442 893,441 915,435 920,434 930,433 956,433 1079,435 1090,436 1109,438 1123,440 1158,447 1164,449 1169,451 1173,453 1186,461 1189,463 1196,470 1201,480 1204,488 1205,491 1207,499 1207,517">
+      <metadata tailDirection="S" confidence="0.0" id="FRED_PHILEMON9_014_balloon_6" tailTip="941,650"/>
+    </polygon>
+  </svg>
+</svg>

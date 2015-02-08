@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2413" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3445">
+  <title>MIDAM_GAMEOVER_T05_004</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2413" height="3445" xlink:href="../Pages/MIDAM_GAMEOVER_T05_004.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="743,428 742,432 740,438 739,440 737,443 734,447 727,455 724,458 632,547 619,559 612,564 611,564 372,510 364,508 358,506 350,503 346,501 337,495 330,489 327,486 317,473 313,467 309,460 308,458 306,453 304,446 303,441 302,435 302,427 303,421 304,418 307,411 308,409 318,397 324,390 335,379 346,373 350,371 370,363 378,360 422,349 432,347 464,342 483,340 497,339 517,338 540,337 614,337 628,338 636,339 659,344 666,346 669,347 678,351 692,358 700,364 716,377 717,378 724,386 730,393 734,399 739,407 742,412 743,416 743,428">
+      <metadata tailDirection="SW" confidence="0.0" id="MIDAM_GAMEOVER_T05_004_balloon_0" tailTip="611,564"/>
+    </polygon>
+    <polygon points="1735,394 1734,399 1700,533 1687,533 1436,499 1418,496 1410,494 1400,491 1392,487 1388,484 1376,472 1369,463 1365,457 1361,450 1359,446 1357,441 1354,432 1351,420 1351,409 1352,403 1353,398 1356,390 1359,386 1368,377 1388,362 1397,357 1408,351 1421,345 1438,338 1456,332 1480,326 1501,322 1522,319 1560,316 1605,315 1606,315 1631,317 1639,318 1645,319 1650,320 1659,322 1666,324 1674,327 1681,330 1687,333 1692,336 1706,345 1720,356 1729,364 1730,365 1732,369 1733,372 1735,379 1735,394">
+      <metadata tailDirection="S" confidence="0.0" id="MIDAM_GAMEOVER_T05_004_balloon_1" tailTip="1700,533"/>
+    </polygon>
+  </svg>
+</svg>

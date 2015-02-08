@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2326" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3297">
+  <title>JOLIVET_BOSTONPOLICEAFFAIREPRADI_021</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2326" height="3297" xlink:href="../Pages/JOLIVET_BOSTONPOLICEAFFAIREPRADI_021.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="378,2464 377,2470 374,2479 373,2481 369,2488 365,2493 356,2502 352,2505 347,2508 335,2514 329,2516 322,2518 318,2519 308,2521 300,2522 288,2523 258,2523 207,2522 180,2483 176,2475 175,2472 173,2464 173,2449 175,2442 178,2436 182,2430 185,2426 194,2417 199,2413 202,2411 212,2405 222,2401 228,2399 232,2398 242,2396 248,2395 263,2394 274,2394 293,2395 307,2397 316,2399 320,2400 332,2404 341,2408 343,2409 348,2412 354,2416 360,2421 368,2429 371,2433 374,2438 377,2445 378,2450 378,2464">
+      <metadata tailDirection="none" confidence="0.0" id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_021_balloon_0" tailTip=""/>
+    </polygon>
+    <polygon points="458,1463 426,1577 424,1581 422,1584 318,1710 220,1628 212,1620 160,1566 152,1557 144,1547 139,1540 134,1532 132,1528 131,1524 131,1519 132,1517 161,1467 162,1466 405,1458 446,1458 454,1459 458,1460 458,1463">
+      <metadata tailDirection="S" confidence="0.0" id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_021_balloon_1" tailTip="318,1710"/>
+    </polygon>
+    <polygon points="1559,225 1557,231 1554,238 1553,240 1547,249 1539,259 1528,270 1516,280 1509,285 1500,291 1495,294 1488,298 1468,308 1461,311 1456,313 1322,361 1235,305 1229,301 1222,296 1218,293 1206,281 1202,276 1198,270 1194,262 1193,259 1192,254 1192,247 1193,240 1194,236 1197,227 1200,221 1204,214 1210,206 1222,194 1227,190 1231,187 1240,181 1245,178 1253,174 1264,169 1269,167 1280,163 1290,160 1306,156 1316,154 1328,152 1352,149 1364,148 1407,148 1427,149 1438,150 1447,151 1454,152 1467,154 1477,156 1489,159 1507,165 1512,167 1532,177 1535,179 1539,182 1548,190 1554,198 1556,202 1558,207 1559,211 1559,225">
+      <metadata tailDirection="none" confidence="0.0" id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_021_balloon_2" tailTip=""/>
+    </polygon>
+  </svg>
+</svg>

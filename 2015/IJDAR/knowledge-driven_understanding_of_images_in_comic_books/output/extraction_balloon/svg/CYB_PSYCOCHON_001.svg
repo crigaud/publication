@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="749" xmlns="http://www.w3.org/2000/svg" version="1.0" height="848">
+  <title>CYB_PSYCOCHON_001</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="749" height="848" xlink:href="../Pages/CYB_PSYCOCHON_001.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="545,348 544,355 542,361 540,366 537,371 535,374 524,385 515,391 459,421 410,390 404,386 399,382 393,376 389,370 384,360 382,352 382,341 384,333 389,323 391,320 395,315 399,311 404,307 410,303 422,297 430,294 437,292 448,290 459,289 468,289 479,290 489,292 493,293 502,296 507,298 513,301 518,304 521,306 525,309 534,318 537,322 540,327 542,332 544,338 545,346 545,348">
+      <metadata tailDirection="SE" confidence="0.0" id="CYB_PSYCOCHON_001_balloon_0" tailTip="459,421"/>
+    </polygon>
+    <polygon points="530,81 529,87 527,93 525,97 521,103 515,109 511,112 508,114 503,117 461,140 422,115 416,111 411,107 409,105 406,101 404,98 401,92 399,86 399,73 401,67 404,61 406,58 415,49 419,46 424,43 430,40 435,38 442,36 452,34 477,34 482,35 486,36 493,38 498,40 508,45 511,47 516,51 520,55 523,59 525,62 527,66 529,72 530,78 530,81">
+      <metadata tailDirection="S" confidence="0.0" id="CYB_PSYCOCHON_001_balloon_1" tailTip="461,140"/>
+    </polygon>
+  </svg>
+</svg>

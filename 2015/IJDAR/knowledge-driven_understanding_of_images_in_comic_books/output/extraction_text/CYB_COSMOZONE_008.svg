@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="569" xmlns="http://www.w3.org/2000/svg" version="1.0" height="661">
+  <title>CYB_COSMOZONE_008</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="569" height="661" xlink:href="../Pages/CYB_COSMOZONE_008.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Line" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="299,603 402,603 402,623 299,623 299,603">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_0">NLG </metadata>
+    </polygon>
+    <polygon points="441,585 498,585 498,606 441,606 441,585">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_1">ff  W</metadata>
+    </polygon>
+    <polygon points="448,569 486,569 486,583 448,583 448,569">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_2">il</metadata>
+    </polygon>
+    <polygon points="502,517 555,517 555,534 502,534 502,517">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_3">ma </metadata>
+    </polygon>
+    <polygon points="413,425 475,425 475,439 413,439 413,425">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_4">nom  e bn</metadata>
+    </polygon>
+    <polygon points="420,411 476,411 476,427 420,427 420,411">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_5">surf  u   Q</metadata>
+    </polygon>
+    <polygon points="441,400 479,400 479,413 441,413 441,400">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_6"> e vas</metadata>
+    </polygon>
+    <polygon points="18,598 77,598 77,616 18,616 18,598">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_7"> HLU</metadata>
+    </polygon>
+    <polygon points="299,321 358,321 358,335 299,335 299,321">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_8">El L   </metadata>
+    </polygon>
+    <polygon points="456,315 553,315 553,341 456,341 456,315">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_9">ED  </metadata>
+    </polygon>
+    <polygon points="447,304 499,304 499,322 447,322 447,304">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_10">..</metadata>
+    </polygon>
+    <polygon points="506,238 557,238 557,253 506,253 506,238">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_11">ng.</metadata>
+    </polygon>
+    <polygon points="347,164 436,164 436,178 347,178 347,164">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_12">n      w  r  r  a    </metadata>
+    </polygon>
+    <polygon points="348,156 406,156 406,168 348,168 348,156">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_13">vous pas</metadata>
+    </polygon>
+    <polygon points="366,210 402,210 402,230 366,230 366,210">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_14">Ja</metadata>
+    </polygon>
+    <polygon points="313,142 466,142 466,156 313,156 313,142">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_15">lamms ane .Ne  mm ez</metadata>
+    </polygon>
+    <polygon points="308,131 477,131 477,143 308,143 308,131">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_16">nersonne avant nous west</metadata>
+    </polygon>
+    <polygon points="306,118 442,118 442,131 306,131 306,118">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_17">ue was  poser  e med</metadata>
+    </polygon>
+    <polygon points="307,106 411,106 411,118 307,118 307,106">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_18">renwmrer want</metadata>
+    </polygon>
+    <polygon points="330,94 399,94 399,107 330,107 330,94">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_19">E  n      rer le</metadata>
+    </polygon>
+    <polygon points="167,310 272,310 272,344 167,344 167,310">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_20">7.     .   l  </metadata>
+    </polygon>
+    <polygon points="76,247 127,247 127,278 76,278 76,247">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_21">Qi</metadata>
+    </polygon>
+    <polygon points="161,259 304,259 304,293 161,293 161,259">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_22">      l   IE</metadata>
+    </polygon>
+    <polygon points="49,150 136,150 136,162 49,162 49,150">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_23">commandam</metadata>
+    </polygon>
+    <polygon points="30,138 153,138 153,150 30,150 30,138">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_24">vers vmhm mwnnu</metadata>
+    </polygon>
+    <polygon points="142,128 163,128 163,138 142,138 142,128">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_25">uns</metadata>
+    </polygon>
+    <polygon points="25,126 129,126 129,140 25,140 25,126">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_26">nous  M  mx</metadata>
+    </polygon>
+    <polygon points="36,114 153,114 153,126 36,126 36,114">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_27">heures wsmuques</metadata>
+    </polygon>
+    <polygon points="26,101 162,101 162,113 26,113 26,101">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_28">Dans mms ne mme</metadata>
+    </polygon>
+    <polygon points="159,50 230,50 230,68 159,68 159,50">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_29"> 5F    eme</metadata>
+    </polygon>
+    <polygon points="23,38 192,38 192,62 23,62 23,38">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="CYB_COSMOZONE_008_line_30">g1  Udf  wwg</metadata>
+    </polygon>
+  </svg>
+</svg>

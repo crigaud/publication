@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2480" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3508">
+  <title>FRED_PHILEMON12_006</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2480" height="3508" xlink:href="../Pages/FRED_PHILEMON12_006.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="1110,2216 1109,2219 1106,2226 1104,2230 1101,2235 966,2418 965,2419 694,2250 688,2244 685,2240 683,2236 681,2229 681,2219 682,2214 686,2206 693,2196 697,2191 705,2183 710,2179 718,2173 727,2167 742,2158 744,2157 752,2154 761,2151 769,2149 809,2140 819,2138 847,2134 861,2133 888,2132 917,2132 934,2133 950,2134 969,2136 974,2137 996,2143 1031,2153 1044,2157 1049,2159 1071,2170 1077,2174 1087,2181 1092,2185 1102,2195 1105,2199 1108,2204 1110,2208 1110,2216">
+      <metadata tailDirection="S" confidence="0.0" id="FRED_PHILEMON12_006_balloon_0" tailTip="965,2419"/>
+    </polygon>
+    <polygon points="1118,2177 1098,2178 814,2132 605,1825 636,1808 729,1808 1080,1809 1116,1822 1117,1823 1118,2171 1118,2177">
+      <metadata tailDirection="SW" confidence="0.0" id="FRED_PHILEMON12_006_balloon_1" tailTip="814,2132"/>
+    </polygon>
+    <polygon points="1096,918 1095,924 1094,929 1093,932 1091,937 1090,939 1087,943 944,1069 740,952 735,949 730,944 724,934 723,932 721,924 721,907 722,902 725,896 728,891 735,883 751,867 770,854 776,850 781,847 787,844 803,837 808,835 811,834 833,827 859,822 900,817 909,816 923,815 974,815 987,816 1001,818 1029,823 1035,825 1051,831 1065,837 1068,839 1073,843 1077,847 1085,859 1087,863 1091,875 1096,897 1096,918">
+      <metadata tailDirection="S" confidence="0.0" id="FRED_PHILEMON12_006_balloon_2" tailTip="944,1069"/>
+    </polygon>
+    <polygon points="2291,2259 2237,2588 2231,2607 1164,3019 1159,3020 1158,3007 1157,2974 1156,2868 1154,1823 1154,1820 1155,1818 1167,1805 1168,1804 2135,1804 2226,1805 2290,1819 2291,1820 2291,2259">
+      <metadata tailDirection="SE" confidence="0.0" id="FRED_PHILEMON12_006_balloon_3" tailTip="2231,2607"/>
+    </polygon>
+    <polygon points="1713,773 1672,951 1364,1735 1347,1769 1252,1769 1153,1736 1152,1560 1151,1039 1150,427 1150,421 1158,346 1429,344 1604,343 1606,343 1607,344 1665,424 1713,772 1713,773">
+      <metadata tailDirection="N" confidence="0.0" id="FRED_PHILEMON12_006_balloon_4" tailTip="1713,772"/>
+    </polygon>
+  </svg>
+</svg>

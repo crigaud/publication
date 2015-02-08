@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="569" xmlns="http://www.w3.org/2000/svg" version="1.0" height="661">
+  <title>CYB_COSMOZONE_014</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="569" height="661" xlink:href="../Pages/CYB_COSMOZONE_014.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="424,440 422,445 419,451 414,457 410,461 388,478 339,466 332,464 329,463 324,461 320,458 316,454 314,451 311,445 310,442 310,429 314,421 321,413 324,410 333,404 338,401 347,398 357,396 363,395 380,395 389,396 395,397 399,398 402,399 407,402 411,405 417,411 419,414 421,418 423,424 424,428 424,440">
+      <metadata tailDirection="SE" confidence="0.0" id="CYB_COSMOZONE_014_balloon_0" tailTip="388,478"/>
+    </polygon>
+    <polygon points="143,563 138,605 110,606 83,606 18,603 10,588 8,584 8,545 9,522 17,505 27,503 77,503 126,546 143,563">
+      <metadata tailDirection="SE" confidence="0.0" id="CYB_COSMOZONE_014_balloon_1" tailTip="126,546"/>
+    </polygon>
+    <polygon points="171,409 167,421 164,426 160,431 154,436 150,439 148,440 83,470 25,445 23,444 19,441 13,436 9,431 9,373 10,370 161,370 163,373 168,383 170,391 171,397 171,409">
+      <metadata tailDirection="S" confidence="0.0" id="CYB_COSMOZONE_014_balloon_2" tailTip="83,470"/>
+    </polygon>
+    <polygon points="558,149 473,304 377,317 368,318 316,317 298,293 296,290 295,288 293,282 293,257 295,253 333,178 466,130 496,129 558,128 558,149">
+      <metadata tailDirection="SW" confidence="0.0" id="CYB_COSMOZONE_014_balloon_3" tailTip="295,253"/>
+    </polygon>
+    <polygon points="462,130 460,137 457,143 455,146 452,150 448,154 441,160 435,164 431,166 426,168 369,190 310,166 308,165 302,161 294,153 293,147 293,143 294,91 295,90 452,90 454,92 459,102 460,105 461,109 462,114 462,130">
+      <metadata tailDirection="S" confidence="0.0" id="CYB_COSMOZONE_014_balloon_4" tailTip="369,190"/>
+    </polygon>
+    <polygon points="233,124 223,178 192,300 191,303 189,304 87,304 11,287 10,279 10,108 11,90 213,90 214,91 232,115 233,124">
+      <metadata tailDirection="W" confidence="0.0" id="CYB_COSMOZONE_014_balloon_5" tailTip="10,279"/>
+    </polygon>
+  </svg>
+</svg>

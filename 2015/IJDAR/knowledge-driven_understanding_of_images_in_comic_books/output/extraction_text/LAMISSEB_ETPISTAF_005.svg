@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" xmlns="http://www.w3.org/2000/svg" version="1.0" height="301">
+  <title>LAMISSEB_ETPISTAF_005</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="800" height="301" xlink:href="../Pages/LAMISSEB_ETPISTAF_005.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Line" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="137,201 246,201 246,215 137,215 137,201">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_0"> vevmsnmn</metadata>
+    </polygon>
+    <polygon points="87,181 246,181 246,208 87,208 87,181">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_1">  ia</metadata>
+    </polygon>
+    <polygon points="138,165 245,165 245,186 138,186 138,165">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_2">vous mwen</metadata>
+    </polygon>
+    <polygon points="67,112 180,112 180,123 67,123 67,112">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_3">rms Aucun EFFET</metadata>
+    </polygon>
+    <polygon points="51,97 213,97 213,115 51,115 51,97">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_4">MEE   9 M      .      T J</metadata>
+    </polygon>
+    <polygon points="41,74 213,74 213,95 41,95 41,74">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_5">  Cssr Ds vues  N Pnzs.</metadata>
+    </polygon>
+    <polygon points="687,220 730,220 730,236 687,236 687,220">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_6">s gu  ri</metadata>
+    </polygon>
+    <polygon points="644,202 725,202 725,229 644,229 644,202">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_7">         UUUUchum ML.</metadata>
+    </polygon>
+    <polygon points="30,38 171,38 171,51 30,51 30,38">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_8">VVNSGMNIE  Docrsuz.</metadata>
+    </polygon>
+    <polygon points="21,22 193,22 193,41 21,41 21,22">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_9">TOUJOURS CES VROSA  IAES</metadata>
+    </polygon>
+    <polygon points="264,48 386,48 386,79 264,79 264,48">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_10">km. Re    fm  zMs vou  sl  A Ns</metadata>
+    </polygon>
+    <polygon points="265,37 384,37 384,53 265,53 265,37">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_11">1 o  vA s   z     </metadata>
+    </polygon>
+    <polygon points="283,79 334,79 334,90 283,90 283,79">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_12">vA ns A</metadata>
+    </polygon>
+    <polygon points="458,166 579,166 579,185 458,185 458,166">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_13">       f  El</metadata>
+    </polygon>
+    <polygon points="519,129 580,129 580,147 519,147 519,129">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_14"> JH</metadata>
+    </polygon>
+    <polygon points="534,113 573,113 573,128 534,128 534,113">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_15"> WM</metadata>
+    </polygon>
+    <polygon points="349,268 409,268 409,284 349,284 349,268">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_16">7     J</metadata>
+    </polygon>
+    <polygon points="46,236 92,236 92,257 46,257 46,236">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="LAMISSEB_ETPISTAF_005_line_17">LLS </metadata>
+    </polygon>
+  </svg>
+</svg>

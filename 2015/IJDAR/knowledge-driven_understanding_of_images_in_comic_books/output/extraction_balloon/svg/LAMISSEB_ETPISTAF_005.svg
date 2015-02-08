@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" xmlns="http://www.w3.org/2000/svg" version="1.0" height="301">
+  <title>LAMISSEB_ETPISTAF_005</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="800" height="301" xlink:href="../Pages/LAMISSEB_ETPISTAF_005.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="383,64 382,77 381,85 380,90 378,94 376,96 374,97 304,125 274,98 271,93 268,84 267,80 267,52 268,45 269,41 271,36 272,35 278,32 281,31 285,30 290,29 296,28 315,27 343,27 360,28 367,29 370,30 374,33 375,34 377,37 378,39 380,45 381,49 382,54 383,63 383,64">
+      <metadata tailDirection="S" confidence="0.0" id="LAMISSEB_ETPISTAF_005_balloon_0" tailTip="304,125"/>
+    </polygon>
+    <polygon points="244,207 243,212 241,218 240,220 238,222 235,224 161,240 156,240 153,239 148,237 48,128 44,120 15,50 14,47 13,43 13,32 14,28 15,25 17,21 22,16 24,15 27,14 48,14 168,16 179,17 184,19 187,22 188,24 208,81 242,179 243,183 244,188 244,207">
+      <metadata tailDirection="S" confidence="0.0" id="LAMISSEB_ETPISTAF_005_balloon_1" tailTip="44,120"/>
+    </polygon>
+  </svg>
+</svg>

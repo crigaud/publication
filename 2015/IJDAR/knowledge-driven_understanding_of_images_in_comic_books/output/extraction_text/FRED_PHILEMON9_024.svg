@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2480" xmlns="http://www.w3.org/2000/svg" version="1.0" height="3508">
+  <title>FRED_PHILEMON9_024</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="2480" height="3508" xlink:href="../Pages/FRED_PHILEMON9_024.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Line" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="300,3210 766,3210 766,3274 300,3274 300,3210">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_0">  .     U     7   .   H        </metadata>
+    </polygon>
+    <polygon points="818,3102 906,3102 906,3147 818,3147 818,3102">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_1"> 7 W    </metadata>
+    </polygon>
+    <polygon points="132,2853 319,2853 319,2901 132,2901 132,2853">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_2">lu  e    f   </metadata>
+    </polygon>
+    <polygon points="274,2826 355,2826 355,2865 274,2865 274,2826">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_3">VA</metadata>
+    </polygon>
+    <polygon points="661,2603 824,2603 824,2665 661,2665 661,2603">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_4">lfIl</metadata>
+    </polygon>
+    <polygon points="1001,2969 1169,2969 1169,3011 1001,3011 1001,2969">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_5">nnu   </metadata>
+    </polygon>
+    <polygon points="999,2931 1137,2931 1137,2966 999,2966 999,2931">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_6">VIII  </metadata>
+    </polygon>
+    <polygon points="1521,2898 1578,2898 1578,2934 1521,2934 1521,2898">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_7">38</metadata>
+    </polygon>
+    <polygon points="999,2747 1134,2747 1134,2791 999,2791 999,2747">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_8">imWL4</metadata>
+    </polygon>
+    <polygon points="2282,2499 2410,2499 2410,2540 2282,2540 2282,2499">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_9">L.</metadata>
+    </polygon>
+    <polygon points="1448,1672 1543,1672 1543,1707 1448,1707 1448,1672">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_10">  ILQ</metadata>
+    </polygon>
+    <polygon points="1062,1597 1287,1597 1287,1665 1062,1665 1062,1597">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_11">   1..</metadata>
+    </polygon>
+    <polygon points="2183,2213 2320,2213 2320,2254 2183,2254 2183,2213">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_12">aa  </metadata>
+    </polygon>
+    <polygon points="1911,2147 2304,2147 2304,2219 1911,2219 1911,2147">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_13">.v 1  2   </metadata>
+    </polygon>
+    <polygon points="1674,2027 1812,2027 1812,2073 1674,2073 1674,2027">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_14"> z   a </metadata>
+    </polygon>
+    <polygon points="1985,965 2052,965 2052,997 1985,997 1985,965">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_15">WH </metadata>
+    </polygon>
+    <polygon points="1892,906 2209,906 2209,964 1892,964 1892,906">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_16">  W I   .     3</metadata>
+    </polygon>
+    <polygon points="1020,741 1208,741 1208,803 1020,803 1020,741">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_17">Vo</metadata>
+    </polygon>
+    <polygon points="2091,422 2194,422 2194,447 2091,447 2091,422">
+      <metadata confidence="0.0" speechType="" typography="" rank="" method="ocr" id="FRED_PHILEMON9_024_line_18"> JDD</metadata>
+    </polygon>
+  </svg>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="541" xmlns="http://www.w3.org/2000/svg" version="1.0" height="1024">
+  <title>CYB_MAGICIENLOOSE_001</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="541" height="1024" xlink:href="../Pages/CYB_MAGICIENLOOSE_001.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-width: 0; stroke-linejoin: round; }
+        .Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+        .Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Panel { fill: red; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line { fill: green; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon { fill: cyan; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+        .Object { fill: yellow; stroke: none; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="506,435 505,439 503,445 501,449 498,453 491,460 489,461 477,465 467,467 408,477 372,461 349,448 348,447 344,441 342,437 342,426 343,420 344,419 384,419 503,420 505,424 506,431 506,435">
+      <metadata tailDirection="S" confidence="0.0" id="CYB_MAGICIENLOOSE_001_balloon_0" tailTip="408,477"/>
+    </polygon>
+    <polygon points="263,467 262,468 256,471 251,473 243,475 237,476 175,485 172,482 152,460 150,457 147,451 147,443 148,439 153,429 156,425 157,424 160,422 165,419 260,419 263,420 263,467">
+      <metadata tailDirection="SE" confidence="0.0" id="CYB_MAGICIENLOOSE_001_balloon_1" tailTip="175,485"/>
+    </polygon>
+    <polygon points="498,250 496,257 492,263 486,269 483,271 481,272 478,273 409,292 408,292 379,260 376,254 376,242 377,240 383,234 386,232 396,227 404,224 412,222 419,221 444,221 453,222 460,223 466,224 471,225 476,227 486,232 489,234 497,242 498,245 498,250">
+      <metadata tailDirection="SW" confidence="0.0" id="CYB_MAGICIENLOOSE_001_balloon_2" tailTip="409,292"/>
+    </polygon>
+    <polygon points="437,38 435,42 432,45 429,47 427,48 387,64 311,48 304,45 298,42 296,40 294,36 293,33 293,32 294,29 295,27 298,22 301,19 305,16 426,16 429,18 431,20 436,30 437,33 437,38">
+      <metadata tailDirection="S" confidence="0.0" id="CYB_MAGICIENLOOSE_001_balloon_3" tailTip="387,64"/>
+    </polygon>
+  </svg>
+</svg>
