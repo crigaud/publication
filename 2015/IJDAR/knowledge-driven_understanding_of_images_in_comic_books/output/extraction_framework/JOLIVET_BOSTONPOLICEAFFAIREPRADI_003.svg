@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="1203.0mm" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0.0 0.0 2407.0 3364.0" height="1682.0mm" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Page" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="2407" xlink:href="../Pages/JOLIVET_BOSTONPOLICEAFFAIREPRADI_003.jpg" xlink:type="simple" xlink:actuate="onLoad" height="3364" opacity="0.5" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 0; stroke-linejoin: round; }
+		.Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+		.Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Panel { fill: red; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Line { fill: green; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Balloon { fill: cyan; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="2226,2303 1146,2312 1095,2312 1094,2311 1091,1903 1090,1757 1090,1755 1091,1753 1095,1752 1444,1749 2169,1743 2222,1743 2223,1744 2224,1886 2226,2217 2226,2303">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_panel_3" rank="4"/>
+        </polygon>
+        <polygon points="1533,2697 1532,3154 1531,3155 829,3162 785,3162 784,3161 779,2358 779,2345 809,2344 1108,2341 1211,2340 1435,2338 1526,2338 1533,2685 1533,2697">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_panel_1" rank="6"/>
+        </polygon>
+        <polygon points="2233,3149 2183,3150 2059,3151 1599,3154 1562,3154 1560,2999 1558,2713 1557,2568 1556,2422 1556,2338 1557,2337 1796,2335 2040,2333 2164,2332 2227,2332 2229,2568 2232,2954 2233,3147 2233,3149">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_panel_2" rank="7"/>
+        </polygon>
+        <polygon points="755,3085 754,3163 675,3164 589,3165 369,3167 104,3167 102,3166 101,3037 96,2354 96,2351 97,2350 684,2345 749,2345 750,2417 755,3082 755,3085">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_panel_0" rank="5"/>
+        </polygon>
+        <polygon points="2396,1351 2174,1353 1595,1358 6,1371 2,1371 1,1370 1,401 2,400 356,203 358,202 473,185 474,185 1376,207 1566,215 2232,250 2386,286 2387,321 2392,841 2396,1345 2396,1351">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_panel_6" rank="1"/>
+        </polygon>
+        <polygon points="1061,2312 1014,2313 937,2314 653,2317 457,2319 341,2320 96,2320 95,2195 89,1400 89,1395 90,1394 147,1393 287,1391 404,1390 535,1389 801,1387 977,1386 1054,1386 1055,1452 1056,1579 1061,2265 1061,2312">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_panel_4" rank="2"/>
+        </polygon>
+        <polygon points="2223,1715 2222,1716 2139,1717 1092,1725 1091,1725 1090,1724 1088,1395 1088,1387 1089,1386 1164,1385 1270,1384 1812,1379 1923,1378 2175,1376 2218,1376 2220,1378 2221,1435 2223,1715">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_panel_5" rank="3"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="2223,2504 2222,2507 2220,2511 2214,2517 2210,2520 2117,2567 2058,2591 2057,2591 1940,2544 1930,2539 1922,2531 1920,2528 1917,2522 1915,2516 1913,2506 1898,2406 1898,2401 1899,2399 1903,2397 1906,2396 2071,2356 2077,2356 2090,2362 2146,2388 2168,2399 2174,2403 2178,2406 2183,2411 2186,2416 2187,2418 2223,2501 2223,2504">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_balloon_5" tailTip="2057,2591" tailDirection="E" rank="0"/>
+        </polygon>
+        <polygon points="748,2614 747,2615 536,2668 419,2556 404,2541 396,2531 390,2521 387,2515 385,2510 382,2501 381,2497 380,2491 380,2474 381,2464 383,2450 384,2444 386,2433 391,2410 393,2403 396,2393 400,2381 403,2374 409,2362 412,2357 414,2354 417,2351 432,2350 729,2347 745,2347 746,2348 747,2421 748,2561 748,2614">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_balloon_1" tailTip="536,2668" tailDirection="SE" idSpeaker="Boston_Police_L_Affaire_PradiPage3Character5" rank="2"/>
+        </polygon>
+        <polygon points="1530,2697 1527,2707 1525,2713 1521,2721 1517,2727 1510,2734 1501,2741 1497,2744 1489,2749 1482,2753 1480,2754 1396,2792 1393,2792 1329,2747 1320,2738 1317,2733 1314,2727 1310,2715 1309,2708 1308,2696 1308,2693 1309,2686 1310,2680 1312,2671 1314,2665 1316,2660 1319,2654 1322,2649 1325,2645 1340,2630 1343,2628 1355,2622 1364,2619 1369,2618 1382,2616 1419,2616 1431,2617 1446,2619 1456,2621 1476,2630 1487,2636 1492,2639 1501,2645 1509,2651 1518,2660 1524,2667 1525,2669 1528,2678 1530,2686 1530,2697">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_balloon_2" tailDirection="none" rank="4"/>
+        </polygon>
+        <polygon points="2116,2014 2115,2021 2113,2031 2108,2046 2104,2054 2100,2061 2097,2066 2093,2072 2088,2079 2084,2084 2072,2096 2066,2101 2062,2104 2055,2109 2050,2112 2034,2120 2029,2122 2018,2126 2011,2128 1999,2131 1994,2132 1988,2133 1981,2134 1973,2135 1963,2136 1942,2136 1926,2135 1910,2133 1788,2117 1786,2116 1754,2015 1752,2008 1751,2002 1751,1987 1752,1982 1754,1977 1756,1973 1760,1967 1771,1956 1775,1953 1781,1949 1793,1942 1805,1937 1810,1935 1828,1929 1844,1925 1858,1922 1880,1919 1898,1917 1912,1916 1927,1915 1953,1914 1961,1914 1991,1915 2004,1916 2013,1917 2021,1918 2039,1921 2051,1924 2066,1929 2075,1933 2077,1934 2082,1937 2088,1941 2094,1946 2100,1953 2102,1956 2106,1963 2107,1965 2109,1970 2112,1979 2113,1983 2115,1994 2116,2006 2116,2014">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_balloon_6" tailDirection="none" rank="6"/>
+        </polygon>
+        <polygon points="1077,2508 1066,2509 958,2511 944,2511 793,2507 792,2506 791,2464 790,2386 790,2365 791,2355 792,2354 1073,2353 1074,2353 1075,2354 1077,2506 1077,2508">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_balloon_4" tailDirection="none" rank="8"/>
+        </polygon>
+        <polygon points="1407,1832 1406,1855 1404,1896 1402,1922 1401,1923 1122,1926 1116,1926 1115,1920 1115,1892 1116,1860 1117,1834 1119,1784 1122,1779 1149,1778 1401,1778 1403,1779 1404,1780 1405,1782 1406,1787 1407,1801 1407,1832">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_balloon_7" tailDirection="none" rank="10"/>
+        </polygon>
+        <polygon points="1366,2587 1365,2592 1361,2600 1358,2605 1354,2610 1346,2618 1336,2626 1226,2704 1118,2644 1111,2640 1102,2634 1094,2628 1082,2616 1076,2608 1073,2603 1071,2599 1068,2592 1066,2584 1065,2577 1065,2564 1066,2556 1067,2551 1069,2545 1072,2537 1076,2529 1080,2522 1083,2517 1092,2505 1099,2497 1106,2490 1114,2483 1121,2478 1124,2476 1129,2473 1139,2468 1147,2465 1150,2464 1157,2462 1168,2460 1179,2459 1196,2459 1207,2460 1221,2462 1227,2463 1232,2464 1248,2468 1263,2473 1273,2477 1293,2487 1300,2491 1306,2495 1317,2503 1324,2509 1337,2521 1345,2530 1349,2535 1352,2539 1356,2545 1362,2556 1364,2562 1366,2570 1366,2587">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_balloon_3" tailDirection="none" rank="12"/>
+        </polygon>
+        <polygon points="439,1604 437,1611 436,1614 284,2042 283,2043 281,2043 274,2037 273,2036 106,1633 104,1628 101,1619 99,1612 98,1606 97,1598 97,1582 99,1574 102,1563 105,1554 107,1549 110,1542 111,1540 117,1529 120,1524 125,1517 133,1507 147,1493 156,1486 159,1484 167,1479 177,1474 189,1469 202,1465 211,1463 223,1461 233,1460 275,1460 293,1462 305,1464 318,1467 322,1468 337,1473 347,1477 361,1484 366,1487 375,1493 379,1496 384,1500 390,1505 400,1515 408,1524 412,1529 415,1533 421,1543 425,1550 428,1556 434,1571 436,1577 438,1585 439,1591 439,1604">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_balloon_10" tailTip="284,2042" tailDirection="S" idSpeaker="Boston_Police_L_Affaire_PradiPage3Character3" rank="14"/>
+        </polygon>
+        <polygon points="2217,1483 2216,1487 2209,1501 2206,1506 2204,1509 2197,1518 2187,1528 2181,1533 2176,1537 2164,1546 2144,1556 2137,1559 2127,1563 2115,1567 2108,1569 2100,1571 2091,1573 2086,1574 2080,1575 2067,1577 2059,1578 2049,1579 2036,1580 2005,1581 2003,1581 1967,1580 1954,1579 1947,1578 1935,1576 1930,1575 1914,1571 1907,1569 1901,1567 1896,1565 1882,1559 1880,1558 1868,1551 1863,1548 1774,1491 1773,1478 1773,1476 1810,1383 1811,1382 1893,1381 2146,1379 2216,1379 2217,1380 2217,1483">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_balloon_11" tailDirection="none" rank="16"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="819,2395 1040,2395 1040,2416 819,2416 819,2395">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_19" rank="0"/>
+        </polygon>
+        <polygon points="1319,2684 1507,2684 1507,2704 1319,2704 1319,2684">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_13" rank="2"/>
+        </polygon>
+        <polygon points="432,2448 652,2448 652,2470 432,2470 432,2448">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_8" rank="6"/>
+        </polygon>
+        <polygon points="1111,2607 1316,2607 1316,2633 1111,2633 1111,2607">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_21" rank="4"/>
+        </polygon>
+        <polygon points="1805,1962 2065,1962 2065,1988 1805,1988 1805,1962">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_35" rank="8"/>
+        </polygon>
+        <polygon points="828,2364 1030,2364 1030,2389 828,2389 828,2364">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_20" rank="10"/>
+        </polygon>
+        <polygon points="117,1572 405,1572 405,1594 117,1594 117,1572">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_54" rank="12"/>
+        </polygon>
+        <polygon points="436,2420 715,2420 715,2443 436,2443 436,2420">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_10" rank="14"/>
+        </polygon>
+        <polygon points="1858,1390 2159,1390 2159,1412 1858,1412 1858,1390">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_62" rank="16"/>
+        </polygon>
+        <polygon points="93,1599 413,1599 413,1634 93,1634 93,1599">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_52" rank="18"/>
+        </polygon>
+        <polygon points="1902,1544 1957,1544 1957,1562 1902,1562 1902,1544">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_59" rank="20"/>
+        </polygon>
+        <polygon points="676,2446 719,2446 719,2467 676,2467 676,2446">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_9" rank="22"/>
+        </polygon>
+        <polygon points="522,2557 634,2557 634,2578 522,2578 522,2557">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_4" rank="24"/>
+        </polygon>
+        <polygon points="1336,2659 1490,2659 1490,2679 1336,2679 1336,2659">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_14" rank="26"/>
+        </polygon>
+        <polygon points="121,1542 402,1542 402,1567 121,1567 121,1542">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_55" rank="28"/>
+        </polygon>
+        <polygon points="1361,2634 1466,2634 1466,2653 1361,2653 1361,2634">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_15" rank="30"/>
+        </polygon>
+        <polygon points="1092,2529 1333,2529 1333,2552 1092,2552 1092,2529">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_24" rank="32"/>
+        </polygon>
+        <polygon points="1151,1829 1371,1829 1371,1850 1151,1850 1151,1829">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_38" rank="34"/>
+        </polygon>
+        <polygon points="1975,2486 2099,2486 2099,2506 1975,2506 1975,2486">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_27" rank="36"/>
+        </polygon>
+        <polygon points="497,2529 656,2529 656,2551 497,2551 497,2529">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_5" rank="38"/>
+        </polygon>
+        <polygon points="1177,2477 1249,2477 1249,2497 1177,2497 1177,2477">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_26" rank="40"/>
+        </polygon>
+        <polygon points="1119,2502 1300,2502 1300,2524 1119,2524 1119,2502">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_25" rank="42"/>
+        </polygon>
+        <polygon points="145,1517 377,1517 377,1540 145,1540 145,1517">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_56" rank="44"/>
+        </polygon>
+        <polygon points="1834,2017 2043,2017 2043,2042 1834,2042 1834,2017">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_33" rank="46"/>
+        </polygon>
+        <polygon points="1931,2432 2166,2432 2166,2453 1931,2453 1931,2432">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_29" rank="48"/>
+        </polygon>
+        <polygon points="1845,1440 2170,1440 2170,1461 1845,1461 1845,1440">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_60" rank="50"/>
+        </polygon>
+        <polygon points="1887,2075 1972,2075 1972,2096 1887,2096 1887,2075">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_31" rank="52"/>
+        </polygon>
+        <polygon points="430,2474 723,2474 723,2501 430,2501 430,2474">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_7" rank="54"/>
+        </polygon>
+        <polygon points="1132,1855 1389,1855 1389,1878 1132,1878 1132,1855">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_37" rank="56"/>
+        </polygon>
+        <polygon points="1167,1884 1348,1884 1348,1906 1167,1906 1167,1884">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_36" rank="58"/>
+        </polygon>
+        <polygon points="845,2420 1014,2420 1014,2444 845,2444 845,2420">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_18" rank="60"/>
+        </polygon>
+        <polygon points="1792,1992 2083,1992 2083,2016 1792,2016 1792,1992">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_34" rank="62"/>
+        </polygon>
+        <polygon points="810,2451 1046,2451 1046,2471 810,2471 810,2451">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_17" rank="64"/>
+        </polygon>
+        <polygon points="428,2393 722,2393 722,2416 428,2416 428,2393">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_11" rank="66"/>
+        </polygon>
+        <polygon points="799,2478 1045,2478 1045,2499 799,2499 799,2478">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_16" rank="68"/>
+        </polygon>
+        <polygon points="1961,2459 2142,2459 2142,2479 1961,2479 1961,2459">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_28" rank="70"/>
+        </polygon>
+        <polygon points="1086,2557 1339,2557 1339,2583 1086,2583 1086,2557">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_23" rank="72"/>
+        </polygon>
+        <polygon points="1101,2583 1327,2583 1327,2606 1101,2606 1101,2583">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_22" rank="74"/>
+        </polygon>
+        <polygon points="1833,2047 2044,2047 2044,2069 1833,2069 1833,2047">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_32" rank="76"/>
+        </polygon>
+        <polygon points="1836,1415 2176,1415 2176,1437 1836,1437 1836,1415">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_61" rank="78"/>
+        </polygon>
+        <polygon points="131,1741 249,1741 249,1793 131,1793 131,1741">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_50" rank="80"/>
+        </polygon>
+        <polygon points="1127,1802 1393,1802 1393,1823 1127,1823 1127,1802">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_39" rank="82"/>
+        </polygon>
+        <polygon points="424,2498 728,2498 728,2525 424,2525 424,2498">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_6" rank="84"/>
+        </polygon>
+        <polygon points="109,1627 361,1627 361,1715 109,1715 109,1627">
+            <metadata id="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_line_51" rank="86"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Object" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="97,2021 432,2021 432,2325 97,2325 97,2021">
+            <metadata id="Boston_Police_L_Affaire_PradiPage3Character3" idBalloon="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_balloon_10" idPanel="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_panel_4"/>
+        </polygon>
+        <polygon points="519,2651 757,2651 757,2993 519,2993 519,2651">
+            <metadata id="Boston_Police_L_Affaire_PradiPage3Character5" idBalloon="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_balloon_1" idPanel="JOLIVET_BOSTONPOLICEAFFAIREPRADI_003_panel_0"/>
+        </polygon>
+    </svg>
+    <metadata lastModificationDate="Thu Jun 12 14:23:40 CEST 2014" method="Reasoning on polygon's type" referent="Clément Guérin"/>
+</svg>

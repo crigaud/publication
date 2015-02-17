@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="374.0mm" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0.0 0.0 749.0 1052.0" height="526.0mm" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Page" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="749" xlink:href="../Pages/CYB_MOUETTEMAN_002.jpg" xlink:type="simple" xlink:actuate="onLoad" height="1052" opacity="0.5" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 0; stroke-linejoin: round; }
+		.Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+		.Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Panel { fill: red; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Line { fill: green; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Balloon { fill: cyan; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="516,396 515,514 513,515 233,515 231,514 230,513 230,272 232,271 253,271 514,272 515,273 516,396">
+            <metadata id="CYB_MOUETTEMAN_002_panel_2" rank="2"/>
+        </polygon>
+        <polygon points="514,12 513,253 512,254 511,254 307,252 231,251 229,249 229,231 230,10 231,9 278,9 511,10 513,11 514,12">
+            <metadata id="CYB_MOUETTEMAN_002_panel_3" rank="1"/>
+        </polygon>
+        <polygon points="519,589 514,776 513,777 232,777 231,776 230,774 224,584 228,581 230,580 238,577 325,550 348,551 519,587 519,589">
+            <metadata id="CYB_MOUETTEMAN_002_panel_1" rank="3"/>
+        </polygon>
+        <polygon points="518,842 514,1036 232,1036 230,1034 230,796 231,795 233,794 250,794 514,795 515,796 518,841 518,842">
+            <metadata id="CYB_MOUETTEMAN_002_panel_0" rank="4"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="402,852 401,856 397,864 389,872 348,900 317,872 309,864 305,856 304,852 304,847 305,843 309,835 317,827 322,824 328,821 334,819 342,817 364,817 372,819 378,821 384,824 389,827 397,835 401,843 402,847 402,852">
+            <metadata id="CYB_MOUETTEMAN_002_balloon_0" tailTip="348,900" tailDirection="S" rank="0"/>
+        </polygon>
+        <polygon points="488,334 487,338 485,344 483,348 481,351 475,358 465,366 460,369 308,427 307,427 291,426 289,425 288,424 234,364 233,362 233,276 234,275 468,275 474,281 476,284 481,293 483,297 485,302 487,309 488,315 488,334">
+            <metadata id="CYB_MOUETTEMAN_002_balloon_1" tailTip="308,427" tailDirection="W" idSpeaker="Les_aventures_de_MouetteMan_et_TeckelBoyPage2Character3" rank="2"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="256,336 449,336 449,346 256,346 256,336">
+            <metadata id="CYB_MOUETTEMAN_002_line_29" rank="0"/>
+        </polygon>
+        <polygon points="248,291 456,291 456,302 248,302 248,291">
+            <metadata id="CYB_MOUETTEMAN_002_line_33" rank="2"/>
+        </polygon>
+        <polygon points="250,310 454,310 454,324 250,324 250,310">
+            <metadata id="CYB_MOUETTEMAN_002_line_31" rank="4"/>
+        </polygon>
+        <polygon points="317,835 388,835 388,846 317,846 317,835">
+            <metadata id="CYB_MOUETTEMAN_002_line_9" rank="6"/>
+        </polygon>
+        <polygon points="249,302 455,302 455,313 249,313 249,302">
+            <metadata id="CYB_MOUETTEMAN_002_line_32" rank="8"/>
+        </polygon>
+        <polygon points="258,325 453,325 453,335 258,335 258,325">
+            <metadata id="CYB_MOUETTEMAN_002_line_30" rank="10"/>
+        </polygon>
+        <polygon points="322,846 382,846 382,866 322,866 322,846">
+            <metadata id="CYB_MOUETTEMAN_002_line_8" rank="12"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Object" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="233,388 365,388 365,514 233,514 233,388">
+            <metadata id="Les_aventures_de_MouetteMan_et_TeckelBoyPage2Character3" idBalloon="CYB_MOUETTEMAN_002_balloon_1" idPanel="CYB_MOUETTEMAN_002_panel_2"/>
+        </polygon>
+    </svg>
+    <metadata lastModificationDate="Thu Jun 12 14:23:04 CEST 2014" method="Reasoning on polygon's type" referent="Clément Guérin"/>
+</svg>

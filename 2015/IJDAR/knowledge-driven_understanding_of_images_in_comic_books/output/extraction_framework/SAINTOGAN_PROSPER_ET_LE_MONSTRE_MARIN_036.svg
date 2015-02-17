@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="2660.0mm" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0.0 0.0 5320.0 3632.0" height="1816.0mm" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Page" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="5320" xlink:href="../Pages/SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_036.jpg" xlink:type="simple" xlink:actuate="onLoad" height="3632" opacity="0.5" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 0; stroke-linejoin: round; }
+		.Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+		.Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Panel { fill: red; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Line { fill: green; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Balloon { fill: cyan; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="5318,1717 5315,2351 5307,3600 5306,3605 5305,3608 5302,3614 5299,3618 5296,3621 5292,3624 5284,3628 5278,3630 3368,3630 127,3622 62,3621 56,3620 52,3619 43,3616 39,3614 36,3612 28,3604 22,3595 20,3591 17,3584 15,3579 13,3573 11,3565 10,3557 8,3514 5,3303 4,3168 1,2385 1,57 2,52 3,49 6,43 8,40 17,32 20,30 24,28 73,4 76,3 224,2 643,1 5241,1 5251,2 5257,3 5272,6 5276,7 5283,9 5289,11 5299,16 5302,18 5312,28 5315,32 5317,35 5318,37 5318,1717">
+            <metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_036_panel_0" rank="1"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="3545,1428 3544,1576 3543,1598 3542,1600 3483,1601 2952,1602 2895,1602 2887,1601 2886,1598 2886,1577 2887,1419 2888,1418 3539,1418 3544,1420 3545,1422 3545,1428">
+            <metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_036_balloon_0" tailDirection="none" rank="0"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="2914,1468 3137,1468 3137,1501 2914,1501 2914,1468">
+            <metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_036_line_19" rank="0"/>
+        </polygon>
+        <polygon points="2960,1513 3503,1513 3503,1546 2960,1546 2960,1513">
+            <metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_036_line_17" rank="2"/>
+        </polygon>
+        <polygon points="3227,1468 3482,1468 3482,1502 3227,1502 3227,1468">
+            <metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_036_line_18" rank="4"/>
+        </polygon>
+        <polygon points="3171,1558 3270,1558 3270,1590 3171,1590 3171,1558">
+            <metadata id="SAINTOGAN_PROSPER_ET_LE_MONSTRE_MARIN_036_line_16" rank="6"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Object" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <metadata lastModificationDate="Thu Jun 12 14:25:51 CEST 2014" method="Reasoning on polygon's type" referent="Clément Guérin"/>
+</svg>

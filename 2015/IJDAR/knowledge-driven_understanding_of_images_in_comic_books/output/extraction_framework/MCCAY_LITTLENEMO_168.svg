@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="1527.0mm" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0.0 0.0 3054.0 4196.0" height="2098.0mm" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Page" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="3054" xlink:href="../Pages/MCCAY_LITTLENEMO_168.jpg" xlink:type="simple" xlink:actuate="onLoad" height="4196" opacity="0.5" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 0; stroke-linejoin: round; }
+		.Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+		.Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Panel { fill: red; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Line { fill: green; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Balloon { fill: cyan; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="1552,2288 1547,2860 1545,2924 1544,2948 1543,2955 1540,2966 1539,2968 1532,2976 1530,2978 1526,2980 1522,2981 1517,2982 1509,2983 1492,2984 1182,2984 981,2983 836,2982 832,2980 829,2978 826,2975 821,2969 817,2964 815,2956 814,2951 813,2944 812,2812 811,2664 814,2152 815,2092 816,2081 817,2076 819,2071 822,2066 825,2063 828,2061 833,2059 872,2058 1031,2057 1039,2057 1428,2058 1503,2059 1528,2060 1536,2065 1542,2069 1544,2071 1547,2075 1550,2081 1551,2095 1552,2286 1552,2288">
+            <metadata id="MCCAY_LITTLENEMO_168_panel_5" rank="7"/>
+        </polygon>
+        <polygon points="2268,1154 2266,1563 2263,1892 2262,1995 2261,2018 2260,2024 2259,2026 2252,2033 2246,2037 2229,2040 2133,2041 1716,2042 1580,2042 1569,2039 1566,2038 1559,2033 1555,2030 1553,2028 1552,2025 1551,2021 1550,2014 1550,1901 1552,1294 1553,1177 1554,1149 1555,1134 1557,1126 1558,1123 1560,1118 1561,1116 1563,1113 1567,1108 1568,1107 1576,1103 1592,1102 1745,1102 2235,1104 2242,1105 2246,1106 2251,1108 2253,1109 2259,1115 2262,1119 2266,1130 2267,1133 2268,1137 2268,1154">
+            <metadata id="MCCAY_LITTLENEMO_168_panel_8" rank="4"/>
+        </polygon>
+        <polygon points="809,1591 808,1997 807,2019 803,2026 801,2028 798,2030 790,2034 781,2037 762,2038 679,2039 397,2038 254,2037 128,2036 112,2034 105,2033 99,2032 89,2028 88,2027 83,2020 81,2014 77,1985 77,1692 78,1185 80,1156 81,1144 82,1138 86,1122 89,1113 90,1111 92,1108 95,1105 99,1103 123,1100 147,1099 362,1096 366,1096 780,1098 786,1099 792,1102 798,1108 807,1121 808,1125 809,1145 809,1591">
+            <metadata id="MCCAY_LITTLENEMO_168_panel_10" rank="2"/>
+        </polygon>
+        <polygon points="2278,2257 2273,2916 2271,2952 2270,2966 2268,2970 2265,2974 2259,2978 2252,2981 2249,2982 2241,2984 2235,2985 2228,2986 2211,2986 1590,2982 1581,2981 1573,2979 1567,2976 1564,2974 1562,2972 1559,2968 1557,2963 1555,2957 1554,2947 1553,2803 1555,2435 1562,2109 1563,2088 1564,2077 1567,2071 1573,2065 1576,2063 1578,2062 1589,2061 1647,2060 1733,2059 2237,2059 2250,2060 2257,2061 2263,2063 2265,2064 2272,2071 2274,2074 2275,2076 2276,2079 2277,2084 2278,2105 2278,2257">
+            <metadata id="MCCAY_LITTLENEMO_168_panel_3" rank="8"/>
+        </polygon>
+        <polygon points="3006,3751 3003,3912 3002,3926 3001,3930 2994,3942 2985,3948 2973,3952 2962,3953 2914,3956 2549,3956 1624,3952 1577,3949 1573,3948 1568,3946 1560,3942 1555,3938 1553,3934 1551,3928 1550,3920 1550,3567 1551,3264 1553,3106 1554,3058 1555,3019 1558,3011 1559,3009 1561,3006 1569,2998 1572,2996 1575,2995 1583,2993 1589,2992 1628,2991 1748,2990 2329,2991 2826,2995 2950,2998 2974,2999 2980,3000 2982,3001 2988,3005 2990,3007 2998,3023 2999,3027 3001,3045 3002,3084 3006,3749 3006,3751">
+            <metadata id="MCCAY_LITTLENEMO_168_panel_1" rank="12"/>
+        </polygon>
+        <polygon points="3006,2541 3002,2934 3001,2949 3000,2955 2995,2975 2989,2982 2984,2984 2975,2986 2970,2987 2949,2988 2933,2988 2482,2986 2316,2985 2310,2984 2305,2983 2297,2980 2293,2978 2290,2976 2286,2972 2283,2966 2282,2958 2281,2792 2281,2791 2287,2233 2289,2121 2290,2089 2291,2084 2294,2073 2301,2066 2306,2063 2311,2061 2327,2060 2594,2057 2826,2057 2838,2058 3005,2503 3006,2506 3006,2541">
+            <metadata id="MCCAY_LITTLENEMO_168_panel_4" rank="9"/>
+        </polygon>
+        <polygon points="1545,3386 1539,3853 1538,3921 1536,3933 1535,3934 1527,3941 1524,3943 1517,3946 1512,3947 1223,3949 864,3947 836,3941 832,3940 826,3937 819,3932 814,3928 813,3927 811,3916 810,3901 809,3884 807,3825 806,3521 806,3351 813,3027 814,3019 816,3011 818,3006 820,3003 823,2999 828,2994 831,2992 840,2991 1429,2991 1508,2992 1521,2994 1531,2999 1534,3002 1538,3007 1539,3009 1542,3016 1543,3030 1545,3283 1545,3386">
+            <metadata id="MCCAY_LITTLENEMO_168_panel_0" rank="11"/>
+        </polygon>
+        <polygon points="3012,170 3010,680 3007,914 3006,972 3005,1020 3004,1058 3003,1071 3001,1076 2999,1080 2993,1088 2986,1095 2900,1096 2437,1097 125,1092 114,1091 108,1090 99,1087 89,1077 86,1070 81,1055 80,1049 79,1001 77,884 76,255 76,250 79,162 80,158 82,151 83,149 85,146 86,145 89,143 96,139 99,138 105,137 114,136 162,133 196,133 2980,136 2987,137 2990,138 2999,143 3004,148 3007,153 3009,158 3012,168 3012,170">
+            <metadata id="MCCAY_LITTLENEMO_168_panel_11" rank="1"/>
+        </polygon>
+        <polygon points="3016,1701 3013,1895 3011,1958 3010,1984 3009,2000 3008,2013 3007,2015 3002,2023 2997,2029 2979,2038 2756,2039 2521,2040 2303,2040 2285,2035 2279,2027 2277,2024 2274,2016 2272,2003 2271,1996 2271,1995 2275,1432 2277,1162 2278,1144 2279,1129 2281,1122 2284,1116 2286,1113 2292,1107 2298,1104 2311,1102 2689,1102 2859,1103 2933,1104 2964,1105 2975,1106 2980,1107 2988,1109 2989,1110 2996,1118 3002,1127 3003,1129 3005,1138 3007,1216 3016,1585 3016,1701">
+            <metadata id="MCCAY_LITTLENEMO_168_panel_7" rank="5"/>
+        </polygon>
+        <polygon points="805,2954 804,2958 802,2963 800,2967 790,2977 786,2979 783,2980 774,2982 179,2983 100,2982 97,2981 94,2979 89,2975 83,2969 79,2964 78,2961 74,2929 73,2079 73,2077 75,2071 77,2068 81,2064 83,2063 95,2060 103,2059 171,2058 279,2057 394,2057 720,2058 765,2059 776,2061 786,2065 796,2070 798,2073 801,2078 803,2092 804,2100 805,2355 805,2954">
+            <metadata id="MCCAY_LITTLENEMO_168_panel_6" rank="6"/>
+        </polygon>
+        <polygon points="803,3148 800,3903 799,3914 798,3918 794,3930 793,3932 789,3938 788,3939 783,3942 775,3944 757,3945 523,3949 123,3950 106,3950 98,3949 83,3939 77,3930 75,3926 73,3914 72,3906 71,3892 70,3872 68,3822 68,3821 69,3666 75,3035 77,3025 79,3016 83,3007 86,3003 90,2999 94,2996 98,2994 104,2992 110,2991 260,2990 687,2989 759,2989 770,2990 774,2991 781,2993 784,2994 793,2998 798,3008 802,3024 803,3032 803,3148">
+            <metadata id="MCCAY_LITTLENEMO_168_panel_2" rank="10"/>
+        </polygon>
+        <polygon points="1543,1458 1539,2009 1538,2017 1535,2026 1533,2030 1529,2034 1526,2036 1521,2039 1517,2041 1378,2043 1377,2043 917,2039 859,2038 850,2037 841,2035 839,2034 833,2030 830,2027 822,2016 820,2008 819,2001 817,1640 817,1638 818,1135 820,1126 823,1117 826,1111 828,1109 837,1101 839,1100 848,1098 854,1097 933,1096 1045,1096 1340,1097 1413,1098 1516,1100 1524,1102 1531,1107 1532,1108 1535,1113 1536,1117 1540,1138 1541,1145 1542,1153 1543,1458">
+            <metadata id="MCCAY_LITTLENEMO_168_panel_9" rank="3"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="2282,3755 2277,3862 2275,3866 2267,3875 2266,3876 2264,3877 2139,3883 2109,3883 2101,3882 2094,3881 2087,3879 2084,3877 2082,3875 2080,3869 2079,3865 2070,3774 2070,3773 2085,3741 2087,3737 2095,3728 2096,3727 2110,3725 2129,3724 2242,3721 2249,3721 2265,3723 2272,3726 2276,3728 2280,3736 2281,3739 2282,3745 2282,3755">
+            <metadata id="MCCAY_LITTLENEMO_168_balloon_0" tailDirection="none" rank="0"/>
+        </polygon>
+        <polygon points="2748,2422 2747,2468 2746,2475 2744,2481 2737,2488 2731,2491 2728,2492 2709,2497 2627,2513 2607,2488 2606,2486 2605,2470 2605,2409 2606,2401 2609,2393 2611,2388 2614,2384 2616,2382 2622,2379 2633,2378 2687,2377 2690,2377 2726,2379 2738,2380 2741,2382 2743,2384 2745,2387 2746,2389 2747,2392 2748,2406 2748,2422">
+            <metadata id="MCCAY_LITTLENEMO_168_balloon_5" tailDirection="none" rank="2"/>
+        </polygon>
+        <polygon points="1084,357 1083,391 1082,416 1080,437 1076,442 1070,448 1068,449 1054,454 1051,455 976,477 892,453 889,451 882,446 881,445 878,441 876,438 875,434 874,369 874,350 875,340 879,328 880,327 887,321 889,320 894,318 897,317 903,316 994,315 1053,316 1063,317 1070,318 1076,321 1080,328 1084,348 1084,357">
+            <metadata id="MCCAY_LITTLENEMO_168_balloon_13" tailDirection="none" rank="4"/>
+        </polygon>
+        <polygon points="2176,1359 2173,1415 2172,1423 2170,1437 2167,1443 2165,1445 2161,1448 2140,1453 2077,1464 2076,1464 2035,1447 2031,1445 2026,1442 2024,1440 2023,1434 2021,1354 2021,1349 2023,1341 2025,1337 2027,1334 2033,1331 2045,1328 2160,1328 2169,1330 2174,1335 2175,1338 2176,1358 2176,1359">
+            <metadata id="MCCAY_LITTLENEMO_168_balloon_9" tailDirection="none" rank="6"/>
+        </polygon>
+        <polygon points="1540,1057 1538,1073 1537,1078 1534,1082 1530,1086 1527,1087 1413,1087 1090,1085 865,1083 857,1082 843,1080 840,1079 837,1077 831,1071 829,1068 826,1059 825,1055 823,1041 822,799 821,537 821,532 823,476 824,454 843,453 1323,453 1527,455 1539,456 1540,457 1540,1057">
+            <metadata id="MCCAY_LITTLENEMO_168_balloon_12" tailTip="1413,1087" tailDirection="E" idSpeaker="Little_Nemo_Little_Nemo_in_SlumberlandPage168Character1" rank="8"/>
+        </polygon>
+        <polygon points="1776,3407 1775,3432 1771,3464 1769,3472 1766,3479 1765,3481 1763,3484 1759,3488 1753,3493 1699,3525 1607,3514 1598,3512 1595,3511 1589,3508 1578,3497 1575,3492 1574,3489 1572,3479 1571,3471 1571,3356 1572,3351 1574,3345 1576,3341 1577,3340 1582,3336 1585,3334 1594,3331 1598,3330 1613,3329 1638,3329 1750,3330 1761,3333 1764,3334 1769,3339 1771,3342 1772,3344 1773,3348 1775,3362 1776,3395 1776,3407">
+            <metadata id="MCCAY_LITTLENEMO_168_balloon_1" tailDirection="none" rank="10"/>
+        </polygon>
+        <polygon points="2996,3326 2995,3424 2931,3567 2930,3568 2824,3660 2783,3661 2635,3663 2629,3663 2512,3659 2425,3550 2392,3302 2392,3278 2393,3274 2395,3272 2402,3271 2954,3271 2969,3272 2974,3273 2977,3274 2979,3275 2984,3280 2987,3284 2990,3289 2991,3291 2993,3296 2996,3304 2996,3326">
+            <metadata id="MCCAY_LITTLENEMO_168_balloon_2" tailTip="2931,3567" tailDirection="S" rank="12"/>
+        </polygon>
+        <polygon points="2516,1188 2515,1213 2513,1219 2510,1224 2506,1226 2500,1228 2488,1231 2428,1243 2390,1234 2387,1233 2381,1230 2378,1228 2377,1227 2373,1222 2372,1217 2371,1160 2371,1151 2372,1142 2373,1139 2375,1135 2381,1129 2386,1127 2400,1126 2493,1126 2506,1128 2511,1130 2514,1134 2516,1155 2516,1188">
+            <metadata id="MCCAY_LITTLENEMO_168_balloon_11" tailDirection="none" rank="14"/>
+        </polygon>
+        <polygon points="1507,3901 1505,3905 1503,3908 1500,3912 1498,3914 1494,3915 1483,3917 1477,3918 1400,3920 1384,3920 1369,3919 1363,3918 1359,3917 1354,3915 1353,3914 1350,3909 1349,3907 1348,3891 1348,3890 1349,3793 1353,3769 1354,3766 1355,3765 1358,3763 1389,3744 1392,3744 1458,3749 1471,3750 1474,3751 1479,3753 1494,3760 1498,3767 1505,3780 1507,3845 1507,3901">
+            <metadata id="MCCAY_LITTLENEMO_168_balloon_4" tailDirection="none" rank="16"/>
+        </polygon>
+        <polygon points="3001,786 3000,925 2999,1026 2998,1049 2996,1073 2995,1076 2988,1083 2982,1086 2974,1088 2963,1089 2951,1090 2930,1091 2417,1091 2366,1090 2324,1089 2311,1087 2307,1086 2304,1085 2298,1082 2289,1073 2287,1070 2285,1066 2283,1058 2283,932 2291,237 2469,142 2500,141 3001,460 3001,786">
+            <metadata id="MCCAY_LITTLENEMO_168_balloon_15" tailTip="2930,1091" tailDirection="E" rank="18"/>
+        </polygon>
+        <polygon points="322,374 321,439 320,441 316,446 309,453 307,454 301,456 266,467 200,485 136,467 130,464 128,462 127,460 125,454 122,393 120,346 120,345 123,329 126,323 129,320 135,317 166,312 173,311 287,309 309,309 311,310 313,312 317,319 320,328 321,334 322,355 322,374">
+            <metadata id="MCCAY_LITTLENEMO_168_balloon_14" tailDirection="none" rank="20"/>
+        </polygon>
+        <polygon points="2275,2151 2271,2587 2269,2675 2268,2682 1899,2724 1843,2710 1842,2709 1833,2567 1833,2562 1838,2496 1839,2491 1919,2207 1921,2202 1929,2184 1931,2180 1940,2163 1947,2151 1964,2127 1976,2113 1984,2104 1985,2103 2005,2084 2021,2072 2033,2064 2036,2063 2040,2062 2075,2062 2235,2063 2249,2064 2256,2065 2259,2066 2263,2068 2271,2076 2272,2078 2273,2082 2274,2091 2275,2119 2275,2151">
+            <metadata id="MCCAY_LITTLENEMO_168_balloon_6" tailTip="1919,2207" tailDirection="NW" idSpeaker="Little_Nemo_Little_Nemo_in_SlumberlandPage168Character5" rank="22"/>
+        </polygon>
+        <polygon points="1546,2428 1543,2782 1542,2865 1541,2938 1540,2948 1539,2953 1538,2957 1537,2960 1534,2966 1531,2970 1528,2973 1525,2975 1521,2977 1517,2978 1103,2979 995,2979 867,2978 866,2977 834,2930 859,2874 1184,2370 1187,2367 1192,2363 1211,2349 1233,2333 1236,2331 1292,2298 1334,2274 1347,2267 1357,2262 1400,2242 1455,2220 1463,2217 1476,2213 1511,2203 1530,2198 1545,2196 1546,2196 1546,2428">
+            <metadata id="MCCAY_LITTLENEMO_168_balloon_7" tailTip="1184,2370" tailDirection="E" idSpeaker="Little_Nemo_Little_Nemo_in_SlumberlandPage168Character7" rank="24"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="1307,528 1409,528 1409,555 1307,555 1307,528">
+            <metadata id="MCCAY_LITTLENEMO_168_line_125" rank="0"/>
+        </polygon>
+        <polygon points="2614,429 2754,429 2754,457 2614,457 2614,429">
+            <metadata id="MCCAY_LITTLENEMO_168_line_135" rank="2"/>
+        </polygon>
+        <polygon points="2636,2453 2794,2453 2794,2497 2636,2497 2636,2453">
+            <metadata id="MCCAY_LITTLENEMO_168_line_52" rank="4"/>
+        </polygon>
+        <polygon points="2546,3437 2672,3437 2672,3469 2546,3469 2546,3437">
+            <metadata id="MCCAY_LITTLENEMO_168_line_20" rank="6"/>
+        </polygon>
+        <polygon points="1409,3756 1461,3756 1461,3781 1409,3781 1409,3756">
+            <metadata id="MCCAY_LITTLENEMO_168_line_12" rank="8"/>
+        </polygon>
+        <polygon points="2355,312 2542,312 2542,369 2355,369 2355,312">
+            <metadata id="MCCAY_LITTLENEMO_168_line_153" rank="10"/>
+        </polygon>
+        <polygon points="2096,3765 2165,3765 2165,3795 2096,3795 2096,3765">
+            <metadata id="MCCAY_LITTLENEMO_168_line_10" rank="12"/>
+        </polygon>
+        <polygon points="1118,2383 1250,2383 1250,2453 1118,2453 1118,2383">
+            <metadata id="MCCAY_LITTLENEMO_168_line_55" rank="14"/>
+        </polygon>
+        <polygon points="2403,428 2477,428 2477,455 2403,455 2403,428">
+            <metadata id="MCCAY_LITTLENEMO_168_line_136" rank="16"/>
+        </polygon>
+        <polygon points="2095,3792 2260,3792 2260,3825 2095,3825 2095,3792">
+            <metadata id="MCCAY_LITTLENEMO_168_line_8" rank="18"/>
+        </polygon>
+        <polygon points="2615,340 2675,340 2675,366 2615,366 2615,340">
+            <metadata id="MCCAY_LITTLENEMO_168_line_152" rank="20"/>
+        </polygon>
+        <polygon points="1129,2532 1297,2532 1297,2620 1129,2620 1129,2532">
+            <metadata id="MCCAY_LITTLENEMO_168_line_51" rank="22"/>
+        </polygon>
+        <polygon points="135,312 315,312 315,342 135,342 135,312">
+            <metadata id="MCCAY_LITTLENEMO_168_line_155" rank="24"/>
+        </polygon>
+        <polygon points="2065,2152 2156,2152 2156,2201 2065,2201 2065,2152">
+            <metadata id="MCCAY_LITTLENEMO_168_line_74" rank="26"/>
+        </polygon>
+        <polygon points="1358,3873 1413,3873 1413,3898 1358,3898 1358,3873">
+            <metadata id="MCCAY_LITTLENEMO_168_line_3" rank="28"/>
+        </polygon>
+        <polygon points="2106,3732 2243,3732 2243,3758 2106,3758 2106,3732">
+            <metadata id="MCCAY_LITTLENEMO_168_line_14" rank="30"/>
+        </polygon>
+        <polygon points="1156,2909 1489,2909 1489,2978 1156,2978 1156,2909">
+            <metadata id="MCCAY_LITTLENEMO_168_line_47" rank="32"/>
+        </polygon>
+        <polygon points="2389,398 2468,398 2468,426 2389,426 2389,398">
+            <metadata id="MCCAY_LITTLENEMO_168_line_143" rank="34"/>
+        </polygon>
+        <polygon points="2540,3345 2714,3345 2714,3372 2540,3372 2540,3345">
+            <metadata id="MCCAY_LITTLENEMO_168_line_27" rank="36"/>
+        </polygon>
+        <polygon points="1311,490 1444,490 1444,518 1311,518 1311,490">
+            <metadata id="MCCAY_LITTLENEMO_168_line_129" rank="38"/>
+        </polygon>
+        <polygon points="896,353 1066,353 1066,387 896,387 896,353">
+            <metadata id="MCCAY_LITTLENEMO_168_line_149" rank="40"/>
+        </polygon>
+        <polygon points="1581,3338 1737,3338 1737,3371 1581,3371 1581,3338">
+            <metadata id="MCCAY_LITTLENEMO_168_line_28" rank="42"/>
+        </polygon>
+        <polygon points="1264,2568 1508,2568 1508,2618 1264,2618 1264,2568">
+            <metadata id="MCCAY_LITTLENEMO_168_line_50" rank="44"/>
+        </polygon>
+        <polygon points="2046,2147 2117,2147 2117,2174 2046,2174 2046,2147">
+            <metadata id="MCCAY_LITTLENEMO_168_line_76" rank="46"/>
+        </polygon>
+        <polygon points="2021,2081 2171,2081 2171,2138 2021,2138 2021,2081">
+            <metadata id="MCCAY_LITTLENEMO_168_line_79" rank="48"/>
+        </polygon>
+        <polygon points="2038,1391 2165,1391 2165,1421 2038,1421 2038,1391">
+            <metadata id="MCCAY_LITTLENEMO_168_line_106" rank="50"/>
+        </polygon>
+        <polygon points="1314,461 1453,461 1453,488 1314,488 1314,461">
+            <metadata id="MCCAY_LITTLENEMO_168_line_132" rank="52"/>
+        </polygon>
+        <polygon points="2487,674 2771,674 2771,823 2487,823 2487,674">
+            <metadata id="MCCAY_LITTLENEMO_168_line_121" rank="54"/>
+        </polygon>
+        <polygon points="2610,400 2783,400 2783,428 2610,428 2610,400">
+            <metadata id="MCCAY_LITTLENEMO_168_line_141" rank="56"/>
+        </polygon>
+        <polygon points="1097,2889 1186,2889 1186,2941 1097,2941 1097,2889">
+            <metadata id="MCCAY_LITTLENEMO_168_line_48" rank="58"/>
+        </polygon>
+        <polygon points="1586,3452 1639,3452 1639,3479 1586,3479 1586,3452">
+            <metadata id="MCCAY_LITTLENEMO_168_line_19" rank="60"/>
+        </polygon>
+        <polygon points="916,413 1068,413 1068,442 916,442 916,413">
+            <metadata id="MCCAY_LITTLENEMO_168_line_138" rank="62"/>
+        </polygon>
+        <polygon points="2540,3405 2735,3405 2735,3435 2540,3435 2540,3405">
+            <metadata id="MCCAY_LITTLENEMO_168_line_23" rank="64"/>
+        </polygon>
+        <polygon points="1591,3375 1703,3375 1703,3402 1591,3402 1591,3375">
+            <metadata id="MCCAY_LITTLENEMO_168_line_25" rank="66"/>
+        </polygon>
+        <polygon points="2099,3825 2263,3825 2263,3868 2099,3868 2099,3825">
+            <metadata id="MCCAY_LITTLENEMO_168_line_6" rank="68"/>
+        </polygon>
+        <polygon points="2538,3375 2718,3375 2718,3403 2538,3403 2538,3375">
+            <metadata id="MCCAY_LITTLENEMO_168_line_24" rank="70"/>
+        </polygon>
+        <polygon points="889,383 1072,383 1072,415 889,415 889,383">
+            <metadata id="MCCAY_LITTLENEMO_168_line_144" rank="72"/>
+        </polygon>
+        <polygon points="2610,368 2786,368 2786,399 2610,399 2610,368">
+            <metadata id="MCCAY_LITTLENEMO_168_line_147" rank="74"/>
+        </polygon>
+        <polygon points="1422,3846 1506,3846 1506,3873 1422,3873 1422,3846">
+            <metadata id="MCCAY_LITTLENEMO_168_line_4" rank="76"/>
+        </polygon>
+        <polygon points="2075,1420 2164,1420 2164,1449 2075,1449 2075,1420">
+            <metadata id="MCCAY_LITTLENEMO_168_line_105" rank="78"/>
+        </polygon>
+        <polygon points="2387,362 2528,362 2528,391 2387,391 2387,362">
+            <metadata id="MCCAY_LITTLENEMO_168_line_148" rank="80"/>
+        </polygon>
+        <polygon points="823,2827 1179,2827 1179,2907 823,2907 823,2827">
+            <metadata id="MCCAY_LITTLENEMO_168_line_49" rank="82"/>
+        </polygon>
+        <polygon points="2209,3760 2267,3760 2267,3788 2209,3788 2209,3760">
+            <metadata id="MCCAY_LITTLENEMO_168_line_11" rank="84"/>
+        </polygon>
+        <polygon points="176,410 289,410 289,435 176,435 176,410">
+            <metadata id="MCCAY_LITTLENEMO_168_line_139" rank="86"/>
+        </polygon>
+        <polygon points="2561,3470 2670,3470 2670,3498 2561,3498 2561,3470">
+            <metadata id="MCCAY_LITTLENEMO_168_line_18" rank="88"/>
+        </polygon>
+        <polygon points="1355,3788 1486,3788 1486,3814 1355,3814 1355,3788">
+            <metadata id="MCCAY_LITTLENEMO_168_line_9" rank="90"/>
+        </polygon>
+        <polygon points="2650,2416 2722,2416 2722,2441 2650,2441 2650,2416">
+            <metadata id="MCCAY_LITTLENEMO_168_line_54" rank="92"/>
+        </polygon>
+        <polygon points="2588,3495 2696,3495 2696,3533 2588,3533 2588,3495">
+            <metadata id="MCCAY_LITTLENEMO_168_line_17" rank="94"/>
+        </polygon>
+        <polygon points="2388,1165 2511,1165 2511,1211 2388,1211 2388,1165">
+            <metadata id="MCCAY_LITTLENEMO_168_line_99" rank="96"/>
+        </polygon>
+        <polygon points="1360,3818 1479,3818 1479,3844 1360,3844 1360,3818">
+            <metadata id="MCCAY_LITTLENEMO_168_line_7" rank="98"/>
+        </polygon>
+        <polygon points="895,322 1071,322 1071,349 895,349 895,322">
+            <metadata id="MCCAY_LITTLENEMO_168_line_154" rank="100"/>
+        </polygon>
+        <polygon points="136,381 266,381 266,411 136,411 136,381">
+            <metadata id="MCCAY_LITTLENEMO_168_line_145" rank="102"/>
+        </polygon>
+        <polygon points="135,336 372,336 372,376 135,376 135,336">
+            <metadata id="MCCAY_LITTLENEMO_168_line_150" rank="104"/>
+        </polygon>
+        <polygon points="2643,459 2760,459 2760,534 2643,534 2643,459">
+            <metadata id="MCCAY_LITTLENEMO_168_line_130" rank="106"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Object" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="1413,730 1770,730 1770,1097 1413,1097 1413,730">
+            <metadata id="Little_Nemo_Little_Nemo_in_SlumberlandPage168Character1" idBalloon="MCCAY_LITTLENEMO_168_balloon_12" idPanel="MCCAY_LITTLENEMO_168_panel_11"/>
+        </polygon>
+        <polygon points="1573,2069 1730,2069 1730,2201 1573,2201 1573,2069">
+            <metadata id="Little_Nemo_Little_Nemo_in_SlumberlandPage168Character5" idBalloon="MCCAY_LITTLENEMO_168_balloon_6" idPanel="MCCAY_LITTLENEMO_168_panel_3"/>
+        </polygon>
+        <polygon points="1176,2098 1400,2098 1400,2327 1176,2327 1176,2098">
+            <metadata id="Little_Nemo_Little_Nemo_in_SlumberlandPage168Character7" idBalloon="MCCAY_LITTLENEMO_168_balloon_7" idPanel="MCCAY_LITTLENEMO_168_panel_5"/>
+        </polygon>
+    </svg>
+    <metadata lastModificationDate="Thu Jun 12 14:24:55 CEST 2014" method="Reasoning on polygon's type" referent="Clément Guérin"/>
+</svg>

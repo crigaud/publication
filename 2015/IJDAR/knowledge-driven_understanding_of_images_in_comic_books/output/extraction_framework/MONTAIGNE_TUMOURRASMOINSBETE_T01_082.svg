@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="254.0mm" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0.0 0.0 509.0 671.0" height="335.0mm" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Page" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="509" xlink:href="../Pages/MONTAIGNE_TUMOURRASMOINSBETE_T01_082.jpg" xlink:type="simple" xlink:actuate="onLoad" height="671" opacity="0.5" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 0; stroke-linejoin: round; }
+		.Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+		.Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Panel { fill: red; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Line { fill: green; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Balloon { fill: cyan; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="421,306 330,312 316,312 284,308 245,301 244,297 243,274 243,267 244,261 248,256 324,190 340,182 343,181 348,181 415,291 421,304 421,306">
+            <metadata id="MONTAIGNE_TUMOURRASMOINSBETE_T01_082_panel_0" rank="2"/>
+        </polygon>
+        <polygon points="237,261 236,264 223,271 206,279 174,280 172,280 132,274 126,273 121,272 117,271 114,270 100,261 100,259 166,190 168,188 178,182 181,181 188,180 193,180 200,182 202,183 205,185 212,192 213,194 223,217 237,261">
+            <metadata id="MONTAIGNE_TUMOURRASMOINSBETE_T01_082_panel_1" rank="1"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Object" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <metadata lastModificationDate="Thu Jun 12 14:25:01 CEST 2014" method="Reasoning on polygon's type" referent="Clément Guérin"/>
+</svg>

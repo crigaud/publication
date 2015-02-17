@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="400.0mm" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0.0 0.0 800.0 301.0" height="150.0mm" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Page" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="800" xlink:href="../Pages/LAMISSEB_ETPISTAF_005.jpg" xlink:type="simple" xlink:actuate="onLoad" height="301" opacity="0.5" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 0; stroke-linejoin: round; }
+		.Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+		.Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Panel { fill: red; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Line { fill: green; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Balloon { fill: cyan; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="619,158 609,284 575,285 432,285 431,284 428,264 428,259 430,23 431,20 610,20 611,21 619,156 619,158">
+            <metadata id="LAMISSEB_ETPISTAF_005_panel_1" rank="3"/>
+        </polygon>
+        <polygon points="246,205 234,285 140,286 14,286 13,285 11,42 11,32 12,28 13,25 16,19 21,14 23,13 27,12 46,12 164,14 179,15 235,20 246,190 246,205">
+            <metadata id="LAMISSEB_ETPISTAF_005_panel_3" rank="1"/>
+        </polygon>
+        <polygon points="787,106 785,188 772,264 768,273 767,273 762,272 616,236 615,234 615,233 629,178 741,66 749,63 758,60 761,60 783,76 787,80 787,106">
+            <metadata id="LAMISSEB_ETPISTAF_005_panel_0" rank="4"/>
+        </polygon>
+        <polygon points="411,196 410,284 409,285 255,285 254,284 254,148 255,20 408,19 409,19 411,20 411,196">
+            <metadata id="LAMISSEB_ETPISTAF_005_panel_2" rank="2"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="244,207 243,212 241,218 240,220 238,222 235,224 161,240 156,240 153,239 148,237 48,128 44,120 15,50 14,47 13,43 13,32 14,28 15,25 17,21 22,16 24,15 27,14 48,14 168,16 179,17 184,19 187,22 188,24 208,81 242,179 243,183 244,188 244,207">
+            <metadata id="LAMISSEB_ETPISTAF_005_balloon_1" tailTip="44,120" tailDirection="S" rank="0"/>
+        </polygon>
+        <polygon points="383,64 382,77 381,85 380,90 378,94 376,96 374,97 304,125 274,98 271,93 268,84 267,80 267,52 268,45 269,41 271,36 272,35 278,32 281,31 285,30 290,29 296,28 315,27 343,27 360,28 367,29 370,30 374,33 375,34 377,37 378,39 380,45 381,49 382,54 383,63 383,64">
+            <metadata id="LAMISSEB_ETPISTAF_005_balloon_0" tailTip="304,125" tailDirection="S" idSpeaker="Et_Pis_Taf___Volume_1Page5Character1" rank="2"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="51,97 213,97 213,115 51,115 51,97">
+            <metadata id="LAMISSEB_ETPISTAF_005_line_4" rank="0"/>
+        </polygon>
+        <polygon points="67,112 180,112 180,123 67,123 67,112">
+            <metadata id="LAMISSEB_ETPISTAF_005_line_3" rank="2"/>
+        </polygon>
+        <polygon points="283,79 334,79 334,90 283,90 283,79">
+            <metadata id="LAMISSEB_ETPISTAF_005_line_12" rank="4"/>
+        </polygon>
+        <polygon points="30,38 171,38 171,51 30,51 30,38">
+            <metadata id="LAMISSEB_ETPISTAF_005_line_8" rank="6"/>
+        </polygon>
+        <polygon points="138,165 245,165 245,186 138,186 138,165">
+            <metadata id="LAMISSEB_ETPISTAF_005_line_2" rank="8"/>
+        </polygon>
+        <polygon points="21,22 193,22 193,41 21,41 21,22">
+            <metadata id="LAMISSEB_ETPISTAF_005_line_9" rank="10"/>
+        </polygon>
+        <polygon points="41,74 213,74 213,95 41,95 41,74">
+            <metadata id="LAMISSEB_ETPISTAF_005_line_5" rank="12"/>
+        </polygon>
+        <polygon points="264,48 386,48 386,79 264,79 264,48">
+            <metadata id="LAMISSEB_ETPISTAF_005_line_10" rank="14"/>
+        </polygon>
+        <polygon points="265,37 384,37 384,53 265,53 265,37">
+            <metadata id="LAMISSEB_ETPISTAF_005_line_11" rank="16"/>
+        </polygon>
+        <polygon points="87,181 246,181 246,208 87,208 87,181">
+            <metadata id="LAMISSEB_ETPISTAF_005_line_1" rank="18"/>
+        </polygon>
+        <polygon points="137,201 246,201 246,215 137,215 137,201">
+            <metadata id="LAMISSEB_ETPISTAF_005_line_0" rank="20"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Object" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="256,110 388,110 388,284 256,284 256,110">
+            <metadata id="Et_Pis_Taf___Volume_1Page5Character1" idBalloon="LAMISSEB_ETPISTAF_005_balloon_0" idPanel="LAMISSEB_ETPISTAF_005_panel_2"/>
+        </polygon>
+    </svg>
+    <metadata lastModificationDate="Thu Jun 12 14:23:55 CEST 2014" method="Reasoning on polygon's type" referent="Clément Guérin"/>
+</svg>

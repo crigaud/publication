@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="375.0mm" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0.0 0.0 750.0 1060.0" height="530.0mm" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Page" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="750" xlink:href="../Pages/CYB_BUBBLEGOM_T01_028.jpg" xlink:type="simple" xlink:actuate="onLoad" height="1060" opacity="0.5" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 0; stroke-linejoin: round; }
+		.Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+		.Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Panel { fill: red; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Line { fill: green; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Balloon { fill: cyan; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="691,829 686,939 669,998 661,998 568,996 492,981 411,906 370,866 364,858 360,851 360,850 363,821 370,804 371,803 379,802 496,802 684,804 687,807 690,818 691,824 691,829">
+            <metadata id="CYB_BUBBLEGOM_T01_028_panel_1" rank="10"/>
+        </polygon>
+        <polygon points="509,331 502,515 501,516 288,516 285,515 285,303 286,300 287,299 390,296 392,296 399,297 410,299 506,327 507,328 509,331">
+            <metadata id="CYB_BUBBLEGOM_T01_028_panel_7" rank="4"/>
+        </polygon>
+        <polygon points="288,104 287,265 57,265 56,264 55,262 55,104 56,83 57,82 160,82 286,83 288,85 288,104">
+            <metadata id="CYB_BUBBLEGOM_T01_028_panel_8" rank="1"/>
+        </polygon>
+        <polygon points="269,965 268,966 244,966 61,965 56,964 55,960 55,802 57,801 119,801 255,802 268,803 269,804 269,965">
+            <metadata id="CYB_BUBBLEGOM_T01_028_panel_2" rank="8"/>
+        </polygon>
+        <polygon points="748,1016 1,1016 1,993 742,934 747,934 748,993 748,1016">
+            <metadata id="CYB_BUBBLEGOM_T01_028_panel_0" rank="9"/>
+        </polygon>
+        <polygon points="270,403 269,516 55,516 54,514 54,381 57,378 64,373 203,300 269,300 270,301 270,403">
+            <metadata id="CYB_BUBBLEGOM_T01_028_panel_5" rank="3"/>
+        </polygon>
+        <polygon points="748,266 739,267 715,267 305,265 303,264 302,263 302,255 303,3 631,3 748,76 748,266">
+            <metadata id="CYB_BUBBLEGOM_T01_028_panel_9" rank="2"/>
+        </polygon>
+        <polygon points="697,515 696,516 519,516 518,514 517,429 516,325 516,299 518,299 695,300 697,515">
+            <metadata id="CYB_BUBBLEGOM_T01_028_panel_6" rank="5"/>
+        </polygon>
+        <polygon points="696,769 695,770 686,770 430,768 429,647 429,551 430,550 432,549 467,534 479,533 480,533 695,550 696,552 696,769">
+            <metadata id="CYB_BUBBLEGOM_T01_028_panel_3" rank="7"/>
+        </polygon>
+        <polygon points="414,786 413,787 391,787 54,785 2,784 1,654 1,653 2,533 4,532 138,522 175,522 267,524 413,532 414,533 414,786">
+            <metadata id="CYB_BUBBLEGOM_T01_028_panel_4" rank="6"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="522,836 520,842 517,848 514,853 510,856 490,870 479,874 422,893 389,873 376,862 369,856 367,849 369,820 376,805 491,805 513,806 516,813 519,821 522,836">
+            <metadata id="CYB_BUBBLEGOM_T01_028_balloon_1" tailTip="422,893" tailDirection="SW" rank="0"/>
+        </polygon>
+        <polygon points="688,825 685,866 583,863 572,861 563,858 555,855 553,854 548,851 543,846 541,843 540,841 538,835 537,828 537,820 538,817 540,812 543,808 545,806 631,806 682,807 683,808 686,815 687,818 688,825">
+            <metadata id="CYB_BUBBLEGOM_T01_028_balloon_0" tailTip="685,866" tailDirection="S" idSpeaker="Bubblegôm_Gôm_La_Légende_des_YaouanksPage28Character5" rank="2"/>
+        </polygon>
+        <polygon points="666,318 665,328 652,334 645,337 636,340 627,342 622,343 610,345 601,346 588,347 586,347 576,346 569,345 559,343 541,337 523,328 519,325 519,303 662,303 663,304 666,310 666,318">
+            <metadata id="CYB_BUBBLEGOM_T01_028_balloon_3" tailTip="665,328" tailDirection="SE" idSpeaker="Bubblegôm_Gôm_La_Légende_des_YaouanksPage28Character3" rank="4"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="381,821 522,821 522,836 381,836 381,821">
+            <metadata id="CYB_BUBBLEGOM_T01_028_line_8" rank="0"/>
+        </polygon>
+        <polygon points="575,845 634,845 634,856 575,856 575,845">
+            <metadata id="CYB_BUBBLEGOM_T01_028_line_4" rank="2"/>
+        </polygon>
+        <polygon points="555,324 630,324 630,334 555,334 555,324">
+            <metadata id="CYB_BUBBLEGOM_T01_028_line_52" rank="4"/>
+        </polygon>
+        <polygon points="543,312 643,312 643,322 543,322 543,312">
+            <metadata id="CYB_BUBBLEGOM_T01_028_line_53" rank="6"/>
+        </polygon>
+        <polygon points="389,833 505,833 505,844 389,844 389,833">
+            <metadata id="CYB_BUBBLEGOM_T01_028_line_6" rank="8"/>
+        </polygon>
+        <polygon points="544,832 681,832 681,848 544,848 544,832">
+            <metadata id="CYB_BUBBLEGOM_T01_028_line_7" rank="10"/>
+        </polygon>
+        <polygon points="557,821 592,821 592,831 557,831 557,821">
+            <metadata id="CYB_BUBBLEGOM_T01_028_line_10" rank="12"/>
+        </polygon>
+        <polygon points="399,845 495,845 495,855 399,855 399,845">
+            <metadata id="CYB_BUBBLEGOM_T01_028_line_5" rank="14"/>
+        </polygon>
+        <polygon points="407,857 505,857 505,867 407,867 407,857">
+            <metadata id="CYB_BUBBLEGOM_T01_028_line_3" rank="16"/>
+        </polygon>
+        <polygon points="609,821 667,821 667,831 609,831 609,821">
+            <metadata id="CYB_BUBBLEGOM_T01_028_line_9" rank="18"/>
+        </polygon>
+        <polygon points="578,809 646,809 646,819 578,819 578,809">
+            <metadata id="CYB_BUBBLEGOM_T01_028_line_12" rank="20"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Object" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="514,864 685,864 685,995 514,995 514,864">
+            <metadata id="Bubblegôm_Gôm_La_Légende_des_YaouanksPage28Character5" idBalloon="CYB_BUBBLEGOM_T01_028_balloon_0" idPanel="CYB_BUBBLEGOM_T01_028_panel_1"/>
+        </polygon>
+        <polygon points="665,328 697,328 697,435 665,435 665,328">
+            <metadata id="Bubblegôm_Gôm_La_Légende_des_YaouanksPage28Character3" idBalloon="CYB_BUBBLEGOM_T01_028_balloon_3" idPanel="CYB_BUBBLEGOM_T01_028_panel_6"/>
+        </polygon>
+    </svg>
+    <metadata lastModificationDate="Thu Jun 12 14:22:52 CEST 2014" method="Reasoning on polygon's type" referent="Clément Guérin"/>
+</svg>

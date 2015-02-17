@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="977.0mm" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0.0 0.0 1955.0 2670.0" height="1335.0mm" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Page" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="1955" xlink:href="../Pages/ROUDIER_LESTERRESCREUSEES_017.jpg" xlink:type="simple" xlink:actuate="onLoad" height="2670" opacity="0.5" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 0; stroke-linejoin: round; }
+		.Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+		.Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Panel { fill: red; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Line { fill: green; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Balloon { fill: cyan; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="110,906 54,2415 43,2660 34,2664 23,2667 22,2666 19,2660 16,2647 12,2468 10,2350 5,2040 1,1359 5,23 7,1 23,1 51,242 110,905 110,906">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_panel_1" rank="1"/>
+        </polygon>
+        <polygon points="1889,2216 1777,2625 1760,2657 1757,2658 991,2668 320,2668 309,2660 300,2653 175,2549 138,2512 132,2505 120,2488 113,2475 109,2467 92,2425 91,2421 85,2393 83,2382 78,2352 77,2344 77,2305 114,313 116,266 118,246 120,230 127,191 129,180 166,138 167,137 176,129 182,124 200,112 215,103 228,96 230,95 248,89 259,86 264,85 278,83 315,81 1625,69 1629,69 1631,70 1647,82 1653,88 1660,97 1663,101 1665,104 1668,110 1713,217 1715,222 1721,238 1725,250 1803,491 1827,636 1848,769 1851,821 1889,2216">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_panel_0" rank="2"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="1097,991 975,1192 969,1200 963,1207 958,1212 946,1222 941,1226 929,1234 918,1240 904,1245 886,1251 882,1252 874,1253 846,1256 834,1257 815,1258 814,1258 797,1257 786,1256 764,1253 753,1251 742,1248 721,1242 711,1238 700,1233 692,1228 678,1216 674,1212 669,1206 665,1200 663,1196 661,1190 658,1173 657,1165 656,1155 656,1133 657,1126 658,1121 661,1109 663,1105 667,1099 670,1095 675,1090 682,1084 688,1079 697,1073 705,1068 715,1063 732,1056 740,1053 743,1052 759,1047 1097,990 1097,991">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_balloon_0" tailTip="1097,990" tailDirection="NE" idSpeaker="Actes_Sud_BD_Les_Terres_CreuséesPage17Character3" rank="0"/>
+        </polygon>
+        <polygon points="1823,661 1822,669 1821,674 1819,683 1816,692 1813,699 1809,707 1807,710 1797,722 1787,732 1773,744 1769,747 1759,753 1752,757 1746,760 1728,766 1696,774 1682,776 1666,778 1656,779 1645,780 1612,781 1584,781 1506,777 1496,776 1491,775 1484,773 1471,769 1465,767 1451,761 1437,754 1418,742 1410,736 1401,729 1394,723 1386,715 1374,702 1366,690 1363,684 1361,679 1358,669 1355,654 1354,647 1354,622 1356,611 1358,604 1359,601 1365,589 1370,582 1373,578 1379,571 1391,559 1396,555 1404,549 1413,544 1419,541 1701,413 1704,416 1707,420 1716,435 1806,594 1812,605 1814,609 1818,621 1822,635 1823,643 1823,661">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_balloon_2" tailTip="1701,413" tailDirection="NW" idSpeaker="Actes_Sud_BD_Les_Terres_CreuséesPage17Character5" rank="2"/>
+        </polygon>
+        <polygon points="1197,128 1196,133 1195,137 1190,152 1186,160 1174,172 1170,175 1155,185 1151,187 1148,188 1133,192 811,239 803,240 801,240 789,239 785,238 734,155 731,149 729,144 727,138 723,122 722,115 722,103 723,93 724,89 726,82 731,69 735,61 738,57 753,42 758,38 763,35 767,33 772,31 781,28 794,24 800,23 807,22 842,21 1075,18 1106,18 1121,19 1133,22 1139,24 1150,31 1156,35 1166,45 1173,54 1178,61 1187,77 1192,87 1193,90 1195,98 1196,103 1197,112 1197,128">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_balloon_4" tailTip="785,238" tailDirection="W" idSpeaker="Actes_Sud_BD_Les_Terres_CreuséesPage17Character7" rank="4"/>
+        </polygon>
+        <polygon points="1113,401 1112,412 1111,420 1109,429 1105,440 1101,447 1099,450 1095,455 1091,459 1083,465 1073,472 1065,476 1058,479 1052,481 1041,484 1037,485 1032,486 1023,487 1013,488 1002,489 984,490 967,490 918,489 903,487 874,483 869,482 865,481 861,479 856,476 853,474 848,470 839,462 838,461 834,456 832,453 829,448 825,440 823,435 818,422 794,289 800,289 1036,296 1046,297 1056,299 1063,301 1069,303 1081,309 1088,315 1090,317 1095,323 1098,327 1103,335 1109,349 1111,359 1112,366 1113,385 1113,401">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_balloon_3" tailTip="794,289" tailDirection="W" idSpeaker="Actes_Sud_BD_Les_Terres_CreuséesPage17Character7" rank="6"/>
+        </polygon>
+        <polygon points="1230,692 1227,704 1101,894 1100,894 1098,893 851,768 840,761 837,759 832,755 816,742 813,739 807,729 802,719 798,707 797,703 797,680 799,671 801,666 806,656 809,651 811,648 814,644 816,642 831,628 840,622 851,615 860,611 866,609 880,605 895,601 899,600 918,597 943,596 973,596 1093,598 1114,599 1136,601 1146,602 1159,604 1167,606 1173,608 1188,614 1190,615 1194,618 1207,631 1218,644 1222,649 1225,654 1226,656 1229,664 1230,670 1230,692">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_balloon_1" tailTip="1101,894" tailDirection="SE" idSpeaker="Actes_Sud_BD_Les_Terres_CreuséesPage17Character1" rank="8"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="763,1087 871,1087 871,1130 763,1130 763,1087">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_7" rank="0"/>
+        </polygon>
+        <polygon points="800,130 1112,130 1112,166 800,166 800,130">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_31" rank="2"/>
+        </polygon>
+        <polygon points="758,100 1164,100 1164,132 758,132 758,100">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_32" rank="4"/>
+        </polygon>
+        <polygon points="813,58 1134,58 1134,124 813,124 813,58">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_33" rank="6"/>
+        </polygon>
+        <polygon points="715,1135 919,1135 919,1165 715,1165 715,1135">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_6" rank="8"/>
+        </polygon>
+        <polygon points="935,622 1085,622 1085,660 935,660 935,622">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_20" rank="10"/>
+        </polygon>
+        <polygon points="1055,684 1184,684 1184,716 1055,716 1055,684">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_18" rank="12"/>
+        </polygon>
+        <polygon points="834,675 1043,675 1043,706 834,706 834,675">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_19" rank="14"/>
+        </polygon>
+        <polygon points="749,1173 876,1173 876,1219 749,1219 749,1173">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_5" rank="16"/>
+        </polygon>
+        <polygon points="877,716 1133,716 1133,753 877,753 877,716">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_17" rank="18"/>
+        </polygon>
+        <polygon points="1411,677 1770,677 1770,721 1411,721 1411,677">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_23" rank="20"/>
+        </polygon>
+        <polygon points="1426,636 1755,636 1755,679 1426,679 1426,636">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_24" rank="22"/>
+        </polygon>
+        <polygon points="1408,596 1773,596 1773,639 1408,639 1408,596">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_25" rank="24"/>
+        </polygon>
+        <polygon points="1456,565 1736,565 1736,598 1456,598 1456,565">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_26" rank="26"/>
+        </polygon>
+        <polygon points="885,334 1076,334 1076,371 885,371 885,334">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_30" rank="28"/>
+        </polygon>
+        <polygon points="1525,730 1648,730 1648,762 1525,762 1525,730">
+            <metadata id="ROUDIER_LESTERRESCREUSEES_017_line_22" rank="30"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Object" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="1078,833 1454,833 1454,1238 1078,1238 1078,833">
+            <metadata id="Actes_Sud_BD_Les_Terres_CreuséesPage17Character1" idBalloon="ROUDIER_LESTERRESCREUSEES_017_balloon_1" idPanel="ROUDIER_LESTERRESCREUSEES_017_panel_0"/>
+        </polygon>
+        <polygon points="1158,701 1707,701 1707,1100 1158,1100 1158,701">
+            <metadata id="Actes_Sud_BD_Les_Terres_CreuséesPage17Character3" idBalloon="ROUDIER_LESTERRESCREUSEES_017_balloon_0" idPanel="ROUDIER_LESTERRESCREUSEES_017_panel_0"/>
+        </polygon>
+        <polygon points="1358,74 1735,74 1735,461 1358,461 1358,74">
+            <metadata id="Actes_Sud_BD_Les_Terres_CreuséesPage17Character5" idBalloon="ROUDIER_LESTERRESCREUSEES_017_balloon_2" idPanel="ROUDIER_LESTERRESCREUSEES_017_panel_0"/>
+        </polygon>
+        <polygon points="427,163 790,163 790,677 427,677 427,163">
+            <metadata id="Actes_Sud_BD_Les_Terres_CreuséesPage17Character7" idPanel="ROUDIER_LESTERRESCREUSEES_017_panel_0"/>
+        </polygon>
+    </svg>
+    <metadata lastModificationDate="Thu Jun 12 14:25:39 CEST 2014" method="Reasoning on polygon's type" referent="Clément Guérin"/>
+</svg>

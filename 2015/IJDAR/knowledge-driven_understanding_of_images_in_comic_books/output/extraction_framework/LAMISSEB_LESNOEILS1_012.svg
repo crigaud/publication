@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="1230.0mm" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0.0 0.0 2461.0 3411.0" height="1705.0mm" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Page" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="2461" xlink:href="../Pages/LAMISSEB_LESNOEILS1_012.jpg" xlink:type="simple" xlink:actuate="onLoad" height="3411" opacity="0.5" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 0; stroke-linejoin: round; }
+		.Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+		.Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Panel { fill: red; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Line { fill: green; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Balloon { fill: cyan; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="922,1754 920,2401 919,2413 918,2414 615,2415 255,2416 254,2416 252,2415 251,2413 250,2289 249,2128 247,1759 247,1758 248,1756 249,1755 251,1754 373,1722 382,1721 406,1720 431,1719 544,1717 711,1715 753,1716 778,1718 920,1751 922,1752 922,1754">
+            <metadata id="LAMISSEB_LESNOEILS1_012_panel_4" rank="7"/>
+        </polygon>
+        <polygon points="1604,830 1603,831 1600,832 1421,833 1198,834 948,835 946,835 944,833 945,315 946,174 947,173 1551,170 1602,170 1603,174 1604,830">
+            <metadata id="LAMISSEB_LESNOEILS1_012_panel_9" rank="2"/>
+        </polygon>
+        <polygon points="925,3198 924,3199 922,3200 911,3201 726,3202 268,3204 260,3204 256,3202 255,3147 254,3022 251,2605 251,2541 252,2540 305,2509 307,2508 353,2506 442,2504 856,2504 859,2505 919,2539 920,2540 925,3189 925,3198">
+            <metadata id="LAMISSEB_LESNOEILS1_012_panel_0" rank="10"/>
+        </polygon>
+        <polygon points="2324,3196 2323,3197 2156,3198 1648,3198 1647,3196 1646,3085 1645,2766 1645,2535 1715,2502 1860,2500 1882,2500 2161,2502 2167,2503 2320,2534 2322,2535 2323,2536 2324,2550 2324,3196">
+            <metadata id="LAMISSEB_LESNOEILS1_012_panel_1" rank="12"/>
+        </polygon>
+        <polygon points="1616,3192 1615,3195 1612,3198 1517,3199 984,3201 960,3201 959,3200 958,3196 957,3054 956,2841 955,2592 955,2539 956,2538 1087,2504 1114,2502 1250,2499 1386,2499 1448,2500 1467,2501 1611,2535 1612,2583 1616,3183 1616,3192">
+            <metadata id="LAMISSEB_LESNOEILS1_012_panel_2" rank="11"/>
+        </polygon>
+        <polygon points="916,1622 873,1623 703,1624 354,1626 250,1626 249,1625 248,1611 247,1479 246,1251 245,969 245,967 246,966 444,929 591,929 635,930 701,932 709,933 913,961 916,964 916,1622">
+            <metadata id="LAMISSEB_LESNOEILS1_012_panel_6" rank="4"/>
+        </polygon>
+        <polygon points="2318,1615 2316,1616 2302,1617 1736,1619 1637,1619 1636,1618 1636,1617 1638,958 1640,956 1743,922 1747,921 1754,920 1763,920 2315,952 2316,954 2318,1519 2318,1615">
+            <metadata id="LAMISSEB_LESNOEILS1_012_panel_8" rank="6"/>
+        </polygon>
+        <polygon points="1611,2410 1610,2411 1604,2412 982,2414 953,2414 952,2413 951,1955 951,1753 953,1751 1018,1718 1401,1716 1529,1716 1609,1748 1610,1750 1611,2409 1611,2410">
+            <metadata id="LAMISSEB_LESNOEILS1_012_panel_3" rank="8"/>
+        </polygon>
+        <polygon points="1608,1002 1607,1619 1058,1622 951,1622 950,1621 949,1318 949,962 950,961 1009,928 1020,927 1035,926 1056,925 1170,924 1329,923 1340,923 1573,924 1607,957 1608,958 1608,1002">
+            <metadata id="LAMISSEB_LESNOEILS1_012_panel_7" rank="5"/>
+        </polygon>
+        <polygon points="2317,164 2315,825 2313,827 1845,830 1688,831 1636,831 1635,830 1633,240 1633,168 1789,134 1828,129 1842,128 1867,127 2158,124 2159,124 2316,163 2317,164">
+            <metadata id="LAMISSEB_LESNOEILS1_012_panel_11" rank="3"/>
+        </polygon>
+        <polygon points="2359,2315 2358,2320 2357,2323 2319,2405 2318,2406 2316,2407 1958,2409 1778,2410 1642,2410 1641,2341 1639,2068 1637,1793 1637,1748 1638,1747 1718,1711 1735,1710 1783,1709 1799,1709 2124,1710 2184,1711 2223,1712 2313,1740 2316,1741 2317,1743 2359,2315">
+            <metadata id="LAMISSEB_LESNOEILS1_012_panel_5" rank="9"/>
+        </polygon>
+        <polygon points="914,205 912,713 911,834 910,835 789,836 317,839 246,839 244,838 243,837 243,179 244,178 376,139 601,138 602,138 776,140 912,175 913,176 914,179 914,205">
+            <metadata id="LAMISSEB_LESNOEILS1_012_panel_10" rank="1"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="1525,1729 1524,1835 1523,1849 1520,1883 1338,2052 1022,1885 1021,1877 1021,1872 1023,1724 1392,1721 1445,1721 1519,1722 1525,1723 1525,1729">
+            <metadata id="LAMISSEB_LESNOEILS1_012_balloon_4" tailTip="1338,2052" tailDirection="SE" idSpeaker="Les_Noeils_Tome_1Page12Character11" rank="0"/>
+        </polygon>
+        <polygon points="854,2680 520,2879 519,2879 314,2679 312,2663 307,2554 307,2543 309,2523 310,2515 311,2514 325,2512 363,2511 416,2510 604,2509 839,2509 852,2510 853,2511 854,2672 854,2680">
+            <metadata id="LAMISSEB_LESNOEILS1_012_balloon_0" tailTip="519,2879" tailDirection="SW" idSpeaker="Les_Noeils_Tome_1Page12Character9" rank="2"/>
+        </polygon>
+        <polygon points="2250,2795 2249,2796 2037,2886 1939,2799 1938,2798 1938,2795 1940,2731 1942,2675 1951,2675 2247,2676 2250,2777 2250,2795">
+            <metadata id="LAMISSEB_LESNOEILS1_012_balloon_1" tailTip="2037,2886" tailDirection="SE" idSpeaker="Les_Noeils_Tome_1Page12Character19" rank="4"/>
+        </polygon>
+        <polygon points="2165,2531 2163,2610 2162,2623 2161,2624 1864,2856 1716,2624 1716,2622 1719,2508 1720,2507 1825,2506 2099,2506 2146,2507 2164,2508 2165,2509 2165,2531">
+            <metadata id="LAMISSEB_LESNOEILS1_012_balloon_2" tailTip="1864,2856" tailDirection="S" idSpeaker="Les_Noeils_Tome_1Page12Character19" rank="6"/>
+        </polygon>
+        <polygon points="1569,955 1568,1035 1567,1054 1384,1222 1010,1057 1009,1055 1010,981 1012,934 1022,932 1072,930 1166,929 1355,929 1568,930 1569,931 1569,955">
+            <metadata id="LAMISSEB_LESNOEILS1_012_balloon_7" tailTip="1384,1222" tailDirection="S" rank="10"/>
+        </polygon>
+        <polygon points="2219,1763 2218,1842 2018,2043 1718,1845 1717,1752 1717,1744 1718,1728 1719,1721 1720,1717 1721,1716 1732,1715 1778,1714 1806,1714 2091,1715 2183,1716 2210,1717 2218,1718 2219,1728 2219,1763">
+            <metadata id="LAMISSEB_LESNOEILS1_012_balloon_6" tailTip="2018,2043" tailDirection="SE" idSpeaker="Les_Noeils_Tome_1Page12Character7" rank="8"/>
+        </polygon>
+        <polygon points="772,168 768,265 767,266 513,458 376,268 376,202 378,153 379,147 380,146 385,145 401,144 626,144 707,145 748,146 772,147 772,168">
+            <metadata id="LAMISSEB_LESNOEILS1_012_balloon_8" tailTip="513,458" tailDirection="SW" idSpeaker="Les_Noeils_Tome_1Page12Character15" rank="12"/>
+        </polygon>
+        <polygon points="2310,821 2291,822 1770,826 1641,826 1640,733 1639,598 1638,256 1638,175 1639,174 1698,173 2192,168 2309,168 2310,385 2310,821">
+            <metadata id="LAMISSEB_LESNOEILS1_012_balloon_9" tailTip="1698,173" tailDirection="W" rank="14"/>
+        </polygon>
+        <polygon points="777,1762 775,1846 774,1847 598,1959 378,1845 377,1844 376,1838 376,1740 378,1731 379,1729 381,1727 383,1726 449,1724 545,1722 668,1721 750,1721 768,1723 776,1724 777,1725 777,1762">
+            <metadata id="LAMISSEB_LESNOEILS1_012_balloon_5" tailTip="598,1959" tailDirection="SW" idSpeaker="Les_Noeils_Tome_1Page12Character13" rank="16"/>
+        </polygon>
+        <polygon points="1465,2515 1462,2586 1267,2874 1266,2875 1083,2589 1083,2586 1091,2511 1093,2509 1099,2508 1109,2507 1247,2504 1383,2504 1432,2505 1464,2506 1465,2507 1465,2515">
+            <metadata id="LAMISSEB_LESNOEILS1_012_balloon_3" tailTip="1266,2875" tailDirection="S" idSpeaker="Les_Noeils_Tome_1Page12Character3" rank="18"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="1991,2697 2197,2697 2197,2727 1991,2727 1991,2697">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_8" rank="0"/>
+        </polygon>
+        <polygon points="327,2622 827,2622 827,2651 327,2651 327,2622">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_2" rank="2"/>
+        </polygon>
+        <polygon points="1749,2571 2110,2571 2110,2601 1749,2601 1749,2571">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_5" rank="4"/>
+        </polygon>
+        <polygon points="1116,2531 1402,2531 1402,2561 1116,2561 1116,2531">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_9" rank="6"/>
+        </polygon>
+        <polygon points="1071,1746 1484,1746 1484,1776 1071,1776 1071,1746">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_12" rank="10"/>
+        </polygon>
+        <polygon points="412,1748 735,1748 735,1777 412,1777 412,1748">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_14" rank="8"/>
+        </polygon>
+        <polygon points="1119,1832 1407,1832 1407,1861 1119,1861 1119,1832">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_10" rank="12"/>
+        </polygon>
+        <polygon points="1879,159 2071,159 2071,189 1879,189 1879,159">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_28" rank="14"/>
+        </polygon>
+        <polygon points="362,2537 796,2537 796,2567 362,2567 362,2537">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_4" rank="16"/>
+        </polygon>
+        <polygon points="1767,1784 2155,1784 2155,1815 1767,1815 1767,1784">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_16" rank="20"/>
+        </polygon>
+        <polygon points="1763,1736 2186,1736 2186,1772 1763,1772 1763,1736">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_17" rank="18"/>
+        </polygon>
+        <polygon points="1968,2742 2215,2742 2215,2771 1968,2771 1968,2742">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_7" rank="24"/>
+        </polygon>
+        <polygon points="410,1790 732,1790 732,1820 410,1820 410,1790">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_13" rank="22"/>
+        </polygon>
+        <polygon points="1044,1788 1508,1788 1508,1818 1044,1818 1044,1788">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_11" rank="26"/>
+        </polygon>
+        <polygon points="1762,2526 2116,2526 2116,2557 1762,2557 1762,2526">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_6" rank="28"/>
+        </polygon>
+        <polygon points="408,214 719,214 719,244 408,244 408,214">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_25" rank="30"/>
+        </polygon>
+        <polygon points="400,169 732,169 732,200 400,200 400,169">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_26" rank="32"/>
+        </polygon>
+        <polygon points="1042,998 1532,998 1532,1030 1042,1030 1042,998">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_21" rank="34"/>
+        </polygon>
+        <polygon points="338,2580 824,2580 824,2610 338,2610 338,2580">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_3" rank="38"/>
+        </polygon>
+        <polygon points="1053,959 1546,959 1546,987 1053,987 1053,959">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_22" rank="36"/>
+        </polygon>
+        <polygon points="1813,201 2133,201 2133,233 1813,233 1813,201">
+            <metadata id="LAMISSEB_LESNOEILS1_012_line_27" rank="40"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Object" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="1964,2938 2299,2938 2299,3167 1964,3167 1964,2938">
+            <metadata id="Les_Noeils_Tome_1Page12Character19" idPanel="LAMISSEB_LESNOEILS1_012_panel_1"/>
+        </polygon>
+        <polygon points="295,2947 634,2947 634,3188 295,3188 295,2947">
+            <metadata id="Les_Noeils_Tome_1Page12Character9" idBalloon="LAMISSEB_LESNOEILS1_012_balloon_0" idPanel="LAMISSEB_LESNOEILS1_012_panel_0"/>
+        </polygon>
+        <polygon points="1025,2870 1552,2870 1552,3169 1025,3169 1025,2870">
+            <metadata id="Les_Noeils_Tome_1Page12Character3" idBalloon="LAMISSEB_LESNOEILS1_012_balloon_3" idPanel="LAMISSEB_LESNOEILS1_012_panel_2"/>
+        </polygon>
+        <polygon points="268,496 650,496 650,811 268,811 268,496">
+            <metadata id="Les_Noeils_Tome_1Page12Character15" idBalloon="LAMISSEB_LESNOEILS1_012_balloon_8" idPanel="LAMISSEB_LESNOEILS1_012_panel_10"/>
+        </polygon>
+        <polygon points="2026,2114 2355,2114 2355,2334 2026,2334 2026,2114">
+            <metadata id="Les_Noeils_Tome_1Page12Character7" idBalloon="LAMISSEB_LESNOEILS1_012_balloon_6" idPanel="LAMISSEB_LESNOEILS1_012_panel_5"/>
+        </polygon>
+        <polygon points="290,1975 640,1975 640,2361 290,2361 290,1975">
+            <metadata id="Les_Noeils_Tome_1Page12Character13" idBalloon="LAMISSEB_LESNOEILS1_012_balloon_5" idPanel="LAMISSEB_LESNOEILS1_012_panel_4"/>
+        </polygon>
+        <polygon points="1338,2117 1548,2117 1548,2375 1338,2375 1338,2117">
+            <metadata id="Les_Noeils_Tome_1Page12Character11" idBalloon="LAMISSEB_LESNOEILS1_012_balloon_4" idPanel="LAMISSEB_LESNOEILS1_012_panel_3"/>
+        </polygon>
+    </svg>
+    <metadata lastModificationDate="Thu Jun 12 14:24:05 CEST 2014" method="Reasoning on polygon's type" referent="Clément Guérin"/>
+</svg>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="400.0mm" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0.0 0.0 800.0 328.0" height="164.0mm" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Page" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="800" xlink:href="../Pages/LAMISSEB_ETPISTAF_013.jpg" xlink:type="simple" xlink:actuate="onLoad" height="328" opacity="0.5" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 0; stroke-linejoin: round; }
+		.Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+		.Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Panel { fill: red; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Line { fill: green; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Balloon { fill: cyan; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="790,253 787,254 512,320 300,305 235,296 234,294 234,282 235,50 236,33 306,21 330,19 352,19 395,22 487,32 748,137 750,138 754,142 755,145 790,253">
+            <metadata id="LAMISSEB_ETPISTAF_013_panel_2" rank="2"/>
+        </polygon>
+        <polygon points="756,98 754,100 651,154 650,154 636,150 523,114 521,113 517,108 515,105 514,103 512,98 509,89 508,84 508,67 509,61 510,57 512,51 518,39 521,35 523,34 526,33 530,32 538,31 556,30 655,30 662,31 667,32 670,33 754,83 755,84 756,87 756,98">
+            <metadata id="LAMISSEB_ETPISTAF_013_panel_1" rank="3"/>
+        </polygon>
+        <polygon points="215,55 214,295 213,296 52,311 46,311 39,309 5,297 4,296 3,251 3,250 5,34 6,33 40,16 134,13 175,13 202,23 214,33 215,34 215,55">
+            <metadata id="LAMISSEB_ETPISTAF_013_panel_3" rank="1"/>
+        </polygon>
+        <polygon points="795,118 794,126 793,128 789,132 769,148 766,150 764,151 762,151 696,76 693,70 692,67 692,58 693,54 697,46 702,41 730,41 745,42 755,43 761,44 777,64 778,66 794,111 795,118">
+            <metadata id="LAMISSEB_ETPISTAF_013_panel_0" rank="4"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="754,98 631,146 630,146 524,112 522,111 520,109 516,103 515,101 511,89 510,85 510,66 511,61 512,57 514,51 519,41 523,36 525,35 530,34 538,33 553,32 653,32 662,33 666,34 669,35 752,84 753,85 754,88 754,98">
+            <metadata id="LAMISSEB_ETPISTAF_013_balloon_0" tailTip="511,61" tailDirection="S" rank="0"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="531,90 658,90 658,102 531,102 531,90">
+            <metadata id="LAMISSEB_ETPISTAF_013_line_8" rank="0"/>
+        </polygon>
+        <polygon points="526,75 664,75 664,88 526,88 526,75">
+            <metadata id="LAMISSEB_ETPISTAF_013_line_9" rank="2"/>
+        </polygon>
+        <polygon points="480,41 769,41 769,65 480,65 480,41">
+            <metadata id="LAMISSEB_ETPISTAF_013_line_5" rank="4"/>
+        </polygon>
+        <polygon points="530,59 660,59 660,73 530,73 530,59">
+            <metadata id="LAMISSEB_ETPISTAF_013_line_10" rank="6"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Object" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0"/>
+    <metadata lastModificationDate="Thu Jun 12 14:23:56 CEST 2014" method="Reasoning on polygon's type" referent="Clément Guérin"/>
+</svg>

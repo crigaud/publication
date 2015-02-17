@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="1240.0mm" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0.0 0.0 2480.0 3508.0" height="1754.0mm" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Page" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <image x="0" y="0" fill-opacity="0.5" width="2480" xlink:href="../Pages/FRED_PHILEMON12_006.jpg" xlink:type="simple" xlink:actuate="onLoad" height="3508" opacity="0.5" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+    </svg>
+    <style type="text/css" xml:space="preserve"><![CDATA[
+		* { stroke-width: 0; stroke-linejoin: round; }
+		.Unclassified { fill: orange; stroke: none; opacity: 1.0; visibility: hidden; }
+		.Noise { fill: pink; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Panel { fill: red; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Line { fill: green; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.TextArea { fill: grey; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Balloon { fill: cyan; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Letter { fill: blue; stroke: none; opacity: 0.2; visibility: hidden; }
+		.Object { fill: yellow; stroke: none; opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+		.Page { fill: white; stroke: none; opacity: 0.5; visibility: visible; }
+]]></style>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Panel" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="2300,1809 2298,2983 2297,3210 2296,3211 1424,3213 1154,3213 1152,3212 1151,3125 1149,2889 1148,1804 1149,1801 1151,1800 1211,1799 2264,1795 2266,1795 2291,1797 2295,1798 2300,1809">
+            <metadata id="FRED_PHILEMON12_006_panel_1" rank="4"/>
+        </polygon>
+        <polygon points="2295,1771 2294,1772 2231,1773 1543,1775 1150,1775 1148,1774 1147,1640 1143,358 1143,357 1145,341 1146,340 1243,339 1680,337 2280,335 2287,335 2289,336 2290,337 2292,400 2293,580 2295,1368 2295,1771">
+            <metadata id="FRED_PHILEMON12_006_panel_3" rank="2"/>
+        </polygon>
+        <polygon points="1127,3217 991,3218 808,3219 234,3222 1,3222 1,1805 72,1803 1105,1803 1123,1804 1125,2301 1127,3149 1127,3217">
+            <metadata id="FRED_PHILEMON12_006_panel_0" rank="3"/>
+        </polygon>
+        <polygon points="1121,1775 1057,1776 667,1778 1,1778 1,344 376,342 915,340 947,340 1111,341 1116,342 1117,360 1119,681 1120,955 1121,1567 1121,1775">
+            <metadata id="FRED_PHILEMON12_006_panel_2" rank="1"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Balloon" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="1096,918 1095,924 1094,929 1093,932 1091,937 1090,939 1087,943 944,1069 740,952 735,949 730,944 724,934 723,932 721,924 721,907 722,902 725,896 728,891 735,883 751,867 770,854 776,850 781,847 787,844 803,837 808,835 811,834 833,827 859,822 900,817 909,816 923,815 974,815 987,816 1001,818 1029,823 1035,825 1051,831 1065,837 1068,839 1073,843 1077,847 1085,859 1087,863 1091,875 1096,897 1096,918">
+            <metadata id="FRED_PHILEMON12_006_balloon_2" tailTip="944,1069" tailDirection="S" idSpeaker="Philémon_Le_Chat_A_Neuf_QueuesPage6Character3" rank="0"/>
+        </polygon>
+        <polygon points="2291,2259 2237,2588 2231,2607 1164,3019 1159,3020 1158,3007 1157,2974 1156,2868 1154,1823 1154,1820 1155,1818 1167,1805 1168,1804 2135,1804 2226,1805 2290,1819 2291,1820 2291,2259">
+            <metadata id="FRED_PHILEMON12_006_balloon_3" tailTip="2231,2607" tailDirection="SE" idSpeaker="Philémon_Le_Chat_A_Neuf_QueuesPage6Character5" rank="2"/>
+        </polygon>
+        <polygon points="1110,2216 1109,2219 1106,2226 1104,2230 1101,2235 966,2418 965,2419 694,2250 688,2244 685,2240 683,2236 681,2229 681,2219 682,2214 686,2206 693,2196 697,2191 705,2183 710,2179 718,2173 727,2167 742,2158 744,2157 752,2154 761,2151 769,2149 809,2140 819,2138 847,2134 861,2133 888,2132 917,2132 934,2133 950,2134 969,2136 974,2137 996,2143 1031,2153 1044,2157 1049,2159 1071,2170 1077,2174 1087,2181 1092,2185 1102,2195 1105,2199 1108,2204 1110,2208 1110,2216">
+            <metadata id="FRED_PHILEMON12_006_balloon_0" tailTip="965,2419" tailDirection="S" idSpeaker="Philémon_Le_Chat_A_Neuf_QueuesPage6Character1" rank="4"/>
+        </polygon>
+        <polygon points="1118,2177 1098,2178 814,2132 605,1825 636,1808 729,1808 1080,1809 1116,1822 1117,1823 1118,2171 1118,2177">
+            <metadata id="FRED_PHILEMON12_006_balloon_1" tailTip="814,2132" tailDirection="SW" idSpeaker="Philémon_Le_Chat_A_Neuf_QueuesPage6Character9" rank="6"/>
+        </polygon>
+        <polygon points="1713,773 1672,951 1364,1735 1347,1769 1252,1769 1153,1736 1152,1560 1151,1039 1150,427 1150,421 1158,346 1429,344 1604,343 1606,343 1607,344 1665,424 1713,772 1713,773">
+            <metadata id="FRED_PHILEMON12_006_balloon_4" tailTip="1713,772" tailDirection="N" idSpeaker="Philémon_Le_Chat_A_Neuf_QueuesPage6Character7" rank="8"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Line" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="917,1960 990,1960 990,1994 917,1994 917,1960">
+            <metadata id="FRED_PHILEMON12_006_line_16" rank="0"/>
+        </polygon>
+        <polygon points="1180,1042 1253,1042 1253,1073 1180,1073 1180,1042">
+            <metadata id="FRED_PHILEMON12_006_line_116" rank="2"/>
+        </polygon>
+        <polygon points="1001,2272 1074,2272 1074,2303 1001,2303 1001,2272">
+            <metadata id="FRED_PHILEMON12_006_line_9" rank="4"/>
+        </polygon>
+        <polygon points="928,1920 1077,1920 1077,1954 928,1954 928,1920">
+            <metadata id="FRED_PHILEMON12_006_line_15" rank="6"/>
+        </polygon>
+        <polygon points="1179,1083 1239,1083 1239,1115 1179,1115 1179,1083">
+            <metadata id="FRED_PHILEMON12_006_line_115" rank="8"/>
+        </polygon>
+        <polygon points="1252,1937 2186,1937 2186,1972 1252,1972 1252,1937">
+            <metadata id="FRED_PHILEMON12_006_line_50" rank="10"/>
+        </polygon>
+        <polygon points="1419,2578 1554,2578 1554,2630 1419,2630 1419,2578">
+            <metadata id="FRED_PHILEMON12_006_line_34" rank="12"/>
+        </polygon>
+        <polygon points="1191,2481 1255,2481 1255,2513 1191,2513 1191,2481">
+            <metadata id="FRED_PHILEMON12_006_line_35" rank="14"/>
+        </polygon>
+        <polygon points="1488,1913 2177,1913 2177,1941 1488,1941 1488,1913">
+            <metadata id="FRED_PHILEMON12_006_line_51" rank="16"/>
+        </polygon>
+        <polygon points="1351,962 1548,962 1548,1024 1351,1024 1351,962">
+            <metadata id="FRED_PHILEMON12_006_line_117" rank="18"/>
+        </polygon>
+        <polygon points="1632,2093 1692,2093 1692,2124 1632,2124 1632,2093">
+            <metadata id="FRED_PHILEMON12_006_line_42" rank="20"/>
+        </polygon>
+        <polygon points="1356,2349 1430,2349 1430,2385 1356,2385 1356,2349">
+            <metadata id="FRED_PHILEMON12_006_line_38" rank="22"/>
+        </polygon>
+        <polygon points="1255,1998 2106,1998 2106,2029 1255,2029 1255,1998">
+            <metadata id="FRED_PHILEMON12_006_line_46" rank="24"/>
+        </polygon>
+        <polygon points="1082,1598 1334,1598 1334,1641 1082,1641 1082,1598">
+            <metadata id="FRED_PHILEMON12_006_line_103" rank="26"/>
+        </polygon>
+        <polygon points="1356,2391 1429,2391 1429,2422 1356,2422 1356,2391">
+            <metadata id="FRED_PHILEMON12_006_line_37" rank="28"/>
+        </polygon>
+        <polygon points="1618,1971 1736,1971 1736,1998 1618,1998 1618,1971">
+            <metadata id="FRED_PHILEMON12_006_line_48" rank="30"/>
+        </polygon>
+        <polygon points="1182,1344 1246,1344 1246,1376 1182,1376 1182,1344">
+            <metadata id="FRED_PHILEMON12_006_line_107" rank="32"/>
+        </polygon>
+        <polygon points="724,2218 802,2218 802,2242 724,2242 724,2218">
+            <metadata id="FRED_PHILEMON12_006_line_11" rank="34"/>
+        </polygon>
+        <polygon points="748,2284 916,2284 916,2345 748,2345 748,2284">
+            <metadata id="FRED_PHILEMON12_006_line_8" rank="38"/>
+        </polygon>
+        <polygon points="1354,2216 1427,2216 1427,2248 1354,2248 1354,2216">
+            <metadata id="FRED_PHILEMON12_006_line_43" rank="36"/>
+        </polygon>
+        <polygon points="1176,954 1236,954 1236,987 1176,987 1176,954">
+            <metadata id="FRED_PHILEMON12_006_line_118" rank="40"/>
+        </polygon>
+        <polygon points="987,2005 1111,2005 1111,2041 987,2041 987,2005">
+            <metadata id="FRED_PHILEMON12_006_line_13" rank="42"/>
+        </polygon>
+        <polygon points="1255,1906 1345,1906 1345,1939 1255,1939 1255,1906">
+            <metadata id="FRED_PHILEMON12_006_line_53" rank="44"/>
+        </polygon>
+        <polygon points="1581,1880 1767,1880 1767,1910 1581,1910 1581,1880">
+            <metadata id="FRED_PHILEMON12_006_line_54" rank="46"/>
+        </polygon>
+        <polygon points="1353,2175 1619,2175 1619,2220 1353,2220 1353,2175">
+            <metadata id="FRED_PHILEMON12_006_line_41" rank="48"/>
+        </polygon>
+        <polygon points="1434,1110 1515,1110 1515,1189 1434,1189 1434,1110">
+            <metadata id="FRED_PHILEMON12_006_line_112" rank="50"/>
+        </polygon>
+        <polygon points="1193,2267 1253,2267 1253,2300 1193,2300 1193,2267">
+            <metadata id="FRED_PHILEMON12_006_line_40" rank="52"/>
+        </polygon>
+        <polygon points="1173,1303 1246,1303 1246,1345 1173,1345 1173,1303">
+            <metadata id="FRED_PHILEMON12_006_line_108" rank="54"/>
+        </polygon>
+        <polygon points="1772,1972 2156,1972 2156,1999 1772,1999 1772,1972">
+            <metadata id="FRED_PHILEMON12_006_line_47" rank="56"/>
+        </polygon>
+        <polygon points="1188,2305 1254,2305 1254,2339 1188,2339 1188,2305">
+            <metadata id="FRED_PHILEMON12_006_line_39" rank="58"/>
+        </polygon>
+        <polygon points="1181,2441 1255,2441 1255,2474 1181,2474 1181,2441">
+            <metadata id="FRED_PHILEMON12_006_line_36" rank="60"/>
+        </polygon>
+        <polygon points="1407,1882 1517,1882 1517,1911 1407,1911 1407,1882">
+            <metadata id="FRED_PHILEMON12_006_line_55" rank="62"/>
+        </polygon>
+        <polygon points="1371,1918 1438,1918 1438,1942 1371,1942 1371,1918">
+            <metadata id="FRED_PHILEMON12_006_line_52" rank="64"/>
+        </polygon>
+        <polygon points="922,833 1037,833 1037,870 922,870 922,833">
+            <metadata id="FRED_PHILEMON12_006_line_86" rank="66"/>
+        </polygon>
+        <polygon points="1455,1012 1698,1012 1698,1099 1455,1099 1455,1012">
+            <metadata id="FRED_PHILEMON12_006_line_114" rank="68"/>
+        </polygon>
+        <polygon points="1188,2867 1453,2867 1453,2921 1188,2921 1188,2867">
+            <metadata id="FRED_PHILEMON12_006_line_30" rank="70"/>
+        </polygon>
+        <polygon points="1622,2030 1860,2030 1860,2057 1622,2057 1622,2030">
+            <metadata id="FRED_PHILEMON12_006_line_45" rank="72"/>
+        </polygon>
+        <polygon points="1393,2031 1588,2031 1588,2056 1393,2056 1393,2031">
+            <metadata id="FRED_PHILEMON12_006_line_44" rank="74"/>
+        </polygon>
+        <polygon points="1234,2629 1535,2629 1535,2731 1234,2731 1234,2629">
+            <metadata id="FRED_PHILEMON12_006_line_33" rank="76"/>
+        </polygon>
+        <polygon points="1191,1828 1339,1828 1339,1862 1191,1862 1191,1828">
+            <metadata id="FRED_PHILEMON12_006_line_56" rank="78"/>
+        </polygon>
+        <polygon points="924,2219 1034,2219 1034,2241 924,2241 924,2219">
+            <metadata id="FRED_PHILEMON12_006_line_10" rank="80"/>
+        </polygon>
+        <polygon points="778,869 1031,869 1031,900 778,900 778,869">
+            <metadata id="FRED_PHILEMON12_006_line_85" rank="82"/>
+        </polygon>
+        <polygon points="840,899 1064,899 1064,928 840,928 840,899">
+            <metadata id="FRED_PHILEMON12_006_line_84" rank="84"/>
+        </polygon>
+        <polygon points="1245,1968 1581,1968 1581,1998 1245,1998 1245,1968">
+            <metadata id="FRED_PHILEMON12_006_line_49" rank="86"/>
+        </polygon>
+        <polygon points="670,1834 942,1834 942,1870 670,1870 670,1834">
+            <metadata id="FRED_PHILEMON12_006_line_18" rank="88"/>
+        </polygon>
+    </svg>
+    <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" class="Object" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" version="1.0">
+        <polygon points="1283,339 2290,339 2290,1056 1283,1056 1283,339">
+            <metadata id="Philémon_Le_Chat_A_Neuf_QueuesPage6Character7" idBalloon="FRED_PHILEMON12_006_balloon_4" idPanel="FRED_PHILEMON12_006_panel_3"/>
+        </polygon>
+        <polygon points="121,2096 850,2096 850,2823 121,2823 121,2096">
+            <metadata id="Philémon_Le_Chat_A_Neuf_QueuesPage6Character9" idBalloon="FRED_PHILEMON12_006_balloon_1" idPanel="FRED_PHILEMON12_006_panel_0"/>
+        </polygon>
+        <polygon points="136,2408 1121,2408 1121,3224 136,3224 136,2408">
+            <metadata id="Philémon_Le_Chat_A_Neuf_QueuesPage6Character1" idBalloon="FRED_PHILEMON12_006_balloon_0" idPanel="FRED_PHILEMON12_006_panel_0"/>
+        </polygon>
+        <polygon points="2226,2868 2294,2868 2294,3189 2226,3189 2226,2868">
+            <metadata id="Philémon_Le_Chat_A_Neuf_QueuesPage6Character5" idBalloon="FRED_PHILEMON12_006_balloon_3" idPanel="FRED_PHILEMON12_006_panel_1"/>
+        </polygon>
+        <polygon points="723,1039 1119,1039 1119,1774 723,1774 723,1039">
+            <metadata id="Philémon_Le_Chat_A_Neuf_QueuesPage6Character3" idBalloon="FRED_PHILEMON12_006_balloon_2" idPanel="FRED_PHILEMON12_006_panel_2"/>
+        </polygon>
+    </svg>
+    <metadata lastModificationDate="Thu Jun 12 14:23:26 CEST 2014" method="Reasoning on polygon's type" referent="Clément Guérin"/>
+</svg>
