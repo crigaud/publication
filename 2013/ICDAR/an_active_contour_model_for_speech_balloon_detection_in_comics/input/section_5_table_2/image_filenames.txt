@@ -5,7 +5,9 @@
 *											 *
 **********************************************
 
-6673465787_668ec4eff4_o.jpg
-CYB_BUBBLEGOM_T01_008.jpg
-LAMISSEB_ETPISTAF_013.jpg
+OLD FILENAMES						CORRESPONDING IMAGE OR FILENAMES (from eBDtheque dataset)
+
+6673465787_668ec4eff4_o.jpg -> http://farm8.staticflickr.com/7022/6673465787_668ec4eff4_o.jpg
+CYB_BUBBLEGOM_T01_008.jpg -> CYB_BUBBLEGOM_T01_007.jpg
+LAMISSEB_ETPISTAF_013.jpg -> same filename as eBDtheque dataset
 
