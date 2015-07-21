@@ -8,8 +8,8 @@
 		* { stroke-width: 1; stroke-linejoin: round; }
 		.Panel { fill: none; stroke: red; opacity: 1.0; visibility: visible; }
 		.TextArea { fill: none; stroke: yellow; opacity: 1.0; visibility: visible; }
-		.Line { fill: green; stroke: none; opacity: 0.3; visibility: visible; }
-		.Balloon { fill: none; stroke: cyan; opacity: 1.0; visibility: visible; }
+		.Line { fill: none; stroke: none; opacity: 0.3; visibility: visible; }
+		.Balloon { fill: none; stroke: red; opacity: 1.0; visibility: visible; }
 		.Letter { fill: none; stroke: blue; opacity: 1.0; visibility: visible; }
 		.Object { fill: none; stroke: yellow; opacity: 1.0; visibility: visible; }
 		.Page { fill: none; stroke: white; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }

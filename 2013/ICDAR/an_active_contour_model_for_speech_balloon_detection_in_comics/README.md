@@ -21,6 +21,7 @@ Publication at the ICDAR'13 conference (August 28, 2013).
 	author = {Rigaud, Christophe and Karatzas, Dimosthenis and Van de Weijer, Joost and Burie, Jean-Christophe and Ogier, Jean-Marc},
 	booktitle = {Proceedings of the 12th International Conference on Document Analysis and Recognition (ICDAR)},
 	publisher = {IEEE},
+	pages = {1240-1244},
 	year = {2013}
 }
 </code></pre>
