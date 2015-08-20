@@ -20,7 +20,10 @@ url={http://dx.doi.org/10.1007/s10032-015-0243-1},
 publisher={Springer Berlin Heidelberg},
 keywords={Document understanding; Comics analysis; Expert system},
 author={Rigaud, Christophe and Guérin, Clément and Karatzas, Dimosthenis and Burie, Jean-Christophe and Ogier, Jean-Marc},
-pages={1-23},
+pages={199-221},
+volume={18},
+number={3},
+issn={1433-2833},
 language={English}
 }
 </code></pre>
