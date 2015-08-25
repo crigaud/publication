@@ -1,0 +1,1073 @@
+  
+%% bare_conf.tex
+%% V1.3
+%% 2007/01/11
+%% by Michael Shell
+%% See:
+%% http://www.michaelshell.org/
+%% for current contact information.
+%%
+%% This is a skeleton file demonstrating the use of IEEEtran.cls
+%% (requires IEEEtran.cls version 1.7 or later) with an IEEE conference paper.
+%%
+%% Support sites:
+%% http://www.michaelshell.org/tex/ieeetran/
+%% http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/
+%% and
+%% http://www.ieee.org/
+
+%%*************************************************************************
+%% Legal Notice:
+%% This code is offered as-is without any warranty either expressed or
+%% implied; without even the implied warranty of MERCHANTABILITY or
+%% FITNESS FOR A PARTICULAR PURPOSE!
+%% User assumes all risk.
+%% In no event shall IEEE or any contributor to this code be liable for
+%% any damages or losses, including, but not limited to, incidental,
+%% consequential, or any other damages, resulting from the use or misuse
+%% of any information contained here.
+%%
+%% All comments are the opinions of their respective authors and are not
+%% necessarily endorsed by the IEEE.
+%%
+%% This work is distributed under the LaTeX Project Public License (LPPL)
+%% ( http://www.latex-project.org/ ) version 1.3, and may be freely used,
+%% distributed and modified. A copy of the LPPL, version 1.3, is included
+%% in the base LaTeX documentation of all distributions of LaTeX released
+%% 2003/12/01 or later.
+%% Retain all contribution notices and credits.
+%% ** Modified files should be clearly indicated as such, including  **
+%% ** renaming them and changing author support contact information. **
+%%
+%% File list of work: IEEEtran.cls, IEEEtran_HOWTO.pdf, bare_adv.tex,
+%%                    bare_conf.tex, bare_jrnl.tex, bare_jrnl_compsoc.tex
+%%*************************************************************************
+
+% *** Authors should verify (and, if needed, correct) their LaTeX system  ***
+% *** with the testflow diagnostic prior to trusting their LaTeX platform ***
+% *** with production work. IEEE's font choices can trigger bugs that do  ***
+% *** not appear when using other class files.                            ***
+% The testflow support page is at:
+% http://www.michaelshell.org/tex/testflow/
+
+
+
+% Note that the a4paper option is mainly intended so that authors in
+% countries using A4 can easily print to A4 and see how their papers will
+% look in print - the typesetting of the document will not typically be
+% affected with changes in paper size (but the bottom and side margins will).
+% Use the testflow package mentioned above to verify correct handling of
+% both paper sizes by the user's LaTeX system.
+%
+% Also note that the "draftcls" or "draftclsnofoot", not "draft", option
+% should be used if it is desired that the figures are to be displayed in
+% draft mode.
+%
+\documentclass[conference]{IEEEtran}
+% Add the compsoc option for Computer Society conferences.
+%
+% If IEEEtran.cls has not been installed into the LaTeX system files,
+% manually specify the path to it like:
+% \documentclass[conference]{../sty/IEEEtran}
+
+
+
+
+
+% Some very useful LaTeX packages include:
+% (uncomment the ones you want to load)
+
+
+% *** MISC UTILITY PACKAGES ***
+%
+%\usepackage{ifpdf}
+% Heiko Oberdiek's ifpdf.sty is very useful if you need conditional
+% compilation based on whether the output is pdf or dvi.
+% usage:
+% \ifpdf
+%   % pdf code
+% \else
+%   % dvi code
+% \fi
+% The latest version of ifpdf.sty can be obtained from:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/oberdiek/
+% Also, note that IEEEtran.cls V1.7 and later provides a builtin
+% \ifCLASSINFOpdf conditional that works the same way.
+% When switching from latex to pdflatex and vice-versa, the compiler may
+% have to be run twice to clear warning/error messages.
+
+
+
+
+
+
+% *** CITATION PACKAGES ***
+%
+%\usepackage{cite}
+% cite.sty was written by Donald Arseneau
+% V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
+% \cite{} output to follow that of IEEE. Loading the cite package will
+% result in citation numbers being automatically sorted and properly
+% "compressed/ranged". e.g., [1], [9], [2], [7], [5], [6] without using
+% cite.sty will become [1], [2], [5]--[7], [9] using cite.sty. cite.sty's
+% \cite will automatically add leading space, if needed. Use cite.sty's
+% noadjust option (cite.sty V3.8 and later) if you want to turn this off.
+% cite.sty is already installed on most LaTeX systems. Be sure and use
+% version 4.0 (2003-05-27) and later if using hyperref.sty. cite.sty does
+% not currently provide for hyperlinked citations.
+% The latest version can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/cite/
+% The documentation is contained in the cite.sty file itself.
+
+
+
+
+
+
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+  \usepackage[pdftex]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../pdf/}{../jpeg/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
+  % will default to the driver specified in the system graphics.cfg if no
+  % driver is specified.
+  % \usepackage[dvips]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../eps/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.eps}
+\fi
+% graphicx was written by David Carlisle and Sebastian Rahtz. It is
+% required if you want graphics, photos, etc. graphicx.sty is already
+% installed on most LaTeX systems. The latest version and documentation can
+% be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/required/graphics/
+% Another good source of documentation is "Using Imported Graphics in
+% LaTeX2e" by Keith Reckdahl which can be found as epslatex.ps or
+% epslatex.pdf at: http://www.ctan.org/tex-archive/info/
+%
+% latex, and pdflatex in dvi mode, support graphics in encapsulated
+% postscript (.eps) format. pdflatex in pdf mode supports graphics
+% in .pdf, .jpeg, .png and .mps (metapost) formats. Users should ensure
+% that all non-photo figures use a vector format (.eps, .pdf, .mps) and
+% not a bitmapped formats (.jpeg, .png). IEEE frowns on bitmapped formats
+% which can result in "jaggedy"/blurry rendering of lines and letters as
+% well as large increases in file sizes.
+%
+% You can find documentation about the pdfTeX application at:
+% http://www.tug.org/applications/pdftex
+
+
+
+
+
+% *** MATH PACKAGES ***
+%
+\usepackage[cmex10]{amsmath}
+% A popular package from the American Mathematical Society that provides
+% many useful and powerful commands for dealing with mathematics. If using
+% it, be sure to load this package with the cmex10 option to ensure that
+% only type 1 fonts will utilized at all point sizes. Without this option,
+% it is possible that some math symbols, particularly those within
+% footnotes, will be rendered in bitmap form which will result in a
+% document that can not be IEEE Xplore compliant!
+%
+% Also, note that the amsmath package sets \interdisplaylinepenalty to 10000
+% thus preventing page breaks from occurring within multiline equations. Use:
+%\interdisplaylinepenalty=2500
+% after loading amsmath to restore such page breaks as IEEEtran.cls normally
+% does. amsmath.sty is already installed on most LaTeX systems. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/required/amslatex/math/
+
+
+
+
+
+% *** SPECIALIZED LIST PACKAGES ***
+%
+%\usepackage{algorithmic}
+% algorithmic.sty was written by Peter Williams and Rogerio Brito.
+% This package provides an algorithmic environment fo describing algorithms.
+% You can use the algorithmic environment in-text or within a figure
+% environment to provide for a floating algorithm. Do NOT use the algorithm
+% floating environment provided by algorithm.sty (by the same authors) or
+% algorithm2e.sty (by Christophe Fiorio) as IEEE does not use dedicated
+% algorithm float types and packages that provide these will not provide
+% correct IEEE style captions. The latest version and documentation of
+% algorithmic.sty can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/algorithms/
+% There is also a support site at:
+% http://algorithms.berlios.de/index.html
+% Also of interest may be the (relatively newer and more customizable)
+% algorithmicx.sty package by Szasz Janos:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/algorithmicx/
+
+
+
+
+% *** ALIGNMENT PACKAGES ***
+%
+%\usepackage{array}
+% Frank Mittelbach's and David Carlisle's array.sty patches and improves
+% the standard LaTeX2e array and tabular environments to provide better
+% appearance and additional user controls. As the default LaTeX2e table
+% generation code is lacking to the point of almost being broken with
+% respect to the quality of the end results, all users are strongly
+% advised to use an enhanced (at the very least that provided by array.sty)
+% set of table tools. array.sty is already installed on most systems. The
+% latest version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/required/tools/
+
+
+%\usepackage{mdwmath}
+%\usepackage{mdwtab}
+% Also highly recommended is Mark Wooding's extremely powerful MDW tools,
+% especially mdwmath.sty and mdwtab.sty which are used to format equations
+% and tables, respectively. The MDWtools set is already installed on most
+% LaTeX systems. The lastest version and documentation is available at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/mdwtools/
+
+
+% IEEEtran contains the IEEEeqnarray family of commands that can be used to
+% generate multiline equations as well as matrices, tables, etc., of high
+% quality.
+
+
+%\usepackage{eqparbox}
+% Also of notable interest is Scott Pakin's eqparbox package for creating
+% (automatically sized) equal width boxes - aka "natural width parboxes".
+% Available at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/eqparbox/
+
+
+
+
+
+% *** SUBFIGURE PACKAGES ***
+% \usepackage[tight,footnotesize]{subfigure}
+% subfigure.sty was written by Steven Douglas Cochran. This package makes it
+% easy to put subfigures in your figures. e.g., "Figure 1a and 1b". For IEEE
+% work, it is a good idea to load it with the tight package option to reduce
+% the amount of white space around the subfigures. subfigure.sty is already
+% installed on most LaTeX systems. The latest version and documentation can
+% be obtained at:
+% http://www.ctan.org/tex-archive/obsolete/macros/latex/contrib/subfigure/
+% subfigure.sty has been superceeded by subfig.sty.
+
+
+
+%\usepackage[caption=false]{caption}
+\usepackage[font=footnotesize]{subfig}
+% subfig.sty, also written by Steven Douglas Cochran, is the modern
+% replacement for subfigure.sty. However, subfig.sty requires and
+% automatically loads Axel Sommerfeldt's caption.sty which will override
+% IEEEtran.cls handling of captions and this will result in nonIEEE style
+% figure/table captions. To prevent this problem, be sure and preload
+% caption.sty with its "caption=false" package option. This is will preserve
+% IEEEtran.cls handing of captions. Version 1.3 (2005/06/28) and later
+% (recommended due to many improvements over 1.2) of subfig.sty supports
+% the caption=false option directly:
+% \usepackage[caption=false,font=footnotesize]{subfig}
+%
+% The latest version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/subfig/
+% The latest version and documentation of caption.sty can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/caption/
+
+
+
+
+% *** FLOAT PACKAGES ***
+%
+%\usepackage{fixltx2e}
+% fixltx2e, the successor to the earlier fix2col.sty, was written by
+% Frank Mittelbach and David Carlisle. This package corrects a few problems
+% in the LaTeX2e kernel, the most notable of which is that in current
+% LaTeX2e releases, the ordering of single and double column floats is not
+% guaranteed to be preserved. Thus, an unpatched LaTeX2e can allow a
+% single column figure to be placed prior to an earlier double column
+% figure. The latest version and documentation can be found at:
+% http://www.ctan.org/tex-archive/macros/latex/base/
+
+
+
+%\usepackage{stfloats}
+% stfloats.sty was written by Sigitas Tolusis. This package gives LaTeX2e
+% the ability to do double column floats at the bottom of the page as well
+% as the top. (e.g., "\begin{figure*}[!b]" is not normally possible in
+% LaTeX2e). It also provides a command:
+%\fnbelowfloat
+% to enable the placement of footnotes below bottom floats (the standard
+% LaTeX2e kernel puts them above bottom floats). This is an invasive package
+% which rewrites many portions of the LaTeX2e float routines. It may not work
+% with other packages that modify the LaTeX2e float routines. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/sttools/
+% Documentation is contained in the stfloats.sty comments as well as in the
+% presfull.pdf file. Do not use the stfloats baselinefloat ability as IEEE
+% does not allow \baselineskip to stretch. Authors submitting work to the
+% IEEE should note that IEEE rarely uses double column equations and
+% that authors should try to avoid such use. Do not be tempted to use the
+% cuted.sty or midfloat.sty packages (also by Sigitas Tolusis) as IEEE does
+% not format its papers in such ways.
+
+
+
+
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%
+\usepackage{url}
+% url.sty was written by Donald Arseneau. It provides better support for
+% handling and breaking URLs. url.sty is already installed on most LaTeX
+% systems. The latest version can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/misc/
+% Read the url.sty source comments for usage information. Basically,
+% \url{my_url_here}.
+
+\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{color}
+% \usepackage{graphicx}
+% \usepackage{subcaption}
+%\usepackage{subfig}
+%\usepackage{subfloat}
+%\usepackage{caption}
+
+\algdef{SE}[DOWHILE]{Do}{doWhile}{\algorithmicdo}[1]{\algorithmicwhile\ #1}%
+
+
+% *** Do not adjust lengths that control margins, column widths, etc. ***
+% *** Do not use packages that alter fonts (such as pslatex).         ***
+% There should be no need to do such things with IEEEtran.cls V1.6 and later.
+% (Unless specifically asked to do so by the journal or conference you plan
+% to submit to, of course. )
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+%IMP modifications
+\newcommand{\modif}[1]{{\bf\color{red}#1}}
+%L3i modifications
+\newcommand{\modifc}[1]{{\bf\color{blue}#1}}
+
+\begin{document}
+\graphicspath{{fig/}}
+
+
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+\title{Speech balloon and speaker association for comics and manga understanding}
+%\title{What is the next stage of manga understanding?}
+
+
+% author names and affiliations
+% use a multiple column layout for up to three different
+% affiliations
+\author{
+\IEEEauthorblockN{Christophe Rigaud, Nam Le Thanh, J.-C. Burie, J.-M. Ogier}
+\IEEEauthorblockA{Laboratoire L3i\\
+Universit\'{e} de La Rochelle\\
+Avenue Michel Cr\'{e}peau, 17000 La Rochelle, France\\
+\{christophe.rigaud, tle05, jcburie, jmogier\}@univ-lr.fr
+}
+\and
+\IEEEauthorblockN{Motoi Iwata, Eiki Imazu, Koichi Kise
+}
+\IEEEauthorblockA{Graduate School of Engineering
+\\
+Osaka Prefecture University\\
+1-1 Gakuen-cho, Nakaku, Sakai, Osaka 599-8531, Japan
+\\
+\{iwata, imazu\_e, kise\}@cs.osakafu-u.ac.jp
+}
+}
+
+% conference papers do not typically use \thanks and this command
+% is locked out in conference mode. If really needed, such as for
+% the acknowledgment of grants, issue a \IEEEoverridecommandlockouts
+% after \documentclass
+
+% for over three affiliations, or if they all won't fit within the width
+% of the page, use this alternative format:
+%
+%\author{\IEEEauthorblockN{Michael Shell\IEEEauthorrefmark{1},
+%Homer Simpson\IEEEauthorrefmark{2},
+%James Kirk\IEEEauthorrefmark{3},
+%Montgomery Scott\IEEEauthorrefmark{3} and
+%Eldon Tyrell\IEEEauthorrefmark{4}}
+%\IEEEauthorblockA{\IEEEauthorrefmark{1}School of Electrical and Computer Engineering\\
+%Georgia Institute of Technology,
+%Atlanta, Georgia 30332--0250\\ Email: see http://www.michaelshell.org/contact.html}
+%\IEEEauthorblockA{\IEEEauthorrefmark{2}Twentieth Century Fox, Springfield, USA\\
+%Email: homer@thesimpsons.com}
+%\IEEEauthorblockA{\IEEEauthorrefmark{3}Starfleet Academy, San Francisco, California 96678-2391\\
+%Telephone: (800) 555--1212, Fax: (888) 555--1212}
+%\IEEEauthorblockA{\IEEEauthorrefmark{4}Tyrell Inc., 123 Replicant Street, Los Angeles, California 90210--4321}}
+
+
+
+
+% use for special paper notices
+%\IEEEspecialpapernotice{(Invited Paper
+% make the title area
+\maketitle
+
+
+\begin{abstract}
+%\boldmath
+
+Comics and manga are one of the most important forms of publication and play a major role in spreading culture all over the world.
+In this paper we focus on balloons and their association to comic characters or more generally text and graphic links retrieval.
+This information is not directly encoded in the image, whether scanned or digital-born, it has to be understood according to other information present in the image.
+Such high level information allows new browsing experience and story understanding (e.g. dialog analysis, situation retrieval).
+We propose a speech balloon and comic character association method able to retrieve which character is emitting which speech balloon.
+The proposed method is based on geometric graph analysis and anchor point selection.
+This work has been evaluated over various comic book styles from the eBDtheque dataset and also a volume of the Kingdom manga series.
+% The experiments section shows an accuracy of \modif{93.32}\% and \modif{???}\% for the two datasets respectively.
+
+\end{abstract}
+
+% no keywords why???
+% \begin{IEEEkeywords}
+%   graphic recognition, comics understanding, text to graphics association, geometric graph
+% \end{IEEEkeywords}
+
+
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+\IEEEpeerreviewmaketitle
+
+
+%%%%%%%%% BODY TEXT
+\section{Introduction}
+The amount of digital manga read per day is growing very fast.
+Such a new way of reading allows new capabilities thanks to the richness of manga drawing and the recent progress of mobile platform reading tools.
+Apart from layout re-flowing (panel re-arrangement) according to screen size, there are little work exploring other ways of reading.
+New reading ways using new technologies requires a high level of understanding of the image content but almost no research about such level of understanding has been done before. 
+An important and basic step toward the understanding is to associate text to graphics.
+In the case of comics, this means the association of text in speech balloons with comic characters as its speaker (Fig.~\ref{fig:intro}).
+%In this paper, we are interested in retrieving the relations between the speech balloons and the comic characters (Fig.~\ref{fig:intro}).
+This association is not implicitly put by the manga artist into the drawing but understood by the reader according to the position of the elements in the page.
+Speech balloons are placed in a way that helps the reader to associate them to comic characters and follow the story fluently.
+The classical scenario is as follows: (i) speech text is inside speech balloons (ii) speech balloons are nearby their speakers (iii) related balloons and comic characters are (most of the time) part of the same panel.
+Panels, balloons and comic characters positions are the three information required to associate speech balloons and comic characters.
+Note that sometimes, balloons have a pointer directed towards the comic characters, more precisely its mouth, it is called ``the tail''.
+% This pointer is called ``the tail'', we propose an adaptive method able to benefit from the tail position and direction when the information is available.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \begin{figure}[!t]  %trim=l b r t  width=0.5\textwidth,
+   \centering
+  \includegraphics[trim= 0px 0px 0px 0px, clip, width=250px]{fig/intro01.png}
+  \caption{Relations between speech balloons and comic characters. The relations are represented by three black lines connecting balloon centers (or tails if any) and speaker centers. Image credits: acknowledgment section.}
+  \label{fig:intro}
+ \end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Low level content extraction has been investigated since about ten years for comics but few recent work concern comics understanding.
+Recent researches are trying to reach a higher level of description by including semantic aspects.
+The proposed work is to bridge the gap between low and high levels by taking into account the ``semantic'' relationships between two physical objects, which are balloons and characters.
+% We are interested by retrieving the relation between low level elements (e.g. panels, balloons, comic characters) in order to reconstruct the context inside each panel and toward a complete story understanding.
+We believe that content extraction and association methods combined with natural language processing (NLP)~\cite{Yusra2014Unsupervised} in a holistic understanding context can benefit to comics understanding.
+Such combination can be useful for reconstructing timestamps from panel order, generate script and dialogs from text transcription and balloon order, etc.
+% retrieve dialogs with associated characters and physical description. 
+% A crucial point for story reconstruction is the association of text and graphics, this is the concern of this paper.
+
+In the next section we review content extraction and association methods.
+% panel, balloon and comic character extraction techniques from the literature.
+%Section ??? presents the panel, speech balloon and comic character method we use in the work.
+Section~\ref{sec:balloon_character_association} details our association approach and Section~\ref{sec:experiments} the experiments we performed to validate the proposed method.
+Finally, Section~\ref{sec:discussion} and~\ref{sec:conclusion} discuss and conclude this work respectively.
+
+%------------------------------------------------------------------------
+\section{Related work}
+\label{sec:related_work}
+% In this section we review content extraction and association methods related to speech balloon and speaker link retrieval.
+% As mentioned in the introduction, the links are related to balloons (with or without tail), comic characters and panels.
+% We also review holistic understanding approaches that can benefit from the proposed method.
+
+  \subsection{Panel extraction} % (fold)
+  \label{sub:panel_extraction}
+
+  % Panel extraction and ordering has mainly been studied for panel to panel reading, according to the growing market of mobile devices.
+  % Readers want to keep reading their favorite comics or mangas on the go, while carrying minimum weight.
+  % The issue with printed comics is that their are not designed for such screen sizes and need to be manually scanned and split into smaller parts to avoid zooming and scrolling, which is really costly.
+
+  Several techniques have been developed to automatically extract panels, assuming that panels are small enough elements to be comfortably read on mobile devices.
+  Several approaches are based on white line cutting with Hough transform~\cite{li2012automatic}, recursive X-Y cut~\cite{Han07} or density gradient~\cite{Tan07}.
+  These methods do not consider empty area and implicit panels (outline-free)~\cite{In11}.
+  These issues have been corrected by connected-component approaches but the latter are sensitive to regions that sometimes connect several panels~\cite{Rigaud2012LNCS}.
+  This over-connection issue has been considered by Khoi~\cite{Khoi11} using morphological analysis and region growing method to remove such connecting elements but sometimes, it also creates new holes in the panel outline.
+  Recently, Pang~\cite{Pang2014Robust} introduced a new algorithm able to find splitting lines.
+  % after the connected-component labeling.
+  %Following the segmentation step, heuristic filtering is often applied to classify panel region according to their size ratio with the page size~\cite{Arai11,Khoi11}.
+  Other methods have shown interesting results for manga and European comics considering different background colors.
+  They are based on watershed~\cite{ponsard2012ocr}, line segmentation and polygon detection~\cite{Luyuan2014Automatic}, region of interest detection such as corners and line segments~\cite{stommel2012segmentation}.
+
+  % subsection panel_extraction (end)
+
+  \subsection{Balloon and tail extractions} % (fold)
+  \label{sub:balloon_extraction_review}
+    Balloons are key elements in comics.
+    They contain most of the text and go pairwise with comic characters.
+    Little work concerns balloon extraction and mainly closed speech balloons have been studied (balloons with a fully connected outline).
+    % Closed speech balloons (balloons with a fully connected outline) have been studied based on region detection and filtering rules~\cite{Arai11,Ho2012}.
+    Arai~\cite{Arai11} proposed a white blob detection method based on connected-component detection with four filtering rules related to manga image analysis.
+    % The rules are based on blob size, white pixel occurrence, presence of vertical spaces and width to length ratio.
+    Another connected-component approach proposed by Ho~\cite{Ho2012} uses HSV color space to make a first selection of bright blobs and then consider as candidate the blobs above a certain ratio between the text area and the blob bounding box.
+    % higher than 60\%.
+    Our group developed a method to extract open balloons (balloons with partially drawn outline) by inflating an active contour model around text regions~\cite{rigaud2013active}.
+    %This approach requires text positions as input, they are used for the active contour initialization.
+    Recently, we published a first approach to detect tail position and direction on the balloon contour.
+    It is calculated by analyzing the variations between the balloon contour and a smoothed version of the balloon contour~\cite{Guerin2014Reduction}.
+    % This work have been proposed to define the regions of interest of comic characters without any \emph{a priori} information on their appearance (generic approach).
+
+
+  % subsection balloon_extraction (end)
+
+  \subsection{Comic character extraction} % (fold)
+  \label{sub:comic_character_extraction}
+  
+
+  % modified by Motoi. 27/01/2015
+  Comic characters are important elements in comics. 
+  They have various features on their shapes, textures and so on.
+  The features obtained from a same character are also various because of its various posture and facial expression.
+  Therefore, comic character extraction is a challenging problem.
+  Few work about comic character extraction have been published until now.
+  Sun~\cite{Sun2011CopyRecognition} proposed a similar partial copy recognition method for line drawings using concentric multi-region histograms of oriented gradients for copyright protection.
+  In Sun's method, face regions obtained by Viola-Jones algorithm~\cite{VJ2011FaceDetect} are used as region of interest.
+  % Then it works as a retrieval method for similar characters to a image query.
+  Recently, we improved Sun's method to fit character retrieval for manga.
+  It is more robust against various postures and facial expressions using a few labeled data~\cite{Iwata2014Retrieval}.
+  We also proposed a generic and unsupervised character extraction approach from contextual information which estimates character regions of interest from the positions of balloons inside panels~\cite{Guerin2014Reduction}.
+  
+  %TODO: thesis + previous work from IMP (Weihan Sun?)
+  % subsection comic_character_extraction (end)
+
+
+
+  % \subsection{Holistic understanding of comics} % (fold)
+  % \label{ssec:holistic_understanding_of_comics}
+  %   One of the original goals of document image analysis is to fully understand the content of any image~\cite{Lamiroy2014Handbook}.
+  %   We are converging but still far from fully automated systems, especially in comics understanding.
+  %   The early approaches developed toward comics understanding concerned the reading order of the panels~\cite{Guerin2012Ontologies,Li2013Comic}.
+  %   Then, more advanced systems such as ontologies have been used, first for a  philosophical approach~\cite{Aaron2011}.
+  %   % In~\cite{Hermann2012Guided}, a semantic annotation tool makes use of previous knowledge and consistency information to suggest new knowledge to the user in a interactive way.
+  %   Then, spatial inferences have been used to infer the reading order of comic books, at the level of panels in each page and balloon in each panel~\cite{Guerin2012Ontologies}. 
+    % The benefit of using contextual information of a simple object to build more complex ones has been highlighted~\cite{Sciascio2011Structured}.
+    % To our knowledge, there is no framework for document understanding in the literature that infers new knowledge iteratively and without user interaction (unsupervised).
+
+
+  % subsection holistic_understanding_of_comics (end)
+
+
+%----------------------------------------------------------------
+\section{Speech balloon and comic character association}
+\label{sec:balloon_character_association}
+
+Our intention for speech balloon and comic character association (or link) retrieval is to propose a generic approach that can deal with as many types of comics as possible.
+The subsequent difficulty caused by the consideration of several types of comics is the heterogeneity of the image content.
+The links being related to balloons and comic characters which are also related to panels, make the task particularly challenging.
+The proposed method is intended to be robust against all the variations generated by those related elements.
+
+Panels represent snapshots in the story, they are often surrounded by frames and define the layout of the page.
+% follow the reading order of the page.
+However, panels are sometimes implicit (not drawn) and methods from the literature have difficulties to localize them~\cite{Rigaud2012LNCS,Pang2014Robust}.
+% (Fig.~\ref{fig:implicit_panels}).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ % \begin{figure}[t]  %trim=l b r t  width=0.5\textwidth,
+ %   \centering
+ %  \includegraphics[trim= 0px 0px 0px 0px, clip, width=250px]{fig/panels.png}
+ %  \caption{Different page layout according to panel locations. From left to right, three pages from simple to complex panel locations. Image credits: acknowledgment section.}
+ %  \label{fig:implicit_panels}
+ % \end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Similarly to panels, the balloons do not always have a complete outline, sometimes there is only speech text nearby comic characters~\cite{rigaud2013active}.
+The balloon tail is also not always present on the balloon boundary, it relies on artist's choices.
+About speaking characters, they may not appear in the image (or panel) when saying something but the reader still can follow the story by interpreting speech text into their context.
+Finally, the links between speech balloons and speaking characters are not explicitly drawn, they have to be interpreted by understanding the semantic of the image (Fig.~\ref{fig:links}).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \begin{figure}[t]  %trim=l b r t  width=0.5\textwidth,
+   \centering
+  \includegraphics[trim= 0px 0px 0px 0px, clip, width=250px]{fig/link.png}
+  \caption{Different levels of difficulty for speech balloon and comic character association. From left to right and easy to hard, a panel containing three balloons with tail and three comic characters, a panel containing one balloon without tail and two characters, a panel containing one balloon with tail and no comic character. Image credits: acknowledgment section.}
+  \label{fig:links}
+ \end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+All those reasons are challenges for speech balloon and speaker association.
+We propose a method that is able to retrieve the semantic links between speech balloons and speaking characters using geometric graph analysis and anchor point selection.
+% In the case of missing information for panels or tails, the proposed method remains able to perform the associations.
+Note that the proposed approach assumes that panel, balloon and comic character positions have already been extracted (prerequisites).% if they exist in the image. (Fig.~\ref{fig:input_output}).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ % \begin{figure}[b]  %trim=l b r t  width=0.5\textwidth,
+ %   \centering
+ %  \includegraphics[trim= 0px 0px 0px 0px, clip, width=200px]{fig/input_output.png}
+ %  \caption{Information about the image content, before (left) and after (right) the proposed method. On the left hand side, panel (red rectangle), balloon (cyan shape) and comic characters or faces (yellow squares) are given as input. On the right hand side, the link between the balloon and the associated comic character is represented by a black line.}
+ %  \label{fig:input_output}
+ % \end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Association method} % (fold)
+\label{ssub:association_method}
+
+A close analysis of comics and manga images led us to the following conclusions.
+In order to be easily associated by the reader, balloons and comic characters are usually close to each other inside panels and sometimes, a tail directed towards the character's face or mouth is added to the balloon.
+% The tail is mainly directed to the character's face or mouth.
+This can be formulated as an optimization problem where we search for the best pairs (2-tuples) of speech balloons and comic characters corresponding to associations in the story.
+The main optimization criterion is the Euclidean distance between each entry of the 2-tuples but other criterion like the angle of the tail can be combined as well.
+Here we use only the Euclidean distance to simplify the problem and formalize it using geometric graph theory~\cite{pach1999geometric}.
+The formalism of geometric graph is appropriate for our study because it defines graphs in a Euclidean plane.
+Vertices (nodes) are points in general positions (balloons and characters) and edges are straight-lines segments (associations).
+Note that by using such representation, the angles between edges correspond to angles between elements in the image.
+% Note that we consider each panel as a plane or the full image in case of missing panel.
+%We use this formalism to represent the positions of the elements in the panels (2D plane).
+We build a geometric graph $G=(V,E)$ where $V$ denotes the set of vertices and $E$ the set of weighted edges in each plane.
+In our case, the set of vertices $V$ is composed by two subsets corresponding to spatial positions of balloons $V_B \subseteq V$ and comic characters $V_C \subseteq V$ ($V=V_B \cup V_C$).
+It can be assimilated as a bipartite graph.
+We define the set of weighted edges $E$ corresponding to all the possible associations between vertices $V_B$ and $V_C$.
+The weight of each edge is the Euclidean distance (straight-line) between the first and the second entry of the pair (Fig.~\ref{fig:geometric_graph}).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[t] %trim=l b r t width=0.5\textwidth,
+  \centering
+    \subfloat[Anchor points of level 2]{\label{fig:anchor_level_2}\includegraphics[trim= 0mm 
+    0mm 0mm 0mm, clip, width=0.235\textwidth]{geometric_graph_1.pdf}}
+    \hspace{0.1em}
+    \subfloat[Anchor points of level 3]{\label{fig:anchor_level_3}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.235\textwidth]{geometric_graph_2.pdf}}
+    % \vspace{1em}
+    % \subfloat[Out-of-panel speaker]{\label{fig:out-of-panel_speaker}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.22\textwidth]{out-of-panel_speaker.png}}
+    % \hspace{0.2em}
+    % \subfloat[Multi-speaker]{\label{fig:multi-speaker}\includegraphics[trim= 0mm 35mm 0mm 0mm, clip, width=0.22\textwidth]{multi-speaker_2.png}}
+    \caption{Geometric graphs computed from a panel with two different sets of anchor points (Table~\ref{tab:anchor_list}).
+    Balloon and comic character vertices are represented as black and gray circles respectively.
+    Optimal associations are represented by solid straight-lines while other associations are dashed.
+    In this example, comic characters are composed of faces only, therefore there is not difference between anchor points of level 2 and 3.% for comic characters.
+    }
+  \label{fig:geometric_graph}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In order to retrieve the associations, we associate each vertex $V_{Bi}$ with the vertex $V_{Cj}$ having the minimal association cost (weight of edge $E_{ij}$).
+Note that we do not consider the other way around ($V_{Cj} \rightarrow V_{Bi}$) because not all comic characters are speaking.
+We call the optimal association $L^*$ (Formula~\ref{eq:optimisation}).
+
+\begin{equation}
+\label{eq:optimisation}
+  L^*(V_{Bi}, V_{Cj}) = \text{ArgMin}(E_{ij})
+\end{equation}
+
+For instance in Fig.~\ref{fig:anchor_level_2}, the three optimal pairs that have been found are $(V_{B1}, V_{C2})$, $(V_{B2}, V_{C2})$ and $(V_{B3}, V_{C3})$ because $\text{ArgMin}(E_{ij}) = E_{12}$, $E_{22}$  and $E_{33}$ respectively.
+Here, the second association $(V_{B1}, V_{C2})$ is not correct because $V_{B2}$ should be associated to $V_{C1}$ according to the image.
+This is corrected in Fig.~\ref{fig:anchor_level_3} by using a different set of anchor points.% (Section~\ref{sub:anchor_points_selection}).
+% The optimal pair for $B_2$ becomes $(N_{B2}, N_{C2})$.
+
+
+
+
+ % the anchor points (see Section~\ref{sub:anchor_points_selection}) of speech balloon
+ 
+%OLD EUCLIDEAN DISTANCE METHOD 
+% We base our approach on distance measure in a Euclidean space of two dimensions.
+% We define a distance in this plan for two points $M$ and $N$ by $d=(M;N)$ = $||\overrightarrow{M,N}||$.
+% Given the set of balloons $B={B_1, B_2, ..., B_n}$ and comic characters $C={C_1, C_2, ..., C_m}$ inside a panel, we need to define the attachment / anchor points of each element in order to be able to measure the distance between them.
+% Given $M_{Bi}$ the anchor point of the balloon $i$ and $N_{Cj}$ the anchor of the comic character $j$, we compute the set of corresponding Euclidean distances $D$ between each pairs as follows $D(i,j) = d(M_{Bi}, N_{Cj})$.
+
+\subsection{Anchor point selection method} % (fold)
+\label{sub:anchor_points_selection}
+
+There are several ways to define the anchors of speech balloons and comic characters.
+Table~\ref{tab:anchor_list} gives a non-exhaustive list of anchor choices ordered by level of precision from zero to four, four being the most precise level.
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \begin{table}[t]
+    \normalsize
+    %\renewcommand{\arraystretch}{1.2}
+
+    \centering
+    \caption{Examples of anchor point selections for speech balloons and comic characters, ordered by level of precision.}
+    % \def\arraystretch{1.5}%  1 is the default, change whatever you need
+    % \setlength{\tabcolsep}{.45em}
+    % \extracolsep{\fill}
+    \begin{tabular}{|c|c|c|}
+          \hline
+        Level &  Speech balloon $V_B$  & Comic character $V_C$     \\
+        \hline
+        1   & Bounding box center   & Bounding box center \\
+        \hline
+        2   & Balloon centroid   & Character centroid \\
+        \hline
+        3   & Tail tip position & Face center  \\
+        \hline
+        4   & Tail position and direction & Mouth center  \\
+        \hline
+        \end{tabular}
+    \label{tab:anchor_list}
+  \end{table}%
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In Table~\ref{tab:anchor_list}, we distinguish bounding box and centroid (center of mass) anchor points because their position may vary significantly according to the shape (e.g. balloon with a big tail).
+The anchor points are selected from the highest level available according to the information given as input to the proposed method.
+For instance, if the balloon extractor is able to provide balloon and tail tip positions (if any) then we will select tail tip position as anchor point.
+Another example, if a comic character extractor provides body and face positions then we will use face centers as anchor points.
+
+% subsection anchor_points_selection (end)
+
+%OLD EUCLIDEAN DISTANCE METHOD
+% For each balloon in $B$, we compute the set of distances $D$ corresponding to distances with all the comic characters inside the same panel.
+% Then, we define, the comic character at the minimal distance as being the speaker of the balloon ($c^*$). (Formula~\ref{eq:association}).
+% \begin{equation}
+% \label{eq:association}
+%   c^* = \text{ArgMin}\big(D_i(M_{Bi}, N_{Cj})\big)
+% \end{equation}
+% where $c^*$ is the optimal comic character (at minimum distance) for the balloon $B_i$ (anchor point $M_{Bi}$) and the comic character $C_j$ (anchor point $N_{Cj}$) respectively.
+
+%2015-02-04 Koichi: Is it the only way to associate balloons and characters? If you are able to add some more criteria with their experimental results, the paper can be even better. It seems to me that the minimum distance is the first criterion to be considered but still wondering whether this covers all the cases.
+
+%for disambiguation purposes and style effects.
+% This is a first information that we use in this approach by comparing the Euclidean distances $d$ between balloons and comic characters (or more precisely faces and mouths according to available information) within each panel.
+% In case of missing panels, the distance is computed for all balloons and comic characters in the image.
+% We consider region centroid in order to be always applicable (minimal information given by any element extractor), robust to object deformation, rotation and scale.
+% However, centroid can be replaced by a more precise information when available.
+% Note that we consider as available the information that are present in the image and successfully extracted by previous processing.
+% Concerning the balloons, tail position and orientation are good clues about comic character position~\cite{Guerin2014Reduction}, we take advantage of this information when available, otherwise, we use the balloon centroid.
+% %About comic characters, faces and mouths are intended to be pointed by the balloon tail.
+% Thus, we propose to use the more precise region when available (face or mouth).
+
+% Given the set of speech balloons $B$, the set of comic characters $C$ in a panel (or image), we compute the corresponding set of links $L$ between them.
+% We associate each balloon $B_i$ to the closest comic character $C_j$ according to Equation~\ref{eq:association}.
+
+% \begin{equation}
+% \label{eq:association}
+%   L_i^* = argmin\big(d(B_i, C_j)\big)
+% \end{equation}
+% where $L_i^*$ is the optimal link for the pair $B_i$ and $C_j$ (minimum Euclidean distance).
+% Note that the distance has to be computed from the most precise element (e.g. balloon or tail, comic character body, face or mouth).
+
+% subsubsection proposed_association_method (end)
+
+
+%------------------------------------------------------------------------
+\section{Experiments}
+\label{sec:experiments}
+
+In this section we evaluate the proposed method of speech balloon and comic character association using two datasets.
+Because the proposed method relies on the quality of previous extractions (prerequisites), we evaluate our approach using two scenarios.
+At first, we extract prerequisites using methods from the literature.
+Then, we use prerequisites from ground truth in order to highlight the performance of the proposed method using error-free prerequisites.
+ % previous elements from ground truth and from automatic extractions in order to differentiate error sources (without and with error combination between the different extractions).
+% This two levels of evaluation highlights error sources, from the proposed method only (no error propagation), or combined with previous element extractions.
+
+
+% In this section we present the two datasets used to evaluate the proposed method of speech balloon and comic character link retrieval and analyze the results.
+
+%compare each level of our contribution to a baseline of other speech balloon detector found in the literature, which were designed for closed balloon. From our knowledge, this is the first work concerning non closed balloon detection.
+
+% \subsection{Experimental setup}
+% TODO BY L3i
+
+\subsection{Datasets}
+\label{sec:dataset}
+
+We evaluate the proposed method using two different datasets.
+The first one is the public dataset eBDtheque~\cite{Guerin2013}, this dataset was designed to be as representative as possible of the comics diversity, including few pages of several album types.
+The second dataset is non public dataset composed by digital images of the first volume of the Kingdom manga (Japanese manga series written and illustrated by Yasuhisa Hara).
+The main difference between the two datasets is that speech balloons from eBDtheque dataset almost always have a tail contrary to the Kingdom dataset.
+This difference allows us to show the robustness of the presented method.
+
+
+\subsubsection{eBDtheque dataset} % (fold)
+\label{ssub:ebdtheque_dataset}
+
+It is composed by one hundred images which are composed by 850 panels, 1550 comics characters, 1092 balloons and 4691 text lines.
+It contains images scanned from French comic books (46\%), French webcomics (37\%) with various formats and definitions, public domain American comics (11\%) and unpublished artwork of manga (6\%).
+In addition to the diversity of styles, formats and definitions, there are also differences in design and printing techniques since 29\% of the images were published before 1953 and 71\% after 2000.
+From this dataset, we considered only the subset of speech balloons being associated with at least one comic character, which represents 876 balloons (and associations) in total and 97\% have a tail.
+Note that the links in the ground truth files are stored as a metadata named \emph{linkedToCharacter} which is associated to each speech balloon region and refers to the identifier of the corresponding comic character.% (see ``polygon'' tag of class ``Balloon'' in ground truth files).
+
+%2015-02-04 Koichi: Why is it necessary to apply this restriction? If the tail is available I think it would also be possible to distinguish a non-existing speaker such as in (c) of Fig.5.
+
+% subsubsection ebdtheque_dataset (end)
+
+\subsubsection{Kingdom dataset} % (fold)
+\label{ssub:kingdom_dataset}
+Kingdom is a famous Japanese manga drawn by Yasuhisa Hara published by Shueisha Inc. since 2006.
+It won the Grand Prize of Tezuka Osamu Cultural Prize in 2013.
+The setting of Kingdom is old Chinese history in B.C. 3\textsuperscript{rd} century.
+We built the ground truth of the first volume of the Kingdom manga in order to evaluate the proposed method, especially its robustness to speech balloons having a small or no tail (more frequent in manga).
+This volume is composed of 8 chapters and consist in 216 pages in total, each digital image contains a double pages (108 images).
+This dataset is composed by 1159 balloons (80.33\% have a tail) and associations between speech balloons and comic characters.
+% We manually annotated the position of the panels, balloons, tails and comic characters at the level of bounding boxes.
+% Also, we annotated the link between speech balloons and comic characters.
+% Unfortunately, we can only share the ground truth but not the images because of copyright issues.
+
+
+% \modif{TO COMPLETE BY IMP}
+
+% subsubsection kingdom_dataset (end)
+
+\subsection{Performance evaluation}
+\label{sec:eval}
+The predicted links are considered as true if the associations between the corresponding balloons and characters exist in the ground truth.
+%We used the accuracy metric to evaluate the proposed method.
+The accuracy of the proposed method is calculated from the number of retrieved elements divided by the total number of elements.
+% We based our evaluation on the metadata called \emph{linkedToCharacter} which contains the identifier of the related comic character.
+% This metadata is included in each balloon of type in the eBDtheque dataset~\cite{Guerin2013}.
+% There are 876 relations in total.
+As mentioned in the introduction of this section, we performed two levels of evaluation in order to highlight error sources.
+The first evaluation scenario consists in extracting the prerequisites (panel, balloon and comic character positions) using automatic extractors from the literature and then compute the associations using the proposed method on top of it.
+In this first scenario, the measured error will be a combination of errors from the proposed method and other element extractions (e.g. missed speech balloons, missed comic characters, over-segmentation of panels).
+In order to measure the proportion of errors which is only related to the proposed method, we perform a second evaluation.
+This second scenario consists in loading prerequisites from the ground truth and then only calculates the associations using the proposed method.
+This scenario allows us to evaluate the performance of the proposed method apart from other sources of errors because the prerequisites are error-free (from ground truth).
+
+For each scenario, we compared two anchor point selection methods as discussed in Section~\ref{sec:balloon_character_association}.
+The anchor points are computed without using (\emph{Method A}) and using (\emph{Method B}) the information about tail position.
+More precisely, for \emph{Method A} the distance is calculated between balloon centroids and comic character centroids.
+For \emph{Method B}, the distance is calculated between tail tip positions and comic character centroids.
+Note that even when considering the tail information (\emph{Method B}), if the tail is missing then the results for the concerned speech balloon will be equivalent to \emph{Method A}.
+
+
+\subsubsection{Prerequisites from automatic extractions} % (fold)
+\label{ssub:prerequiste_from_automatic_extractions}
+In this first experiment scenario, we use prerequisites from automatic content extractors in the literature.
+Then we associate balloons and comic characters and compare the results on the two datasets.
+We use our previous methods for the extraction of panels~\cite{Rigaud2012LNCS}, balloons~\cite{rigaud2013active} and comic characters~\cite{Iwata2014Retrieval}.
+Note that we use another recent work from our team~\cite{Guerin2014Reduction} only for extracting comic character from eBDtheque dataset considering the tail (\emph{Method B}).
+This alternative is based on regions of interest computation from tail positions and directions.
+It is more powerful than the face-based algorithm~\cite{Iwata2014Retrieval} when tail information is available.
+% In this experiment, we used~\cite{Guerin2014Reduction} for the eBDtheque dataset (unsupervised approach that computes regions of interest from tails) and~\cite{Iwata2014Retrieval} for Kingdom dataset (supervised approach trained for manga character retrieval).
+
+The two first rows of Table~\ref{tab:performance_auto} show the results on the two datasets for \emph{Method A} and \emph{Method B} from automatically extracted prerequisites.
+It should be stressed that these numbers represent the efficiency of the association method after all prerequisite element extractions (depends on their performances).
+Using \emph{Method A} (not considering tail positions), we were able to retrieve 4.33\% of the associations from the eBDtheque dataset and 18.60\% from the Kingdom dataset.
+ % because, from our knowledge, there is no method that is able to extract comic character positions without using the information of the tail.
+The difference is due to the fact that the method used for comic character extraction gives poor results on non-manga images because it based on face detection trained with manga faces (more stable than other type of comic character faces).
+In \emph{Method B}, the additional information of tail position is beneficial to retrieve more associations, especially for the eBDtheque dataset, but the prerequisite errors still impact a lot of results (missed balloons or missed comic characters).
+In the next evaluation scenario, we disregard prerequisite errors in order to highlight the part of error related to the proposed method only.
+
+% Individual errors at each recognition and validation step of the pipeline are propagated to the final semantic association between elements ($SBSC$).
+% Therefore a single improvement in the detection or the validation of any kind of element would have an impact at the semantic association level.
+
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \begin{table}[t]
+    \normalsize
+    %\renewcommand{\arraystretch}{1.2}
+
+    \centering
+    \caption{Accuracy of the proposed method using different prerequisites and anchor selection methods.}
+    % \def\arraystretch{1.5}%  1 is the default, change whatever you need
+    % \setlength{\tabcolsep}{.45em}
+    % \extracolsep{\fill}
+    \begin{tabular}{|c|c|c|c|c|}
+          \hline
+        Prerequisites & Anchors & eBDtheque  & Kingdom     \\
+        \hline
+        Extracted & \emph{Method A}   & 4.33\%   & 18.60\% \\
+        \hline
+        Extracted & \emph{Method B}   & 18.01\%   & 19.41\% \\
+        \hline
+        Loaded    & \emph{Method A}   & 78.58\%   & 76.35\% \\
+        \hline
+        Loaded    & \emph{Method B}   & 93.32\%   & 87.74\% \\
+        \hline
+        \end{tabular}
+    \label{tab:performance_auto}
+  \end{table}%
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% subsubsection prerequiste_from_automatic_extractions (end)
+
+
+\subsubsection{Prerequisites from ground truth} % (fold)
+\label{ssub:prerequiste_loaded_from_ground_truth}
+
+% subsubsection prerequiste_loaded_from_ground_truth (end)
+
+Given panel, balloon and comic character regions from the ground truth (error-free), we evaluated the performance of the proposed method at retrieving the links between speech balloons and comic characters for both datasets.
+Results are given in the third and fourth row of Table~\ref{tab:performance_auto}.
+% and then with the tail information (tail tip position and direction).
+% When considering the tail information, an abstract straight line was drawn from the tail tip to the direction indicated by the tail direction.
+% The first comic character region crossed by the straight line was considered to be the associated comic character.
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % \begin{table}[t]
+  %   \normalsize
+  %   %\renewcommand{\arraystretch}{1.2}
+  %   \centering
+  %   \caption{Accuracy using ground truth prerequisites.}
+  %   % \def\arraystretch{1.5}%  1 is the default, change whatever you need
+  %   % \setlength{\tabcolsep}{.45em}
+  %   % \extracolsep{\fill}
+  %   \begin{tabular}{|c|c|c|}
+  %         \hline
+  %       &  eBDtheque  & Kingdom     \\
+  %       \hline
+  %       \emph{Method A}   & 78.58\%   & 76.35\% \\
+  %       \hline
+  %       \emph{Method B}   & 93.32\%   & 87.74\% \\
+  %       \hline
+  %       % Tail and char. face    & ? & ?  \\
+  %       % \hline
+  %       % Between balloon tail (+ dir.) and character face    & ?  \\
+  %       % \hline
+  %       \end{tabular}
+  %   \label{tab:performance}
+  % \end{table}%
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% the accuracy of the expert system in predicting the semantic relations was about ???\%.
+% Note that from the 876 \emph{isSaidBy} relations, ???\% were undetectable because they were generated from balloons outside the panel.
+% \begin{itemize}
+%   \item Similar using centroid -> method validated for comics and manga!
+%   \item Difference when using tail information because in comics there are used as artistic elements (big with a important curvature), not true for manga
+% \end{itemize}
+Third row of Table~\ref{tab:performance_auto} (anchors from balloon and comic character centroids), shows similar results for both datasets.
+This means that our method is robust to comic type variations (eBDtheque is mainly composed by European comics and Kingdom dataset only by manga).
+Fourth row of Table~\ref{tab:performance_auto} shows an improvement by 14.74\% and 11.39\% for the eBDtheque and Kingdom datasets respectively.
+It confirms the importance of using the tail position when available.
+This increase is higher for the eBDtheque dataset because European and American comics generally use a bigger tail than manga (less possible confusions for speaker association).
+Failure examples are illustrated Fig.~\ref{fig:failure_case_from_gt}.
+The first image (Fig.~\ref{fig:unidentifiable}) contains a crowd emitting two balloons, the crowd not being annotated as a comic character in the ground truth, no association could be computed.
+In Fig.~\ref{fig:in-between}, a non-speaking comic character being in between the balloon and its speaker, the closest character does not correspond to the appropriate speaker for the biggest balloon of this panel.
+In Fig.~\ref{fig:out-of-panel_speaker}, the association failed because the speaker is not in the same panel as the balloon.
+In Fig.~\ref{fig:multi-speaker}, only one of two associations has been retrieved because the proposed method considers only one association per balloon.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[t] %trim=l b r t width=0.5\textwidth,
+  \centering
+    \subfloat[Unidentifiable speaker]{\label{fig:unidentifiable}\includegraphics[trim= 3mm 30mm 0mm 0mm, clip, width=0.22\textwidth]{unidentifiable_3.png}}
+    \hspace{0.2em}
+    \subfloat[In-between speaker]{\label{fig:in-between}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.22\textwidth]{in-between.png}}
+    \vspace{1em}
+    \subfloat[Out-of-panel speaker]{\label{fig:out-of-panel_speaker}\includegraphics[trim= 0mm 0mm 0mm 0mm, clip, width=0.22\textwidth]{out-of-panel_speaker.png}}
+    \hspace{0.2em}
+    \subfloat[Multi-speaker]{\label{fig:multi-speaker}\includegraphics[trim= 0mm 35mm 0mm 0mm, clip, width=0.22\textwidth]{multi-speaker_2.png}}
+    \caption{Most frequent incorrect or missed associations (blue straight-lines). In this illustration, prerequisites are loaded from ground truth and their positions are represented by colored polygons. In red (panels), cyan (balloons) and yellow (comic characters). Image credits: acknowledgment section.}
+  \label{fig:failure_case_from_gt}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\subsection{Results comparison} % (fold)
+\label{sub:result_comparison}
+
+% The difference between Table~\ref{tab:performance_auto} and Table~\ref{tab:performance} is explained by the combination of errors during the prerequisites element extraction which confuses the associations made by the proposed method.
+The overall performance increases when using a more precise anchor point selection for both evaluation scenarios (difference between \emph{Method A} and \emph{Method B}).
+The performance of previous element extractions has an important impact on the proposed method because more than 70\% of the missed associations are due to missed balloons or missed comic characters.
+The impact of the tail information only becomes visible when prerequisites are properly extracted.
+As already mentioned, comic character extraction is not trivial, methods from the literature are not yet accurate enough to locate comic characters with a sufficient precision for our purpose.
+
+% subsection result_comparison (end)
+
+\section{Discussion}
+\label{sec:discussion}
+
+%Conclusions, or what this opens up, or how this can change how we approach document analysis problems.
+
+The proposed method allows one-to-one speech balloon and comic character association.
+In case of speech balloons with multi-speakers, the proposed approach can be applied for each tail assuming that the tail extractor has the ability to propose several tails.
+% Their are often represented by speech balloons with several tails or without tail and above a crowd (Fig.~\ref{fig:failure_case_from_gt}).
+% In case of multi-tail balloons, the proposed approach can be applied for each tail assuming that the tail extractor has the ability to propose several accurate tails.
+% In case of crowd, it remains an issue as the characters can not be identified even by human readers.
+Panel positions are good clues to compute the associations, in case they are hardly extractable by previous extractors (e.g. implicit panels), our method can still be used by considering the full image as being a single panel.
+In this approach, we measured the benefit of tail tip position but we believe that the tail direction is a complementary indication to consider.
+Tail direction can be integrated in the geometric graph has a property of each balloon vertex and matched with edge angles in order to guide the associations.
+% For instance, the direction can be used to draw a virtual line (or cone) from the tail tip and checking its intersection with comic characters.
+% In Table~\ref{tab:anchor_list}, we listed anchor points from coarse to fine, in this experiments we could not test anchor from level four because we do not have access to such level of information yet but in the future it will probably be available.
+
+
+
+% \begin{itemize}
+  % \item Can be useful for speech text localization keeping in mind that text is not only located in balloons.
+  % \item Can be adapted for speech balloon containing graphic
+  % \item Speech balloon content analysis useful for implicit balloon as well
+  % \item Presented method validated on real data but required elements have been extracted manually.
+  % \item Discuss the current performance of required inputs (especially comic character/face extraction)
+  % \item Tail confidence for fuzzy logic
+  % \item Tail tip + direction is optimal for speech balloons, however we could not test character face or mouth instead of body centroid but we believe it should improve the association results.
+  % \item Also consider tail direction (virtual line/cone)
+  % \item Consider multi-speaker for multi-tail balloons
+  % \item Other applications?
+  % \item In implicit panel difficult to extract by the proposed method can be used by considering the full image as a panel
+% \end{itemize}
+
+
+\section{Conclusion}
+\label{sec:conclusion}
+  
+This paper presents a speech balloon and comic character association approach toward comics and manga understanding.
+% Several key improvements to information extraction and processing methods have been developed.
+The proposed method is composed by anchor point selection and geometric graph analysis.
+We also analyzed the impact of the prerequisites such as panel, speech balloon and comic character positions.
+The proposed approach is robust against missing panels and adaptive to different level of description of the balloons (e.g. presence of tail tip) and characters (e.g. body, face or mouth).
+In the future we plan to also consider tail direction in order to handle out-of-panel speakers and multi-speaker issues.
+% Also, we will work on what type of information can be exchanged between element extraction and association methods in order to provide a confidence value for each associations.
+
+
+
+% use section* for acknowledgement
+\section*{Acknowledgment}
+\label{sec:acknowledgment}
+
+This work was supported by the University of La Rochelle (France), the town of La Rochelle and the bilateral program PHC-SAKURA between Campus France and the Japan Society for the Promotion of Science (JSPS).
+We are grateful to all authors and publishers of comics and manga from eBDtheque and Kingdom datasets for allowing us to use their works.
+
+
+% trigger a \newpage just before the given reference
+% number - used to balance the columns on the last page
+% adjust value as needed - may need to be readjusted if
+% the document is modified later
+%\IEEEtriggeratref{8}
+% The "triggered" command can be changed if desired:
+%\IEEEtriggercmd{\enlargethispage{-5in}}
+
+% references section
+
+% can use a bibliography generated by BibTeX as a .bbl file
+% BibTeX documentation can be easily obtained at:
+% http://www.ctan.org/tex-archive/biblio/bibtex/contrib/doc/
+% The IEEEtran BibTeX style support page is at:
+% http://www.michaelshell.org/tex/ieeetran/bibtex/
+\bibliographystyle{IEEEtran}
+% \bibliographystyle{ieee}
+
+% argument is your BibTeX string definitions and bibliography database(s)
+% \bibliography{IEEEabrv,example}
+
+% \bibliographystyle{ieee}
+  \bibliography{bibliography}
+
+%
+% <OR> manually copy in the resultant .bbl file
+% set second argument of \begin to the number of references
+% (used to reserve space for the reference number labels box)
+% \begin{thebibliography}{1}
+
+% \bibitem{IEEEhowto:kopka}
+% H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+%   0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+%
+% \end{thebibliography}
+
+% that's all folks
+\end{document}
+
+

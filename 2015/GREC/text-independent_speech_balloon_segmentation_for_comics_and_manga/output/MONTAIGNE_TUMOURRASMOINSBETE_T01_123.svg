@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="509" xmlns="http://www.w3.org/2000/svg" version="1.0" height="772">
+  <title>MONTAIGNE_TUMOURRASMOINSBETE_T01_123</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="509" height="772" xlink:href="/media/Donnees/DATA/DATASET/eBDtheque_100/MONTAIGNE_TUMOURRASMOINSBETE_T01_123.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-linejoin: round; }
+        .Unclassified   { fill: orange; stroke: none;   opacity: 1.0; visibility: hidden; }
+        .Noise          { fill: pink;   stroke: none;   opacity: 0.2; visibility: hidden; }
+        .Panel          { fill: none;   stroke: red;    stroke-width:3; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line           { fill: green;  stroke: none;   opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea       { fill: grey;   stroke: none;   opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon        { fill: cyan;   stroke: none;   opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter         { fill: blue;   stroke: none;   opacity: 0.2; visibility: hidden; }
+        .Object, .Character, .Face  { fill: yellow; stroke: none;   opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page           { fill: white;  stroke: none;    opacity: 0.5; visibility: visible; }
+        .linkSBSC { fill: blue; stroke: none; opacity: 1.0; visibility: visible; }
+        polygon:hover { opacity:0.2; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="167,226 168,225 169,225 170,225 171,225 172,225 173,225 174,225 175,225 176,225 177,226 178,226 179,227 180,228 181,229 181,230 181,231 182,232 182,233 182,234 182,235 182,236 183,237 183,238 184,239 184,240 184,241 183,242 183,243 183,244 182,245 181,246 180,247 179,248 178,249 177,249 176,249 175,250 176,250 177,251 178,252 178,253 178,254 177,255 176,255 175,256 174,257 173,257 172,256 172,255 172,254 172,253 171,252 171,251 170,251 169,251 168,251 167,251 166,250 165,250 164,250 163,249 162,248 161,247 160,247 159,246 158,246 157,245 156,244 155,243 155,242 155,241 156,240 156,239 156,238 157,237 158,236 159,235 160,234 161,233 161,232 162,231 163,230 163,229 164,228 165,228 166,227 167,226">
+      <metadata tailDirection="" confidence="0.00" linkedToCharacter="" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_123_balloon_0" tailTip=""></metadata>
+    </polygon>
+    <polygon points="340,83 341,82 342,82 343,83 344,84 345,85 346,86 347,87 347,88 348,89 349,90 349,91 350,92 350,93 351,94 352,95 353,96 354,97 354,98 354,99 353,100 353,101 353,102 353,103 353,104 352,105 351,106 350,107 349,108 348,108 347,108 346,108 345,108 344,107 344,106 343,107 342,108 341,109 340,109 339,109 338,109 337,109 336,109 335,108 334,108 333,109 334,109 335,109 336,109 337,109 338,110 337,111 336,112 335,112 334,112 333,112 332,112 331,112 330,113 329,113 328,114 329,114 330,114 331,114 332,114 333,114 334,114 335,114 336,114 337,114 338,114 339,114 340,114 341,113 342,113 343,113 344,113 345,114 345,115 344,116 343,116 342,117 341,117 340,117 339,117 338,117 337,117 336,117 335,117 334,117 333,117 332,117 331,118 330,118 329,118 328,118 327,118 326,117 325,116 324,115 324,114 325,113 326,112 327,111 328,111 327,111 326,110 325,110 324,109 324,108 324,107 324,106 324,105 324,104 324,103 325,102 326,101 326,100 327,99 326,99 325,98 326,97 327,96 328,96 329,96 330,96 331,96 332,97 333,97 334,98 335,98 336,99 337,100 337,99 338,98 339,97 340,96 340,95 341,94 342,95 342,96 342,97 341,98 342,98 343,99 344,100 345,101 345,102 345,103 345,104 346,105 347,105 348,105 349,105 350,104 350,103 350,102 349,101 348,100 348,99 349,98 348,98 347,97 347,96 346,95 345,94 345,93 344,92 343,92 342,91 342,90 341,89 341,88 340,87 340,86 340,85 340,84 340,83">
+      <metadata tailDirection="" confidence="0.00" linkedToCharacter="" id="MONTAIGNE_TUMOURRASMOINSBETE_T01_123_balloon_1" tailTip=""></metadata>
+    </polygon>
+  </svg>
+</svg>
