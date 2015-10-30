@@ -8,7 +8,7 @@ Comics and manga are one of the most popular and familiar forms of graphic conte
 
 Citation BiBteX
 -------------------------------------------------
-Published at the [GREC'15](http://grec2015.loria.fr/?page_id=146 "Accepted papers") workshop (August 22, 2015).
+Presented at the [GREC'15](http://grec2015.loria.fr/?page_id=146 "Accepted papers") workshop (August 22nd, 2015).
 <pre><code>
 @inproceedings{Rigaud2015GREC,
 	title = {Text-independent speech balloon segmentation for comics and manga},
