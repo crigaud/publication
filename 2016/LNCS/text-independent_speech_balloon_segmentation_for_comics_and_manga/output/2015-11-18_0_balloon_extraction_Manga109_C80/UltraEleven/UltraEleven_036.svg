@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="827" xmlns="http://www.w3.org/2000/svg" version="1.0" height="1170">
+  <title>UltraEleven_036</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="827" height="1170" xlink:href="./../../dataset_Manga109/UltraEleven/UltraEleven_036.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-linejoin: round; }
+        .Unclassified   { fill: orange; stroke: none;   opacity: 1.0; visibility: hidden; }
+        .Noise          { fill: pink;   stroke: none;   opacity: 0.2; visibility: hidden; }
+        .Panel          { fill: none;   stroke: red;    stroke-width:3; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line           { fill: green;  stroke: none;   opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea       { fill: grey;   stroke: none;   opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon        { fill: cyan;   stroke: none;   opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter         { fill: blue;   stroke: none;   opacity: 0.2; visibility: hidden; }
+        .Object, .Character, .Face  { fill: yellow; stroke: none;   opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page           { fill: white;  stroke: none;    opacity: 0.5; visibility: visible; }
+        .linkSBSC { fill: blue; stroke: none; opacity: 1.0; visibility: visible; }
+        polygon:hover { opacity:1.0; stroke:red; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="97,854 96,855 95,855 94,856 93,857 92,857 91,858 90,859 89,860 88,861 87,862 86,863 86,864 85,865 84,866 83,867 83,868 82,869 81,869 81,870 81,871 81,872 80,873 80,874 80,875 80,876 80,877 80,878 79,879 79,880 79,881 79,882 79,883 79,884 79,885 79,886 79,887 79,888 79,889 78,890 78,891 78,892 78,893 78,894 78,895 78,896 78,897 78,898 78,899 78,900 78,901 78,902 78,903 78,904 78,905 78,906 78,907 78,908 78,909 78,910 77,911 77,912 77,913 77,914 77,915 77,916 77,917 77,918 77,919 77,920 77,921 77,922 77,923 77,924 77,925 77,926 78,927 78,928 78,929 78,930 78,931 78,932 78,933 78,934 78,935 78,936 78,937 78,938 78,939 78,940 79,941 79,942 79,943 79,944 79,945 79,946 79,947 79,948 80,949 80,950 80,951 80,952 80,953 80,954 80,955 80,956 80,957 80,958 81,959 81,960 81,961 81,962 81,963 82,964 82,965 82,966 83,967 83,968 83,969 84,970 84,971 84,972 85,973 85,974 86,975 87,976 88,977 89,978 90,978 91,979 92,979 93,980 94,980 95,981 96,982 97,982 98,982 99,982 100,982 101,982 102,982 103,983 104,983 105,983 106,983 107,983 108,983 109,983 110,983 111,983 112,983 113,982 114,982 115,982 116,981 117,980 118,980 118,979 119,978 120,977 121,976 121,975 122,974 122,973 122,972 122,971 122,970 122,969 122,968 122,967 122,966 122,965 122,964 122,963 122,962 122,961 122,960 122,959 123,958 123,957 123,956 123,955 123,954 123,953 123,952 123,951 123,950 123,949 123,948 123,947 123,946 123,945 123,944 123,943 124,942 124,941 124,940 124,939 124,938 124,937 125,936 125,935 125,934 126,933 126,932 127,931 127,930 128,929 128,928 128,927 127,926 126,925 126,924 125,923 125,922 125,921 125,920 124,919 124,918 124,917 124,916 124,915 124,914 124,913 123,912 123,911 123,910 123,909 123,908 123,907 123,906 123,905 123,904 123,903 123,902 123,901 123,900 123,899 123,898 123,897 123,896 123,895 123,894 123,893 123,892 123,891 123,890 123,889 123,888 123,887 123,886 123,885 123,884 123,883 123,882 123,881 123,880 123,879 123,878 123,877 122,876 122,875 122,874 122,873 122,872 122,871 122,870 122,869 122,868 122,867 122,866 121,865 121,864 121,863 121,862 120,861 120,860 120,859 119,858 118,858 117,857 116,857 115,857 114,856 113,856 112,856 111,855 110,855 109,855 108,854 107,854 106,854 105,854 104,854 103,854 102,854 101,854 100,854 99,854 98,854 97,854">
+      <metadata tailDirection="" confidence="0.99" linkedToCharacter="" id="UltraEleven_036_balloon_0" tailTip=""></metadata>
+    </polygon>
+  </svg>
+</svg>

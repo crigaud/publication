@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="827" xmlns="http://www.w3.org/2000/svg" version="1.0" height="1170">
+  <title>MomoyamaHaikagura_051</title>
+  <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Page" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="827" height="1170" xlink:href="./../../dataset_Manga109/MomoyamaHaikagura/MomoyamaHaikagura_051.jpg" xlink:type="simple" xlink:actuate="onLoad" preserveAspectRatio="xMidYMid meet" xlink:show="embed"/>
+  </svg>
+  <style type="text/css" xml:space="preserve">
+        * { stroke-linejoin: round; }
+        .Unclassified   { fill: orange; stroke: none;   opacity: 1.0; visibility: hidden; }
+        .Noise          { fill: pink;   stroke: none;   opacity: 0.2; visibility: hidden; }
+        .Panel          { fill: none;   stroke: red;    stroke-width:3; opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Line           { fill: green;  stroke: none;   opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .TextArea       { fill: grey;   stroke: none;   opacity: 0.2; visibility: visible; image-rendering: optimizeSpeed; }
+        .Balloon        { fill: cyan;   stroke: none;   opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Letter         { fill: blue;   stroke: none;   opacity: 0.2; visibility: hidden; }
+        .Object, .Character, .Face  { fill: yellow; stroke: none;   opacity: 0.5; visibility: visible; image-rendering: optimizeSpeed; }
+        .Page           { fill: white;  stroke: none;    opacity: 0.5; visibility: visible; }
+        .linkSBSC { fill: blue; stroke: none; opacity: 1.0; visibility: visible; }
+        polygon:hover { opacity:1.0; stroke:red; }
+</style>
+  <svg xmlns="http://www.w3.org/2000/svg" contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css" class="Balloon" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <polygon points="67,1033 66,1034 65,1034 64,1034 63,1034 62,1034 61,1035 60,1035 59,1036 58,1036 57,1036 56,1037 55,1038 54,1039 53,1040 52,1041 52,1042 51,1043 50,1044 49,1045 49,1046 48,1047 48,1048 47,1049 46,1050 46,1051 45,1052 45,1053 44,1054 44,1055 44,1056 43,1057 43,1058 42,1059 42,1060 42,1061 41,1062 41,1063 41,1064 41,1065 40,1066 40,1067 40,1068 40,1069 40,1070 39,1071 39,1072 39,1073 39,1074 38,1075 38,1076 38,1077 38,1078 38,1079 38,1080 38,1081 38,1082 37,1083 37,1084 37,1085 37,1086 37,1087 37,1088 37,1089 37,1090 37,1091 37,1092 37,1093 37,1094 37,1095 37,1096 38,1097 38,1098 38,1099 38,1100 38,1101 38,1102 38,1103 38,1104 38,1105 38,1106 39,1107 39,1108 39,1109 39,1110 40,1111 40,1112 40,1113 40,1114 41,1115 41,1116 41,1117 42,1118 42,1119 42,1120 43,1121 43,1122 43,1123 44,1124 44,1125 45,1126 45,1127 46,1128 46,1129 47,1130 48,1131 48,1132 49,1133 50,1134 50,1135 51,1136 52,1137 52,1138 53,1139 54,1140 55,1140 56,1141 57,1141 58,1142 59,1143 60,1143 61,1144 62,1145 63,1145 64,1145 65,1145 66,1145 67,1145 68,1145 69,1145 70,1145 71,1145 72,1145 73,1144 74,1144 75,1144 76,1143 77,1143 78,1143 79,1142 80,1142 81,1141 82,1141 83,1140 84,1139 85,1138 86,1138 87,1137 88,1136 89,1135 90,1134 91,1133 92,1132 92,1131 93,1130 94,1129 95,1128 96,1127 96,1126 96,1125 97,1124 97,1123 98,1122 98,1121 99,1120 99,1119 99,1118 99,1117 100,1116 100,1115 100,1114 100,1113 101,1112 101,1111 101,1110 101,1109 101,1108 102,1107 102,1106 102,1105 102,1104 102,1103 102,1102 102,1101 102,1100 102,1099 102,1098 102,1097 102,1096 102,1095 102,1094 102,1093 102,1092 102,1091 102,1090 102,1089 102,1088 102,1087 102,1086 102,1085 102,1084 102,1083 102,1082 102,1081 102,1080 102,1079 102,1078 102,1077 102,1076 101,1075 101,1074 101,1073 101,1072 101,1071 101,1070 101,1069 101,1068 101,1067 100,1066 100,1065 100,1064 100,1063 99,1062 99,1061 99,1060 99,1059 98,1058 98,1057 98,1056 98,1055 97,1054 97,1053 96,1052 96,1051 95,1050 95,1049 94,1048 93,1047 93,1046 92,1045 92,1044 91,1043 90,1042 89,1041 88,1040 87,1039 86,1039 85,1038 84,1037 83,1036 82,1036 81,1035 80,1035 79,1035 78,1034 77,1034 76,1034 75,1034 74,1034 73,1033 72,1033 71,1033 70,1033 69,1033 68,1033 67,1033">
+      <metadata tailDirection="" confidence="0.99" linkedToCharacter="" id="MomoyamaHaikagura_051_balloon_0" tailTip=""></metadata>
+    </polygon>
+  </svg>
+</svg>
