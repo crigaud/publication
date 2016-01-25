@@ -16,7 +16,7 @@ To be published at the DAS'16 workshop (April 11-14, 2016).
 <pre><code>
 @inproceedings{Rigaud2015ICDAR,
 	title = {Semi-automatic Text and Graphics Extraction of Manga using Eye Tracking Information},
-	author = {Christophe Rigaud, Thanh-Nam Le, J.-C. Burie, J.-M. Ogier},
+	author = {Christophe Rigaud, Thanh-Nam Le, J.-C. Burie, J.-M. Ogier, Shoya Ishimaru, Motoi Iwata, Koichi Kise},
 	booktitle = {Pending...},
 	publisher = {Pending...},
 	pages = {Pending...},
