@@ -12,7 +12,7 @@ Experimental results show that the eye gaze fixations and saccades indeed form c
 
 Citation BiBteX
 -------------------------------------------------
-To be published at the DAS'16 workshop (April 11-14, 2016).
+Presented at [DAS'16](http://www.primaresearch.org/das2016/ "Go to DAS'16 website") workshop (April 11-14, 2016).
 <pre><code>
 @inproceedings{Rigaud2016DAS,
 	title = {Semi-automatic Text and Graphics Extraction of Manga using Eye Tracking Information},
