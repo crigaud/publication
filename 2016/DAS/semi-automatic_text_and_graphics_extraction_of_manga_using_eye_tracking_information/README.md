@@ -14,12 +14,13 @@ Citation BiBteX
 -------------------------------------------------
 To be published at the DAS'16 workshop (April 11-14, 2016).
 <pre><code>
-@inproceedings{Rigaud2015ICDAR,
+@inproceedings{Rigaud2016DAS,
 	title = {Semi-automatic Text and Graphics Extraction of Manga using Eye Tracking Information},
 	author = {Christophe Rigaud, Thanh-Nam Le, J.-C. Burie, J.-M. Ogier, Shoya Ishimaru, Motoi Iwata, Koichi Kise},
-	booktitle = {Pending...},
-	publisher = {Pending...},
-	pages = {Pending...},
+	booktitle = {Proceedings of 12th IAPR Workshop on Document Analysis Systems},
+	publisher = {IEEE},
+	doi = {10.1109/DAS.2016.72},
+	pages = {120--125},
 	year = {2016}
 }
 </code></pre>
