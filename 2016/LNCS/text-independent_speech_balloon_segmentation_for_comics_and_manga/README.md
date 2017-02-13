@@ -8,7 +8,7 @@ Comics and manga are one of the most popular and familiar forms of graphic conte
 
 Citation BiBteX
 -------------------------------------------------
-To be pulished in the [Lecture Notes in Computer Science](http://www.springer.com/computer/lncs?SGWID=0-164-0-0-0 "LNCS") book (2016).
+Published in the [Lecture Notes in Computer Science](http://www.springer.com/computer/lncs?SGWID=0-164-0-0-0 "LNCS") book (2016).
 <pre><code>
 @inproceedings{Rigaud2015LNCS,
 	title = {Text-independent speech balloon segmentation for comics and manga},
