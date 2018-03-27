@@ -7,4 +7,20 @@ Speech text in comic books is written in a particular manner by the scriptwriter
 
 Citation BiBteX
 -------------------------------------------------
-To be published in the proceedings of the 2nd International Workshop on [coMics ANalysis, Processing and Understanding](http://manpu2017.imlab.jp/ "MANPU").
+Published in the proceedings of the 2nd International Workshop on [coMics ANalysis, Processing and Understanding](http://manpu2017.imlab.jp/ "MANPU").
+
+<pre><code>
+@inproceedings{Rigaud2017Segmentation,
+author={C. Rigaud and J. C. Burie and J. M. Ogier},
+booktitle={Proceedings of the 2nd International Workshop on coMics ANalysis, Processing and Understanding},
+title={Segmentation-Free Speech Text Recognition for Comic Books},
+series = {MANPU '17},
+volume={03},
+pages={29-34},
+keywords={Image segmentation;Optical character recognition software;Speech;Speech recognition;Text recognition;Training;Writing;Text recognition;comic book image analysis;pseudo ground truth;segmentation-free OCR},
+doi={10.1109/ICDAR.2017.288},
+month={Nov},
+year={2017},
+address = {Kyoto, Japan},
+}
+</code></pre>

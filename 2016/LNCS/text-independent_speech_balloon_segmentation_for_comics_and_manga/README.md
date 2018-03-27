@@ -8,15 +8,19 @@ Comics and manga are one of the most popular and familiar forms of graphic conte
 
 Citation BiBteX
 -------------------------------------------------
-Published in the [Lecture Notes in Computer Science](http://www.springer.com/computer/lncs?SGWID=0-164-0-0-0 "LNCS") book (2016).
+Published in the [Lecture Notes in Computer Science](https://link.springer.com/chapter/10.1007/978-3-319-52159-6_10 "LNCS") book (2017).
 <pre><code>
-@inproceedings{Rigaud2015LNCS,
-	title = {Text-independent speech balloon segmentation for comics and manga},
-	author = {Rigaud, Christophe and Burie, Jean-Christophe and Ogier, Jean-Marc},
-	booktitle = {},
-	publisher = {Springer},
-	pages = {},
-	year = {2016}
+@Inbook{Rigaud2017LNCS,
+	author="Rigaud, Christophe and Burie, Jean-Christophe and Ogier, Jean-Marc",
+	editor="Lamiroy, Bart and Dueire Lins, Rafael",
+	title="Text-Independent Speech Balloon Segmentation for Comics and Manga",
+	bookTitle="Graphic Recognition. Current Trends and Challenges: 11th International Workshop, GREC 2015, Nancy, France, August 22--23, 2015, Revised Selected Papers",
+	year="2017",
+	publisher="Springer International Publishing",
+	address="Cham",
+	pages="133--147",
+	doi="10.1007/978-3-319-52159-6_10",
+	url="https://doi.org/10.1007/978-3-319-52159-6_10"
 }
 </code></pre>
 
